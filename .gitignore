@@ -1,0 +1,81 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Large data files specific to your project
+*.rdf
+*.ttl
+json_affinity/
+output/
+datasources/
+taxonomy_metadata.json
+affinity_definitions.ttl
+affinity_definitions.json
+
+# Logs
+*.log
+logs/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Project-specific folders to ignore
+bm25_clean_env/
+cache_34.14/
+rand-utilities/
+tbd-artifacts/
+versions/
+attempts/
+bashes/
+cache_v34.14/
+configs/
+datasources_bak/
+
+# Ignore all outputs and caches
+youtputs/
+output_v34.14/
+cache/
+cache_v34.14/
+
+# Ignore backup files
+*_bak.*
+*_bak
+
+# Ignore all .DS_Store files everywhere
+**/.DS_Store
