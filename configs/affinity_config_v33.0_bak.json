@@ -1,0 +1,521 @@
+{
+  "CACHE_VERSION": "v20250420.affinity.33.0.27",
+  "LLM_API_CONFIG": {
+    "MAX_RETRIES": 5,
+    "RETRY_DELAY_SECONDS": 5
+  },
+  "LLM_MODEL": "gemini-2.0-flash",
+  "LLM_PROVIDER": "google",
+
+ "STAGE1_CONFIG": {
+   "MAX_CANDIDATES_FOR_LLM": 75,
+   "EVIDENCE_MIN_SIMILARITY": 0.30,
+   "KEYWORD_MIN_SCORE": 0.05,
+   "KEYWORD_TOP_N": 500,
+   "MIN_KEYWORD_CANDIDATES_FOR_EXPANSION": 5,
+   "ENABLE_KW_EXPANSION": true,
+   "ABSOLUTE_MIN_SBERT_SCORE": 0.15,
+   "DAMPENING_SBERT_THRESHOLD" : 0.35,
+   "DAMPENING_FACTOR": 0.15
+ },
+
+
+  "TFIDF_CONFIG": {
+    "enabled": true,
+    "TFIDF_VECTORIZER_PARAMS": {
+      "max_df": 0.95,
+      "min_df": 2,
+      "stop_words": "english"
+   }
+  },
+  "base_themes": {
+    "Location": {
+      "description": "Geographic area, proximity to points of interest, neighborhood characteristics, views, accessibility of transportation.",
+      "hints": {
+        "keywords": [
+          "nearby",
+          "view",
+          "walkable",
+          "district",
+          "transport"
+        ],
+        "uris": []
+      },
+      "rule_applied": "Optional",
+      "subScore": "LocationAffinity",
+      "type": "decision",
+      "weight": 10
+    },
+    "Privacy": {
+      "description": "Seclusion, intimacy, quietness, discretion, personal space, lack of crowds or noise. Relevant for romantic or relaxation concepts.",
+      "type": "comfort",
+      "weight": 5,
+      "subScore": "PrivacyAffinity",
+      "rule_applied": "Optional",
+      "hints": {
+        "keywords": [
+          "secluded",
+          "private",
+          "quiet",
+          "intimate",
+          "discreet"
+        ],
+        "uris": [
+          "urn:...secluded_villa"
+        ]
+      }
+    },
+    "Indoor Amenities": {
+      "description": "Essential and desirable features found inside the lodging unit or common indoor areas, such as air conditioning, heating, television, Wi-Fi quality, kitchen facilities, safe deposit box, spa facilities (if indoors), fitness center.",
+      "type": "structural",
+      "weight": 9,
+      "subScore": "",
+      "rule_applied": "Optional",
+      "hints": {
+        "keywords": [
+          "air conditioning",
+          "heating",
+          "wifi",
+          "kitchen",
+          "television",
+          "spa",
+          "gym"
+        ],
+        "uris": []
+      }
+    },
+    "Outdoor Amenities": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 4,
+      "subScore": "",
+      "description": "Concerns facilities and features available outside the main building, including pools, hot tubs, gardens, patios, balconies, rooftops, beach access/features, sports courts, playgrounds, and pet areas.",
+      "hints": {
+        "keywords": [
+          "pool",
+          "outdoor pool",
+          "private pool",
+          "infinity pool",
+          "rooftop pool",
+          "poolside bar",
+          "swim-up bar",
+          "water park",
+          "water slide",
+          "kids pool",
+          "childrens pool",
+          "hot tub outdoor",
+          "outdoor jacuzzi",
+          "whirlpool",
+          "garden",
+          "patio",
+          "terrace",
+          "rooftop terrace",
+          "balcony",
+          "private balcony",
+          "sun deck",
+          "sun terrace",
+          "courtyard",
+          "lawn",
+          "bbq facilities",
+          "barbecue grill",
+          "fire pit",
+          "outdoor furniture",
+          "view",
+          "ocean view terrace",
+          "waterfront view",
+          "beach access",
+          "private beach",
+          "beach bar",
+          "beach club",
+          "cabana",
+          "sun loungers",
+          "beach chairs",
+          "beach towels",
+          "beachfront access",
+          "helipad",
+          "yacht docking",
+          "private dock",
+          "marina",
+          "playground",
+          "tennis court",
+          "basketball court",
+          "golf course access",
+          "pet relief area",
+          "dog park",
+          "dog walking area",
+          "garden suitable for pets",
+          "yard",
+          "picnic area"
+        ],
+        "uris": []
+      }
+    },
+    "Activities": {
+      "description": "Recreational pursuits, entertainment options, tours, classes, experiences available at or near the property/destination.",
+      "type": "preference",
+      "weight": 8,
+      "subScore": "",
+      "rule_applied": "Optional",
+      "hints": {
+        "keywords": [
+          "pool",
+          "tour",
+          "hike",
+          "ski",
+          "class",
+          "show"
+        ],
+        "uris": []
+      }
+    },
+    "Imagery": {
+      "type": "imagery",
+      "rule": "Optional",
+      "weight": 10,
+      "subScore": "ImageAffinity",
+      "description": "Focuses on the visual representation and aesthetic qualities of a property or experience as depicted in photos, videos, or virtual tours, including views and decor style.",
+      "hints": {
+        "keywords": [
+          "photo",
+          "image",
+          "picture",
+          "gallery",
+          "view photos",
+          "interior photos",
+          "room photos",
+          "exterior photos",
+          "pool photos",
+          "bedroom photos",
+          "bathroom photos",
+          "lobby photos",
+          "restaurant photos",
+          "scenic photos",
+          "visuals",
+          "property images",
+          "room images",
+          "virtual tour",
+          "video tour",
+          "aesthetics",
+          "decor",
+          "design style",
+          "beautiful views"
+        ],
+        "uris": []
+      }
+    },
+    "Spaces": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 6,
+      "subScore": "",
+      "description": "Defines the types and characteristics of physical spaces within a property, including room types (suites, villas), room features (kitchens, balconies), common areas (lobby, lounges), and specialized areas (meeting rooms, event spaces, fitness studios).",
+      "hints": {
+        "keywords": [
+          "suite",
+          "penthouse",
+          "villa",
+          "apartment",
+          "condo",
+          "cabin",
+          "lodge",
+          "chalet",
+          "bungalow",
+          "studio",
+          "guest house",
+          "room",
+          "guestroom",
+          "family room",
+          "dorm room",
+          "private room",
+          "connecting rooms",
+          "adjoining rooms",
+          "room size",
+          "large room",
+          "spacious room",
+          "private balcony",
+          "terrace",
+          "patio",
+          "jacuzzi suite",
+          "kitchen",
+          "kitchenette",
+          "full kitchen",
+          "living area",
+          "living room",
+          "sitting area",
+          "dining area",
+          "workspace",
+          "dedicated workspace",
+          "desk",
+          "multiple bedrooms",
+          "spacious",
+          "storage",
+          "closet",
+          "walk-in closet",
+          "communal kitchen",
+          "common area",
+          "lobby",
+          "executive lounge",
+          "club lounge",
+          "banquet hall",
+          "ballroom",
+          "meeting rooms",
+          "conference center",
+          "treatment room",
+          "relaxation area",
+          "dojo",
+          "training area",
+          "fitness studio"
+        ],
+        "uris": []
+      }
+    },
+    "Seasonality": {
+      "type": "temporal",
+      "rule": "Optional",
+      "weight": 6,
+      "subScore": "SeasonalityAffinity",
+      "description": "Relates to time-dependent aspects, including specific seasons (winter, summer), travel periods (peak season, holidays), and seasonal availability of amenities or activities.",
+      "hints": {
+        "keywords": [
+          "seasonal",
+          "winter",
+          "summer",
+          "autumn",
+          "fall",
+          "spring",
+          "peak season",
+          "off season",
+          "shoulder season",
+          "monsoon",
+          "dry season",
+          "rainy season",
+          "holiday season",
+          "christmas",
+          "new year",
+          "easter",
+          "thanksgiving",
+          "seasonal tours",
+          "seasonal closure",
+          "closureseasonalarea",
+          "winter sports season",
+          "beach season",
+          "ski season"
+        ],
+        "uris": []
+      }
+    },
+    "Group Relevance": {
+      "type": "preference",
+      "rule": "Optional",
+      "weight": 5,
+      "subScore": "GroupIntelligenceAffinity",
+      "description": "Assesses the suitability of a property or experience for specific types of travelers or groups, such as families, couples, solo travelers, business groups, or those traveling with pets.",
+      "hints": {
+        "keywords": [
+          "family friendly",
+          "connecting rooms",
+          "family rooms",
+          "bunk beds",
+          "group travel",
+          "large group",
+          "small group",
+          "backpackers",
+          "couples",
+          "adults only",
+          "anniversary trip",
+          "romantic getaway",
+          "business travelers",
+          "corporate retreat",
+          "conference attendee"
+        ],
+        "uris": []
+      }
+    },
+    "Technology": {
+      "type": "technological",
+      "rule": "Optional",
+      "weight": 7,
+      "subScore": "",
+      "description": "Pertains to technological amenities and infrastructure, including internet connectivity (WiFi), entertainment systems (smart TVs, streaming), smart room features, device charging options, and business technology.",
+      "hints": {
+        "keywords": [
+          "wifi",
+          "wi fi",
+          "wireless internet",
+          "internet",
+          "high speed internet",
+          "free internet",
+          "free wifi",
+          "reliable connection",
+          "connectivity",
+          "charging",
+          "ev charging",
+          "electric vehicle charging",
+          "outlets",
+          "usb port",
+          "smart tv",
+          "streaming services",
+          "netflix",
+          "hulu",
+          "media hub",
+          "smart room",
+          "tablet controls",
+          "room controls",
+          "smart lighting",
+          "smart climate control",
+          "sound system",
+          "bluetooth speaker",
+          "bluetooth",
+          "premium sound system",
+          "digital key",
+          "mobile app",
+          "mobile check-in",
+          "contactless check-in",
+          "business center",
+          "computer",
+          "workstation",
+          "printer",
+          "scanner"
+        ],
+        "uris": []
+      }
+    },
+    "Sentiment": {
+      "type": "comfort",
+      "rule": "Optional",
+      "weight": 10,
+      "subScore": "SentimentAffinity",
+      "description": "Relates to the overall atmosphere, ambiance, style, and subjective feel of a place, including aspects like luxury, quietness, charm, design, guest ratings, and specific vibes (e.g., romantic, family).",
+      "hints": {
+        "keywords": [
+          "luxury",
+          "opulent",
+          "exclusive",
+          "sophisticated",
+          "elegant",
+          "upscale",
+          "premium",
+          "five star",
+          "high end",
+          "lavish",
+          "relaxing",
+          "vibrant",
+          "lively",
+          "energetic",
+          "charming",
+          "boutique",
+          "unique",
+          "atmosphere",
+          "ambiance",
+          "vibe",
+          "style",
+          "design",
+          "quiet",
+          "peaceful",
+          "calm",
+          "serene",
+          "tranquil",
+          "noise level",
+          "cozy",
+          "intimate",
+          "stylish",
+          "modern",
+          "contemporary",
+          "traditional",
+          "historic",
+          "welcoming",
+          "friendly",
+          "hospitable",
+          "customer experience",
+          "romantic",
+          "honeymoon",
+          "vibe sentiment",
+          "positive sentiment",
+          "negative sentiment",
+          "guest reviews",
+          "highly rated",
+          "mood",
+          "feel",
+          "ambience sentiment",
+          "atmosphere sentiment",
+          "romantic vibe",
+          "family vibe",
+          "party vibe"
+        ],
+        "uris": []
+      }
+    }
+  },
+  "concept_overrides": {
+    "romantic": {
+      "applicable_lodging_types": "Both",
+      "travel_category_type": "Lifestyle",
+      "exclusionary_concepts": [
+        "Family Friendly",
+        "Kids Club",
+        "Dorm Room",
+        "Hostel"
+      ],
+      "additional_relevant_subscores": [
+        {
+          "subScore": "QuietAffinity",
+          "weight": 0.05
+        }
+      ],
+      "must_not_have": [
+        {
+          "uri": "urn:expediagroup:taxonomies:core:#8ca763a2-3cae-4f1d-8000-9c011bc2e295"
+        },
+        {
+          "uri": "urn:expediagroup:taxonomies:lcm:#efcb861d-c61e-36f0-858b-f9e0491cc4f6"
+        }
+      ],
+      "themes": {
+        "Privacy": {
+          "rule_applied": "Must have 1"
+        }
+      }
+    },
+    "airconditioning": {
+      "themes": {
+        "Indoor Amenities": {
+          "rule_applied": "Must have 1"
+        }
+      }
+    },
+    "beach": {
+      "themes": {
+        "Location": {
+          "rule_applied": "Must have 1"
+        },
+        "Outdoor Amenities": {
+          "rule_applied": "Must have 1"
+        }
+      }
+    },
+    "family friendly": {
+      "themes": {
+        "Group Relevance": {
+          "rule_applied": "Must have 1"
+        },
+        "Activities": {
+          "rule_applied": "Must have 1"
+        }
+      }
+    }
+  },
+  "master_subscore_list": [
+    "LocationAffinity",
+    "SentimentScore",
+    "SeasonalityAffinityScore",
+    "GroupIntelligenceScore",
+    "PrivacyAffinityScore",
+    "AccessibilityAffinityScore",
+    "SustainabilityAffinityScore",
+    "ImageAffinityScore",
+    "GeospatialAffinityScore",
+    "UniquePropertyAffinityScore",
+    "TrendingPropertyAffinityScore",
+    "VrboLongStaysAffinityScore"
+  ]
+}

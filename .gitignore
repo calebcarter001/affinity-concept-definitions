@@ -30,6 +30,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+bm25_clean_env/
 
 # IDE specific files
 .idea/
@@ -50,32 +51,18 @@ affinity_definitions.json
 
 # Logs
 *.log
-logs/
 .coverage
 htmlcov/
 .pytest_cache/
 
-# Project-specific folders to ignore
-bm25_clean_env/
-cache_34.14/
-rand-utilities/
-tbd-artifacts/
-versions/
-attempts/
-bashes/
-cache_v34.14/
-configs/
-datasources_bak/
-
-# Ignore all outputs and caches
-youtputs/
-output_v34.14/
+# Project specific
 cache/
-cache_v34.14/
-
-# Ignore backup files
-*_bak.*
-*_bak
-
-# Ignore all .DS_Store files everywhere
-**/.DS_Store
+cache_v*/
+output_v*/
+outputs/
+logs/
+my_backup/
+bashes/
+tbd-artifacts/
+run_debug.log
+run_output.log

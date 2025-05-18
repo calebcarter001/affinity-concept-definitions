@@ -1,0 +1,410 @@
+{
+  "config_version": "v31.1",
+  "description": "v31 Config - Added theme descriptions for LLM slotting guidance. Rules still Optional. Weights/Overrides from v30.1r13 retained.",
+  "base_themes": {
+    "Location": {
+      "type": "decision",
+      "rule": "Optional",
+      "weight": 0.14,
+      "subScore": "LocationAffinity",
+      "description": "Captures the geographical setting, positioning (e.g., beachfront, city center), proximity to points of interest (airports, attractions), accessibility via transport, and views.",
+      "hints": [
+        "location", "prime location", "city center", "downtown", "waterfront", "beachfront", "beach access", "oceanfront", "seaside", "coastline",
+        "lakefront", "riverfront", "mountainside", "alpine", "ski resort", "ski area", "ski-in", "ski-out", "ski access", "secluded location",
+        "neighborhood", "district", "walkable distance", "proximity to attractions", "proximity to park", "proximity to airport", "near airport",
+        "onsite", "convenient location", "airport access", "train station access", "public transport access", "metro access",
+        "transportation hub", "parking", "valet parking", "garage", "view", "city view", "ocean view", "sea view",
+        "mountain view", "river view", "lake view", "panoramic view", "scenic route", "coast", "island",
+        "rural", "countryside", "urban", "suburban", "historic district", "arts district", "national park", "nature reserve",
+        "attractions nearby", "park nearby", "ski lift nearby", "near convention center", "remote", "isolated"
+      ],
+      "fallback_logic": null
+    },
+    "Technology": {
+      "type": "technological",
+      "rule": "Optional",
+      "weight": 0.06,
+      "subScore": "TechAffinity",
+      "description": "Pertains to technological amenities and infrastructure, including internet connectivity (WiFi), entertainment systems (smart TVs, streaming), smart room features, device charging options, and business technology.",
+      "hints": [
+        "wifi", "wi fi", "wireless internet", "internet", "high speed internet", "free internet", "free wifi", "reliable connection",
+        "connectivity", "charging", "ev charging", "electric vehicle charging", "outlets", "usb port", "smart tv", "streaming services", "netflix", "hulu",
+        "media hub", "smart room", "tablet controls", "room controls", "smart lighting", "smart climate control",
+        "sound system", "bluetooth speaker", "premium sound system", "digital key", "mobile app", "mobile check-in",
+        "contactless check-in", "business center", "computer", "workstation", "printer", "scanner"
+       ],
+      "fallback_logic": null
+    },
+    "Sentiment": {
+      "type": "comfort",
+      "rule": "Optional",
+      "weight": 0.08,
+      "subScore": "SentimentAffinity",
+      "description": "Relates to the overall atmosphere, ambiance, style, and subjective feel of a place, including aspects like luxury, quietness, charm, design, guest ratings, and specific vibes (e.g., romantic, family).",
+      "hints": [
+        "luxury", "opulent", "exclusive", "sophisticated", "elegant", "upscale", "premium", "five star", "high end", "lavish",
+        "relaxing", "vibrant", "lively", "energetic", "charming", "boutique", "unique", "atmosphere",
+        "ambiance", "vibe", "decor", "style", "design", "quiet", "peaceful", "calm", "serene", "tranquil", "noise level", "cozy", "intimate",
+        "stylish", "modern", "contemporary", "traditional", "historic", "welcoming", "friendly", "hospitable", "customer experience",
+        "romantic", "couple", "honeymoon", "vibe sentiment", "positive sentiment", "negative sentiment", "guest reviews", "highly rated",
+        "mood", "feel", "character", "ambience sentiment", "atmosphere sentiment", "romantic vibe", "family vibe", "party vibe"
+      ],
+      "fallback_logic": null
+    },
+    "Indoor Amenities": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 0.11,
+      "subScore": "IndoorAmenityAffinity",
+      "description": "Focuses on facilities, services, and features available inside a property, such as dining options, bars, spas, pools, fitness centers, business services, recreation rooms, childcare, climate control, and specific room features like fireplaces or kitchens.",
+      "hints": [
+        "spa", "sauna", "steam room", "hot tub", "jacuzzi", "indoor pool", "heated pool", "private spa suite", "wellness center", "massage room", "treatment room", "relaxation lounge",
+        "bar", "lounge", "fine dining", "restaurant", "michelin star", "gourmet", "private chef", "wine cellar", "cigar lounge", "in-room dining", "breakfast included", "free breakfast", "coffee shop",
+        "gym", "fitness center", "fitness equipment", "yoga studio", "pilates studio", "business center", "library", "casino", "private cinema", "movie room",
+        "game room", "arcade", "billiards", "pool table", "kids club", "play area", "childrens play area", "indoor playground",
+        "concierge", "butler service", "valet service", "turndown service", "room service", "24 hour room service", "bellhop",
+        "air conditioning", "air condition", "air-conditioned", "climate control", "heating", "fireplace", "executive lounge", "club lounge", "laundry facilities", "laundry service", "dry cleaning",
+        "gift shop", "convenience store", "elevator", "lift", "pet bowls", "pet bed", "crib", "high chair", "childcare services", "babysitting",
+        "kitchen facilities", "shared kitchen", "ice machine", "vending machine", "coffee maker", "tea maker", "minibar", "refrigerator"
+      ],
+      "fallback_logic": null
+    },
+    "Outdoor Amenities": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 0.09,
+      "subScore": "OutdoorAmenityAffinity",
+      "description": "Concerns facilities and features available outside the main building, including pools, hot tubs, gardens, patios, balconies, rooftops, beach access/features, sports courts, playgrounds, and pet areas.",
+      "hints": [
+        "pool", "outdoor pool", "private pool", "infinity pool", "rooftop pool", "poolside bar", "swim-up bar", "water park", "water slide", "kids pool", "childrens pool", "hot tub outdoor", "outdoor jacuzzi", "whirlpool",
+        "garden", "patio", "terrace", "rooftop terrace", "balcony", "private balcony", "sun deck", "sun terrace", "courtyard", "lawn",
+        "bbq facilities", "barbecue grill", "fire pit", "outdoor furniture", "view", "ocean view terrace", "waterfront view",
+        "beach access", "private beach", "beach bar", "beach club", "cabana", "sun loungers", "beach chairs", "beach towels", "beachfront access",
+        "helipad", "yacht docking", "private dock", "marina", "playground", "tennis court", "basketball court", "golf course access",
+        "pet relief area", "dog run", "dog park", "dog walking area", "garden suitable for pets", "yard", "picnic area"
+      ],
+      "fallback_logic": null
+    },
+    "Activities": {
+      "type": "preference",
+      "rule": "Optional",
+      "weight": 0.05,
+      "subScore": "ActivityAffinity",
+      "description": "Encompasses recreational, wellness, entertainment, and cultural activities available on-site or nearby, such as sports (skiing, golf), water sports, spa treatments, fitness classes, tours, workshops, nightlife, and local experiences.",
+      "hints": [
+         "activities", "entertainment", "recreation", "sports", "hiking", "trekking", "skiing", "snowboarding", "cross country skiing", "golf", "tennis", "cycling", "mountain biking", "horseback riding",
+         "water sports", "swimming", "snorkeling", "scuba diving", "surfing", "kayaking", "canoeing", "paddleboarding", "sailing", "fishing", "boating", "yachting", "jetskiing",
+         "yoga", "pilates", "fitness classes", "wellness activities", "spa treatments", "massage", "couples massage",
+         "rock climbing", "ziplining", "safari", "adventure", "outdoor exploration", "eco-tourism", "nature walks", "bird watching",
+         "nightlife", "bar hopping", "clubbing", "live music", "shows", "theater", "casino", "gaming",
+         "classes", "cooking classes", "lessons", "workshops", "tours", "private tours", "walking tour", "bus tour",
+         "boat tour", "seasonal tours", "day trips", "sightseeing", "excursion",
+         "shopping", "wine tasting", "vineyard", "brewery tour", "distillery tour",
+         "cultural tours", "heritage site", "historic site tours", "museum visit", "art gallery",
+         "family activities", "kids activities", "childrens activities", "pet activities", "dog walking", "romantic dinner", "candlelight dinner", "aikido", "martial arts", "dojo", "self defense"
+        ]
+    },
+    "Spaces": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 0.07,
+      "subScore": "SpacesAffinity",
+      "description": "Defines the types and characteristics of physical spaces within a property, including room types (suites, villas), room features (kitchens, balconies), common areas (lobby, lounges), and specialized areas (meeting rooms, event spaces, fitness studios).",
+      "hints": [
+        "suite", "penthouse", "villa", "apartment", "condo", "cabin", "lodge", "chalet", "bungalow", "studio", "guest house",
+        "room", "guestroom", "family room", "dorm room", "private room", "connecting rooms", "adjoining rooms", "room size", "large room", "spacious room",
+        "private balcony", "terrace", "patio", "jacuzzi suite", "kitchen", "kitchenette", "full kitchen", "kitchen facilities",
+        "living area", "living room", "sitting area", "dining area", "workspace", "dedicated workspace", "desk",
+        "multiple bedrooms", "spacious", "storage", "closet", "walk-in closet", "communal kitchen", "common area",
+        "lobby", "executive lounge", "club lounge", "banquet hall", "ballroom", "meeting rooms", "conference center", "event space",
+        "treatment room", "relaxation area", "dojo", "training area", "fitness studio"
+      ]
+    },
+    "Events": {
+      "type": "preference",
+      "rule": "Optional",
+      "weight": 0.03,
+      "subScore": "EventAffinity",
+      "description": "Pertains to the hosting of specific events, such as weddings, conferences, festivals, parties, or workshops, including relevant facilities and services.",
+      "hints": [
+        "festival", "wedding venue", "wedding services", "reception", "concert", "conference", "convention", "gala", "seminar", "symposium",
+        "private party", "event space", "meeting facilities", "banquet hall", "ballroom", "conference facilities",
+        "catering", "event planning", "holiday event", "cultural event", "live music venue", "shows performance", "themed dinner", "workshop", "retreat"
+       ]
+    },
+    "Seasonality": {
+      "type": "temporal",
+      "rule": "Optional",
+      "weight": 0.02,
+      "subScore": "PropertySeasonalityAffinity",
+      "description": "Relates to time-dependent aspects, including specific seasons (winter, summer), travel periods (peak season, holidays), and seasonal availability of amenities or activities.",
+      "hints": [
+        "seasonal", "winter", "summer", "autumn", "fall", "spring", "peak season", "off season", "shoulder season",
+        "monsoon", "dry season", "rainy season", "holiday season", "christmas", "new year", "easter", "thanksgiving",
+        "seasonal tours", "seasonal closure", "closureseasonalarea", "winter sports season", "beach season", "ski season"
+      ]
+    },
+    "Group Relevance": {
+      "type": "preference",
+      "rule": "Optional",
+      "weight": 0.05,
+      "subScore": "GroupIntelligenceAffinity",
+      "description": "Assesses the suitability of a property or experience for specific types of travelers or groups, such as families, couples, solo travelers, business groups, or those traveling with pets.",
+      "hints": [
+        "family friendly", "kid friendly", "child friendly", "suitable for children", "children welcome", "teenager friendly", "infant friendly", "childrens pool", "playground",
+        "kids club", "childcare", "babysitting", "cribs available", "high chairs", "connecting rooms", "family rooms", "family suite", "bunk beds",
+        "group travel", "large group", "small group", "solo traveler", "backpackers",
+        "couples", "adults only", "honeymoon", "anniversary trip", "romantic getaway", "business traveler", "corporate retreat", "conference attendee",
+        "pets allowed", "pet friendly", "dog friendly", "cat friendly", "welcomes pets", "pet policy", "pet fee", "animal friendly", "pet stay"
+      ]
+    },
+    "Privacy": {
+      "type": "comfort",
+      "rule": "Optional",
+      "weight": 0.06,
+      "subScore": "PrivacyAffinity",
+      "description": "Focuses on seclusion, quietness, and features providing personal space or exclusivity, like private entrances, private pools/balconies, soundproofing, or adults-only areas.",
+      "hints": [
+        "private", "secluded", "intimate", "quiet", "exclusive access", "gated community", "gated access", "private club",
+        "soundproof", "soundproofing", "discreet", "personal space", "private entrance", "private pool",
+        "private balcony", "private beach", "private spa tub", "private dining", "private tours", "private chef",
+        "private vacation home", "isolated", "remote", "seclusion", "undisturbed", "adults-only area"
+        ]
+    },
+    "Accessibility": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 0.04,
+      "subScore": "AccessibilityAffinity",
+      "description": "Concerns features and services designed to accommodate guests with disabilities or mobility impairments, including accessible rooms, bathrooms, common areas, parking, and pathways.",
+      "hints": [
+        "accessible", "accessibility features", "wheelchair accessible", "ramp access", "elevator", "lift", "handicap accessible",
+        "disabled access", "step free access", "roll in shower", "grab bars", "accessible parking", "disabled parking",
+        "braille signage", "hearing loop", "visual aids", "ada compliant", "accessible path of travel",
+        "accessible spa", "accessible bathroom", "accessible pool", "stroller accessible", "mobility accessible"
+      ]
+    },
+    "Sustainability": {
+      "type": "preference",
+      "rule": "Optional",
+      "weight": 0.03,
+      "subScore": "SustainabilityAffinity",
+      "description": "Relates to environmentally conscious practices and certifications, such as energy/water conservation, recycling programs, renewable energy use, sustainable sourcing, and eco-tourism support.",
+      "hints": [
+        "sustainable", "sustainability practices", "eco friendly", "green certified", "responsible travel", "carbon neutral", "carbon footprint",
+        "conservation program", "wildlife conservation", "locally sourced food", "fair trade certified", "eco certified",
+        "renewable energy", "solar panels", "geothermal", "low impact", "community tourism", "geotourism", "recycling program",
+        "water conservation", "sustainable tourism practices", "leed certified", "green building", "eco tourism", "environmental"
+      ]
+    },
+    "Imagery": {
+      "type": "imagery",
+      "rule": "Optional",
+      "weight": 0.05,
+      "subScore": "ImageAffinity",
+      "description": "Focuses on the visual representation and aesthetic qualities of a property or experience as depicted in photos, videos, or virtual tours, including views and decor style.",
+      "hints": [
+        "photo", "image", "picture", "gallery", "view photos", "interior photos", "room photos",
+        "exterior photos", "pool photos", "bedroom photos", "bathroom photos",
+        "lobby photos", "restaurant photos", "scenic photos", "visuals", "property images",
+        "room images", "virtual tour", "video tour", "aesthetics", "decor", "design style", "beautiful views"
+       ]
+    },
+    "Cleanliness & Hygiene Standards": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 0.09,
+      "subScore": "CleanlinessAffinity",
+      "description": "Pertains to the cleanliness, hygiene standards, and maintenance of the property, including housekeeping services and specific cleaning protocols.",
+      "hints": [
+        "clean", "cleanliness", "hygiene", "hygienic", "sanitized", "disinfected", "spotless", "immaculate", "housekeeping",
+        "daily cleaning", "enhanced cleaning protocols", "cleanliness standards", "safety and hygiene measures", "sanitary",
+        "well-maintained", "tidy", "fresh", "pristine", "germ free"
+      ]
+    },
+    "Comfortable Bedding & Sleep Environment": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 0.08,
+      "subScore": "BeddingAffinity",
+      "description": "Focuses on the quality and comfort of beds, bedding materials (linens, pillows), and factors contributing to a restful sleep environment, like quietness and blackout curtains.",
+      "hints": [
+        "bed", "comfortable bed", "comfy bed", "pillow", "pillow menu", "comfortable mattress", "quality linens", "linens", "duvet", "bedding", "sheets", "fresh sheets",
+        "quiet room", "sleep quality", "good sleep", "restful sleep", "blackout curtains", "soundproof rooms", "peaceful sleep", "sleep environment", "king bed", "queen bed"
+      ]
+    },
+    "Functional, Clean Bathroom Facilities": {
+      "type": "structural",
+      "rule": "Optional",
+      "weight": 0.08,
+      "subScore": "BathroomAffinity",
+      "description": "Relates to the condition, functionality, and cleanliness of bathrooms, including features like showers, tubs, water pressure, and provided toiletries.",
+      "hints": [
+        "bathroom", "en suite", "ensuite", "private bathroom", "shower", "bathtub", "jacuzzi tub", "hot tub", "clean bathroom",
+        "toiletries", "amenities provided", "towels", "plush towels", "water pressure", "hot water", "bathroom amenities",
+        "functional bathroom", "well-maintained bathroom", "modern bathroom", "bathroom cleanliness", "hair dryer", "good shower"
+       ]
+    }
+  },
+
+  "concept_overrides": {
+    "luxury": {
+      "lodging_type": "Both", "category_type": "Lifestyle", "exclusionary_concepts": ["Budget", "Hostel", "Basic", "Cheap", "Economy"],
+      "must_not_have_uris": ["urn:expediagroup:taxonomies:lcm:#8b00a57b-3bcd-31c0-af01-f0545a7abf74", "urn:expediagroup:taxonomies:core:#b1492355-8b12-4336-a664-afc4d316326b", "urn:expediagroup:taxonomies:acs:#a359487f-fbfa-4758-a79c-7f427f3b0748", "urn:expediagroup:taxonomies:core:#2b6d8673-2c56-11b2-80ba-2e52804830b2"],
+      "theme_overrides": {
+        "Sentiment": {"weight": 0.18, "rule": "Optional", "hints": ["luxury", "opulent", "exclusive", "sophisticated", "elegant", "upscale", "premium", "five star", "high end", "lavish", "Luxury hotel", "Luxury travelers"]},
+        "Indoor Amenities": {"weight": 0.16, "rule": "Optional", "hints": ["fine dining", "gourmet", "michelin star", "butler service", "private chef", "wine cellar", "cigar lounge", "valet service", "turndown service", "concierge", "spa", "private cinema"]},
+        "Outdoor Amenities": {"weight": 0.12, "hints": ["infinity pool", "rooftop pool", "private pool", "helipad", "yacht docking"]},
+        "Privacy": {"weight": 0.10, "hints": ["private", "exclusive access", "secluded"]},
+        "Spaces": {"weight": 0.10, "hints": ["suite", "penthouse", "villa", "spacious room"]},
+        "Cleanliness & Hygiene Standards": {"weight": 0.06, "rule": "Optional"}
+       },
+      "additional_subscores": { "UniquePropertyAffinity": 0.05, "StaffAffinity": 0.05, "PricingAffinity": 0.0 }
+    },
+    "budget": {
+      "lodging_type": "Both", "category_type": "Pricing", "exclusionary_concepts": ["Luxury", "Opulent", "Premium", "Fine Dining", "Butler Service", "Spa", "Valet Parking"],
+      "must_not_have_uris": ["urn:expediagroup:taxonomies:acsBaseAttribute:#ButlerService", "urn:expediagroup:taxonomies:lcm:#397e8e23-1f70-39fe-ba3f-b4995f06c0ea", "urn:expediagroup:taxonomies:lcm:#a85997ba-2aa8-36b4-9489-9f8fa1046c34"],
+      "theme_overrides": {
+        "Functional, Clean Bathroom Facilities": {"weight": 0.15},
+        "Cleanliness & Hygiene Standards": {"weight": 0.15}
+       },
+       "additional_subscores": { "PricingAffinity": 0.40 }
+    },
+    "adults only": {
+       "lodging_type": "Both", "category_type": "Demographic-Specific", "exclusionary_concepts": ["Family Friendly", "Kid Friendly", "Childcare", "Playground", "Kids Club", "Cribs Available", "Babysitting", "Family Room"],
+       "must_not_have_uris": ["urn:expediagroup:taxonomies:lcm:#efcb861d-c61e-36f0-858b-f9e0491cc4f6", "urn:expediagroup:taxonomies:lcm:#608132da-0f7f-3cc3-a683-6134a1974b7b"],
+       "theme_overrides": {
+           "Group Relevance": {"rule": "Must have 1", "weight": 0.30, "hints": ["adults only", "adult only", "no children", "18+"]},
+           "Privacy": {"weight": 0.15},
+           "Sentiment": {"weight": 0.15, "hints": ["quiet", "relaxing", "sophisticated", "romantic", "couples"]},
+           "Activities": {"weight": 0.10, "hints": ["nightlife", "bar", "lounge", "casino", "quiet pool", "couples massage"]}
+        },
+       "additional_subscores": { "PrivacyAffinity": 0.10, "QuietAffinity": 0.05 }
+    },
+    "beachfront": {
+        "lodging_type": "Both", "category_type": "Location-Based", "exclusionary_concepts": ["Mountain View", "Ski Resort", "City Center (unless coastal)", "Urban"],
+        "must_not_have_uris": [ "urn:expediagroup:taxonomies:lcm:#8289b516-9f3f-3631-abd4-046f660f1648" ],
+        "theme_overrides": {
+            "Location": {"rule": "Must have 1", "weight": 0.40, "hints": ["beachfront", "oceanfront", "seafront", "on the beach", "direct beach access"]},
+            "Outdoor Amenities": {"rule": "Must have 1", "weight": 0.25, "hints": ["beach access", "private beach", "beach bar", "beach club", "cabana", "sun loungers", "beach chairs", "beach towels", "ocean view", "sea view", "waterfront view", "beach pool"]},
+            "Imagery": {"weight": 0.15, "hints": ["beach photo", "ocean photo", "sea view photo"]}
+        },
+        "additional_subscores": { "GeospatialAffinity": 0.15 }
+    },
+    "family friendly": {
+        "lodging_type": "Both", "category_type": "Demographic-Specific", "exclusionary_concepts": ["Adults Only", "Casino", "Nightlife"],
+        "must_not_have_uris": [ "urn:expediagroup:taxonomies:core:#e611735d-9b51-31d2-a460-87e66a2c6a44" ],
+        "theme_overrides": {
+            "Group Relevance": {"rule": "Must have 1", "weight": 0.25, "hints": ["family friendly", "kid friendly", "child friendly", "children welcome", "Family Room", "Connecting Rooms", "Family Suite", "Family beaches", "Family friendly entertainment"]},
+            "Activities": {"rule": "Must have 1", "weight": 0.15, "hints": ["family activities", "kids activities", "childrens activities", "playground", "Kids Club", "Family Dining", "Family Fun", "water park", "game room", "Family-friendly activities", "Family-friendly attractions"]},
+            "Indoor Amenities": {"weight": 0.10, "hints": ["crib", "high chair", "play area", "game room", "Kids Club", "childcare", "babysitting", "FamilyActivities", "TravelCrib", "Travel crib"]},
+            "Outdoor Amenities": {"weight": 0.10, "hints": ["playground", "kids pool", "childrens pool", "family pool", "water slide"]},
+            "Spaces": {"weight": 0.10, "hints": ["family room", "connecting rooms", "adjoining rooms", "family suite", "bunk beds", "Family Room", "Family Cabin", "Family Single Room", "Family Apartment", "Family Suite"]}
+         },
+        "additional_subscores": { "GroupIntelligenceAffinity": 0.10 }
+    },
+     "pet friendly": {
+        "lodging_type": "Both", "category_type": "Amenity-Based", "exclusionary_concepts": ["No Pets Allowed"],
+        "must_not_have_uris": [ "urn:expediagroup:taxonomies:lcm:#fce8d0c8-c256-39b9-885b-07b7092a4da1", "urn:expediagroup:taxonomies:lcm:#bc872e01-e50f-3625-b253-b2aa886172bd" ],
+        "theme_overrides": {
+            "Group Relevance": {"rule": "Must have 1", "weight": 0.20, "hints": ["pets allowed", "pet friendly", "dog friendly", "cat friendly", "welcomes pets", "pet policy", "pet fee", "animal friendly", "Pet-friendly Hotel", "Dog-friendly", "Cat-friendly"]},
+            "Outdoor Amenities": {"weight": 0.15, "hints": ["pet relief area", "dog run", "dog park", "dog walking area", "garden suitable for pets", "yard", "xGardenOrBackyard:Suitability:ForPets"]},
+            "Indoor Amenities": {"weight": 0.15, "hints": ["pet bowls", "pet bed"]}
+        },
+        "additional_subscores": { "InclusiveAffinity": 0.10 }
+    },
+    "spa": {
+        "lodging_type": "Both", "category_type": "Amenity-Based", "exclusionary_concepts": [],
+        "must_not_have_uris": [],
+        "theme_overrides": {
+            "Indoor Amenities": {"rule": "Must have 1", "weight": 0.35, "hints": ["spa", "wellness center", "sauna", "steam room", "hot tub", "jacuzzi", "indoor pool", "heated pool", "private spa suite", "massage room", "treatment room", "relaxation lounge", "FullServiceSpa", "Spa facilities", "Spa tub", "Hot tub or spa tub", "Spa & wellness", "Thai massage in spa", "Spa Hotel", "Spa facility", "AdditionalSpaFacilities", "Spa - Full-service spa", "SpaService", "Massages in spa", "Spa treatment room(s)", "Spa treatment", "Spa package", "Spa:HotTub", "Full-service spa", "Steam room in spa"]},
+            "Activities": {"weight": 0.15, "hints": ["spa treatments", "massage", "facial", "body wrap", "aromatherapy", "hydrotherapy", "manicure", "pedicure", "wellness program", "yoga", "pilates", "Swedish massage in spa", "Sports massage in spa", "Body wraps at the spa", "Body treatments in spa", "Body scrubs in spa", "Hot stone massage in spa"]},
+            "Sentiment": {"weight": 0.15, "hints":["relaxing", "rejuvenating", "tranquil", "serene", "peaceful", "wellness", "luxury spa"]}
+        },
+        "additional_subscores": { "WellnessAffinity": 0.15 }
+    },
+    "romantic": {
+        "lodging_type": "Both", "category_type": "Lifestyle", "exclusionary_concepts": ["Family Friendly", "Kids Club", "Dorm Room", "Hostel"],
+        "must_not_have_uris": [ "urn:expediagroup:taxonomies:lcm:#efcb861d-c61e-36f0-858b-f9e0491cc4f6", "urn:expediagroup:taxonomies:core:#8ca763a2-3cae-4f1d-8000-9c011bc2e295" ],
+        "theme_overrides": {
+            "Sentiment": {"rule": "Must have 1", "weight": 0.25, "hints": ["romantic", "couple", "honeymoon", "intimate", "charming", "cozy", "elegant", "luxury", "romantic vibe", "Romantic getaway", "Romantic getaways", "Romantic vibe sentiment"]},
+            "Privacy": {"rule": "Must have 1", "weight": 0.20, "hints": ["private", "secluded", "intimate", "quiet", "exclusive access", "private entrance", "private pool", "private balcony", "private spa tub", "private dining"]},
+            "Spaces": {"weight": 0.10, "hints": ["suite", "penthouse", "villa", "cabin", "lodge", "jacuzzi suite", "fireplace", "Romantic Cabin", "Romantic Suite", "Romantic Villa", "Romantic Chalet", "Romantic Room", "Romantic Apartment"]},
+            "Indoor Amenities": {"weight": 0.10, "hints": ["fireplace", "jacuzzi", "hot tub", "fine dining", "wine cellar", "couples massage", "Romantic hotel", "Romantic Hotel"]},
+            "Outdoor Amenities": {"weight": 0.05, "hints":["private balcony", "private pool", "hot tub outdoor", "scenic view"]}
+         },
+        "additional_subscores": { "QuietAffinity": 0.05 }
+    },
+    "beach": {
+        "lodging_type": "Both", "category_type": "Location-Based", "exclusionary_concepts": ["Ski Resort", "Mountain Lodge", "Urban Core"],
+        "must_not_have_uris": [],
+        "theme_overrides": {
+            "Location": {"rule": "Must have 1", "weight": 0.35, "hints": ["beach", "beachfront", "oceanfront", "seaside", "coast", "coastal", "waterfront", "beach access", "on the beach", "near beach", "SandBeach", "Black sand beaches", "White sand beach", "Beach view", "Beach nearby"]},
+            "Outdoor Amenities": {"rule": "Must have 1", "weight": 0.25, "hints": ["beach access", "private beach", "beach bar", "beach club", "cabana", "sun loungers", "beach chairs", "beach towels", "beachfront access", "pool", "ocean view", "sea view", "waterfront view", "beach pool", "Beach Cabana", "Beach Wing"]},
+            "Activities": {"weight": 0.15, "hints":["swimming", "sunbathing", "surfing", "snorkeling", "beach volleyball", "water sports", "Beach barbecue", "Beach yoga"]},
+            "Imagery": {"weight": 0.10, "hints":["beach photos", "ocean photos", "sea view photos"]}
+        },
+        "additional_subscores": { "GeospatialAffinity": 0.10 }
+    },
+    "aikido": {
+        "lodging_type": "Both", "category_type": "Activity-Based", "exclusionary_concepts": ["Casino", "Nightclub"],
+        "must_not_have_uris": [],
+        "theme_overrides": {
+            "Activities": {"weight": 0.40, "hints": ["aikido", "martial arts", "dojo", "self defense", "training", "japan", "japanese martial art"]},
+            "Spaces": {"weight": 0.15, "hints": ["dojo", "training space", "mat space", "training hall", "martial arts studio"]},
+            "Sentiment": {"weight": 0.10, "hints": ["discipline", "focus", "respect", "harmony"]}
+        },
+        "additional_subscores": { "WellnessAffinity": 0.10 }
+    },
+    "airconditioning": {
+        "lodging_type": "Both", "category_type": "Amenity-Based", "exclusionary_concepts": ["No Air Conditioning", "Fan only"],
+        "must_not_have_uris": ["urn:expediagroup:taxonomies:acs:#7e9f11ff-644b-4cb9-b268-561e06741570"],
+        "theme_overrides": {
+            "Indoor Amenities": {"weight": 0.60, "rule": "Must have 1", "hints": ["air conditioning", "air condition", "air-conditioned", "climate control", "ac", "central air"]},
+            "Comfortable Bedding & Sleep Environment": {"weight": 0.10, "hints":["cool room", "temperature control"]}
+        },
+        "additional_subscores": { "ClimateAffinity": 0.05 }
+    },
+    "airport proximity": {
+        "lodging_type": "Both", "category_type": "Location-Based", "exclusionary_concepts": ["Remote", "Secluded"],
+        "must_not_have_uris": ["urn:expediagroup:taxonomies:lcm:#b033679a-91e1-344d-863f-73fa6e82fa48"],
+        "theme_overrides": {
+            "Location": {"weight": 0.70, "rule": "Must have 1", "hints": ["airport nearby", "close to airport", "near airport", "airport access", "airport hotel", "convenient to airport", "minutes from airport", "Location airport nearby sentiment"]}
+        },
+        "additional_subscores": { "GeospatialAffinity": 0.15 }
+    },
+    "airport shuttle": {
+        "lodging_type": "Both", "category_type": "Amenity-Based", "exclusionary_concepts": [],
+        "must_not_have_uris": ["urn:expediagroup:taxonomies:lcm:#b033679a-91e1-344d-863f-73fa6e82fa48", "urn:expediagroup:taxonomies:lcm:#b59f3a62-2914-4bef-80cf-6f62d156924d", "urn:expediagroup:taxonomies:acs:#e6ca8e12-2545-4522-851a-3cb942bb30c8"],
+        "theme_overrides": {
+            "Location": {"weight": 0.50, "hints": ["airport shuttle", "airport transfer", "shuttle service", "free airport shuttle", "airport transportation", "hotel shuttle", "AirportTransportation", "AirportShuttle:Accessible"]},
+            "Accessibility": {"weight": 0.15, "hints": ["accessible airport shuttle", "wheelchair accessible shuttle", "AirportShuttle:Accessible"]}
+        },
+        "additional_subscores": { "PricingAffinity": 0.05 }
+    },
+    "all inclusive": {
+        "lodging_type": "Both", "category_type": "Amenity-Based", "exclusionary_concepts": ["Room Only", "Breakfast Only", "Self Catering"],
+        "must_not_have_uris": [],
+        "theme_overrides": {
+             "Indoor Amenities": {"weight": 0.25, "hints":["all inclusive", "meals included", "drinks included", "full board", "restaurant", "bar", "buffet", "all-inclusive plan", "Allinclusive"]},
+             "Outdoor Amenities": {"weight": 0.15, "hints":["pool bar", "beach bar"]},
+             "Activities": {"weight": 0.15, "hints":["activities included", "entertainment included", "water sports included"]},
+             "Events": {"weight": 0.05}
+         },
+        "additional_subscores": { "PricingAffinity": 0.10, "MealAffinity": 0.15, "InclusiveAffinity": 0.15 }
+    }
+  },
+
+  "master_subscore_list": [
+    "LocationAffinity", "TechAffinity", "SentimentAffinity", "IndoorAmenityAffinity",
+    "OutdoorAmenityAffinity", "ActivityAffinity", "SpacesAffinity", "EventAffinity",
+    "PropertySeasonalityAffinity", "GroupIntelligenceAffinity", "PrivacyAffinity",
+    "AccessibilityAffinity", "SustainabilityAffinity", "ImageAffinity", "CleanlinessAffinity",
+    "BeddingAffinity", "BathroomAffinity", "WiFiAffinity", "ClimateAffinity",
+    "StaffAffinity", "DigitalAffinity", "ListingAffinity", "PricingAffinity",
+    "QuietAffinity", "MealAffinity", "FlexibilityAffinity", "StorageAffinity",
+    "InclusiveAffinity", "CommunicationAffinity", "PersonalizationAffinity",
+    "GeospatialAffinity", "UniquePropertyAffinity", "TrendingPropertyAffinity",
+    "VrboLongStaysAffinity", "WellnessAffinity"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "themes": {
+    "Cleanliness & Hygiene Standards": {
+      "name": "Cleanliness & Hygiene Standards",
+      "type": "structural",
+      "rule": "Must have 1",
+      "theme_weight": 0.085,
+      "subScore": "CleanlinessAffinity",
+      "min_weight": 0.75,
+      "required": true,
+      "allowed_categories": [
+        "urn:expediagroup:taxonomies:cleaning",
+        "urn:expediagroup:taxonomies:hygiene"
+      ],
+      "forbidden_terms": [
+        "hiking",
+        "luxury tents",
+        "cigars",
+        "everglades",
+        "beaches",
+        "skydiving",
+        "tattoos",
+        "adventure"
+      ],
+      "core_attributes": [
+        "CleaningSupplies:EcoFriendly:PublicAreas",
+        "SanitizationProtocol",
+        "HandSanitizerAvailable"
+      ],
+      "keywords": [
+        "cleaning",
+        "hygiene",
+        "sanitization",
+        "disinfectant",
+        "sterile",
+        "cleanroom"
+      ]
+    },
+    "Seamless Digital Experience": {
+      "name": "Seamless Digital Experience",
+      "type": "technological",
+      "rule": "Optional",
+      "theme_weight": 0.051,
+      "subScore": "DigitalAffinity",
+      "min_weight": 0.6,
+      "required": false,
+      "allowed_categories": [
+        "urn:expediagroup:taxonomies:technology",
+        "urn:expediagroup:taxonomies:digital"
+      ],
+      "forbidden_terms": [
+        "hiking",
+        "living spaces",
+        "gluten-free",
+        "tents",
+        "beaches",
+        "cigars",
+        "everglades",
+        "adventure"
+      ],
+      "core_attributes": [
+        "SmartTV",
+        "AssistiveTechnology",
+        "StreamingFitnessClassOnReq",
+        "MobileCheckIn",
+        "HighSpeedWiFi"
+      ],
+      "keywords": [
+        "mobile app",
+        "smart device",
+        "digital check-in",
+        "wifi",
+        "streaming",
+        "online booking",
+        "smart control",
+        "digital key"
+      ]
+    },
+    "In-Room Climate Control": {
+      "name": "In-Room Climate Control",
+      "type": "structural",
+      "rule": "Must have 1",
+      "theme_weight": 0.059,
+      "subScore": "ClimateAffinity",
+      "min_weight": 0.75,
+      "required": true,
+      "allowed_categories": [
+        "urn:expediagroup:taxonomies:climate",
+        "urn:expediagroup:taxonomies:airconditioning"
+      ],
+      "forbidden_terms": [
+        "hiking",
+        "beaches",
+        "cigars",
+        "skydiving",
+        "tents",
+        "everglades",
+        "adventure"
+      ],
+      "core_attributes": [
+        "AirConditioning",
+        "Heater",
+        "Thermostat",
+        "CeilingFan"
+      ],
+      "keywords": [
+        "air conditioning",
+        "heater",
+        "thermostat",
+        "climate control",
+        "ventilation",
+        "cooling"
+      ]
+    },
+    "Guest Restrictions": {
+      "name": "Guest Restrictions",
+      "type": "policy",
+      "rule": "Optional",
+      "theme_weight": 0.04,
+      "subScore": "RestrictionAffinity",
+      "min_weight": 0.6,
+      "required": false,
+      "allowed_categories": [
+        "urn:expediagroup:taxonomies:policy",
+        "urn:expediagroup:taxonomies:restrictions"
+      ],
+      "forbidden_terms": [
+        "cleaning",
+        "wifi",
+        "air conditioning",
+        "hiking",
+        "beaches"
+      ],
+      "core_attributes": [
+        "AdultsOnly",
+        "NoChildrenAllowed"
+      ],
+      "keywords": [
+        "adults only",
+        "no children",
+        "age restriction",
+        "guest policy"
+      ]
+    }
+  },
+  "uri_map": {
+    "cleaningsupplies:ecofriendly:publicareas": "urn:expediagroup:taxonomies:acs:#27bc6250-b451-47c7-92d2-d4b634141b5b",
+    "smarttv": "urn:expediagroup:taxonomies:acs:#3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8",
+    "assistivetechnology": "urn:expediagroup:taxonomies:activities:#952d773d-e450-444b-b9b7-f740e1661f7d",
+    "streamingfitnessclassonreq": "urn:expediagroup:taxonomies:lcm:#de13502e-128f-35b7-a7f7-f2e281eef393",
+    "airconditioning": "urn:expediagroup:taxonomies:climate:#airconditioning",
+    "heater": "urn:expediagroup:taxonomies:climate:#heater",
+    "thermostat": "urn:expediagroup:taxonomies:climate:#thermostat",
+    "ceilingfan": "urn:expediagroup:taxonomies:climate:#ceilingfan",
+    "mobilecheckin": "urn:expediagroup:taxonomies:digital:#mobilecheckin",
+    "highspeedwifi": "urn:expediagroup:taxonomies:digital:#highspeedwifi",
+    "sanitizationprotocol": "urn:expediagroup:taxonomies:hygiene:#sanitizationprotocol",
+    "handsanitizeravailable": "urn:expediagroup:taxonomies:hygiene:#handsanitizeravailable",
+    "adultsonly": "urn:expediagroup:taxonomies:policy:#adultsonly",
+    "nochildrenallowed": "urn:expediagroup:taxonomies:policy:#nochildrenallowed"
+  }
+}

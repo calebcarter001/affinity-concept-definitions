@@ -1,0 +1,175 @@
+{
+  "SBERT_MODEL_NAME": "sentence-transformers/all-mpnet-base-v2",
+  "CACHE_VERSION": "v20250420.affinity.34.2.0",
+
+  "LLM_API_CONFIG": {
+    "MAX_RETRIES": 5,
+    "RETRY_DELAY_SECONDS": 5,
+    "REQUEST_TIMEOUT": 180
+  },
+
+  "LLM_MODEL": "gemini-2.0-flash",
+  "LLM_PROVIDER": "google",
+  "global_alpha": 0.6,
+
+  "KG_CONFIG": {
+     "pref_label_weight": 3,
+    "alt_label_weight": 1,
+    "definition_weight": 0,
+    "acs_name_weight": 4,
+    "acs_def_weight": 2
+  },
+
+  "ACS_DATA_CONFIG": {
+    "acs_data_path": "datasources/transformed_acs_tracker.csv",
+    "enable_acs_enrichment": true,
+    "acs_name_weight": 4,
+    "acs_def_weight": 2
+  },
+
+  "STAGE1_CONFIG": {
+    "MAX_CANDIDATES_FOR_LLM": 75,
+    "EVIDENCE_MIN_SIMILARITY": 0.30,
+    "MIN_KEYWORD_CANDIDATES_FOR_EXPANSION": 5,
+    "ENABLE_KW_EXPANSION": true,
+    "KW_EXPANSION_TEMPERATURE": 0.5
+  },
+  "STAGE2_CONFIG": {
+    "ENABLE_LLM_REFINEMENT": true,
+    "LLM_TEMPERATURE": 0.2,
+    "THEME_ATTRIBUTE_MIN_WEIGHT": 0.001,
+    "TOP_N_DEFINING_ATTRIBUTES": 25
+  },
+  "STAGE3_CONFIG": {
+    "DEFAULT_CONFIDENCE": 0.6,
+    "HIGH_CONFIDENCE_THRESHOLD": 0.8
+  },
+  "min_sbert_score": 0.12,
+  "keyword_dampening_threshold": 0.35,
+  "keyword_dampening_factor": 0.15,
+  "KEYWORD_SCORING_CONFIG": {
+    "enabled": true,
+    "algorithm": "bm25",
+    "bm25_min_score": 0.01,
+    "bm25_top_n": 500,
+    "bm25_params": {
+      "k1": 1.5,
+      "b": 0.75
+    }
+  },
+  "prioritize_exact_prefLabel_match": true,
+  "preferred_namespaces": [
+    "ontology.example.com",
+    "schema.org",
+    "urn:expediagroup:taxonomies:acsPCS",
+    "urn:expediagroup:taxonomies:acs",
+    "urn:expediagroup:taxonomies:core"
+  ],
+
+  "NAMESPACE_BIASING": {
+    "enabled": true,
+    "boost_factor": 1.05,
+    "core_boost_factor": 1.10,
+    "context_boost_factor": 1.02,
+    "penalty_factor": 0.95,
+    "strong_penalty_factor": 0.85,
+    "metadata_penalty_factor": 0.90,
+
+    "lodging_amenity_ns": [
+        "urn:expediagroup:taxonomies:acs",
+        "urn:expediagroup:taxonomies:spaces",
+        "urn:expe:taxo:hospitality",
+        "urn:expe:taxo:amenity-view-property-features",
+        "urn:expediagroup:taxonomies:lcm:"
+    ],
+    "activity_ns": [
+        "urn:expediagroup:taxonomies:activities",
+        "urn:expe:taxo:events"
+    ],
+    "location_context_ns": [
+        "urn:expediagroup:taxonomies:gaia",
+        "urn:expediagroup:taxonomies:places"
+    ],
+    "visual_context_ns": [
+        "urn:expe:taxo:media-descriptors",
+        "urn:expe:taxo:property-media"
+    ],
+    "preference_context_ns": [
+        "urn:expe:taxo:trip-preferences",
+        "urn:expe:taxo:personalization"
+    ],
+    "clearly_wrong_ns": [
+        "urn:expe:taxo:cars:",
+        "urn:expe:taxo:flights:"
+    ],
+    "metadata_ns": [
+        "urn:expe:taxo:checkout:",
+        "urn:expe:taxo:payments:",
+        "urn:expe:taxo:policies:",
+        "urn:expe:taxo:review_categories:",
+        "urn:expe:taxo:review_category_values:",
+        "urn:expe:taxo:reviews-attributes:",
+        "urn:expe:taxo:text:",
+        "urn:expe:taxo:data-element-values:",
+        "urn:expediagroup:taxonomies:acsDomainType:",
+        "urn:expediagroup:taxonomies:acsBaseTerms:",
+        "urn:expediagroup:taxonomies:taxonomy_management:"
+    ],
+    "low_priority_ns": [
+        "urn:expediagroup:taxonomies:tmpt:"
+    ]
+  },
+  "limit_per_concept": 100,
+  "base_themes": {
+    "Location": { "description": "...", "type": "decision", "weight": 10, "subScore": "LocationAffinity", "rule_applied": "Optional", "hints": {}},
+    "Privacy": { "description": "...", "type": "comfort", "weight": 5, "subScore": "PrivacyAffinity", "rule_applied": "Optional", "hints": {}},
+    "Indoor Amenities": { "description": "...", "type": "structural", "weight": 9, "rule_applied": "Optional", "hints": {}},
+    "Outdoor Amenities": { "description": "...", "type": "structural", "weight": 4, "rule_applied": "Optional", "hints": {}},
+    "Activities": { "description": "...", "type": "preference", "weight": 8, "rule_applied": "Optional", "hints": {}},
+    "Imagery": { "description": "...", "type": "imagery", "weight": 10, "subScore": "ImageAffinity", "rule_applied": "Optional", "hints": {}},
+    "Spaces": { "description": "...", "type": "structural", "weight": 6, "rule_applied": "Optional", "hints": {}},
+    "Seasonality": { "description": "...", "type": "temporal", "weight": 6, "subScore": "SeasonalityAffinity", "rule_applied": "Optional", "hints": {}},
+    "Group Relevance": { "description": "...", "type": "preference", "weight": 5, "subScore": "GroupIntelligenceAffinity", "rule_applied": "Optional", "hints": {}},
+    "Technology": { "description": "...", "type": "technological", "weight": 7, "rule_applied": "Optional", "hints": {}},
+    "Sentiment": { "description": "...", "type": "comfort", "weight": 10, "subScore": "SentimentAffinity", "rule_applied": "Optional", "hints": {}}
+  },
+  "concept_overrides": {
+    "aikido": {
+      "skip_expansion": true,
+      "seed_uris": ["urn:expediagroup:taxonomies:activities:#c7b903d8-14be-4bcd-bcb3-d6d35724e7cc", "urn:expediagroup:taxonomies:core:#f02b51fe-eabe-4dab-961a-456bed9664e8"],
+      "boost_seeds_config": { "enabled": true, "threshold": 0.80 }
+    },
+    "airconditioning": {
+      "skip_expansion": true,
+      "manual_query_split": ["air", "conditioning"],
+      "filter_uris": ["urn:expe:taxo:data-element-values:flights:frequent-flyer-program-names:AP", "urn:expediagroup:taxonomies:acs:#1f3da634-0df6-4498-a8d9-603f895c8f3f"]
+    },
+    "allinclusive": {
+      "skip_expansion": true,
+      "boost_seeds_config": { "enabled": true, "threshold": 0.80 },
+      "seed_uris": [
+      "urn:expediagroup:taxonomies:acsEnumerations:#dcecb8c7-bacf-4d04-b90f-95e4654ffa9f",
+      "urn:expediagroup:taxonomies:core:#167f9414-037e-340d-8b6a-173bbf6a960a",
+      "urn:expediagroup:taxonomies:lcm:#34528832-c2d8-312a-b52f-b27c483e5ec1",
+      "urn:expediagroup:taxonomies:acs:#63e0dd52-69c4-4ac8-8dec-095624098e91"
+      ]
+    }
+  },
+   "master_subscore_list": [
+    "WalkabilityScore",
+    "SentimentScore",
+    "SeasonalityAffinityScore",
+    "GroupIntelligenceScore",
+    "PrivacyAffinityScore",
+    "AccessibilityAffinityScore",
+    "SustainabilityAffinityScore",
+    "ImageAffinityScore",
+    "GeospatialAffinityScore",
+    "UniquePropertyAffinityScore",
+    "TrendingPropertyAffinityScore",
+    "VrboLongStaysAffinityScore",
+    "TechnologyScore",
+    "LocationScore",
+    "PetFriendlyAffinityScore"
+  ]
+}
