@@ -1,0 +1,652 @@
+Technical Documentation: Travel Concept Affinity Engine v34.0.14
+
+Table of Contents:
+
+Introduction & Core Goal
+
+Key Technologies & Libraries
+
+System Architecture & Data Flow
+
+Component Breakdown
+
+4.1. Configuration (affinity_config.json & Defaults)
+
+4.2. Utility Module (utils.py)
+
+4.2.1. Logging & Setup
+
+4.2.2. Data Loading & Caching
+
+4.2.3. Text Processing & Normalization
+
+4.2.4. Knowledge Graph (KG) & Taxonomy Interaction
+
+4.2.5. Embedding Management (SBERT)
+
+4.2.6. Output Handling
+
+4.3. Main Script (affinity_generator_v34.0.14.py)
+
+4.3.1. Entry Point (main function)
+
+4.3.2. Global Variables & Initialization
+
+4.3.3. Core Processing Loop (generate_affinity_definitions_loop)
+
+4.3.4. Stage 1: Evidence Preparation (prepare_evidence)
+
+4.3.5. LLM Interaction & Prompt Engineering
+
+4.3.6. Stage 2: Finalization & Rule Application (apply_rules_and_finalize)
+
+4.3.7. Dynamic Lodging Type Determination (determine_lodging_type)
+
+Key Data Structures
+
+5.1. affinity_def (Final Output Object)
+
+5.2. original_candidates_map_for_reprompt
+
+Conclusion
+
+1. Introduction & Core Goal
+
+This document describes the "Travel Concept Affinity Engine" (version 34.0.14), a Python-based system designed to generate robust and nuanced affinity definitions for travel concepts. The core goal is to understand how various Knowledge Graph (KG) concepts relate to a given input travel concept (e.g., "luxury hotel," "beachfront villa," "pet-friendly").
+
+The system achieves this by:
+
+Retrieving candidate concepts from a KG using a hybrid approach of keyword matching (BM25s) and semantic similarity (SBERT embeddings).
+
+Scoring and ranking these candidates based on their relevance, applying biases (e.g., namespace preference), and prioritizing exact matches.
+
+Leveraging Large Language Models (LLMs) for:
+
+Expanding keywords for better initial candidate retrieval.
+
+Slotting relevant candidates into predefined thematic categories.
+
+Identifying negating/contradictory concepts.
+
+Assisting in fallback logic for mandatory themes.
+
+Applying a set of rules to structure the final affinity definition, including:
+
+Weighting attributes within themes proportionally to their combined relevance scores.
+
+Dynamically determining the applicable lodging types (e.g., "CL" - Commercial Lodging, "VR" - Vacation Rental, "Both").
+
+Identifying key associated concepts that might not fit a predefined theme but are highly relevant.
+
+Calculating subscore weights based on thematic assignments.
+
+Flagging if a concept requires geospatial checks.
+
+The output is a structured JSON object for each input concept, detailing its travel category, defining attributes, thematic breakdown, associated subscores, and other relevant metadata.
+
+2. Key Technologies & Libraries
+
+Python 3: Core programming language.
+
+Sentence-Transformers (SBERT): Used for generating high-quality semantic embeddings of text, enabling semantic similarity search (sentence-transformers/all-mpnet-base-v2 by default).
+
+BM25s: A library implementing the BM25/BM25+ ranking function for efficient keyword-based document retrieval.
+
+RDFLib: For parsing, querying, and managing RDF data from the Knowledge Graph (taxonomy files).
+
+NumPy: For numerical operations, especially with embeddings.
+
+Pandas: Used for loading and processing supplementary data like the ACS (Attribute Collection System) tracker for enriching KG concepts.
+
+scikit-learn: Used for cosine_similarity calculations.
+
+LLM APIs (OpenAI, Google Generative AI): For advanced NLP tasks like theme slotting, negation identification, and keyword expansion. The system is designed to be configurable for different providers and models.
+
+tqdm: For progress bars during long operations.
+
+Standard Libraries: json, logging, os, re, argparse, pickle, time, collections.
+
+3. System Architecture & Data Flow
+
+The system operates as a pipeline:
+
+Initialization:
+
+Load configuration (defaults + user-provided JSON).
+
+Setup logging.
+
+Load SBERT model.
+
+Load/build KG concept cache (from RDF files).
+
+Load/build ACS data cache (from CSV).
+
+Load/build KG concept embeddings cache.
+
+Load/build BM25s keyword index.
+
+Input Processing (Loop per Concept):
+
+For each input travel concept string:
+
+Stage 1: Evidence Preparation (prepare_evidence)
+
+Generate SBERT embedding for the input concept.
+
+(Optional) Expand input concept keywords using LLM.
+
+Retrieve initial candidates from KG using BM25s (keyword match) and SBERT (semantic match).
+
+Combine, filter, and score candidates:
+
+Apply dampening to keyword scores based on SBERT scores.
+
+Calculate a combined_score (weighted sum of SBERT and keyword scores).
+
+Apply namespace biasing to adjust scores.
+
+Prioritize exact prefLabel matches.
+
+Select an "anchor" concept (best match for the input).
+
+Select top N candidates (MAX_CANDIDATES_FOR_LLM) for LLM processing.
+
+LLM Theme Slotting:
+
+Construct a prompt with the input concept, theme definitions, and candidate details.
+
+Call the configured LLM to assign candidates to themes.
+
+Validate LLM response.
+
+Stage 2: Finalization & Rule Application (apply_rules_and_finalize)
+
+Process LLM theme assignments.
+
+Apply fallback logic for mandatory themes (may involve re-prompting LLM).
+
+(Optional) Use LLM to identify negating concepts (must_not_have).
+
+Filter attributes based on must_not_have list.
+
+Redistribute theme weights if some themes become inactive.
+
+Weight attributes within each theme proportionally to their combined_score.
+
+Identify top N defining attributes overall.
+
+Dynamically determine applicable_lodging_types (CL/VR/Both).
+
+Capture high-scoring unthemed concepts.
+
+Calculate additional_relevant_subscores.
+
+Calculate final affinity_score_total_allocated.
+
+Determine requires_geo_check flag.
+
+Structure the final JSON output for the concept.
+
+Output:
+
+Save all generated affinity definitions to a single JSON file.
+
+Generate log files.
+
+Data Flow Diagram (Simplified):
+
+Input Concept String
+       |
+       v
+[SBERT Embedding] --> [Keyword Expansion (LLM)]
+       |                                 |
+       v                                 v
+[KG Candidate Retrieval: SBERT]    [KG Candidate Retrieval: BM25s]
+       |                                 |
+       +--------------+------------------+
+                      |
+                      v
+[Stage 1: prepare_evidence]
+  (Combine, Score, Filter, Bias, Anchor Select, Top N)
+  Output: List of Candidates for LLM, Anchor Concept, Original Candidates Map
+                      |
+                      v
+[LLM Theme Slotting] (call_llm with slotting prompt)
+  Output: LLM Response (Theme Assignments)
+                      |
+                      v
+[Stage 2: apply_rules_and_finalize]
+  (Validate LLM, Fallback, Negation (LLM), Attribute Weighting,
+   Lodging Type, Subscores, Geo-Check, Output Structuring)
+                      |
+                      v
+        Final Affinity Definition (JSON)
+
+4. Component Breakdown
+4.1. Configuration (affinity_config.json & Defaults)
+
+DEFAULT_CONFIG (in affinity_generator_v34.0.14.py): Provides a comprehensive set of default parameters for all aspects of the system, including SBERT model names, LLM settings, scoring weights, thresholds, namespace biasing rules, base theme definitions, and lodging type hints.
+
+External JSON Config (e.g., affinity_config_v34.12.json): Users provide a JSON file to override specific default values. This allows for flexible experimentation and environment-specific settings.
+
+Key Config Sections:
+
+LLM_PROVIDER, LLM_MODEL: Specifies the LLM to use (e.g., "openai", "google") and the model name.
+
+LLM_API_CONFIG: Timeout, retries, delay for LLM calls.
+
+global_alpha: Default weight for combining keyword vs. semantic scores.
+
+KEYWORD_SCORING_CONFIG: BM25s parameters (min score, top N).
+
+KG_CONFIG, ACS_DATA_CONFIG: Weights for different text fields (prefLabel, altLabel, ACS name/definition) during BM25s document construction.
+
+STAGE1_CONFIG: Max candidates for LLM, min similarity thresholds, keyword expansion settings.
+
+STAGE2_CONFIG: LLM refinement temperature, attribute weighting, unthemed capture percentile, lodging type determination parameters.
+
+NAMESPACE_BIASING: Rules to boost or penalize concepts based on their URI namespace, helping to contextualize relevance.
+
+base_themes: Definitions of thematic categories (name, description, type, weight, subscore mapping, rules like "Must have 1").
+
+concept_overrides: Allows fine-grained control for specific input concepts (e.g., seed URIs, skip expansion, manual query, property type for VRBO rules, must_not_have URIs).
+
+lodging_type_hints: Lists of URIs that indicate a concept is related to Commercial Lodging (CL), Vacation Rentals (VR), or Both. Used by determine_lodging_type.
+
+Loading: load_affinity_config() (in utils.py) loads the JSON, performs basic validation, and normalizes keys in concept_overrides. The main script merges this with DEFAULT_CONFIG.
+
+4.2. Utility Module (utils.py)
+
+This module centralizes common helper functions used by the main script.
+
+4.2.1. Logging & Setup:
+
+setup_logging(): Configures the root logger (level, format, file/console output).
+
+setup_detailed_loggers(): Sets up separate, more verbose log files for specific components like NaN embedding issues (nan_logger), LLM interactions (llm_logger), and Stage 1 candidate details (stage1_logger). This helps in debugging complex parts of the pipeline.
+
+4.2.2. Data Loading & Caching:
+
+load_affinity_config(): Loads and partially validates the main JSON configuration file.
+
+get_cache_filename(): Generates standardized filenames for cache files, incorporating version and parameters to ensure cache validity.
+
+load_cache(), save_cache(): Generic functions to load/save data from/to pickle or JSON cache files, reducing redundant computations.
+
+load_taxonomy_concepts():
+
+Parses RDF files (TTL, RDF/XML, OWL, etc.) from a specified directory using rdflib.
+
+Extracts concepts (URIs) and their associated properties (prefLabel, altLabel, definition, type, etc.).
+
+Caches the extracted concept data as a dictionary {uri: {property: [values]}}.
+
+load_acs_data() (in main script, but related): Loads ACS (Attribute Collection System) data from a CSV file using Pandas, used to enrich KG concepts with additional names/definitions for BM25s indexing.
+
+4.2.3. Text Processing & Normalization:
+
+normalize_concept(): Standardizes text strings by converting to lowercase, removing punctuation, splitting camelCase, and handling multiple spaces. Crucial for consistent matching and indexing.
+
+4.2.4. Knowledge Graph (KG) & Taxonomy Interaction:
+
+get_primary_label(): Retrieves the best human-readable label for a URI from the cached KG data, trying skos:prefLabel, rdfs:label, skos:altLabel, or parsing the URI itself as a fallback.
+
+get_concept_type_labels(): Fetches and formats the labels of rdf:type URIs associated with a concept.
+
+get_kg_data(): Gathers a structured dictionary of key properties (prefLabel, altLabel, definition, type labels) for a list of URIs from the KG cache.
+
+build_keyword_label_index(): Creates a simple inverted index mapping normalized keywords (from labels) to sets of concept URIs. Used as a fallback or supplementary keyword search.
+
+4.2.5. Embedding Management (SBERT):
+
+get_sbert_model(): Loads a specified SentenceTransformer model (or a default).
+
+precompute_taxonomy_embeddings():
+
+Generates SBERT embeddings for all unique textual elements (labels, definitions) found in the KG concepts.
+
+Implements logic to select a "primary" embedding for each concept URI based on a prioritized list of properties (e.g., skos:prefLabel first).
+
+Includes NaN/infinity checks for generated embeddings and logs issues to _nan_logger.
+
+Caches the URI-to-embedding map.
+
+get_concept_embedding(): Generates an SBERT embedding for a single input string (typically the main input travel concept). Includes NaN check.
+
+get_batch_embedding_similarity():
+
+Calculates cosine similarity between a target embedding and a batch of candidate embeddings.
+
+Handles potential NaN/infinity values in embeddings before calculation.
+
+4.2.6. Output Handling:
+
+save_results_json(): Saves the final list of generated affinity definitions to a JSON file.
+
+4.3. Main Script (affinity_generator_v34.0.14.py)
+
+4.3.1. Entry Point (main function):
+
+Parses command-line arguments (argparse).
+
+Loads and merges configuration (DEFAULT_CONFIG with user-provided JSON).
+
+Overrides config with command-line arguments where applicable (e.g., directories, LLM provider/model).
+
+Initializes logging using setup_logging() and setup_detailed_loggers().
+
+Performs essential library availability checks.
+
+Checks for LLM API keys in environment variables based on the configured provider.
+
+Loads input concepts from a file.
+
+Orchestrates data preparation:
+
+Loads/builds taxonomy concept cache (_taxonomy_concepts_cache via utils.load_taxonomy_concepts).
+
+Loads ACS data (_acs_data via load_acs_data).
+
+Builds keyword index (_bm25_model, _keyword_corpus_uris, _keyword_label_index via build_keyword_index).
+
+Loads SBERT model.
+
+Precomputes/loads taxonomy embeddings (_taxonomy_embeddings_cache via utils.precompute_taxonomy_embeddings).
+
+Calls generate_affinity_definitions_loop() to process concepts.
+
+Saves results using utils.save_results_json().
+
+4.3.2. Global Variables & Initialization:
+
+The script uses global variables (e.g., _config_data, _taxonomy_concepts_cache, _bm25_model) to hold shared resources loaded during initialization. This avoids redundant loading for each concept.
+
+4.3.3. Core Processing Loop (generate_affinity_definitions_loop):
+
+Iterates through the list of input travel concepts.
+
+For each concept:
+
+Initializes a comprehensive affinity_def dictionary to store all outputs and diagnostics for that concept.
+
+Calls prepare_evidence() (Stage 1).
+
+If Stage 1 is successful and candidates are found:
+
+Constructs prompt and calls the LLM for theme slotting (if LLM provider is not "none").
+
+Calls apply_rules_and_finalize() (Stage 2) with results from Stage 1 and LLM slotting.
+
+Updates affinity_def with results from Stage 2.
+
+Handles exceptions gracefully, logging errors and updating status in affinity_def.
+
+Collects all affinity_def objects.
+
+Returns the list of affinity_def objects.
+
+4.3.4. Stage 1: Evidence Preparation (prepare_evidence):
+
+Objective: Identify and score relevant KG concepts as potential evidence for defining the input travel concept.
+
+Input: Input concept string, its SBERT embedding, SBERT embeddings of all KG concepts, BM25 model, config.
+
+Steps:
+
+Keyword Expansion (Optional):
+
+If ENABLE_KW_EXPANSION is true and conditions are met (e.g., too few initial keyword matches, abstract concept), expand_keywords_with_llm() is called.
+
+construct_keyword_expansion_prompt() creates a prompt asking the LLM for related keywords.
+
+The expanded keywords augment the initial query for BM25s.
+
+Keyword Scoring (BM25s):
+
+get_candidate_concepts_keyword(): Uses the (potentially expanded) normalized input concept as a query against the pre-built BM25s index (_bm25_model).
+
+Returns a list of candidate URIs with their BM25s scores.
+
+Semantic Scoring (SBERT):
+
+utils.get_batch_embedding_similarity(): Calculates cosine similarity between the input concept's embedding and all KG concept embeddings.
+
+Returns a map of candidate URIs to their SBERT scores.
+
+Candidate Combination & Filtering:
+
+Combines candidates from BM25s and SBERT.
+
+Applies overrides from config (seed_uris, filter_uris).
+
+Exact Match Prioritization: Checks if any candidate's skos:prefLabel (normalized, with simple plural check) exactly matches the normalized input concept. These are flagged.
+
+Scoring & Dampening:
+
+Applies an absolute SBERT score filter (min_sbert_score).
+
+Dampens keyword scores if SBERT score is below keyword_dampening_threshold (multiplies by keyword_dampening_factor). This reduces the impact of keyword-only matches that are semantically distant.
+
+Calculates combined_score_unbiased: (alpha * keyword_score) + ((1-alpha) * sbert_score). Alpha can be global or overridden per concept.
+
+Namespace Biasing:
+
+infer_concept_domain(): Infers a broad domain (Lodging/Amenity, Activity, General) based on the namespaces of initial top candidates.
+
+apply_namespace_bias(): Adjusts the combined_score_unbiased based on the candidate's URI namespace and the inferred domain, using rules from NAMESPACE_BIASING config (boosts relevant namespaces, penalizes irrelevant ones). This results in the final combined_score.
+
+Sorting & Selection: Sorts candidates by final combined_score (descending), with tie-breaking by namespace priority and SBERT score.
+
+Selects the top MAX_CANDIDATES_FOR_LLM candidates.
+
+Anchor Selection:
+
+Selects an "anchor" concept that best represents the input.
+
+If exact prefLabel matches (passing min_sbert_score) exist, the one with the best rank in the scored_list is chosen.
+
+Otherwise, the top candidate by combined_score is chosen.
+
+Output: List of candidate details for LLM, a map (original_candidates_map_for_reprompt) of these candidates with their full scoring details (including combined_score), the selected anchor concept, and diagnostic information.
+
+4.3.5. LLM Interaction & Prompt Engineering:
+
+Clients: get_openai_client(), get_google_client() initialize API clients with appropriate API keys (from environment variables) and timeout settings from config.
+
+call_llm(): A generic function to make API calls to the configured LLM provider.
+
+Handles provider-specific request formatting (OpenAI ChatCompletion, Google GenerativeModel).
+
+Implements retry logic with exponential backoff (MAX_RETRIES, RETRY_DELAY_SECONDS).
+
+Manages API timeouts (REQUEST_TIMEOUT).
+
+Expects and parses JSON responses (stripping markdown json ... if present).
+
+Returns a dictionary with success (bool), response (parsed JSON), error (message), and attempts.
+
+Prompt Functions:
+
+construct_keyword_expansion_prompt(): Asks LLM for related keywords to improve search.
+
+construct_llm_slotting_prompt(): (Reverted to v34.0.11 broader logic) Asks LLM to assign each candidate URI to relevant themes from a provided list, focusing on lodging context. Includes input concept, theme definitions, and candidate details. Outputs JSON mapping URIs to theme lists.
+
+build_reprompt_prompt(): Used in fallback logic. Asks LLM to re-evaluate candidates for a specific mandatory theme that initially had no assignments.
+
+construct_llm_negation_prompt(): Asks LLM to identify candidate URIs that are contradictory or opposite to the input concept. Outputs JSON with a list of "negating_uris".
+
+4.3.6. Stage 2: Finalization & Rule Application (apply_rules_and_finalize):
+
+Objective: Process LLM outputs, apply business rules, and structure the final affinity definition.
+
+Input: Input concept, LLM slotting result, config, anchor concept, original_candidates_map_for_reprompt (crucially containing combined_score for each LLM candidate).
+
+Steps:
+
+Process LLM Theme Assignments:
+
+validate_llm_assignments(): Checks if the LLM response for slotting is valid (correct format, expected URIs, valid themes).
+
+Maps assigned URIs to themes.
+
+Fallback Logic for Mandatory Themes:
+
+Identifies "Must have 1" themes (from base_themes config) that received no assignments from the initial LLM call.
+
+If such themes exist and LLM refinement is enabled, build_reprompt_prompt() creates a focused prompt.
+
+call_llm() attempts to get assignments for these specific themes.
+
+LLM Negation Identification:
+
+If enabled, construct_llm_negation_prompt() creates a prompt with top unbiased candidates.
+
+call_llm() asks the LLM to identify negating URIs.
+
+These, along with must_not_have from concept_overrides, populate the must_not_have field in the output.
+
+Filter Attributes: URIs in the must_not_have list are removed from any theme assignments.
+
+Theme Weight Redistribution:
+
+Calculates initial normalized weights for all base_themes.
+
+If some themes become inactive (e.g., all their assigned attributes were excluded or they never got assignments), their weight is redistributed proportionally among the remaining active themes.
+
+Attribute Weighting (Key Change in v34.0.14):
+
+For each active theme:
+
+Attributes (URIs) assigned to it are weighted.
+
+The concept_weight for each attribute within a theme is calculated proportionally to its combined_score (retrieved from original_candidates_map_for_reprompt).
+
+total_theme_weight * (attribute_combined_score / sum_of_combined_scores_for_all_attributes_in_theme).
+
+Attributes with weight below THEME_ATTRIBUTE_MIN_WEIGHT are dropped.
+
+Top Defining Attributes: A de-duplicated list of the overall top N attributes (across all themes) is created, sorted by their combined_score.
+
+Dynamic Lodging Type Determination: determine_lodging_type() is called (see 4.3.7).
+
+Unthemed Concept Capture:
+
+Identifies high-scoring candidates (based on combined_score exceeding a percentile threshold like UNTHEMED_CAPTURE_SCORE_PERCENTILE of all LLM candidate scores) that were not assigned to any theme and are not in must_not_have.
+
+These are added to key_associated_concepts_unthemed.
+
+Subscore Calculation:
+
+additional_relevant_subscores are calculated. Each active theme can contribute to specific subscores as defined in base_themes[theme_name].relevant_subscores.
+
+The contribution is final_theme_weight * subscore_base_weight_for_that_theme.
+
+VRBO-specific rules can apply (e.g., ensuring minimum weights for SentimentScore, GroupIntelligenceScore if property_type is "VRBO" in concept_overrides).
+
+Final subscore weights are normalized.
+
+Final Affinity Score: affinity_score_total_allocated is a weighted sum of the total attribute weights and total subscore weights.
+
+requires_geo_check Flag: Set to True if:
+
+A geo-related subscore (e.g., "GeospatialAffinityScore", "WalkabilityScore") is active.
+
+The "Location" theme has attributes.
+
+The anchor concept's URI is in a location_context_ns.
+
+Output Structuring: Populates all fields of the affinity_def dictionary.
+
+Output: A fully populated affinity_def dictionary for the input concept.
+
+4.3.7. Dynamic Lodging Type Determination (determine_lodging_type):
+
+Objective: Decide if the travel concept primarily applies to Commercial Lodging (CL), Vacation Rentals (VR), or Both.
+
+Input: Anchor concept, top defining attributes, config (specifically lodging_type_hints and STAGE2_CONFIG.LODGING_TYPE_* parameters), KG concept cache.
+
+Steps:
+
+Retrieves cl_hints, vr_hints, both_hints (lists of URIs) from config.
+
+Initializes cl_score and vr_score.
+
+Anchor Check: If the anchor concept's URI is in cl_hints, cl_score is increased (e.g., by 2). Same for vr_hints. both_hints are neutral.
+
+Top Attributes Check: Iterates through the top_defining_attributes (up to LODGING_TYPE_TOP_ATTR_CHECK):
+
+If an attribute's URI is in cl_hints, cl_score is incremented (e.g., by 1). Same for vr_hints.
+
+Decision:
+
+If cl_score / total_hints_checked >= LODGING_TYPE_CONFIDENCE_THRESHOLD (and greater than VR ratio), it's "CL".
+
+If vr_score / total_hints_checked >= LODGING_TYPE_CONFIDENCE_THRESHOLD (and greater than CL ratio), it's "VR".
+
+Otherwise, defaults to "Both".
+
+Output: A string: "CL", "VR", or "Both".
+
+5. Key Data Structures
+
+5.1. affinity_def (Final Output Object per Concept):
+This is the main JSON object produced for each input travel concept. Key fields include:
+
+input_concept, normalized_concept: The original and normalized input.
+
+applicable_lodging_types: String ("CL", "VR", "Both").
+
+travel_category: Details of the selected anchor concept (URI, prefLabel, scores).
+
+top_defining_attributes: List of top N overall attributes with their URIs, labels, and types.
+
+themes: A list of theme objects. Each theme object contains:
+
+theme_name, theme_type, rule_applied.
+
+normalized_theme_weight: The final allocated weight for this theme.
+
+subScore: The affinity subscore name associated with this theme.
+
+attributes: A list of attribute objects assigned to this theme, each with:
+
+uri, skos:prefLabel, type.
+
+concept_weight: The calculated weight of this attribute within the overall definition.
+
+_weighting_score (internal, might be removed from final output): The score used for proportionality.
+
+key_associated_concepts_unthemed: List of high-scoring relevant concepts not fitting into predefined themes.
+
+additional_relevant_subscores: List of subscore names and their calculated final weights.
+
+must_not_have: List of URIs that are contradictory or should be excluded.
+
+requires_geo_check: Boolean.
+
+failed_fallback_themes: Dictionary of mandatory themes for which fallback attempts failed.
+
+affinity_score_total_allocated: The final aggregated affinity score.
+
+processing_metadata: Script version, timestamp, duration, LLM provider/model.
+
+diagnostics: Detailed logs and metrics from each stage (Stage1, LLM Slotting, Stage2, Negation, Lodging Type, etc.).
+
+5.2. original_candidates_map_for_reprompt (Internal to affinity_generator_v34.0.14.py):
+
+A dictionary mapping candidate URIs (those selected in Stage 1 for LLM processing) to their detailed information.
+
+Crucially, this map includes sbert_score, keyword_score, combined_score_unbiased, and the final combined_score (after biasing) for each candidate.
+
+This map is passed to apply_rules_and_finalize and is used there for:
+
+Proportionally weighting attributes within themes based on their combined_score.
+
+Selecting candidates for LLM negation checks.
+
+Identifying unthemed high-scoring concepts.
+
+6. Conclusion
+
+The Travel Concept Affinity Engine v34.0.14 provides a sophisticated and configurable pipeline for generating rich, structured definitions of travel concepts. By combining keyword search, semantic understanding, LLM-driven refinement, and rule-based logic, it aims to capture the multifaceted affinities of concepts within the travel domain, particularly focused on lodging. The detailed configuration options and diagnostic outputs allow for fine-tuning and analysis of the generation process. Key improvements in v34.0.14 include weighting attributes by their full combined score and dynamically determining lodging type applicability, further enhancing the nuance and accuracy of the generated definitions.
