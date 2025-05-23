@@ -64,5 +64,6 @@ logs/
 my_backup/
 bashes/
 tbd-artifacts/
+rdf_outputs/
 run_debug.log
 run_output.log
