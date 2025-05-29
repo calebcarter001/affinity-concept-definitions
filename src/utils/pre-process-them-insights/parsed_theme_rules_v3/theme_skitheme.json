@@ -1,0 +1,99 @@
+{
+  "theme_attribute_name": "Ski property",
+  "lcm_id": "4012",
+  "uuid": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "143,380",
+  "urn": "SkiTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "4012",
+            "UUID": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+            "Description": "This theme is automatically assigned to ski-in/ski-out accommodation or to properties that provide a ski shuttle. See qualifying attributes below"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "4999",
+            "UUID": "aaae56e4-0bba-11ea-8d71-362b9e155667",
+            "Description": "If a property does not have qualifying attributes, but is located within 2-3 minutes walking distance from a public ski shuttle, or by the ski lifts (see red dotted line on maps), we can still include it in the Theme by selecting the THEME OVER-RIDE, SKI attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744129",
+            "UUID": "aaaea4d2-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE SKI attribute"
+          }
+        ]
+      ],
+      "uuid": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "Yes",
+      "attribute_id": "4012"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+      "urn": "SkiTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+      "attributes": [
+        {
+          "Attribute": "Free ski shuttle",
+          "AID": "4421",
+          "UUID": "bd2a8906-5988-4552-ade9-d33afb161f74"
+        },
+        {
+          "Attribute": "Ski-in/ski-out access",
+          "AID": "2082",
+          "UUID": "8b18e91f-0cb9-4702-a3fd-445484e375e0"
+        },
+        {
+          "Attribute": "Downhill skiing on site",
+          "AID": "3838",
+          "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+        },
+        {
+          "Attribute": "Ski lessons on site",
+          "AID": "3836",
+          "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+        },
+        {
+          "Attribute": "Ski shuttle",
+          "AID": "2136",
+          "UUID": "09a16840-c197-4206-944c-6d88cd072224"
+        },
+        {
+          "Attribute": "Snowboarding on site",
+          "AID": "3842",
+          "UUID": "3971cf50-528a-4a6f-89aa-d1e472663b8e"
+        },
+        {
+          "Attribute": "Ski shuttle (surcharge)",
+          "AID": "4422",
+          "UUID": "82fac03b-12d3-43b6-ac4e-8b0cee1e940a"
+        }
+      ],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "Properties must have **1 of the following** attributes:",
+          "required_count": 1
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

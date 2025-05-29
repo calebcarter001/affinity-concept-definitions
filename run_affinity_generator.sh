@@ -13,15 +13,15 @@ DEFAULT_ENV_FILE="${SCRIPT_DIR}/.env"
 ENV_FILE="${AFFINITY_ENV_FILE:-$DEFAULT_ENV_FILE}"
 
 # --- Configuration ---
-SCRIPT_NAME="affinity_generator_v34.0.14.py"
+SCRIPT_NAME="affinity_generator_v34.0.15.py"
 PYTHON_EXECUTABLE="./venv/bin/python"
 
 # --- Define default paths ---
 DEFAULT_CONCEPTS_FILE="./datasources/verified_raw_travel_concepts.txt"
 DEFAULT_TAXONOMY_DIR="./datasources/"
-DEFAULT_CONFIG_FILE="./affinity_config_v34.12.json"
-DEFAULT_OUTPUT_DIR="./output_v34.14"
-DEFAULT_CACHE_DIR="./cache_v34.14"
+DEFAULT_CONFIG_FILE="./affinity_config_v34.13.json"
+DEFAULT_OUTPUT_DIR="./output_v34.15"
+DEFAULT_CACHE_DIR="./cache_v34.15"
 
 # --- Initialize variables ---
 CONCEPTS_FILE="$DEFAULT_CONCEPTS_FILE"

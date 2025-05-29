@@ -1,0 +1,576 @@
+{
+  "theme_attribute_name": "Adventure Sport property",
+  "lcm_id": "5019",
+  "uuid": "a9fd487f-6909-4a93-928e-10d4d0b40795",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "1,494,454",
+  "urn": "AdventureTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "This theme is automatically assigned to properties that present a minimum of 5 onsite or nearby adventure sport type of recreation activities.",
+            "UUID": "5019",
+            "URN": "a9fd487f-6909-4a93-928e-10d4d0b40795"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "If a property provides an adequate amount of adventure sport type of activities that are not all available in Partner Central (e.g. wakeboarding), we can still include it in the Theme by selecting the THEME OVER-RIDE, ADVENTURE attribute",
+            "UUID": "5100",
+            "URN": "aaae63d2-0bba-11ea-8d71-362b9e155667"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE ADVENTURE attribute",
+            "UUID": "5089",
+            "URN": "aaae5e1e-0bba-11ea-8d71-362b9e155667"
+          }
+        ]
+      ],
+      "uuid": "a9fd487f-6909-4a93-928e-10d4d0b40795",
+      "owned_by": "Manuela Sammatrice",
+      "last_updated": "Feb 13, 2025",
+      "automation": "Yes",
+      "attribute_id": "5019",
+      "urn": "AdventureTheme"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "a9fd487f-6909-4a93-928e-10d4d0b40795",
+      "urn": "AdventureTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **5 of the following** attributes, or **4 of the following** plus **1 from the ski-related attributes** listed below.",
+      "rules": [
+        {
+          "type": "compound",
+          "description": "Properties must have **5 of the following** attributes, or **4 of the following** plus **1 from the ski-related attributes** listed below.",
+          "required_count": 5,
+          "conditions": [
+            {
+              "required_count": 5,
+              "group_name": "main_attributes"
+            },
+            {
+              "required_count": 4,
+              "group_name": "main_attributes",
+              "additional_required": 1,
+              "additional_group": "ski_attributes"
+            }
+          ],
+          "operator": "OR"
+        }
+      ],
+      "attribute_groups": [
+        {
+          "name": "main_attributes",
+          "description": "Main adventure sport attributes",
+          "attributes": [
+            {
+              "Activity": "Archery on site",
+              "AID": "1073744107",
+              "UUID": "99860516-fd73-404c-8392-4d0ddd36721f"
+            },
+            {
+              "Activity": "Bicycle on site",
+              "AID": "1073744416",
+              "UUID": "747bdac5-81bd-4c4e-85e0-f49f0ccae2e3"
+            },
+            {
+              "Activity": "Birdwatching nearby",
+              "AID": "1073744092",
+              "UUID": "87671f70-baaf-11e8-96f8-529269fb1459"
+            },
+            {
+              "Activity": "Birdwatching on site",
+              "AID": "1073744091",
+              "UUID": "87671caa-baaf-11e8-96f8-529269fb1459"
+            },
+            {
+              "Activity": "Boat and paddles on site",
+              "AID": "1073744391",
+              "UUID": "2b062286-b4cc-4ef7-b525-73145cb8b93d"
+            },
+            {
+              "Activity": "Boat on site",
+              "AID": "1073744390",
+              "UUID": "629a1235-0a55-40a4-ab26-7bdd6dcebe6f"
+            },
+            {
+              "Activity": "Boat tours nearby",
+              "AID": "4502",
+              "UUID": "81ebfce0-a01a-4cde-984a-46f2fe5d6b0e"
+            },
+            {
+              "Activity": "Boat tours on site",
+              "AID": "4503",
+              "UUID": "43a5533e-86e3-46d0-a0cf-8d5ac2b5f934"
+            },
+            {
+              "Activity": "Canoe on site",
+              "AID": "1073744393",
+              "UUID": "67905212-d841-4643-9efa-dfb0f085ccb1"
+            },
+            {
+              "Activity": "Cross-country skiing nearby",
+              "AID": "111",
+              "UUID": "f604add6-7542-4010-b25a-39c1db261e61"
+            },
+            {
+              "Activity": "Cross-country skiing on site",
+              "AID": "3837",
+              "UUID": "24294aaf-b10a-41a0-953d-f0dbb886eeb5"
+            },
+            {
+              "Activity": "Cycling nearby",
+              "AID": "1073744394",
+              "UUID": "95b08c0a-f966-4efd-93b4-9625d3640404"
+            },
+            {
+              "Activity": "Fish cleaning table",
+              "AID": "1073744395",
+              "UUID": "f6e0d9ec-342a-4be2-a067-567a27b854fc"
+            },
+            {
+              "Activity": "Fishing nearby",
+              "AID": "1073744396",
+              "UUID": "3d023c59-010b-4ffa-b5d7-8c902873905a"
+            },
+            {
+              "Activity": "Fishing on site",
+              "AID": "3810",
+              "UUID": "1cac3f04-383c-4272-90c7-9854e72bdc9c"
+            },
+            {
+              "Activity": "Free bicycles nearby",
+              "AID": "3807",
+              "UUID": "d4fa51b9-305f-457e-8d9e-f5b663cc2c76"
+            },
+            {
+              "Activity": "Free bicycles on site",
+              "AID": "3778",
+              "UUID": "77f72c24-00f7-4874-a7ef-674eaa33f219"
+            },
+            {
+              "Activity": "Game/wildlife walks nearby",
+              "AID": "1073744098",
+              "UUID": "876711f6-baaf-11e8-96f8-529269fb1459"
+            },
+            {
+              "Activity": "Game/wildlife walks on site",
+              "AID": "1073744097",
+              "UUID": "87671066-baaf-11e8-96f8-529269fb1459"
+            },
+            {
+              "Activity": "Hiking nearby",
+              "AID": "1073744399",
+              "UUID": "f9ca2277-659b-4af7-a0ee-93e48e8d6cf7"
+            },
+            {
+              "Activity": "Horse riding nearby",
+              "AID": "1073744400",
+              "UUID": "451b0edf-a9c6-4a93-be55-15652209494d"
+            },
+            {
+              "Activity": "Hunting nearby",
+              "AID": "1073744401",
+              "UUID": "5c46a305-96ee-4849-81fa-93701f2b91a7"
+            },
+            {
+              "Activity": "Hunting on site",
+              "AID": "1073744108",
+              "UUID": "8fcb1e33-1c1e-4e52-8955-9b62e8cdc97f"
+            },
+            {
+              "Activity": "Ice skating nearby",
+              "AID": "1073744402",
+              "UUID": "61f493c4-53c4-4062-b14e-a305c4c123a7"
+            },
+            {
+              "Activity": "Inflatable boat on site",
+              "AID": "1073744403",
+              "UUID": "fef45011-608d-40c1-86f7-2e70985f942f"
+            },
+            {
+              "Activity": "Jet skiing nearby",
+              "AID": "1073744404",
+              "UUID": "36f5b6f3-a686-45bb-869b-379189e6180a"
+            },
+            {
+              "Activity": "Kayak on site",
+              "AID": "1073744405",
+              "UUID": "dc9f8236-dd7e-427a-9dd7-5d0bb612afb2"
+            },
+            {
+              "Activity": "Motor boating nearby",
+              "AID": "1073744392",
+              "UUID": "7b9ce677-96e5-42ae-a5f3-30263c9fa517"
+            },
+            {
+              "Activity": "Mountain climbing nearby",
+              "AID": "1073744407",
+              "UUID": "cea1e11b-0163-4599-bf11-bb9d44c766a5"
+            },
+            {
+              "Activity": "Pedal boat on site",
+              "AID": "1073744408",
+              "UUID": "a3422cf7-f7e6-4a2c-bc8d-ed591297da17"
+            },
+            {
+              "Activity": "Ropes course on site",
+              "AID": "1073744109",
+              "UUID": "3a507dcd-e8a2-4dca-a1c9-a0e7ee9d1fd6"
+            },
+            {
+              "Activity": "Rowing or canoeing on site",
+              "AID": "3829",
+              "UUID": "30dd9d5d-59d7-43a1-a0ea-59c6219a95b1"
+            },
+            {
+              "Activity": "Sailboat on site",
+              "AID": "1073744409",
+              "UUID": "f6071d2e-8ab3-4186-b83b-70a1e0683b4a"
+            },
+            {
+              "Activity": "Snowshoeing on site",
+              "AID": "3844",
+              "UUID": "841d342e-60ab-40be-8de0-fe5a1a092980"
+            },
+            {
+              "Activity": "Surf lessons - nearby",
+              "AID": "1073744761",
+              "UUID": "0105c829-e616-4d3b-918e-3b6be2fc7fd4"
+            },
+            {
+              "Activity": "Surf lessons - onsite",
+              "AID": "1073744760",
+              "UUID": "8d3a0793-f287-4faa-a283-aa1638c1910e"
+            },
+            {
+              "Activity": "Swimming nearby",
+              "AID": "1073744413",
+              "UUID": "7f94dd9c-22e7-4771-8c88-9cb97e95748f"
+            },
+            {
+              "Activity": "Water sports equipment",
+              "AID": "1073744414",
+              "UUID": "01efa070-29d7-4b75-8c7c-1ed2f23418ee"
+            },
+            {
+              "Activity": "Water tubing nearby",
+              "AID": "1073744415",
+              "UUID": "bba23798-a192-48e5-8222-b1dde630f17b"
+            },
+            {
+              "Activity": "Ziplining nearby",
+              "AID": "5103",
+              "UUID": "2b795067-9dbc-4b09-8f6e-ef61abbbdacb"
+            },
+            {
+              "Activity": "Ziplining on site",
+              "AID": "5104",
+              "UUID": "65734060-dae1-4304-8cf9-c0cc7318e5f2"
+            },
+            {
+              "Activity": "Bicycle rentals nearby",
+              "AID": "115",
+              "UUID": "864103f6-a7f2-44cb-98a4-2045c1da1ace"
+            },
+            {
+              "Activity": "Bicycle rentals on site",
+              "AID": "3801",
+              "UUID": "266f2841-2514-4c81-9c4c-9870b82c8abc"
+            },
+            {
+              "Activity": "Cave exploring/spelunking nearby",
+              "AID": "5098",
+              "UUID": "d3b4a2be-dec5-47ca-914c-d66cd993a273"
+            },
+            {
+              "Activity": "Cave exploring/spelunking on site",
+              "AID": "5099",
+              "UUID": "22dff28f-5140-4640-8aad-980b4889d1e3"
+            },
+            {
+              "Activity": "Downhill skiing nearby",
+              "AID": "110",
+              "UUID": "769037af-df61-4654-8fc2-9238f48d2121"
+            },
+            {
+              "Activity": "Downhill skiing on site",
+              "AID": "3838",
+              "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+            },
+            {
+              "Activity": "Ecotours nearby",
+              "AID": "2357",
+              "UUID": "caa03ac7-e0a6-4d87-9a56-aab4d3d0f19a"
+            },
+            {
+              "Activity": "Ecotours on site",
+              "AID": "3809",
+              "UUID": "33351509-bbd9-4df6-b4bd-4d9d48c57536"
+            },
+            {
+              "Activity": "Helicopter/airplane tours on site",
+              "AID": "3815",
+              "UUID": "190be0d2-1a2a-4ff9-b93c-6e457f0a815d"
+            },
+            {
+              "Activity": "Hiking/biking trails nearby",
+              "AID": "347",
+              "UUID": "98da1201-0d72-43c4-88ee-035b808726c1"
+            },
+            {
+              "Activity": "Hiking/biking trails on site",
+              "AID": "3816",
+              "UUID": "2f84c2df-5f4e-4854-814e-6b1eb4ba7e4d"
+            },
+            {
+              "Activity": "Horse riding/rental on site",
+              "AID": "3817",
+              "UUID": "77822800-95a7-4f2c-8d1c-a3812bc73263"
+            },
+            {
+              "Activity": "Ice skating on site",
+              "AID": "3819",
+              "UUID": "1acf8b2c-4c68-415b-800c-e68abddaefe1"
+            },
+            {
+              "Activity": "Kayaking nearby",
+              "AID": "349",
+              "UUID": "87c86ddf-cbd9-4cd8-9251-3248fef6b682"
+            },
+            {
+              "Activity": "Kayaking on site",
+              "AID": "3820",
+              "UUID": "45a6f70b-7b7f-44a0-8944-0db33c633bc4"
+            },
+            {
+              "Activity": "Motor boating on site",
+              "AID": "3821",
+              "UUID": "9a544fa7-0781-42ce-8d21-4d7b3f7be5af"
+            },
+            {
+              "Activity": "Mountain biking nearby",
+              "AID": "2090",
+              "UUID": "ad560a0a-9d54-4f43-a368-89d95c33ab1c"
+            },
+            {
+              "Activity": "Mountain biking on site",
+              "AID": "3822",
+              "UUID": "dcb5e301-0a29-4616-8baf-500e5e54eea3"
+            },
+            {
+              "Activity": "Parasailing nearby",
+              "AID": "2087",
+              "UUID": "57567af1-c676-44c7-9894-acd65d5c48a0"
+            },
+            {
+              "Activity": "Parasailing on site",
+              "AID": "3823",
+              "UUID": "aff95079-4628-43ef-9d0c-9010f64ec5f3"
+            },
+            {
+              "Activity": "Personal motorized watercraft on site",
+              "AID": "381",
+              "UUID": "52266535-55ec-40a6-9814-915b6084b9fb"
+            },
+            {
+              "Activity": "Rafting nearby",
+              "AID": "403",
+              "UUID": "e1e27070-109d-490b-ae1f-8e458a7b1369"
+            },
+            {
+              "Activity": "Rafting on site",
+              "AID": "3827",
+              "UUID": "7a32998f-4f70-45f7-bf6c-1b7b4d0f13c9"
+            },
+            {
+              "Activity": "Rock climbing nearby",
+              "AID": "5096",
+              "UUID": "0e53f9e2-3653-4810-9bf8-cfe342dc4f6e"
+            },
+            {
+              "Activity": "Rock climbing on site",
+              "AID": "5097",
+              "UUID": "aaaf85a0-5cad-4b7e-9f6d-1f06e2241981"
+            },
+            {
+              "Activity": "Sailing nearby",
+              "AID": "350",
+              "UUID": "fe8d8a28-9201-425a-8eaa-407d6fd20dab"
+            },
+            {
+              "Activity": "Sailing on site",
+              "AID": "3831",
+              "UUID": "df7f31af-8c37-4e50-990a-05d51defa070"
+            },
+            {
+              "Activity": "Scooter/moped rentals nearby",
+              "AID": "383",
+              "UUID": "f10f994d-ea8f-40f0-8d22-96e42e3bc10b"
+            },
+            {
+              "Activity": "Scooter/moped rentals on site",
+              "AID": "3832",
+              "UUID": "30947c6e-6aa7-4758-96b7-00ff3ce5c3c0"
+            },
+            {
+              "Activity": "Scuba diving nearby",
+              "AID": "351",
+              "UUID": "5c336f63-3737-4882-9c8c-6a19eb1801b3"
+            },
+            {
+              "Activity": "Scuba diving on site",
+              "AID": "3833",
+              "UUID": "4effd794-ac13-45de-a44d-4fd3943a8c42"
+            },
+            {
+              "Activity": "Segway rental/tour nearby",
+              "AID": "3927",
+              "UUID": "21bf6777-17ed-4831-88ef-92d6b719f37e"
+            },
+            {
+              "Activity": "Segway rental/tour on site",
+              "AID": "3926",
+              "UUID": "3a8c0dfc-f71f-4b28-a7cc-3f742a47a957"
+            },
+            {
+              "Activity": "Skydiving nearby",
+              "AID": "2093",
+              "UUID": "6d7b6457-4bfc-4d2a-ae6e-834a694c912e"
+            },
+            {
+              "Activity": "Skydiving on site",
+              "AID": "3839",
+              "UUID": "044134c9-b625-4b10-a848-b914d693e53a"
+            },
+            {
+              "Activity": "Sledding nearby",
+              "AID": "4401",
+              "UUID": "d31e2460-6be6-4982-baf3-ea5e56d4d049"
+            },
+            {
+              "Activity": "Sledding on site",
+              "AID": "4400",
+              "UUID": "0cf5bc72-f09b-41d2-830a-9618f95bed6c"
+            },
+            {
+              "Activity": "Snorkeling nearby",
+              "AID": "103",
+              "UUID": "1a8b9aa5-b75b-4f6e-bc98-0581df7cc7f6"
+            },
+            {
+              "Activity": "Snorkeling on site",
+              "AID": "3840",
+              "UUID": "f5e96c22-da58-49b0-90d1-a072b14473f3"
+            },
+            {
+              "Activity": "Snow tubing nearby",
+              "AID": "4405",
+              "UUID": "e43a704b-c4b3-47f4-a2d9-36bd4bf195d2"
+            },
+            {
+              "Activity": "Snow tubing on site",
+              "AID": "4404",
+              "UUID": "ea136850-a03e-4ea2-a79b-e1465fa3bf7b"
+            },
+            {
+              "Activity": "Snowboarding nearby",
+              "AID": "2146",
+              "UUID": "90e60e82-8054-45cd-854e-a696e0a6096b"
+            },
+            {
+              "Activity": "Snowboarding on site",
+              "AID": "3842",
+              "UUID": "3971cf50-528a-4a6f-89aa-d1e472663b8e"
+            },
+            {
+              "Activity": "Snowmobiling nearby",
+              "AID": "2089",
+              "UUID": "90402b6a-fa9f-4f2a-af5c-dd9159743979"
+            },
+            {
+              "Activity": "Snowmobiling on site",
+              "AID": "3843",
+              "UUID": "a38c9872-46de-4131-beb5-2f5bc985d3ba"
+            },
+            {
+              "Activity": "Snowshoeing nearby",
+              "AID": "2092",
+              "UUID": "901ae604-d6bb-44c0-8be3-77961a840d99"
+            },
+            {
+              "Activity": "Surfing/boogie boarding nearby",
+              "AID": "106",
+              "UUID": "4f56a359-46c5-44c9-8ae6-189373941daa"
+            },
+            {
+              "Activity": "Surfing/boogie boarding on site",
+              "AID": "3846",
+              "UUID": "fda90203-a761-48d1-b781-89657a26bbb6"
+            },
+            {
+              "Activity": "Water skiing nearby",
+              "AID": "356",
+              "UUID": "4ab1c557-8982-4be3-a627-9141373ab135"
+            },
+            {
+              "Activity": "Water skiing on site",
+              "AID": "3852",
+              "UUID": "491f0ec8-bf79-4669-8fb4-2eaeec74ccf5"
+            },
+            {
+              "Activity": "Windsurfing nearby",
+              "AID": "2094",
+              "UUID": "a7f142da-1bdd-4013-ae05-9b33da39ec67"
+            },
+            {
+              "Activity": "Windsurfing on site",
+              "AID": "3854",
+              "UUID": "08c6c2bb-4170-43a5-b678-d01466c8543e"
+            }
+          ]
+        },
+        {
+          "name": "ski_attributes",
+          "description": "Ski-related attributes",
+          "attributes": [
+            {
+              "Activity": "Ski lessons nearby",
+              "AID": "2360",
+              "UUID": "aaf52aef-f5de-4cf2-af5d-9a126ea3ac37"
+            },
+            {
+              "Activity": "Ski lessons on site",
+              "AID": "3836",
+              "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+            },
+            {
+              "Activity": "Ski rentals nearby",
+              "AID": "2362",
+              "UUID": "03be3a63-876f-4664-a8b2-f9878689046d"
+            },
+            {
+              "Activity": "Ski rentals on site",
+              "AID": "3835",
+              "UUID": "1e31114d-68a6-49cc-a13e-71df9ef22385"
+            }
+          ]
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

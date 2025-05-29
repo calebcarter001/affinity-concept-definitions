@@ -1,0 +1,79 @@
+{
+  "theme_attribute_name": "Winery property",
+  "lcm_id": "5020",
+  "uuid": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "5,546",
+  "urn": "WineryTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "5020",
+            "UUID": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+            "Description": "This theme is automatically assigned to properties that have an on-site winery/vineyard"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "1073742912",
+            "UUID": "aaae9780-0bba-11ea-8d71-362b9e155667",
+            "Description": "If a property is located nearby a winery, we can include it in the theme by adding the THEME OVER-RIDE, WINERY attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744269",
+            "UUID": "aaaeaff4-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER RIDE, REMOVE WINERY attribute"
+          }
+        ]
+      ],
+      "uuid": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "Yes",
+      "attribute_id": "5020"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+      "urn": "WineryTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **either**:\n- A winery attached **OR**",
+      "rules": [
+        {
+          "type": "alternative",
+          "description": "Winery attached OR Both vineyard + tasting room"
+        }
+      ],
+      "single_requirements": [],
+      "combined_requirements": [
+        {
+          "Attribute": "Winery attached",
+          "AID": "4025",
+          "UUID": "1cacffb8-8ddf-4db1-a296-5725d63cc8aa"
+        },
+        {
+          "Attribute": "Vineyard",
+          "AID": "1073744072",
+          "UUID": "f7701dcf-478b-4368-b1fc-a11ecb99941e"
+        },
+        {
+          "Attribute": "Tasting Room",
+          "AID": "1073744073",
+          "UUID": "16aed81e-77c7-4f34-92c1-a1d2adb5c52e"
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

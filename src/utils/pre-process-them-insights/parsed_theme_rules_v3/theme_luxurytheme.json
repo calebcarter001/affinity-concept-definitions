@@ -1,0 +1,93 @@
+{
+  "theme_attribute_name": "Luxury property",
+  "lcm_id": "2337",
+  "uuid": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "28,595",
+  "urn": "LuxuryTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2337",
+            "UUID": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+            "URN": "LuxuryTheme",
+            "Description": "This theme is automatically assigned to properties meeting one of the below requirements: <br> - Property has 5 stars <br> - Property has 4.5 stars <br> - Property has 4 stars AND at least 1 of the Awards and Affiliations attributes below"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "5010",
+            "UUID": "aaae5838-0bba-11ea-8d71-362b9e155667",
+            "URN": "LuxuryTheme:AuthorizedManualAddition",
+            "Description": "If a property has a luxury feeling and provides upscale services, but is rated less than 4.5 stars because of an official rating, we can still include it in the Theme by selecting the THEME OVER-RIDE, LUXURY attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "5016",
+            "UUID": "aaae5aa4-0bba-11ea-8d71-362b9e155667",
+            "URN": "LuxuryTheme:AuthorizedManualRemoval",
+            "Description": "Properties assigned the following Structure Types are not considered for the theme: Motel, Hostel/Backpacker, Hostal, Pousada (Brazil), Campsite, Capsule hotel. <br> Select the THEME OVER-RIDE, REMOVE LUXURY attribute when: <br> - Partners request not being included in the Theme filter <br> - A property has an official rating of 4.5 or 5 stars, but does not present upscale decor and services"
+          }
+        ]
+      ],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "Property has 5 stars",
+          "star_requirements": [
+            5.0
+          ]
+        },
+        {
+          "type": "simple",
+          "description": "Property has 4.5 stars",
+          "star_requirements": [
+            4.5
+          ]
+        },
+        {
+          "type": "simple",
+          "description": "Property has 4 stars",
+          "star_requirements": [
+            4.0
+          ]
+        },
+        {
+          "type": "simple",
+          "description": "property has a luxury feeling"
+        },
+        {
+          "type": "simple",
+          "description": "property has an official rating of 4.5"
+        }
+      ],
+      "uuid": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+      "owned_by": "Aurelie Bray",
+      "automation": "Yes",
+      "attribute_id": "2337",
+      "urn": "LuxuryTheme"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+      "urn": "LuxuryTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "",
+      "rules": [],
+      "attribute_groups": [],
+      "attributes": []
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

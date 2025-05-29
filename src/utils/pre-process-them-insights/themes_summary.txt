@@ -1,0 +1,58 @@
+## Themes Info
+
+**Owned by:** Manuela Sammatrice  
+**Last updated:** Mar 24, 2025  
+**Version comment:** 56 people viewed  
+**Editor:** Legacy editor
+
+### General Info
+Themes (also known as Internal Themes) are used to match a certain type of traveler with a certain type of property.  
+- We currently have a total of **18 Themes** and a property can have multiple themes.
+
+### Themes Definitions
+See each Theme definition and info on qualifying properties at the bottom of this page.
+
+### When are themes assigned?
+- At **Onboarding stage**
+- Via **Maintenance cases**: MMs and hotel partners can send requests post-onboarding
+- Via **Auto-Scripts**: automatically added/removed based on specific qualifying attributes (applicable to automated themes)
+- **Periodic Theme audits** might also take place
+
+### How do Themes affect online content?
+- They help property search via **filters**
+- Can appear on properties **taglines** and/or as **CGS text** in the **About this property** section of the PDP
+
+### Where are Themes found in Partner Central?
+- They are found in **Property Details > Attribute Administration** (search via attribute name)
+
+### Partner-Selected "Themes"
+**What are Partner-Selected "Themes"?**  
+*To be defined*
+
+## Themes Definitions
+
+| # | Theme Attribute Name | Attribute LCM ID | UUID | URN | Theme Automation | Examples EIDs | Live site filter (as of early 2024) | # Properties (as of early 2024) |
+|---|----------------------|------------------|------|-----|------------------|---------------|------------------------------------|-------------------------------|
+| 1 | Adventure Sport property | 5019 | a9fd487f-6909-4a93-928e-10d4d0b40795 | AdventureTheme | Yes | 30, 34, 100 | No | 1,494,454 |
+| 2 | Beach property | 2325 | 0e16d0fe-9b44-4d15-be9a-2aeb4cdf85e9 | BeachTheme | Yes | 64, 194, 299 | No | 283,151 |
+| 3 | Boutique property | 5022 | f81df649-263c-4692-a94f-035a97228296 | BoutiqueTheme | No | 217, 308, 439 | No | 5,116 |
+| 4 | Business property | 2328 | 105097f8-99ef-4a90-a101-50bb879ad0e8 | BusinessTheme | Yes | 23, 24, 30 | Yes | 178,940 |
+| 5 | Casino property | 2329 | 9828bcaa-5510-43e5-aa91-4a150fe2a69c | CasinoTheme | Yes | 19, 20, 963 | No | 4,430 |
+| 6 | Eco-certified property | 2332 | c94b49e5-9668-4a51-89a4-d28bb9daf02f | EcoCertifiedTheme | Yes | 152, 634, 1561 | Yes | 8,018 |
+| 6 | Family property | 2333 | 1cba277b-2dfc-4af7-958b-b779fcaff6a6 | FamilyTheme | Yes | 30, 60, 2011 | Yes | 124,028 |
+| 7 | Golf property | 2334 | 906c3535-eff7-4938-904c-6e31c4d1f3bf | GolfTheme | Yes | 2227, 2339, 2924 | No | 190,341 |
+| 9 | Historic property | 5002 | f06f2ea3-1370-4bce-817e-5ea0b8086430 | HistoricTheme | No | 2737193, 1527126, 1559055 | No | 1,326 |
+| 10 | Hot Springs property | 5001 | 76955f80-4619-4355-b9e9-ed2badba4750 | HotSpringTheme | Yes | 2030, 21123, 41895 | No | 12,533 |
+| 11 | LGBTQ friendly* | 1073744692 | 0af09aac-3eb2-4a24-88d3-6465735a1409 | LGBTQIAWelcoming | No | 69551553, 205, 19111942 | Yes | 49,740 |
+| 12 | Luxury property | 2337 | 10b96a2d-83ee-40ba-b015-c556d1d8f2ce | LuxuryTheme | Yes | 463, 7365, 21308 | No | 28,595 |
+| 13 | Pet-Friendly property | 2338 | a24cc39e-d87e-4cd7-8d19-c728cec9c03f | PetTheme | Yes | 70, 37, 2714 | No | 1,914,421 |
+| 14 | Romantic property | 2339 | 38a65de8-8007-44c0-b7f8-fd939623a8b1 | RomanticTheme | No | 3918402, 15486, 4493843 | No | 437 |
+| 15 | Shopping property | 5018 | d1b317b1-0fb5-42a0-b3d0-30940f573ab1 | ShoppingTheme | No | 74, 87, 3879 | No | 12,286 |
+| 16 | Ski property | 4012 | 997c89cc-a810-4c26-8b7d-4908e7b73ca5 | SkiTheme | Yes | 34, 19305, 860350 | No | 143,380 |
+| 17 | Spa property | 2341 | 1468a957-60eb-468e-ab62-000b551a571b | SpaTheme | Yes | 75, 1703, 2126 | No | 54,962 |
+| 18 | Winery property | 5020 | 08874f6f-d0a5-4a0e-a7ca-51da13b7cbed | WineryTheme | Yes | 113099, 442404, 82197 | No | 5,546 |
+
+**Note:** *LGBTQ friendly* - Added externally as well as internally
+
+### Override Options
+51,135

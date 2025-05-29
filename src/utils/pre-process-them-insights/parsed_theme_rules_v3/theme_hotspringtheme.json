@@ -1,0 +1,94 @@
+{
+  "theme_attribute_name": "Hot Springs property",
+  "lcm_id": "5001",
+  "uuid": "76955f80-4619-4355-b9e9-ed2badba4750",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "12,533",
+  "urn": "HotSpringTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "5001",
+            "UUID": "76955f80-4619-4355-b9e9-ed2badba4750",
+            "Description": "This theme is automatically assigned to properties with natural hot springs on-site or within a short walking distance"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "1073742913",
+            "UUID": "aaae98d4-0bba-11ea-8d71-362b9e155667",
+            "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, HOT SPRINGS attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744268",
+            "UUID": "aaaeaec8-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE HOT SPRINGS attribute"
+          }
+        ]
+      ],
+      "owned_by": "Manuela Sammatrice",
+      "automation": "Yes",
+      "attribute_id": "5001",
+      "uuid": "76955f80-4619-4355-b9e9-ed2badba4750"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "76955f80-4619-4355-b9e9-ed2badba4750",
+      "urn": "HotSpringTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+      "attributes": [
+        {
+          "Attribute": "Hot springs/mineral springs",
+          "AID": "3613",
+          "UUID": "ba6701d2-91de-42c8-875e-833fe4f34577"
+        },
+        {
+          "Attribute": "Recreation-Hot springs on site",
+          "AID": "5004",
+          "UUID": "5db005da-6c73-4827-b3aa-61d78745d045"
+        },
+        {
+          "Attribute": "Recreation-Hot springs nearby",
+          "AID": "5005",
+          "UUID": "7f13820b-7176-4fce-8b9d-fc46cf1ef22c"
+        },
+        {
+          "Attribute": "Mineral hot springs-Indoor",
+          "AID": "1073743418",
+          "UUID": "14e7b62a-ae44-4eac-a1d6-e80743cd0690"
+        },
+        {
+          "Attribute": "Mineral hot springs-Outdoor",
+          "AID": "1073743419",
+          "UUID": "75e346cc-029c-4589-be09-ece4e8340a6d"
+        },
+        {
+          "Attribute": "Number of hot springs -",
+          "AID": "1073744079",
+          "UUID": "0ba0600d-0f8b-48c8-91e9-f80c4dc3f198"
+        }
+      ],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "Properties must have **1 of the following** attributes:",
+          "required_count": 1
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

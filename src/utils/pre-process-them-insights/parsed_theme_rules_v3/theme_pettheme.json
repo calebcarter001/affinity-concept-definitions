@@ -1,0 +1,105 @@
+{
+  "theme_attribute_name": "Pet-Friendly property",
+  "lcm_id": "2338",
+  "uuid": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "1,914,421",
+  "urn": "PetTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2338",
+            "UUID": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+            "Description": "This theme is automatically assigned to properties that allow pets onsite. To qualify for theme, properties must have at least one pet-related qualifying attributes as described below"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "1073744266",
+            "UUID": "aaaeac16-0bba-11ea-8d71-362b9e155667",
+            "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, PETS attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744267",
+            "UUID": "aaaead88-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE PETS attribute. Properties where pets are not allowed - see below"
+          }
+        ]
+      ],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "properties must have at least one pet-related qualifying attributes as described below"
+        },
+        {
+          "type": "simple",
+          "description": "must have at least one pet-related qualifying attributes as described below"
+        }
+      ],
+      "uuid": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+      "owned_by": "Aurelie Bray",
+      "automation": "Yes",
+      "attribute_id": "2338"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+      "urn": "PetTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+      "attributes": [
+        {
+          "Attribute": "Pets allowed",
+          "AID": "51",
+          "UUID": "b50c4c0b-a922-49b1-8869-61fa486011da"
+        },
+        {
+          "Attribute": "Maximum number of pets per room",
+          "AID": "2811",
+          "UUID": "aab19b53-bcc2-4190-9999-71a87d12b3c3"
+        },
+        {
+          "Attribute": "KBYG-PetsAllowed-SpecificRms",
+          "AID": "3362",
+          "UUID": "4359b715-b827-4fd6-8fd3-2db4cd7af750"
+        },
+        {
+          "Attribute": "KBYG-PetsAllowed-SmokingRms",
+          "AID": "3363",
+          "UUID": "8317d689-c460-4043-81ef-9ae18e7d45af"
+        },
+        {
+          "Attribute": "Pets allowed (no fees)",
+          "AID": "1073742807",
+          "UUID": "d738d06b-eb15-4262-966b-018b8aea9f43"
+        }
+      ],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "Properties must have **1 of the following** attributes:",
+          "required_count": 1
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": [
+        {
+          "Attribute": "Pets not allowed",
+          "AID": "2050",
+          "UUID": "678bce70-eb09-4548-8d6b-1773c89998ae"
+        }
+      ]
+    },
+    "special_sections": {}
+  }
+}

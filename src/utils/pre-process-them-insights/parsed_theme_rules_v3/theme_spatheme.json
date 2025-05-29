@@ -1,0 +1,197 @@
+{
+  "theme_attribute_name": "Spa property",
+  "lcm_id": "2341",
+  "uuid": "1468a957-60eb-468e-ab62-000b551a571b",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "54,962",
+  "urn": "SpaTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2341",
+            "UUID": "1468a957-60eb-468e-ab62-000b551a571b",
+            "Description": "This theme is automatically assigned to properties that have a full spa or that offer a minimum of 5 from the qualifying attributes as described below"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "1073743273",
+            "UUID": "aaae9d0c-0bba-11ea-8d71-362b9e155667",
+            "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, SPA attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744128",
+            "UUID": "aaaea3a6-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE SPA attribute"
+          }
+        ]
+      ],
+      "uuid": "1468a957-60eb-468e-ab62-000b551a571b",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "Yes",
+      "attribute_id": "2341"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "1468a957-60eb-468e-ab62-000b551a571b",
+      "urn": "SpaTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **either**:\n- A full-service spa **OR**\n- **2 of the following** attributes **AND** **3 of the additional attributes** listed below",
+      "rules": [
+        {
+          "type": "alternative",
+          "description": "Full-service spa OR 2 primary + 3 additional attributes"
+        }
+      ],
+      "full_service_spa": [
+        {
+          "Attribute": "Full-service spa",
+          "AID": "2123",
+          "UUID": "37c48555-753d-49ef-a4ee-ed80dcf3576e"
+        }
+      ],
+      "primary_attributes": [
+        {
+          "Attribute": "Spa treatment room(s) - Must have at least 2",
+          "AID": "2129",
+          "UUID": "ee79b222-b54f-4b58-b27c-1d6e5b20a3bb"
+        },
+        {
+          "Attribute": "Sauna in spa",
+          "AID": "3603",
+          "UUID": "9d9f9a79-1648-4385-919e-680c75dc1578"
+        },
+        {
+          "Attribute": "Spa tub in spa",
+          "AID": "3604",
+          "UUID": "884f2e94-13a7-49c5-b360-2af081eb1eed"
+        },
+        {
+          "Attribute": "Hot springs/mineral springs in spa",
+          "AID": "3613",
+          "UUID": "ba6701d2-91de-42c8-875e-833fe4f34577"
+        },
+        {
+          "Attribute": "Mud bath in spa",
+          "AID": "3600",
+          "UUID": "530d94c5-e317-4a13-b296-6c3e5277d8bc"
+        },
+        {
+          "Attribute": "Turkish bath/Hammam",
+          "AID": "3601",
+          "UUID": "d5c351cb-06f2-47fa-99cd-e866da134705"
+        },
+        {
+          "Attribute": "Steam room in spa",
+          "AID": "6133",
+          "UUID": "810c5c26-9e6a-4d43-b63b-5007fcec6ab2"
+        },
+        {
+          "Attribute": "Number of treatment rooms",
+          "AID": "3589",
+          "UUID": "da4cdd51-ed5f-42f2-ae6e-02ce65ec19d1"
+        },
+        {
+          "Attribute": "Outdoor treatment areas",
+          "AID": "3590",
+          "UUID": "0a42fd86-f8f2-4d73-acef-971f9fcb5947"
+        },
+        {
+          "Attribute": "Couples treatment rooms",
+          "AID": "3591",
+          "UUID": "451c47da-8759-4b05-a169-525f53994656"
+        },
+        {
+          "Attribute": "Indoor mineral hot springs (Japanese-style onsen)",
+          "AID": "1073743418",
+          "UUID": "14e7b62a-ae44-4eac-a1d6-e80743cd0690"
+        },
+        {
+          "Attribute": "Outdoor private mineral hot springs (Japanese-style onsen)",
+          "AID": "1073743419",
+          "UUID": "75e346cc-029c-4589-be09-ece4e8340a6d"
+        }
+      ],
+      "additional_attributes": [
+        {
+          "Attribute": "Body scrubs",
+          "AID": "3595",
+          "UUID": "38c17974-7c97-4e6c-9766-624e1f66b63a"
+        },
+        {
+          "Attribute": "Body wraps",
+          "AID": "3594",
+          "UUID": "0b0e1bf3-f47d-4fbf-944e-4843fa752e7c"
+        },
+        {
+          "Attribute": "Body treatments",
+          "AID": "2346",
+          "UUID": "0313ba31-aa8a-4b6a-ab25-058e03492990"
+        },
+        {
+          "Attribute": "Facial treatments",
+          "AID": "2347",
+          "UUID": "ad95cf21-937c-4c58-8d41-7b7767b7bf45"
+        },
+        {
+          "Attribute": "Manicures and pedicures",
+          "AID": "3593",
+          "UUID": "7c1d7634-89d8-4836-80eb-efed2fbe5ef4"
+        },
+        {
+          "Attribute": "Massages",
+          "AID": "3615",
+          "UUID": "31e64a53-c890-4cdc-91b3-d9ceb1e306cf"
+        },
+        {
+          "Attribute": "Massages on beach",
+          "AID": "3592",
+          "UUID": "df6af7d9-426d-4895-abd9-59163bf76e0c"
+        },
+        {
+          "Attribute": "Aromatherapy treatments",
+          "AID": "3596",
+          "UUID": "a28de2ce-5cb5-461c-bb77-97d91828e5cf"
+        },
+        {
+          "Attribute": "Ayurvedic Treatments",
+          "AID": "3599",
+          "UUID": "f49cec71-2b3e-4277-b4d5-b8e0d2669c8e"
+        },
+        {
+          "Attribute": "Hydrotherapy treatments",
+          "AID": "3598",
+          "UUID": "e626b09e-9e5f-4eec-909a-6fa1e2e3c832"
+        },
+        {
+          "Attribute": "Thalassotherapy treatments",
+          "AID": "3597",
+          "UUID": "6bdfd4b1-d6db-476a-8786-3a44c190e171"
+        },
+        {
+          "Attribute": "Reflexology",
+          "AID": "6135",
+          "UUID": "293ce586-23c4-475b-afd8-6463fcf011bd"
+        },
+        {
+          "Attribute": "Detoxification wrap",
+          "AID": "6138",
+          "UUID": "e22ce20a-1b16-4cdb-83b0-e70d4a4dbf2a"
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

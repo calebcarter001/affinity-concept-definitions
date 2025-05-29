@@ -1,0 +1,1577 @@
+UUID to URI Mapping
+==================
+
+
+Adventure Sport property
+------------------------
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[34]
+UUID: 0105c829-e616-4d3b-918e-3b6be2fc7fd4
+URI:  urn:expediagroup:taxonomies:acs:#0105c829-e616-4d3b-918e-3b6be2fc7fd4
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[37]
+UUID: 01efa070-29d7-4b75-8c7c-1ed2f23418ee
+URI:  urn:expediagroup:taxonomies:acs:#01efa070-29d7-4b75-8c7c-1ed2f23418ee
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[1]/attributes[2]
+UUID: 03be3a63-876f-4664-a8b2-f9878689046d
+URI:  urn:expediagroup:taxonomies:acs:#03be3a63-876f-4664-a8b2-f9878689046d
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[75]
+UUID: 044134c9-b625-4b10-a848-b914d693e53a
+URI:  urn:expediagroup:taxonomies:acs:#044134c9-b625-4b10-a848-b914d693e53a
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[92]
+UUID: 08c6c2bb-4170-43a5-b678-d01466c8543e
+URI:  urn:expediagroup:taxonomies:acs:#08c6c2bb-4170-43a5-b678-d01466c8543e
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[77]
+UUID: 0cf5bc72-f09b-41d2-830a-9618f95bed6c
+URI:  urn:expediagroup:taxonomies:acs:#0cf5bc72-f09b-41d2-830a-9618f95bed6c
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[64]
+UUID: 0e53f9e2-3653-4810-9bf8-cfe342dc4f6e
+URI:  urn:expediagroup:taxonomies:acs:#0e53f9e2-3653-4810-9bf8-cfe342dc4f6e
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[1]/attributes[1]
+UUID: 18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+URI:  urn:expediagroup:taxonomies:acs:#18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[49]
+UUID: 190be0d2-1a2a-4ff9-b93c-6e457f0a815d
+URI:  urn:expediagroup:taxonomies:acs:#190be0d2-1a2a-4ff9-b93c-6e457f0a815d
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[78]
+UUID: 1a8b9aa5-b75b-4f6e-bc98-0581df7cc7f6
+URI:  urn:expediagroup:taxonomies:acs:#1a8b9aa5-b75b-4f6e-bc98-0581df7cc7f6
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[53]
+UUID: 1acf8b2c-4c68-415b-800c-e68abddaefe1
+URI:  urn:expediagroup:taxonomies:acs:#1acf8b2c-4c68-415b-800c-e68abddaefe1
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[14]
+UUID: 1cac3f04-383c-4272-90c7-9854e72bdc9c
+URI:  urn:expediagroup:taxonomies:acs:#1cac3f04-383c-4272-90c7-9854e72bdc9c
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[1]/attributes[3]
+UUID: 1e31114d-68a6-49cc-a13e-71df9ef22385
+URI:  urn:expediagroup:taxonomies:acs:#1e31114d-68a6-49cc-a13e-71df9ef22385
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[46]
+UUID: 210b4a85-945c-4350-8f51-4b58ec54f25b
+URI:  urn:expediagroup:taxonomies:acs:#210b4a85-945c-4350-8f51-4b58ec54f25b
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[72]
+UUID: 21bf6777-17ed-4831-88ef-92d6b719f37e
+URI:  urn:expediagroup:taxonomies:acs:#21bf6777-17ed-4831-88ef-92d6b719f37e
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[44]
+UUID: 22dff28f-5140-4640-8aad-980b4889d1e3
+URI:  urn:expediagroup:taxonomies:acs:#22dff28f-5140-4640-8aad-980b4889d1e3
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[10]
+UUID: 24294aaf-b10a-41a0-953d-f0dbb886eeb5
+URI:  urn:expediagroup:taxonomies:acs:#24294aaf-b10a-41a0-953d-f0dbb886eeb5
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[42]
+UUID: 266f2841-2514-4c81-9c4c-9870b82c8abc
+URI:  urn:expediagroup:taxonomies:acs:#266f2841-2514-4c81-9c4c-9870b82c8abc
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[4]
+UUID: 2b062286-b4cc-4ef7-b525-73145cb8b93d
+URI:  urn:expediagroup:taxonomies:acs:#2b062286-b4cc-4ef7-b525-73145cb8b93d
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[39]
+UUID: 2b795067-9dbc-4b09-8f6e-ef61abbbdacb
+URI:  urn:expediagroup:taxonomies:acs:#2b795067-9dbc-4b09-8f6e-ef61abbbdacb
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[51]
+UUID: 2f84c2df-5f4e-4854-814e-6b1eb4ba7e4d
+URI:  urn:expediagroup:taxonomies:acs:#2f84c2df-5f4e-4854-814e-6b1eb4ba7e4d
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[69]
+UUID: 30947c6e-6aa7-4758-96b7-00ff3ce5c3c0
+URI:  urn:expediagroup:taxonomies:acs:#30947c6e-6aa7-4758-96b7-00ff3ce5c3c0
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[31]
+UUID: 30dd9d5d-59d7-43a1-a0ea-59c6219a95b1
+URI:  urn:expediagroup:taxonomies:acs:#30dd9d5d-59d7-43a1-a0ea-59c6219a95b1
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[48]
+UUID: 33351509-bbd9-4df6-b4bd-4d9d48c57536
+URI:  urn:expediagroup:taxonomies:acs:#33351509-bbd9-4df6-b4bd-4d9d48c57536
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[25]
+UUID: 36f5b6f3-a686-45bb-869b-379189e6180a
+URI:  urn:expediagroup:taxonomies:acs:#36f5b6f3-a686-45bb-869b-379189e6180a
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[83]
+UUID: 3971cf50-528a-4a6f-89aa-d1e472663b8e
+URI:  urn:expediagroup:taxonomies:acs:#3971cf50-528a-4a6f-89aa-d1e472663b8e
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[30]
+UUID: 3a507dcd-e8a2-4dca-a1c9-a0e7ee9d1fd6
+URI:  urn:expediagroup:taxonomies:acs:#3a507dcd-e8a2-4dca-a1c9-a0e7ee9d1fd6
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[73]
+UUID: 3a8c0dfc-f71f-4b28-a7cc-3f742a47a957
+URI:  urn:expediagroup:taxonomies:acs:#3a8c0dfc-f71f-4b28-a7cc-3f742a47a957
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[13]
+UUID: 3d023c59-010b-4ffa-b5d7-8c902873905a
+URI:  urn:expediagroup:taxonomies:acs:#3d023c59-010b-4ffa-b5d7-8c902873905a
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[7]
+UUID: 43a5533e-86e3-46d0-a0cf-8d5ac2b5f934
+URI:  urn:expediagroup:taxonomies:acs:#43a5533e-86e3-46d0-a0cf-8d5ac2b5f934
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[20]
+UUID: 451b0edf-a9c6-4a93-be55-15652209494d
+URI:  urn:expediagroup:taxonomies:acs:#451b0edf-a9c6-4a93-be55-15652209494d
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[55]
+UUID: 45a6f70b-7b7f-44a0-8944-0db33c633bc4
+URI:  urn:expediagroup:taxonomies:acs:#45a6f70b-7b7f-44a0-8944-0db33c633bc4
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[90]
+UUID: 491f0ec8-bf79-4669-8fb4-2eaeec74ccf5
+URI:  urn:expediagroup:taxonomies:acs:#491f0ec8-bf79-4669-8fb4-2eaeec74ccf5
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[89]
+UUID: 4ab1c557-8982-4be3-a627-9141373ab135
+URI:  urn:expediagroup:taxonomies:acs:#4ab1c557-8982-4be3-a627-9141373ab135
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[71]
+UUID: 4effd794-ac13-45de-a44d-4fd3943a8c42
+URI:  urn:expediagroup:taxonomies:acs:#4effd794-ac13-45de-a44d-4fd3943a8c42
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[87]
+UUID: 4f56a359-46c5-44c9-8ae6-189373941daa
+URI:  urn:expediagroup:taxonomies:acs:#4f56a359-46c5-44c9-8ae6-189373941daa
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[61]
+UUID: 52266535-55ec-40a6-9814-915b6084b9fb
+URI:  urn:expediagroup:taxonomies:acs:#52266535-55ec-40a6-9814-915b6084b9fb
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[59]
+UUID: 57567af1-c676-44c7-9894-acd65d5c48a0
+URI:  urn:expediagroup:taxonomies:acs:#57567af1-c676-44c7-9894-acd65d5c48a0
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[70]
+UUID: 5c336f63-3737-4882-9c8c-6a19eb1801b3
+URI:  urn:expediagroup:taxonomies:acs:#5c336f63-3737-4882-9c8c-6a19eb1801b3
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[21]
+UUID: 5c46a305-96ee-4849-81fa-93701f2b91a7
+URI:  urn:expediagroup:taxonomies:acs:#5c46a305-96ee-4849-81fa-93701f2b91a7
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[23]
+UUID: 61f493c4-53c4-4062-b14e-a305c4c123a7
+URI:  urn:expediagroup:taxonomies:acs:#61f493c4-53c4-4062-b14e-a305c4c123a7
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[5]
+UUID: 629a1235-0a55-40a4-ab26-7bdd6dcebe6f
+URI:  urn:expediagroup:taxonomies:acs:#629a1235-0a55-40a4-ab26-7bdd6dcebe6f
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[40]
+UUID: 65734060-dae1-4304-8cf9-c0cc7318e5f2
+URI:  urn:expediagroup:taxonomies:acs:#65734060-dae1-4304-8cf9-c0cc7318e5f2
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[8]
+UUID: 67905212-d841-4643-9efa-dfb0f085ccb1
+URI:  urn:expediagroup:taxonomies:acs:#67905212-d841-4643-9efa-dfb0f085ccb1
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[74]
+UUID: 6d7b6457-4bfc-4d2a-ae6e-834a694c912e
+URI:  urn:expediagroup:taxonomies:acs:#6d7b6457-4bfc-4d2a-ae6e-834a694c912e
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[1]
+UUID: 747bdac5-81bd-4c4e-85e0-f49f0ccae2e3
+URI:  urn:expediagroup:taxonomies:acs:#747bdac5-81bd-4c4e-85e0-f49f0ccae2e3
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[45]
+UUID: 769037af-df61-4654-8fc2-9238f48d2121
+URI:  urn:expediagroup:taxonomies:acs:#769037af-df61-4654-8fc2-9238f48d2121
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[52]
+UUID: 77822800-95a7-4f2c-8d1c-a3812bc73263
+URI:  urn:expediagroup:taxonomies:acs:#77822800-95a7-4f2c-8d1c-a3812bc73263
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[16]
+UUID: 77f72c24-00f7-4874-a7ef-674eaa33f219
+URI:  urn:expediagroup:taxonomies:acs:#77f72c24-00f7-4874-a7ef-674eaa33f219
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[63]
+UUID: 7a32998f-4f70-45f7-bf6c-1b7b4d0f13c9
+URI:  urn:expediagroup:taxonomies:acs:#7a32998f-4f70-45f7-bf6c-1b7b4d0f13c9
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[27]
+UUID: 7b9ce677-96e5-42ae-a5f3-30263c9fa517
+URI:  urn:expediagroup:taxonomies:acs:#7b9ce677-96e5-42ae-a5f3-30263c9fa517
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[36]
+UUID: 7f94dd9c-22e7-4771-8c88-9cb97e95748f
+URI:  urn:expediagroup:taxonomies:acs:#7f94dd9c-22e7-4771-8c88-9cb97e95748f
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[6]
+UUID: 81ebfce0-a01a-4cde-984a-46f2fe5d6b0e
+URI:  urn:expediagroup:taxonomies:acs:#81ebfce0-a01a-4cde-984a-46f2fe5d6b0e
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[33]
+UUID: 841d342e-60ab-40be-8de0-fe5a1a092980
+URI:  urn:expediagroup:taxonomies:acs:#841d342e-60ab-40be-8de0-fe5a1a092980
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[41]
+UUID: 864103f6-a7f2-44cb-98a4-2045c1da1ace
+URI:  urn:expediagroup:taxonomies:acs:#864103f6-a7f2-44cb-98a4-2045c1da1ace
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[18]
+UUID: 87671066-baaf-11e8-96f8-529269fb1459
+URI:  urn:expediagroup:taxonomies:acs:#87671066-baaf-11e8-96f8-529269fb1459
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[17]
+UUID: 876711f6-baaf-11e8-96f8-529269fb1459
+URI:  urn:expediagroup:taxonomies:acs:#876711f6-baaf-11e8-96f8-529269fb1459
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[3]
+UUID: 87671caa-baaf-11e8-96f8-529269fb1459
+URI:  urn:expediagroup:taxonomies:acs:#87671caa-baaf-11e8-96f8-529269fb1459
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[2]
+UUID: 87671f70-baaf-11e8-96f8-529269fb1459
+URI:  urn:expediagroup:taxonomies:acs:#87671f70-baaf-11e8-96f8-529269fb1459
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[54]
+UUID: 87c86ddf-cbd9-4cd8-9251-3248fef6b682
+URI:  urn:expediagroup:taxonomies:acs:#87c86ddf-cbd9-4cd8-9251-3248fef6b682
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[35]
+UUID: 8d3a0793-f287-4faa-a283-aa1638c1910e
+URI:  urn:expediagroup:taxonomies:acs:#8d3a0793-f287-4faa-a283-aa1638c1910e
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[22]
+UUID: 8fcb1e33-1c1e-4e52-8955-9b62e8cdc97f
+URI:  urn:expediagroup:taxonomies:acs:#8fcb1e33-1c1e-4e52-8955-9b62e8cdc97f
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[86]
+UUID: 901ae604-d6bb-44c0-8be3-77961a840d99
+URI:  urn:expediagroup:taxonomies:acs:#901ae604-d6bb-44c0-8be3-77961a840d99
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[84]
+UUID: 90402b6a-fa9f-4f2a-af5c-dd9159743979
+URI:  urn:expediagroup:taxonomies:acs:#90402b6a-fa9f-4f2a-af5c-dd9159743979
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[82]
+UUID: 90e60e82-8054-45cd-854e-a696e0a6096b
+URI:  urn:expediagroup:taxonomies:acs:#90e60e82-8054-45cd-854e-a696e0a6096b
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[11]
+UUID: 95b08c0a-f966-4efd-93b4-9625d3640404
+URI:  urn:expediagroup:taxonomies:acs:#95b08c0a-f966-4efd-93b4-9625d3640404
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[50]
+UUID: 98da1201-0d72-43c4-88ee-035b808726c1
+URI:  urn:expediagroup:taxonomies:acs:#98da1201-0d72-43c4-88ee-035b808726c1
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[0]
+UUID: 99860516-fd73-404c-8392-4d0ddd36721f
+URI:  urn:expediagroup:taxonomies:acs:#99860516-fd73-404c-8392-4d0ddd36721f
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[56]
+UUID: 9a544fa7-0781-42ce-8d21-4d7b3f7be5af
+URI:  urn:expediagroup:taxonomies:acs:#9a544fa7-0781-42ce-8d21-4d7b3f7be5af
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[29]
+UUID: a3422cf7-f7e6-4a2c-bc8d-ed591297da17
+URI:  urn:expediagroup:taxonomies:acs:#a3422cf7-f7e6-4a2c-bc8d-ed591297da17
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[85]
+UUID: a38c9872-46de-4131-beb5-2f5bc985d3ba
+URI:  urn:expediagroup:taxonomies:acs:#a38c9872-46de-4131-beb5-2f5bc985d3ba
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[91]
+UUID: a7f142da-1bdd-4013-ae05-9b33da39ec67
+URI:  urn:expediagroup:taxonomies:acs:#a7f142da-1bdd-4013-ae05-9b33da39ec67
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[65]
+UUID: aaaf85a0-5cad-4b7e-9f6d-1f06e2241981
+URI:  urn:expediagroup:taxonomies:acs:#aaaf85a0-5cad-4b7e-9f6d-1f06e2241981
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[1]/attributes[0]
+UUID: aaf52aef-f5de-4cf2-af5d-9a126ea3ac37
+URI:  urn:expediagroup:taxonomies:acs:#aaf52aef-f5de-4cf2-af5d-9a126ea3ac37
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[57]
+UUID: ad560a0a-9d54-4f43-a368-89d95c33ab1c
+URI:  urn:expediagroup:taxonomies:acs:#ad560a0a-9d54-4f43-a368-89d95c33ab1c
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[60]
+UUID: aff95079-4628-43ef-9d0c-9010f64ec5f3
+URI:  urn:expediagroup:taxonomies:acs:#aff95079-4628-43ef-9d0c-9010f64ec5f3
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[38]
+UUID: bba23798-a192-48e5-8222-b1dde630f17b
+URI:  urn:expediagroup:taxonomies:acs:#bba23798-a192-48e5-8222-b1dde630f17b
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[47]
+UUID: caa03ac7-e0a6-4d87-9a56-aab4d3d0f19a
+URI:  urn:expediagroup:taxonomies:acs:#caa03ac7-e0a6-4d87-9a56-aab4d3d0f19a
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[28]
+UUID: cea1e11b-0163-4599-bf11-bb9d44c766a5
+URI:  urn:expediagroup:taxonomies:acs:#cea1e11b-0163-4599-bf11-bb9d44c766a5
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[76]
+UUID: d31e2460-6be6-4982-baf3-ea5e56d4d049
+URI:  urn:expediagroup:taxonomies:acs:#d31e2460-6be6-4982-baf3-ea5e56d4d049
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[43]
+UUID: d3b4a2be-dec5-47ca-914c-d66cd993a273
+URI:  urn:expediagroup:taxonomies:acs:#d3b4a2be-dec5-47ca-914c-d66cd993a273
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[15]
+UUID: d4fa51b9-305f-457e-8d9e-f5b663cc2c76
+URI:  urn:expediagroup:taxonomies:acs:#d4fa51b9-305f-457e-8d9e-f5b663cc2c76
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[26]
+UUID: dc9f8236-dd7e-427a-9dd7-5d0bb612afb2
+URI:  urn:expediagroup:taxonomies:acs:#dc9f8236-dd7e-427a-9dd7-5d0bb612afb2
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[58]
+UUID: dcb5e301-0a29-4616-8baf-500e5e54eea3
+URI:  urn:expediagroup:taxonomies:acs:#dcb5e301-0a29-4616-8baf-500e5e54eea3
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[67]
+UUID: df7f31af-8c37-4e50-990a-05d51defa070
+URI:  urn:expediagroup:taxonomies:acs:#df7f31af-8c37-4e50-990a-05d51defa070
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[62]
+UUID: e1e27070-109d-490b-ae1f-8e458a7b1369
+URI:  urn:expediagroup:taxonomies:acs:#e1e27070-109d-490b-ae1f-8e458a7b1369
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[80]
+UUID: e43a704b-c4b3-47f4-a2d9-36bd4bf195d2
+URI:  urn:expediagroup:taxonomies:acs:#e43a704b-c4b3-47f4-a2d9-36bd4bf195d2
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[81]
+UUID: ea136850-a03e-4ea2-a79b-e1465fa3bf7b
+URI:  urn:expediagroup:taxonomies:acs:#ea136850-a03e-4ea2-a79b-e1465fa3bf7b
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[68]
+UUID: f10f994d-ea8f-40f0-8d22-96e42e3bc10b
+URI:  urn:expediagroup:taxonomies:acs:#f10f994d-ea8f-40f0-8d22-96e42e3bc10b
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[79]
+UUID: f5e96c22-da58-49b0-90d1-a072b14473f3
+URI:  urn:expediagroup:taxonomies:acs:#f5e96c22-da58-49b0-90d1-a072b14473f3
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[9]
+UUID: f604add6-7542-4010-b25a-39c1db261e61
+URI:  urn:expediagroup:taxonomies:acs:#f604add6-7542-4010-b25a-39c1db261e61
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[32]
+UUID: f6071d2e-8ab3-4186-b83b-70a1e0683b4a
+URI:  urn:expediagroup:taxonomies:acs:#f6071d2e-8ab3-4186-b83b-70a1e0683b4a
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[12]
+UUID: f6e0d9ec-342a-4be2-a067-567a27b854fc
+URI:  urn:expediagroup:taxonomies:acs:#f6e0d9ec-342a-4be2-a067-567a27b854fc
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[19]
+UUID: f9ca2277-659b-4af7-a0ee-93e48e8d6cf7
+URI:  urn:expediagroup:taxonomies:acs:#f9ca2277-659b-4af7-a0ee-93e48e8d6cf7
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[88]
+UUID: fda90203-a761-48d1-b781-89657a26bbb6
+URI:  urn:expediagroup:taxonomies:acs:#fda90203-a761-48d1-b781-89657a26bbb6
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[66]
+UUID: fe8d8a28-9201-425a-8eaa-407d6fd20dab
+URI:  urn:expediagroup:taxonomies:acs:#fe8d8a28-9201-425a-8eaa-407d6fd20dab
+
+Context: parsed_rules_details/qualifying_attributes/attribute_groups[0]/attributes[24]
+UUID: fef45011-608d-40c1-86f7-2e70985f942f
+URI:  urn:expediagroup:taxonomies:acs:#fef45011-608d-40c1-86f7-2e70985f942f
+
+Beach property
+--------------
+
+Context: parsed_rules_details/qualifying_attributes/location_attributes[3]
+UUID: 21ee58bf-e8e0-4327-9176-d564957cf49c
+URI:  urn:expediagroup:taxonomies:acs:#21ee58bf-e8e0-4327-9176-d564957cf49c
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[8]
+UUID: 2a15c6b4-8f83-4f47-98e1-706c86e57847
+URI:  urn:expediagroup:taxonomies:acs:#2a15c6b4-8f83-4f47-98e1-706c86e57847
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[0]
+UUID: 2cdc39fe-077a-4f7c-a905-1a20e4d700ef
+URI:  urn:expediagroup:taxonomies:acs:#2cdc39fe-077a-4f7c-a905-1a20e4d700ef
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[5]
+UUID: 47d15536-3292-4b65-b96e-812ad827e7e6
+URI:  urn:expediagroup:taxonomies:acs:#47d15536-3292-4b65-b96e-812ad827e7e6
+
+Context: parsed_rules_details/qualifying_attributes/location_attributes[2]
+UUID: 58b98d8e-896a-4fbb-a20d-23b229c6a23e
+URI:  urn:expediagroup:taxonomies:acs:#58b98d8e-896a-4fbb-a20d-23b229c6a23e
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[9]
+UUID: 677eec11-6bd1-435c-b6fb-f51720a03896
+URI:  urn:expediagroup:taxonomies:acs:#677eec11-6bd1-435c-b6fb-f51720a03896
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[3]
+UUID: 83da41e6-8474-4704-9a82-93efbaf15601
+URI:  urn:expediagroup:taxonomies:acs:#83da41e6-8474-4704-9a82-93efbaf15601
+
+Context: parsed_rules_details/qualifying_attributes/location_attributes[1]
+UUID: 9fdb2f43-cdaf-4484-9b58-5473164a04b4
+URI:  urn:expediagroup:taxonomies:acs:#9fdb2f43-cdaf-4484-9b58-5473164a04b4
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[6]
+UUID: aec7f17a-b363-472c-82a7-ab5ace6ee8e8
+URI:  urn:expediagroup:taxonomies:acs:#aec7f17a-b363-472c-82a7-ab5ace6ee8e8
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[7]
+UUID: b1382733-6d88-4c2c-b3ca-bbb80a1b37a5
+URI:  urn:expediagroup:taxonomies:acs:#b1382733-6d88-4c2c-b3ca-bbb80a1b37a5
+
+Context: parsed_rules_details/qualifying_attributes/location_attributes[0]
+UUID: b2870f14-ced6-4619-94b2-1bdcb6363d35
+URI:  urn:expediagroup:taxonomies:acs:#b2870f14-ced6-4619-94b2-1bdcb6363d35
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[4]
+UUID: c171172d-488d-4067-8485-67b941eefa2f
+URI:  urn:expediagroup:taxonomies:acs:#c171172d-488d-4067-8485-67b941eefa2f
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[2]
+UUID: e388762b-f47d-4b77-b1d1-8e24d20c5d86
+URI:  urn:expediagroup:taxonomies:acs:#e388762b-f47d-4b77-b1d1-8e24d20c5d86
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[10]
+UUID: ec616776-12c2-4c11-8562-8a09eb862f0e
+URI:  urn:expediagroup:taxonomies:acs:#ec616776-12c2-4c11-8562-8a09eb862f0e
+
+Context: parsed_rules_details/qualifying_attributes/view_amenity_attributes[1]
+UUID: ffef1fca-be3d-4a29-851d-c24ff75eaf5a
+URI:  urn:expediagroup:taxonomies:acs:#ffef1fca-be3d-4a29-851d-c24ff75eaf5a
+
+Eco-certified property
+----------------------
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[1]
+UUID: 3a4a190b-5514-499b-8bf8-9e946ae38d53
+URI:  urn:expediagroup:taxonomies:acs:#3a4a190b-5514-499b-8bf8-9e946ae38d53
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[2]
+UUID: 3aa7fc5b-6a6d-4d35-9eec-e469845da2a9
+URI:  urn:expediagroup:taxonomies:acs:#3aa7fc5b-6a6d-4d35-9eec-e469845da2a9
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[4]
+UUID: 3ccf9563-c2d3-4460-af86-25a0c85e7f88
+URI:  urn:expediagroup:taxonomies:acs:#3ccf9563-c2d3-4460-af86-25a0c85e7f88
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[8]
+UUID: 4bb4a9eb-ded1-4f61-b913-9290e61e51d1
+URI:  urn:expediagroup:taxonomies:acs:#4bb4a9eb-ded1-4f61-b913-9290e61e51d1
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[9]
+UUID: 5683f8bd-fc33-40ed-8ae5-756b6bf6df03
+URI:  urn:expediagroup:taxonomies:acs:#5683f8bd-fc33-40ed-8ae5-756b6bf6df03
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[3]
+UUID: 5c8ed28e-5fad-472d-abdd-8a3aa8b7d2a3
+URI:  urn:expediagroup:taxonomies:acs:#5c8ed28e-5fad-472d-abdd-8a3aa8b7d2a3
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[6]
+UUID: a0e0f32d-7e78-43db-874f-933378267688
+URI:  urn:expediagroup:taxonomies:acs:#a0e0f32d-7e78-43db-874f-933378267688
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[7]
+UUID: a4f3fa82-6d73-4e25-9225-dcb38e1f62f8
+URI:  urn:expediagroup:taxonomies:acs:#a4f3fa82-6d73-4e25-9225-dcb38e1f62f8
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[0]
+UUID: becf7b80-d536-4367-a473-22c9f711b1e1
+URI:  urn:expediagroup:taxonomies:acs:#becf7b80-d536-4367-a473-22c9f711b1e1
+
+Context: parsed_rules_details/qualifying_attributes/certification_programs[5]
+UUID: c101d28c-2163-47df-9bd0-dc29ee8b4185
+URI:  urn:expediagroup:taxonomies:acs:#c101d28c-2163-47df-9bd0-dc29ee8b4185
+
+Family property
+---------------
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[6]
+UUID: 00048f04-6ec1-4284-827c-f78a332601c9
+URI:  urn:expediagroup:taxonomies:acs:#00048f04-6ec1-4284-827c-f78a332601c9
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[24]
+UUID: 0268829b-7cf2-41ef-a35b-468d516fe761
+URI:  urn:expediagroup:taxonomies:acs:#0268829b-7cf2-41ef-a35b-468d516fe761
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[27]
+UUID: 0268829b-7cf2-41ef-a35b-468d516fe761
+URI:  urn:expediagroup:taxonomies:acs:#0268829b-7cf2-41ef-a35b-468d516fe761
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[16]
+UUID: 03be3a63-876f-4664-a8b2-f9878689046d
+URI:  urn:expediagroup:taxonomies:acs:#03be3a63-876f-4664-a8b2-f9878689046d
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[19]
+UUID: 03be3a63-876f-4664-a8b2-f9878689046d
+URI:  urn:expediagroup:taxonomies:acs:#03be3a63-876f-4664-a8b2-f9878689046d
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[11]
+UUID: 05e3ed75-9184-40a2-8c99-67da04ae4cb2
+URI:  urn:expediagroup:taxonomies:acs:#05e3ed75-9184-40a2-8c99-67da04ae4cb2
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[11]
+UUID: 05e3ed75-9184-40a2-8c99-67da04ae4cb2
+URI:  urn:expediagroup:taxonomies:acs:#05e3ed75-9184-40a2-8c99-67da04ae4cb2
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[4]
+UUID: 08719d91-5d20-4671-a93b-5082b5b7a41a
+URI:  urn:expediagroup:taxonomies:acs:#08719d91-5d20-4671-a93b-5082b5b7a41a
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[4]
+UUID: 08719d91-5d20-4671-a93b-5082b5b7a41a
+URI:  urn:expediagroup:taxonomies:acs:#08719d91-5d20-4671-a93b-5082b5b7a41a
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[63]
+UUID: 0924a533-5bcc-4a8f-89f8-18537d6d2bed
+URI:  urn:expediagroup:taxonomies:acs:#0924a533-5bcc-4a8f-89f8-18537d6d2bed
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[71]
+UUID: 0924a533-5bcc-4a8f-89f8-18537d6d2bed
+URI:  urn:expediagroup:taxonomies:acs:#0924a533-5bcc-4a8f-89f8-18537d6d2bed
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[10]
+UUID: 0a76f8db-30e7-4b9f-9cfc-355e40964195
+URI:  urn:expediagroup:taxonomies:acs:#0a76f8db-30e7-4b9f-9cfc-355e40964195
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[10]
+UUID: 0a76f8db-30e7-4b9f-9cfc-355e40964195
+URI:  urn:expediagroup:taxonomies:acs:#0a76f8db-30e7-4b9f-9cfc-355e40964195
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[56]
+UUID: 0bca00a9-d324-42bc-94fa-a4dc2881d8db
+URI:  urn:expediagroup:taxonomies:acs:#0bca00a9-d324-42bc-94fa-a4dc2881d8db
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[64]
+UUID: 0bca00a9-d324-42bc-94fa-a4dc2881d8db
+URI:  urn:expediagroup:taxonomies:acs:#0bca00a9-d324-42bc-94fa-a4dc2881d8db
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[51]
+UUID: 0caddcd0-af62-40ae-9008-b121e651f616
+URI:  urn:expediagroup:taxonomies:acs:#0caddcd0-af62-40ae-9008-b121e651f616
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[59]
+UUID: 0caddcd0-af62-40ae-9008-b121e651f616
+URI:  urn:expediagroup:taxonomies:acs:#0caddcd0-af62-40ae-9008-b121e651f616
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[44]
+UUID: 0e4392d9-827e-48e5-8311-2d17e928c45b
+URI:  urn:expediagroup:taxonomies:acs:#0e4392d9-827e-48e5-8311-2d17e928c45b
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[49]
+UUID: 0e4392d9-827e-48e5-8311-2d17e928c45b
+URI:  urn:expediagroup:taxonomies:acs:#0e4392d9-827e-48e5-8311-2d17e928c45b
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[8]
+UUID: 0f8e911c-ceab-4136-8fab-32028159b34b
+URI:  urn:expediagroup:taxonomies:acs:#0f8e911c-ceab-4136-8fab-32028159b34b
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[8]
+UUID: 0f8e911c-ceab-4136-8fab-32028159b34b
+URI:  urn:expediagroup:taxonomies:acs:#0f8e911c-ceab-4136-8fab-32028159b34b
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[4]
+UUID: 152d952d-5ec7-4563-adb0-030e354e6a7f
+URI:  urn:expediagroup:taxonomies:acs:#152d952d-5ec7-4563-adb0-030e354e6a7f
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[18]
+UUID: 18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+URI:  urn:expediagroup:taxonomies:acs:#18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[21]
+UUID: 18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+URI:  urn:expediagroup:taxonomies:acs:#18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[54]
+UUID: 1b713aac-c927-41a3-b714-0bb3e720d5c8
+URI:  urn:expediagroup:taxonomies:acs:#1b713aac-c927-41a3-b714-0bb3e720d5c8
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[62]
+UUID: 1b713aac-c927-41a3-b714-0bb3e720d5c8
+URI:  urn:expediagroup:taxonomies:acs:#1b713aac-c927-41a3-b714-0bb3e720d5c8
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[23]
+UUID: 1cc2e184-fcb2-41e2-aa18-82281e97f9ab
+URI:  urn:expediagroup:taxonomies:acs:#1cc2e184-fcb2-41e2-aa18-82281e97f9ab
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[26]
+UUID: 1cc2e184-fcb2-41e2-aa18-82281e97f9ab
+URI:  urn:expediagroup:taxonomies:acs:#1cc2e184-fcb2-41e2-aa18-82281e97f9ab
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[65]
+UUID: 1dc3313f-9d1b-4886-8226-12ae4c1b3571
+URI:  urn:expediagroup:taxonomies:acs:#1dc3313f-9d1b-4886-8226-12ae4c1b3571
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[73]
+UUID: 1dc3313f-9d1b-4886-8226-12ae4c1b3571
+URI:  urn:expediagroup:taxonomies:acs:#1dc3313f-9d1b-4886-8226-12ae4c1b3571
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[5]
+UUID: 1e048a06-5330-4368-9b39-671cd78b67d3
+URI:  urn:expediagroup:taxonomies:acs:#1e048a06-5330-4368-9b39-671cd78b67d3
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[5]
+UUID: 1e048a06-5330-4368-9b39-671cd78b67d3
+URI:  urn:expediagroup:taxonomies:acs:#1e048a06-5330-4368-9b39-671cd78b67d3
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[17]
+UUID: 1e31114d-68a6-49cc-a13e-71df9ef22385
+URI:  urn:expediagroup:taxonomies:acs:#1e31114d-68a6-49cc-a13e-71df9ef22385
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[20]
+UUID: 1e31114d-68a6-49cc-a13e-71df9ef22385
+URI:  urn:expediagroup:taxonomies:acs:#1e31114d-68a6-49cc-a13e-71df9ef22385
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[0]
+UUID: 1f4865cc-5c7b-420d-9abb-397c911eb932
+URI:  urn:expediagroup:taxonomies:acs:#1f4865cc-5c7b-420d-9abb-397c911eb932
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[0]
+UUID: 1f4865cc-5c7b-420d-9abb-397c911eb932
+URI:  urn:expediagroup:taxonomies:acs:#1f4865cc-5c7b-420d-9abb-397c911eb932
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[27]
+UUID: 1f6a3098-40e6-4648-8d0b-19b51a29ca7f
+URI:  urn:expediagroup:taxonomies:acs:#1f6a3098-40e6-4648-8d0b-19b51a29ca7f
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[30]
+UUID: 1f6a3098-40e6-4648-8d0b-19b51a29ca7f
+URI:  urn:expediagroup:taxonomies:acs:#1f6a3098-40e6-4648-8d0b-19b51a29ca7f
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[11]
+UUID: 1f9ceb62-e25f-41bc-bc85-a619b551b743
+URI:  urn:expediagroup:taxonomies:acs:#1f9ceb62-e25f-41bc-bc85-a619b551b743
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[19]
+UUID: 210b4a85-945c-4350-8f51-4b58ec54f25b
+URI:  urn:expediagroup:taxonomies:acs:#210b4a85-945c-4350-8f51-4b58ec54f25b
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[22]
+UUID: 210b4a85-945c-4350-8f51-4b58ec54f25b
+URI:  urn:expediagroup:taxonomies:acs:#210b4a85-945c-4350-8f51-4b58ec54f25b
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[47]
+UUID: 22e713fd-54bf-4d7e-86ca-31e2a8062150
+URI:  urn:expediagroup:taxonomies:acs:#22e713fd-54bf-4d7e-86ca-31e2a8062150
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[52]
+UUID: 22e713fd-54bf-4d7e-86ca-31e2a8062150
+URI:  urn:expediagroup:taxonomies:acs:#22e713fd-54bf-4d7e-86ca-31e2a8062150
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[7]
+UUID: 243247c5-eca6-437f-9903-a75d86a2a50b
+URI:  urn:expediagroup:taxonomies:acs:#243247c5-eca6-437f-9903-a75d86a2a50b
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[61]
+UUID: 2cb950af-5afe-40f5-bf79-e6561f3bc773
+URI:  urn:expediagroup:taxonomies:acs:#2cb950af-5afe-40f5-bf79-e6561f3bc773
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[69]
+UUID: 2cb950af-5afe-40f5-bf79-e6561f3bc773
+URI:  urn:expediagroup:taxonomies:acs:#2cb950af-5afe-40f5-bf79-e6561f3bc773
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[80]
+UUID: 35966457-965b-4101-ac62-1cbbdb757cca
+URI:  urn:expediagroup:taxonomies:acs:#35966457-965b-4101-ac62-1cbbdb757cca
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[42]
+UUID: 3766faf9-5aca-4737-8601-f80b33997381
+URI:  urn:expediagroup:taxonomies:acs:#3766faf9-5aca-4737-8601-f80b33997381
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[47]
+UUID: 3766faf9-5aca-4737-8601-f80b33997381
+URI:  urn:expediagroup:taxonomies:acs:#3766faf9-5aca-4737-8601-f80b33997381
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[64]
+UUID: 37bc3715-36a1-45fe-a127-5c6aed05a77d
+URI:  urn:expediagroup:taxonomies:acs:#37bc3715-36a1-45fe-a127-5c6aed05a77d
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[72]
+UUID: 37bc3715-36a1-45fe-a127-5c6aed05a77d
+URI:  urn:expediagroup:taxonomies:acs:#37bc3715-36a1-45fe-a127-5c6aed05a77d
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[34]
+UUID: 384c8154-03ab-4180-b099-9cb689161ebf
+URI:  urn:expediagroup:taxonomies:acs:#384c8154-03ab-4180-b099-9cb689161ebf
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[37]
+UUID: 384c8154-03ab-4180-b099-9cb689161ebf
+URI:  urn:expediagroup:taxonomies:acs:#384c8154-03ab-4180-b099-9cb689161ebf
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[9]
+UUID: 38a65de8-8007-44c0-b7f8-fd939623a8b1
+URI:  urn:expediagroup:taxonomies:acs:#38a65de8-8007-44c0-b7f8-fd939623a8b1
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[58]
+UUID: 3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8
+URI:  urn:expediagroup:taxonomies:acs:#3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[66]
+UUID: 3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8
+URI:  urn:expediagroup:taxonomies:acs:#3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[75]
+UUID: 3d0470d4-1e3d-4929-ba92-8f9d9949b2d6
+URI:  urn:expediagroup:taxonomies:acs:#3d0470d4-1e3d-4929-ba92-8f9d9949b2d6
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[4]
+UUID: 40c3f20c-287c-470b-82d5-c1684e82efcc
+URI:  urn:expediagroup:taxonomies:acs:#40c3f20c-287c-470b-82d5-c1684e82efcc
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[4]
+UUID: 40c3f20c-287c-470b-82d5-c1684e82efcc
+URI:  urn:expediagroup:taxonomies:acs:#40c3f20c-287c-470b-82d5-c1684e82efcc
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[0]
+UUID: 4538dd97-c660-453e-b3d4-c6934ca6ef20
+URI:  urn:expediagroup:taxonomies:acs:#4538dd97-c660-453e-b3d4-c6934ca6ef20
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[0]
+UUID: 4538dd97-c660-453e-b3d4-c6934ca6ef20
+URI:  urn:expediagroup:taxonomies:acs:#4538dd97-c660-453e-b3d4-c6934ca6ef20
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[8]
+UUID: 4897d109-382b-4d10-9b81-99daf93c82b3
+URI:  urn:expediagroup:taxonomies:acs:#4897d109-382b-4d10-9b81-99daf93c82b3
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[8]
+UUID: 4897d109-382b-4d10-9b81-99daf93c82b3
+URI:  urn:expediagroup:taxonomies:acs:#4897d109-382b-4d10-9b81-99daf93c82b3
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[18]
+UUID: 48ecad34-fa50-4232-aea1-aa0399757ea1
+URI:  urn:expediagroup:taxonomies:acs:#48ecad34-fa50-4232-aea1-aa0399757ea1
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[18]
+UUID: 48ecad34-fa50-4232-aea1-aa0399757ea1
+URI:  urn:expediagroup:taxonomies:acs:#48ecad34-fa50-4232-aea1-aa0399757ea1
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[1]
+UUID: 4df73bed-053e-4763-a00a-e2b47ac62a14
+URI:  urn:expediagroup:taxonomies:acs:#4df73bed-053e-4763-a00a-e2b47ac62a14
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[50]
+UUID: 4ff67be9-38e9-4922-98b7-062a36aef7bc
+URI:  urn:expediagroup:taxonomies:acs:#4ff67be9-38e9-4922-98b7-062a36aef7bc
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[17]
+UUID: 5034e0a1-1aa8-4b3f-a464-6059da64a7a7
+URI:  urn:expediagroup:taxonomies:acs:#5034e0a1-1aa8-4b3f-a464-6059da64a7a7
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[17]
+UUID: 5034e0a1-1aa8-4b3f-a464-6059da64a7a7
+URI:  urn:expediagroup:taxonomies:acs:#5034e0a1-1aa8-4b3f-a464-6059da64a7a7
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[20]
+UUID: 58b98d8e-896a-4fbb-a20d-23b229c6a23e
+URI:  urn:expediagroup:taxonomies:acs:#58b98d8e-896a-4fbb-a20d-23b229c6a23e
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[23]
+UUID: 58b98d8e-896a-4fbb-a20d-23b229c6a23e
+URI:  urn:expediagroup:taxonomies:acs:#58b98d8e-896a-4fbb-a20d-23b229c6a23e
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[71]
+UUID: 5968d41c-abd9-4da1-b8ec-70fdffa10849
+URI:  urn:expediagroup:taxonomies:acs:#5968d41c-abd9-4da1-b8ec-70fdffa10849
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[43]
+UUID: 5b4ec696-0702-4435-a5ff-7b9db64c36e7
+URI:  urn:expediagroup:taxonomies:acs:#5b4ec696-0702-4435-a5ff-7b9db64c36e7
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[48]
+UUID: 5b4ec696-0702-4435-a5ff-7b9db64c36e7
+URI:  urn:expediagroup:taxonomies:acs:#5b4ec696-0702-4435-a5ff-7b9db64c36e7
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[76]
+UUID: 5bad798b-0ced-45f0-9493-1386d904bfa0
+URI:  urn:expediagroup:taxonomies:acs:#5bad798b-0ced-45f0-9493-1386d904bfa0
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[83]
+UUID: 5bad798b-0ced-45f0-9493-1386d904bfa0
+URI:  urn:expediagroup:taxonomies:acs:#5bad798b-0ced-45f0-9493-1386d904bfa0
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[12]
+UUID: 5fd24a02-5136-4b0b-baea-6353d03fa863
+URI:  urn:expediagroup:taxonomies:acs:#5fd24a02-5136-4b0b-baea-6353d03fa863
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[12]
+UUID: 5fd24a02-5136-4b0b-baea-6353d03fa863
+URI:  urn:expediagroup:taxonomies:acs:#5fd24a02-5136-4b0b-baea-6353d03fa863
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[73]
+UUID: 61d64ec2-0d97-4a92-aca1-da71c906464b
+URI:  urn:expediagroup:taxonomies:acs:#61d64ec2-0d97-4a92-aca1-da71c906464b
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[70]
+UUID: 63f74d12-1583-4707-964e-54bdb9be9910
+URI:  urn:expediagroup:taxonomies:acs:#63f74d12-1583-4707-964e-54bdb9be9910
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[78]
+UUID: 63f74d12-1583-4707-964e-54bdb9be9910
+URI:  urn:expediagroup:taxonomies:acs:#63f74d12-1583-4707-964e-54bdb9be9910
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[1]
+UUID: 64ac06c4-dffc-4713-8117-8be15f364242
+URI:  urn:expediagroup:taxonomies:acs:#64ac06c4-dffc-4713-8117-8be15f364242
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[1]
+UUID: 64ac06c4-dffc-4713-8117-8be15f364242
+URI:  urn:expediagroup:taxonomies:acs:#64ac06c4-dffc-4713-8117-8be15f364242
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[14]
+UUID: 65cdb589-f9cc-4712-b552-bfbff2a0eedc
+URI:  urn:expediagroup:taxonomies:acs:#65cdb589-f9cc-4712-b552-bfbff2a0eedc
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[17]
+UUID: 65cdb589-f9cc-4712-b552-bfbff2a0eedc
+URI:  urn:expediagroup:taxonomies:acs:#65cdb589-f9cc-4712-b552-bfbff2a0eedc
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[41]
+UUID: 66930de3-2d35-44c0-8a18-e6ac0df26c04
+URI:  urn:expediagroup:taxonomies:acs:#66930de3-2d35-44c0-8a18-e6ac0df26c04
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[46]
+UUID: 66930de3-2d35-44c0-8a18-e6ac0df26c04
+URI:  urn:expediagroup:taxonomies:acs:#66930de3-2d35-44c0-8a18-e6ac0df26c04
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[78]
+UUID: 66e72d29-0ade-4fd5-a154-f009f4d05ce8
+URI:  urn:expediagroup:taxonomies:acs:#66e72d29-0ade-4fd5-a154-f009f4d05ce8
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[86]
+UUID: 66e72d29-0ade-4fd5-a154-f009f4d05ce8
+URI:  urn:expediagroup:taxonomies:acs:#66e72d29-0ade-4fd5-a154-f009f4d05ce8
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[7]
+UUID: 69c32179-a11d-4b60-bea7-32d3c4f7b581
+URI:  urn:expediagroup:taxonomies:acs:#69c32179-a11d-4b60-bea7-32d3c4f7b581
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[7]
+UUID: 69c32179-a11d-4b60-bea7-32d3c4f7b581
+URI:  urn:expediagroup:taxonomies:acs:#69c32179-a11d-4b60-bea7-32d3c4f7b581
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[30]
+UUID: 6a82fca6-1620-4da8-b7ba-592746c6ca39
+URI:  urn:expediagroup:taxonomies:acs:#6a82fca6-1620-4da8-b7ba-592746c6ca39
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[33]
+UUID: 6a82fca6-1620-4da8-b7ba-592746c6ca39
+URI:  urn:expediagroup:taxonomies:acs:#6a82fca6-1620-4da8-b7ba-592746c6ca39
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[55]
+UUID: 6e0551c5-96fc-4bba-bdad-8da251c2ab5e
+URI:  urn:expediagroup:taxonomies:acs:#6e0551c5-96fc-4bba-bdad-8da251c2ab5e
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[63]
+UUID: 6e0551c5-96fc-4bba-bdad-8da251c2ab5e
+URI:  urn:expediagroup:taxonomies:acs:#6e0551c5-96fc-4bba-bdad-8da251c2ab5e
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[2]
+UUID: 6e532e94-05e4-452e-ad02-00e79ee10306
+URI:  urn:expediagroup:taxonomies:acs:#6e532e94-05e4-452e-ad02-00e79ee10306
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[2]
+UUID: 6e532e94-05e4-452e-ad02-00e79ee10306
+URI:  urn:expediagroup:taxonomies:acs:#6e532e94-05e4-452e-ad02-00e79ee10306
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[45]
+UUID: 700699ca-6d69-4338-a407-acfdff1b8089
+URI:  urn:expediagroup:taxonomies:acs:#700699ca-6d69-4338-a407-acfdff1b8089
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[50]
+UUID: 700699ca-6d69-4338-a407-acfdff1b8089
+URI:  urn:expediagroup:taxonomies:acs:#700699ca-6d69-4338-a407-acfdff1b8089
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[58]
+UUID: 784b54cf-b0f4-4054-8bb4-d23b77dedb1d
+URI:  urn:expediagroup:taxonomies:acs:#784b54cf-b0f4-4054-8bb4-d23b77dedb1d
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[13]
+UUID: 7a3e69fd-6a37-4f5b-b025-c1cbfe2272e3
+URI:  urn:expediagroup:taxonomies:acs:#7a3e69fd-6a37-4f5b-b025-c1cbfe2272e3
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[35]
+UUID: 7a4414f1-9187-4c8d-8289-fd9e88ff758e
+URI:  urn:expediagroup:taxonomies:acs:#7a4414f1-9187-4c8d-8289-fd9e88ff758e
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[38]
+UUID: 7a4414f1-9187-4c8d-8289-fd9e88ff758e
+URI:  urn:expediagroup:taxonomies:acs:#7a4414f1-9187-4c8d-8289-fd9e88ff758e
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[16]
+UUID: 7bd91c08-2967-4d03-bbb4-3717d4cec225
+URI:  urn:expediagroup:taxonomies:acs:#7bd91c08-2967-4d03-bbb4-3717d4cec225
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[72]
+UUID: 7d8b093c-067e-44fe-ad60-a49854423a06
+URI:  urn:expediagroup:taxonomies:acs:#7d8b093c-067e-44fe-ad60-a49854423a06
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[13]
+UUID: 7e3e1316-1315-4ec4-8601-953f84042547
+URI:  urn:expediagroup:taxonomies:acs:#7e3e1316-1315-4ec4-8601-953f84042547
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[13]
+UUID: 7e3e1316-1315-4ec4-8601-953f84042547
+URI:  urn:expediagroup:taxonomies:acs:#7e3e1316-1315-4ec4-8601-953f84042547
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[12]
+UUID: 7f58a6f6-8af7-4757-b8b8-fc81e41bc16a
+URI:  urn:expediagroup:taxonomies:acs:#7f58a6f6-8af7-4757-b8b8-fc81e41bc16a
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[12]
+UUID: 7f58a6f6-8af7-4757-b8b8-fc81e41bc16a
+URI:  urn:expediagroup:taxonomies:acs:#7f58a6f6-8af7-4757-b8b8-fc81e41bc16a
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[6]
+UUID: 84b31659-bc8a-4f29-8b7c-e977c04d2a31
+URI:  urn:expediagroup:taxonomies:acs:#84b31659-bc8a-4f29-8b7c-e977c04d2a31
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[6]
+UUID: 84b31659-bc8a-4f29-8b7c-e977c04d2a31
+URI:  urn:expediagroup:taxonomies:acs:#84b31659-bc8a-4f29-8b7c-e977c04d2a31
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[29]
+UUID: 85be5c08-92e8-40a7-b0e2-42a6aea058a9
+URI:  urn:expediagroup:taxonomies:acs:#85be5c08-92e8-40a7-b0e2-42a6aea058a9
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[32]
+UUID: 85be5c08-92e8-40a7-b0e2-42a6aea058a9
+URI:  urn:expediagroup:taxonomies:acs:#85be5c08-92e8-40a7-b0e2-42a6aea058a9
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[52]
+UUID: 86f3fa31-384e-45ee-b9e9-849727becab7
+URI:  urn:expediagroup:taxonomies:acs:#86f3fa31-384e-45ee-b9e9-849727becab7
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[60]
+UUID: 86f3fa31-384e-45ee-b9e9-849727becab7
+URI:  urn:expediagroup:taxonomies:acs:#86f3fa31-384e-45ee-b9e9-849727becab7
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[74]
+UUID: 89714e00-fac8-49f6-9afd-87b03d72adcb
+URI:  urn:expediagroup:taxonomies:acs:#89714e00-fac8-49f6-9afd-87b03d72adcb
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[81]
+UUID: 89714e00-fac8-49f6-9afd-87b03d72adcb
+URI:  urn:expediagroup:taxonomies:acs:#89714e00-fac8-49f6-9afd-87b03d72adcb
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[3]
+UUID: 8c6b5b91-7a2d-4e6c-8cff-5e52345625d7
+URI:  urn:expediagroup:taxonomies:acs:#8c6b5b91-7a2d-4e6c-8cff-5e52345625d7
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[55]
+UUID: 8da07f4b-0682-4d6d-bd8c-9e5a5d68fdb5
+URI:  urn:expediagroup:taxonomies:acs:#8da07f4b-0682-4d6d-bd8c-9e5a5d68fdb5
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[26]
+UUID: 9445dd10-b709-44c8-81cd-44a451d60831
+URI:  urn:expediagroup:taxonomies:acs:#9445dd10-b709-44c8-81cd-44a451d60831
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[29]
+UUID: 9445dd10-b709-44c8-81cd-44a451d60831
+URI:  urn:expediagroup:taxonomies:acs:#9445dd10-b709-44c8-81cd-44a451d60831
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[56]
+UUID: 94689831-995b-40a6-b50c-ec59afebec3b
+URI:  urn:expediagroup:taxonomies:acs:#94689831-995b-40a6-b50c-ec59afebec3b
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[14]
+UUID: 9b4b327c-6897-4c6b-96e2-c129174d9166
+URI:  urn:expediagroup:taxonomies:acs:#9b4b327c-6897-4c6b-96e2-c129174d9166
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[79]
+UUID: 9c7c757c-b9f0-4e21-ad6a-e2ac65491dae
+URI:  urn:expediagroup:taxonomies:acs:#9c7c757c-b9f0-4e21-ad6a-e2ac65491dae
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[5]
+UUID: 9dd380c9-b73b-4a2c-9f43-0ce743849614
+URI:  urn:expediagroup:taxonomies:acs:#9dd380c9-b73b-4a2c-9f43-0ce743849614
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[36]
+UUID: a0f98dd6-4dfd-4c39-8302-f64d0b8397a3
+URI:  urn:expediagroup:taxonomies:acs:#a0f98dd6-4dfd-4c39-8302-f64d0b8397a3
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[39]
+UUID: a0f98dd6-4dfd-4c39-8302-f64d0b8397a3
+URI:  urn:expediagroup:taxonomies:acs:#a0f98dd6-4dfd-4c39-8302-f64d0b8397a3
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[85]
+UUID: a2e2a848-d1e2-4f70-bc01-2b66013f4432
+URI:  urn:expediagroup:taxonomies:acs:#a2e2a848-d1e2-4f70-bc01-2b66013f4432
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[3]
+UUID: a43f3678-6ce4-4db6-b961-1293f5c65858
+URI:  urn:expediagroup:taxonomies:acs:#a43f3678-6ce4-4db6-b961-1293f5c65858
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[3]
+UUID: a43f3678-6ce4-4db6-b961-1293f5c65858
+URI:  urn:expediagroup:taxonomies:acs:#a43f3678-6ce4-4db6-b961-1293f5c65858
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[9]
+UUID: a78c57bd-4edb-494c-ab3f-810a8fbf8b2f
+URI:  urn:expediagroup:taxonomies:acs:#a78c57bd-4edb-494c-ab3f-810a8fbf8b2f
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[9]
+UUID: a78c57bd-4edb-494c-ab3f-810a8fbf8b2f
+URI:  urn:expediagroup:taxonomies:acs:#a78c57bd-4edb-494c-ab3f-810a8fbf8b2f
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[9]
+UUID: a8d609a1-e007-46c5-b4c0-0c266e64a894
+URI:  urn:expediagroup:taxonomies:acs:#a8d609a1-e007-46c5-b4c0-0c266e64a894
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[9]
+UUID: a8d609a1-e007-46c5-b4c0-0c266e64a894
+URI:  urn:expediagroup:taxonomies:acs:#a8d609a1-e007-46c5-b4c0-0c266e64a894
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[6]
+UUID: aac29ea1-965e-4b19-81e8-583c4492ab12
+URI:  urn:expediagroup:taxonomies:acs:#aac29ea1-965e-4b19-81e8-583c4492ab12
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[6]
+UUID: aac29ea1-965e-4b19-81e8-583c4492ab12
+URI:  urn:expediagroup:taxonomies:acs:#aac29ea1-965e-4b19-81e8-583c4492ab12
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[15]
+UUID: aaf52aef-f5de-4cf2-af5d-9a126ea3ac37
+URI:  urn:expediagroup:taxonomies:acs:#aaf52aef-f5de-4cf2-af5d-9a126ea3ac37
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[18]
+UUID: aaf52aef-f5de-4cf2-af5d-9a126ea3ac37
+URI:  urn:expediagroup:taxonomies:acs:#aaf52aef-f5de-4cf2-af5d-9a126ea3ac37
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[49]
+UUID: ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a
+URI:  urn:expediagroup:taxonomies:acs:#ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[54]
+UUID: ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a
+URI:  urn:expediagroup:taxonomies:acs:#ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[22]
+UUID: b2870f14-ced6-4619-94b2-1bdcb6363d35
+URI:  urn:expediagroup:taxonomies:acs:#b2870f14-ced6-4619-94b2-1bdcb6363d35
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[25]
+UUID: b2870f14-ced6-4619-94b2-1bdcb6363d35
+URI:  urn:expediagroup:taxonomies:acs:#b2870f14-ced6-4619-94b2-1bdcb6363d35
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[21]
+UUID: b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1
+URI:  urn:expediagroup:taxonomies:acs:#b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[24]
+UUID: b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1
+URI:  urn:expediagroup:taxonomies:acs:#b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[53]
+UUID: b3894c03-6889-4a98-bc15-143963730a52
+URI:  urn:expediagroup:taxonomies:acs:#b3894c03-6889-4a98-bc15-143963730a52
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[61]
+UUID: b3894c03-6889-4a98-bc15-143963730a52
+URI:  urn:expediagroup:taxonomies:acs:#b3894c03-6889-4a98-bc15-143963730a52
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[82]
+UUID: b6e67809-d4c3-4e0e-8a4d-d56d0fa44b40
+URI:  urn:expediagroup:taxonomies:acs:#b6e67809-d4c3-4e0e-8a4d-d56d0fa44b40
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[37]
+UUID: b71bba46-9eab-45e7-9199-2445017c5efb
+URI:  urn:expediagroup:taxonomies:acs:#b71bba46-9eab-45e7-9199-2445017c5efb
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[40]
+UUID: b71bba46-9eab-45e7-9199-2445017c5efb
+URI:  urn:expediagroup:taxonomies:acs:#b71bba46-9eab-45e7-9199-2445017c5efb
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[48]
+UUID: b81898a7-543c-44b2-baf2-1dc36a6b6aac
+URI:  urn:expediagroup:taxonomies:acs:#b81898a7-543c-44b2-baf2-1dc36a6b6aac
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[53]
+UUID: b81898a7-543c-44b2-baf2-1dc36a6b6aac
+URI:  urn:expediagroup:taxonomies:acs:#b81898a7-543c-44b2-baf2-1dc36a6b6aac
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[15]
+UUID: b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98
+URI:  urn:expediagroup:taxonomies:acs:#b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[15]
+UUID: b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98
+URI:  urn:expediagroup:taxonomies:acs:#b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[39]
+UUID: b8e250ea-ad6e-44d5-8b23-378e85cf1200
+URI:  urn:expediagroup:taxonomies:acs:#b8e250ea-ad6e-44d5-8b23-378e85cf1200
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[44]
+UUID: b8e250ea-ad6e-44d5-8b23-378e85cf1200
+URI:  urn:expediagroup:taxonomies:acs:#b8e250ea-ad6e-44d5-8b23-378e85cf1200
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[57]
+UUID: bb326125-f667-4665-974b-2ce03a121f35
+URI:  urn:expediagroup:taxonomies:acs:#bb326125-f667-4665-974b-2ce03a121f35
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[65]
+UUID: bb326125-f667-4665-974b-2ce03a121f35
+URI:  urn:expediagroup:taxonomies:acs:#bb326125-f667-4665-974b-2ce03a121f35
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[66]
+UUID: c2518a35-0502-4afc-a050-2bfcb9dfaeb4
+URI:  urn:expediagroup:taxonomies:acs:#c2518a35-0502-4afc-a050-2bfcb9dfaeb4
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[74]
+UUID: c2518a35-0502-4afc-a050-2bfcb9dfaeb4
+URI:  urn:expediagroup:taxonomies:acs:#c2518a35-0502-4afc-a050-2bfcb9dfaeb4
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[15]
+UUID: c3a5163e-7846-4f35-af16-3045e0f2d532
+URI:  urn:expediagroup:taxonomies:acs:#c3a5163e-7846-4f35-af16-3045e0f2d532
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[13]
+UUID: c58f51a5-21cf-4c4e-8768-a829df09e0e6
+URI:  urn:expediagroup:taxonomies:acs:#c58f51a5-21cf-4c4e-8768-a829df09e0e6
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[38]
+UUID: c93d1b8c-83de-4ecc-b994-7dcd3be33589
+URI:  urn:expediagroup:taxonomies:acs:#c93d1b8c-83de-4ecc-b994-7dcd3be33589
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[43]
+UUID: c93d1b8c-83de-4ecc-b994-7dcd3be33589
+URI:  urn:expediagroup:taxonomies:acs:#c93d1b8c-83de-4ecc-b994-7dcd3be33589
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[28]
+UUID: ca703e5f-d1de-40e3-83e6-b65eacafe79b
+URI:  urn:expediagroup:taxonomies:acs:#ca703e5f-d1de-40e3-83e6-b65eacafe79b
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[31]
+UUID: ca703e5f-d1de-40e3-83e6-b65eacafe79b
+URI:  urn:expediagroup:taxonomies:acs:#ca703e5f-d1de-40e3-83e6-b65eacafe79b
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[31]
+UUID: cf0c4550-0af4-4021-b1f4-7562c63939c2
+URI:  urn:expediagroup:taxonomies:acs:#cf0c4550-0af4-4021-b1f4-7562c63939c2
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[34]
+UUID: cf0c4550-0af4-4021-b1f4-7562c63939c2
+URI:  urn:expediagroup:taxonomies:acs:#cf0c4550-0af4-4021-b1f4-7562c63939c2
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[2]
+UUID: d08e5209-8075-4b36-9e34-6b58e122bf43
+URI:  urn:expediagroup:taxonomies:acs:#d08e5209-8075-4b36-9e34-6b58e122bf43
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[2]
+UUID: d08e5209-8075-4b36-9e34-6b58e122bf43
+URI:  urn:expediagroup:taxonomies:acs:#d08e5209-8075-4b36-9e34-6b58e122bf43
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[10]
+UUID: d0cc8945-61e6-469e-b974-5aba9c11b350
+URI:  urn:expediagroup:taxonomies:acs:#d0cc8945-61e6-469e-b974-5aba9c11b350
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[10]
+UUID: d0cc8945-61e6-469e-b974-5aba9c11b350
+URI:  urn:expediagroup:taxonomies:acs:#d0cc8945-61e6-469e-b974-5aba9c11b350
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[11]
+UUID: d31ebb82-ff76-4e5b-acf1-604e75deb310
+URI:  urn:expediagroup:taxonomies:acs:#d31ebb82-ff76-4e5b-acf1-604e75deb310
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[5]
+UUID: d44fc079-b6dd-4878-930a-91573d4dc41f
+URI:  urn:expediagroup:taxonomies:acs:#d44fc079-b6dd-4878-930a-91573d4dc41f
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[5]
+UUID: d44fc079-b6dd-4878-930a-91573d4dc41f
+URI:  urn:expediagroup:taxonomies:acs:#d44fc079-b6dd-4878-930a-91573d4dc41f
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[40]
+UUID: d60342d6-c988-4bac-9b58-482368470831
+URI:  urn:expediagroup:taxonomies:acs:#d60342d6-c988-4bac-9b58-482368470831
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[45]
+UUID: d60342d6-c988-4bac-9b58-482368470831
+URI:  urn:expediagroup:taxonomies:acs:#d60342d6-c988-4bac-9b58-482368470831
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[46]
+UUID: d8525e3d-b796-4388-8802-297c67534e1f
+URI:  urn:expediagroup:taxonomies:acs:#d8525e3d-b796-4388-8802-297c67534e1f
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[51]
+UUID: d8525e3d-b796-4388-8802-297c67534e1f
+URI:  urn:expediagroup:taxonomies:acs:#d8525e3d-b796-4388-8802-297c67534e1f
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[77]
+UUID: d86726ff-4a17-4a28-996e-5b81963254a8
+URI:  urn:expediagroup:taxonomies:acs:#d86726ff-4a17-4a28-996e-5b81963254a8
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[84]
+UUID: d86726ff-4a17-4a28-996e-5b81963254a8
+URI:  urn:expediagroup:taxonomies:acs:#d86726ff-4a17-4a28-996e-5b81963254a8
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[57]
+UUID: d8ce5500-fdaa-4094-a7e1-8f4399e85377
+URI:  urn:expediagroup:taxonomies:acs:#d8ce5500-fdaa-4094-a7e1-8f4399e85377
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[7]
+UUID: d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7
+URI:  urn:expediagroup:taxonomies:acs:#d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[7]
+UUID: d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7
+URI:  urn:expediagroup:taxonomies:acs:#d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[14]
+UUID: dca5c365-9c39-45c5-846c-c3c13ee2bf7b
+URI:  urn:expediagroup:taxonomies:acs:#dca5c365-9c39-45c5-846c-c3c13ee2bf7b
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[14]
+UUID: dca5c365-9c39-45c5-846c-c3c13ee2bf7b
+URI:  urn:expediagroup:taxonomies:acs:#dca5c365-9c39-45c5-846c-c3c13ee2bf7b
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[60]
+UUID: df4fcb7b-6126-4076-a8f1-8cab33536629
+URI:  urn:expediagroup:taxonomies:acs:#df4fcb7b-6126-4076-a8f1-8cab33536629
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[68]
+UUID: df4fcb7b-6126-4076-a8f1-8cab33536629
+URI:  urn:expediagroup:taxonomies:acs:#df4fcb7b-6126-4076-a8f1-8cab33536629
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[1]
+UUID: df95d788-f37c-4f09-8cc5-4a28f152f344
+URI:  urn:expediagroup:taxonomies:acs:#df95d788-f37c-4f09-8cc5-4a28f152f344
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[1]
+UUID: df95d788-f37c-4f09-8cc5-4a28f152f344
+URI:  urn:expediagroup:taxonomies:acs:#df95d788-f37c-4f09-8cc5-4a28f152f344
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[62]
+UUID: e5049e76-2c5d-40da-9eab-c5726deba7a7
+URI:  urn:expediagroup:taxonomies:acs:#e5049e76-2c5d-40da-9eab-c5726deba7a7
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[70]
+UUID: e5049e76-2c5d-40da-9eab-c5726deba7a7
+URI:  urn:expediagroup:taxonomies:acs:#e5049e76-2c5d-40da-9eab-c5726deba7a7
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[67]
+UUID: e713d597-b2cb-447b-b51a-c972a87fe879
+URI:  urn:expediagroup:taxonomies:acs:#e713d597-b2cb-447b-b51a-c972a87fe879
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[75]
+UUID: e713d597-b2cb-447b-b51a-c972a87fe879
+URI:  urn:expediagroup:taxonomies:acs:#e713d597-b2cb-447b-b51a-c972a87fe879
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[8]
+UUID: e97906da-534b-488d-bfd1-1b7d1f7a7562
+URI:  urn:expediagroup:taxonomies:acs:#e97906da-534b-488d-bfd1-1b7d1f7a7562
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[68]
+UUID: ede46d14-bf47-4748-8d88-cba8b06d4214
+URI:  urn:expediagroup:taxonomies:acs:#ede46d14-bf47-4748-8d88-cba8b06d4214
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[76]
+UUID: ede46d14-bf47-4748-8d88-cba8b06d4214
+URI:  urn:expediagroup:taxonomies:acs:#ede46d14-bf47-4748-8d88-cba8b06d4214
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[2]
+UUID: ef050cba-8fd8-4d6f-8c49-961f5027fbc7
+URI:  urn:expediagroup:taxonomies:acs:#ef050cba-8fd8-4d6f-8c49-961f5027fbc7
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[33]
+UUID: efe909ad-2475-4529-9612-1e5242216669
+URI:  urn:expediagroup:taxonomies:acs:#efe909ad-2475-4529-9612-1e5242216669
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[36]
+UUID: efe909ad-2475-4529-9612-1e5242216669
+URI:  urn:expediagroup:taxonomies:acs:#efe909ad-2475-4529-9612-1e5242216669
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[59]
+UUID: f171999c-dec5-47e9-9950-c1d19b73d7d4
+URI:  urn:expediagroup:taxonomies:acs:#f171999c-dec5-47e9-9950-c1d19b73d7d4
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[67]
+UUID: f171999c-dec5-47e9-9950-c1d19b73d7d4
+URI:  urn:expediagroup:taxonomies:acs:#f171999c-dec5-47e9-9950-c1d19b73d7d4
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[32]
+UUID: f410e383-8a19-494b-b6f3-7b7bb1170efb
+URI:  urn:expediagroup:taxonomies:acs:#f410e383-8a19-494b-b6f3-7b7bb1170efb
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[35]
+UUID: f410e383-8a19-494b-b6f3-7b7bb1170efb
+URI:  urn:expediagroup:taxonomies:acs:#f410e383-8a19-494b-b6f3-7b7bb1170efb
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[3]
+UUID: f614445a-f9c3-450e-83c7-f627dd182c77
+URI:  urn:expediagroup:taxonomies:acs:#f614445a-f9c3-450e-83c7-f627dd182c77
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[3]
+UUID: f614445a-f9c3-450e-83c7-f627dd182c77
+URI:  urn:expediagroup:taxonomies:acs:#f614445a-f9c3-450e-83c7-f627dd182c77
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[69]
+UUID: f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828
+URI:  urn:expediagroup:taxonomies:acs:#f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[77]
+UUID: f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828
+URI:  urn:expediagroup:taxonomies:acs:#f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/primary_attributes[16]
+UUID: fb29bdad-5d99-4911-9d97-e8ce6c7eddff
+URI:  urn:expediagroup:taxonomies:acs:#fb29bdad-5d99-4911-9d97-e8ce6c7eddff
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/primary_attributes[16]
+UUID: fb29bdad-5d99-4911-9d97-e8ce6c7eddff
+URI:  urn:expediagroup:taxonomies:acs:#fb29bdad-5d99-4911-9d97-e8ce6c7eddff
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[0]
+UUID: fb4ea705-4066-49b9-8440-a641713aac71
+URI:  urn:expediagroup:taxonomies:acs:#fb4ea705-4066-49b9-8440-a641713aac71
+
+Context: parsed_rules_details/qualifying_attributes/conventional_lodging/secondary_attributes[25]
+UUID: fff16d06-1863-4858-bf26-18819293f791
+URI:  urn:expediagroup:taxonomies:acs:#fff16d06-1863-4858-bf26-18819293f791
+
+Context: parsed_rules_details/qualifying_attributes/vacation_rental/secondary_attributes[28]
+UUID: fff16d06-1863-4858-bf26-18819293f791
+URI:  urn:expediagroup:taxonomies:acs:#fff16d06-1863-4858-bf26-18819293f791
+
+Golf property
+-------------
+
+Context: parsed_rules_details/qualifying_attributes/attributes[0]
+UUID: 11034e17-ceb2-4b10-82bc-f4defeef2f3b
+URI:  urn:expediagroup:taxonomies:acs:#11034e17-ceb2-4b10-82bc-f4defeef2f3b
+
+Context: parsed_rules_details/qualifying_attributes/attributes[1]
+UUID: b6341904-6818-4673-89d8-b5473c13e06d
+URI:  urn:expediagroup:taxonomies:acs:#b6341904-6818-4673-89d8-b5473c13e06d
+
+Context: parsed_rules_details/qualifying_attributes/attributes[3]
+UUID: c595cae8-d5e4-4b41-b14f-22db37556ab2
+URI:  urn:expediagroup:taxonomies:acs:#c595cae8-d5e4-4b41-b14f-22db37556ab2
+
+Context: parsed_rules_details/qualifying_attributes/attributes[2]
+UUID: da1dfd34-d50f-4745-be42-dee1e5a48370
+URI:  urn:expediagroup:taxonomies:acs:#da1dfd34-d50f-4745-be42-dee1e5a48370
+
+Hot Springs property
+--------------------
+
+Context: parsed_rules_details/qualifying_attributes/attributes[5]
+UUID: 0ba0600d-0f8b-48c8-91e9-f80c4dc3f198
+URI:  URI not found
+
+Context: parsed_rules_details/qualifying_attributes/attributes[3]
+UUID: 14e7b62a-ae44-4eac-a1d6-e80743cd0690
+URI:  urn:expediagroup:taxonomies:acs:#14e7b62a-ae44-4eac-a1d6-e80743cd0690
+
+Context: parsed_rules_details/qualifying_attributes/attributes[1]
+UUID: 5db005da-6c73-4827-b3aa-61d78745d045
+URI:  urn:expediagroup:taxonomies:acs:#5db005da-6c73-4827-b3aa-61d78745d045
+
+Context: parsed_rules_details/qualifying_attributes/attributes[4]
+UUID: 75e346cc-029c-4589-be09-ece4e8340a6d
+URI:  urn:expediagroup:taxonomies:acs:#75e346cc-029c-4589-be09-ece4e8340a6d
+
+Context: parsed_rules_details/qualifying_attributes/attributes[2]
+UUID: 7f13820b-7176-4fce-8b9d-fc46cf1ef22c
+URI:  urn:expediagroup:taxonomies:acs:#7f13820b-7176-4fce-8b9d-fc46cf1ef22c
+
+Context: parsed_rules_details/qualifying_attributes/attributes[0]
+UUID: ba6701d2-91de-42c8-875e-833fe4f34577
+URI:  urn:expediagroup:taxonomies:acs:#ba6701d2-91de-42c8-875e-833fe4f34577
+
+Pet-Friendly property
+---------------------
+
+Context: parsed_rules_details/qualifying_attributes/attributes[2]
+UUID: 4359b715-b827-4fd6-8fd3-2db4cd7af750
+URI:  urn:expediagroup:taxonomies:acs:#4359b715-b827-4fd6-8fd3-2db4cd7af750
+
+Context: parsed_rules_details/disqualifying_attributes/attributes[0]
+UUID: 678bce70-eb09-4548-8d6b-1773c89998ae
+URI:  urn:expediagroup:taxonomies:acs:#678bce70-eb09-4548-8d6b-1773c89998ae
+
+Context: parsed_rules_details/qualifying_attributes/attributes[3]
+UUID: 8317d689-c460-4043-81ef-9ae18e7d45af
+URI:  urn:expediagroup:taxonomies:acs:#8317d689-c460-4043-81ef-9ae18e7d45af
+
+Context: parsed_rules_details/qualifying_attributes/attributes[1]
+UUID: aab19b53-bcc2-4190-9999-71a87d12b3c3
+URI:  urn:expediagroup:taxonomies:acs:#aab19b53-bcc2-4190-9999-71a87d12b3c3
+
+Context: parsed_rules_details/qualifying_attributes/attributes[0]
+UUID: b50c4c0b-a922-49b1-8869-61fa486011da
+URI:  urn:expediagroup:taxonomies:acs:#b50c4c0b-a922-49b1-8869-61fa486011da
+
+Context: parsed_rules_details/qualifying_attributes/attributes[4]
+UUID: d738d06b-eb15-4262-966b-018b8aea9f43
+URI:  urn:expediagroup:taxonomies:acs:#d738d06b-eb15-4262-966b-018b8aea9f43
+
+Ski property
+------------
+
+Context: parsed_rules_details/qualifying_attributes/attributes[4]
+UUID: 09a16840-c197-4206-944c-6d88cd072224
+URI:  urn:expediagroup:taxonomies:acs:#09a16840-c197-4206-944c-6d88cd072224
+
+Context: parsed_rules_details/qualifying_attributes/attributes[3]
+UUID: 18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+URI:  urn:expediagroup:taxonomies:acs:#18ef2adf-6321-40fb-bcc2-0a9a85d5c051
+
+Context: parsed_rules_details/qualifying_attributes/attributes[2]
+UUID: 210b4a85-945c-4350-8f51-4b58ec54f25b
+URI:  urn:expediagroup:taxonomies:acs:#210b4a85-945c-4350-8f51-4b58ec54f25b
+
+Context: parsed_rules_details/qualifying_attributes/attributes[5]
+UUID: 3971cf50-528a-4a6f-89aa-d1e472663b8e
+URI:  urn:expediagroup:taxonomies:acs:#3971cf50-528a-4a6f-89aa-d1e472663b8e
+
+Context: parsed_rules_details/qualifying_attributes/attributes[6]
+UUID: 82fac03b-12d3-43b6-ac4e-8b0cee1e940a
+URI:  urn:expediagroup:taxonomies:acs:#82fac03b-12d3-43b6-ac4e-8b0cee1e940a
+
+Context: parsed_rules_details/qualifying_attributes/attributes[1]
+UUID: 8b18e91f-0cb9-4702-a3fd-445484e375e0
+URI:  urn:expediagroup:taxonomies:acs:#8b18e91f-0cb9-4702-a3fd-445484e375e0
+
+Context: parsed_rules_details/qualifying_attributes/attributes[0]
+UUID: bd2a8906-5988-4552-ade9-d33afb161f74
+URI:  urn:expediagroup:taxonomies:acs:#bd2a8906-5988-4552-ade9-d33afb161f74
+
+Spa property
+------------
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[2]
+UUID: 0313ba31-aa8a-4b6a-ab25-058e03492990
+URI:  urn:expediagroup:taxonomies:acs:#0313ba31-aa8a-4b6a-ab25-058e03492990
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[8]
+UUID: 0a42fd86-f8f2-4d73-acef-971f9fcb5947
+URI:  urn:expediagroup:taxonomies:acs:#0a42fd86-f8f2-4d73-acef-971f9fcb5947
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[1]
+UUID: 0b0e1bf3-f47d-4fbf-944e-4843fa752e7c
+URI:  urn:expediagroup:taxonomies:acs:#0b0e1bf3-f47d-4fbf-944e-4843fa752e7c
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[10]
+UUID: 14e7b62a-ae44-4eac-a1d6-e80743cd0690
+URI:  urn:expediagroup:taxonomies:acs:#14e7b62a-ae44-4eac-a1d6-e80743cd0690
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[11]
+UUID: 293ce586-23c4-475b-afd8-6463fcf011bd
+URI:  urn:expediagroup:taxonomies:acs:#293ce586-23c4-475b-afd8-6463fcf011bd
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[5]
+UUID: 31e64a53-c890-4cdc-91b3-d9ceb1e306cf
+URI:  urn:expediagroup:taxonomies:acs:#31e64a53-c890-4cdc-91b3-d9ceb1e306cf
+
+Context: parsed_rules_details/qualifying_attributes/full_service_spa[0]
+UUID: 37c48555-753d-49ef-a4ee-ed80dcf3576e
+URI:  urn:expediagroup:taxonomies:acs:#37c48555-753d-49ef-a4ee-ed80dcf3576e
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[0]
+UUID: 38c17974-7c97-4e6c-9766-624e1f66b63a
+URI:  urn:expediagroup:taxonomies:acs:#38c17974-7c97-4e6c-9766-624e1f66b63a
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[9]
+UUID: 451c47da-8759-4b05-a169-525f53994656
+URI:  urn:expediagroup:taxonomies:acs:#451c47da-8759-4b05-a169-525f53994656
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[4]
+UUID: 530d94c5-e317-4a13-b296-6c3e5277d8bc
+URI:  urn:expediagroup:taxonomies:acs:#530d94c5-e317-4a13-b296-6c3e5277d8bc
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[10]
+UUID: 6bdfd4b1-d6db-476a-8786-3a44c190e171
+URI:  urn:expediagroup:taxonomies:acs:#6bdfd4b1-d6db-476a-8786-3a44c190e171
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[11]
+UUID: 75e346cc-029c-4589-be09-ece4e8340a6d
+URI:  urn:expediagroup:taxonomies:acs:#75e346cc-029c-4589-be09-ece4e8340a6d
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[4]
+UUID: 7c1d7634-89d8-4836-80eb-efed2fbe5ef4
+URI:  urn:expediagroup:taxonomies:acs:#7c1d7634-89d8-4836-80eb-efed2fbe5ef4
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[6]
+UUID: 810c5c26-9e6a-4d43-b63b-5007fcec6ab2
+URI:  urn:expediagroup:taxonomies:acs:#810c5c26-9e6a-4d43-b63b-5007fcec6ab2
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[2]
+UUID: 884f2e94-13a7-49c5-b360-2af081eb1eed
+URI:  urn:expediagroup:taxonomies:acs:#884f2e94-13a7-49c5-b360-2af081eb1eed
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[1]
+UUID: 9d9f9a79-1648-4385-919e-680c75dc1578
+URI:  urn:expediagroup:taxonomies:acs:#9d9f9a79-1648-4385-919e-680c75dc1578
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[7]
+UUID: a28de2ce-5cb5-461c-bb77-97d91828e5cf
+URI:  urn:expediagroup:taxonomies:acs:#a28de2ce-5cb5-461c-bb77-97d91828e5cf
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[3]
+UUID: ad95cf21-937c-4c58-8d41-7b7767b7bf45
+URI:  urn:expediagroup:taxonomies:acs:#ad95cf21-937c-4c58-8d41-7b7767b7bf45
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[3]
+UUID: ba6701d2-91de-42c8-875e-833fe4f34577
+URI:  urn:expediagroup:taxonomies:acs:#ba6701d2-91de-42c8-875e-833fe4f34577
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[5]
+UUID: d5c351cb-06f2-47fa-99cd-e866da134705
+URI:  urn:expediagroup:taxonomies:acs:#d5c351cb-06f2-47fa-99cd-e866da134705
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[7]
+UUID: da4cdd51-ed5f-42f2-ae6e-02ce65ec19d1
+URI:  urn:expediagroup:taxonomies:acs:#da4cdd51-ed5f-42f2-ae6e-02ce65ec19d1
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[6]
+UUID: df6af7d9-426d-4895-abd9-59163bf76e0c
+URI:  urn:expediagroup:taxonomies:acs:#df6af7d9-426d-4895-abd9-59163bf76e0c
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[12]
+UUID: e22ce20a-1b16-4cdb-83b0-e70d4a4dbf2a
+URI:  urn:expediagroup:taxonomies:acs:#e22ce20a-1b16-4cdb-83b0-e70d4a4dbf2a
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[9]
+UUID: e626b09e-9e5f-4eec-909a-6fa1e2e3c832
+URI:  urn:expediagroup:taxonomies:acs:#e626b09e-9e5f-4eec-909a-6fa1e2e3c832
+
+Context: parsed_rules_details/qualifying_attributes/primary_attributes[0]
+UUID: ee79b222-b54f-4b58-b27c-1d6e5b20a3bb
+URI:  urn:expediagroup:taxonomies:acs:#ee79b222-b54f-4b58-b27c-1d6e5b20a3bb
+
+Context: parsed_rules_details/qualifying_attributes/additional_attributes[8]
+UUID: f49cec71-2b3e-4277-b4d5-b8e0d2669c8e
+URI:  urn:expediagroup:taxonomies:acs:#f49cec71-2b3e-4277-b4d5-b8e0d2669c8e
+
+Winery property
+---------------
+
+Context: parsed_rules_details/qualifying_attributes/combined_requirements[2]
+UUID: 16aed81e-77c7-4f34-92c1-a1d2adb5c52e
+URI:  urn:expediagroup:taxonomies:acs:#16aed81e-77c7-4f34-92c1-a1d2adb5c52e
+
+Context: parsed_rules_details/qualifying_attributes/combined_requirements[0]
+UUID: 1cacffb8-8ddf-4db1-a296-5725d63cc8aa
+URI:  urn:expediagroup:taxonomies:acs:#1cacffb8-8ddf-4db1-a296-5725d63cc8aa
+
+Context: parsed_rules_details/qualifying_attributes/combined_requirements[1]
+UUID: f7701dcf-478b-4368-b1fc-a11ecb99941e
+URI:  urn:expediagroup:taxonomies:acs:#f7701dcf-478b-4368-b1fc-a11ecb99941e

@@ -1,0 +1,58 @@
+{
+  "theme_attribute_name": "Romantic property",
+  "lcm_id": "2339",
+  "uuid": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+  "theme_automation": false,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "437",
+  "urn": "RomanticTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2339",
+            "UUID": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+            "Description": "This theme is manually assigned to upscale properties featuring romance packages (bottle of champagne with flowers upon arrival, turndown service with chocolate, spa treatment, breakfast in room, etc.) and to couples-only resorts"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "n/a",
+            "UUID": "n/a",
+            "Description": ""
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073745239",
+            "UUID": "N/A",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, RMV ROMANTIC attribute. Not included in the Romantic theme are the following: Economy Brands/Chains, Airport Hotels, Convention Center Hotels, City Center Business Hotels, Hotels explicitly targeting families in bold tagline, Properties in the Family Theme, Properties specifically targeting Business Travelers in bold tag line, Properties with lower than a 3.0 Traveler Opinion Score, \"Love Hotels\""
+          }
+        ]
+      ],
+      "uuid": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "No",
+      "attribute_id": "2339"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+      "urn": "RomanticTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "",
+      "rules": [],
+      "attribute_groups": [],
+      "attributes": []
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

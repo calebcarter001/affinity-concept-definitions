@@ -1,0 +1,3622 @@
+[
+  {
+    "theme_attribute_name": "Adventure Sport property",
+    "lcm_id": "5019",
+    "uuid": "a9fd487f-6909-4a93-928e-10d4d0b40795",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "1,494,454",
+    "urn": "AdventureTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "This theme is automatically assigned to properties that present a minimum of 5 onsite or nearby adventure sport type of recreation activities.",
+              "UUID": "5019",
+              "URN": "a9fd487f-6909-4a93-928e-10d4d0b40795"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "If a property provides an adequate amount of adventure sport type of activities that are not all available in Partner Central (e.g. wakeboarding), we can still include it in the Theme by selecting the THEME OVER-RIDE, ADVENTURE attribute",
+              "UUID": "5100",
+              "URN": "aaae63d2-0bba-11ea-8d71-362b9e155667"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE ADVENTURE attribute",
+              "UUID": "5089",
+              "URN": "aaae5e1e-0bba-11ea-8d71-362b9e155667"
+            }
+          ]
+        ],
+        "uuid": "a9fd487f-6909-4a93-928e-10d4d0b40795",
+        "owned_by": "Manuela Sammatrice",
+        "last_updated": "Feb 13, 2025",
+        "automation": "Yes",
+        "attribute_id": "5019",
+        "urn": "AdventureTheme"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "a9fd487f-6909-4a93-928e-10d4d0b40795",
+        "urn": "AdventureTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **5 of the following** attributes, or **4 of the following** plus **1 from the ski-related attributes** listed below.",
+        "rules": [
+          {
+            "type": "compound",
+            "description": "Properties must have **5 of the following** attributes, or **4 of the following** plus **1 from the ski-related attributes** listed below.",
+            "required_count": 5,
+            "conditions": [
+              {
+                "required_count": 5,
+                "group_name": "main_attributes"
+              },
+              {
+                "required_count": 4,
+                "group_name": "main_attributes",
+                "additional_required": 1,
+                "additional_group": "ski_attributes"
+              }
+            ],
+            "operator": "OR"
+          }
+        ],
+        "attribute_groups": [
+          {
+            "name": "main_attributes",
+            "description": "Main adventure sport attributes",
+            "attributes": [
+              {
+                "Activity": "Archery on site",
+                "AID": "1073744107",
+                "UUID": "99860516-fd73-404c-8392-4d0ddd36721f"
+              },
+              {
+                "Activity": "Bicycle on site",
+                "AID": "1073744416",
+                "UUID": "747bdac5-81bd-4c4e-85e0-f49f0ccae2e3"
+              },
+              {
+                "Activity": "Birdwatching nearby",
+                "AID": "1073744092",
+                "UUID": "87671f70-baaf-11e8-96f8-529269fb1459"
+              },
+              {
+                "Activity": "Birdwatching on site",
+                "AID": "1073744091",
+                "UUID": "87671caa-baaf-11e8-96f8-529269fb1459"
+              },
+              {
+                "Activity": "Boat and paddles on site",
+                "AID": "1073744391",
+                "UUID": "2b062286-b4cc-4ef7-b525-73145cb8b93d"
+              },
+              {
+                "Activity": "Boat on site",
+                "AID": "1073744390",
+                "UUID": "629a1235-0a55-40a4-ab26-7bdd6dcebe6f"
+              },
+              {
+                "Activity": "Boat tours nearby",
+                "AID": "4502",
+                "UUID": "81ebfce0-a01a-4cde-984a-46f2fe5d6b0e"
+              },
+              {
+                "Activity": "Boat tours on site",
+                "AID": "4503",
+                "UUID": "43a5533e-86e3-46d0-a0cf-8d5ac2b5f934"
+              },
+              {
+                "Activity": "Canoe on site",
+                "AID": "1073744393",
+                "UUID": "67905212-d841-4643-9efa-dfb0f085ccb1"
+              },
+              {
+                "Activity": "Cross-country skiing nearby",
+                "AID": "111",
+                "UUID": "f604add6-7542-4010-b25a-39c1db261e61"
+              },
+              {
+                "Activity": "Cross-country skiing on site",
+                "AID": "3837",
+                "UUID": "24294aaf-b10a-41a0-953d-f0dbb886eeb5"
+              },
+              {
+                "Activity": "Cycling nearby",
+                "AID": "1073744394",
+                "UUID": "95b08c0a-f966-4efd-93b4-9625d3640404"
+              },
+              {
+                "Activity": "Fish cleaning table",
+                "AID": "1073744395",
+                "UUID": "f6e0d9ec-342a-4be2-a067-567a27b854fc"
+              },
+              {
+                "Activity": "Fishing nearby",
+                "AID": "1073744396",
+                "UUID": "3d023c59-010b-4ffa-b5d7-8c902873905a"
+              },
+              {
+                "Activity": "Fishing on site",
+                "AID": "3810",
+                "UUID": "1cac3f04-383c-4272-90c7-9854e72bdc9c"
+              },
+              {
+                "Activity": "Free bicycles nearby",
+                "AID": "3807",
+                "UUID": "d4fa51b9-305f-457e-8d9e-f5b663cc2c76"
+              },
+              {
+                "Activity": "Free bicycles on site",
+                "AID": "3778",
+                "UUID": "77f72c24-00f7-4874-a7ef-674eaa33f219"
+              },
+              {
+                "Activity": "Game/wildlife walks nearby",
+                "AID": "1073744098",
+                "UUID": "876711f6-baaf-11e8-96f8-529269fb1459"
+              },
+              {
+                "Activity": "Game/wildlife walks on site",
+                "AID": "1073744097",
+                "UUID": "87671066-baaf-11e8-96f8-529269fb1459"
+              },
+              {
+                "Activity": "Hiking nearby",
+                "AID": "1073744399",
+                "UUID": "f9ca2277-659b-4af7-a0ee-93e48e8d6cf7"
+              },
+              {
+                "Activity": "Horse riding nearby",
+                "AID": "1073744400",
+                "UUID": "451b0edf-a9c6-4a93-be55-15652209494d"
+              },
+              {
+                "Activity": "Hunting nearby",
+                "AID": "1073744401",
+                "UUID": "5c46a305-96ee-4849-81fa-93701f2b91a7"
+              },
+              {
+                "Activity": "Hunting on site",
+                "AID": "1073744108",
+                "UUID": "8fcb1e33-1c1e-4e52-8955-9b62e8cdc97f"
+              },
+              {
+                "Activity": "Ice skating nearby",
+                "AID": "1073744402",
+                "UUID": "61f493c4-53c4-4062-b14e-a305c4c123a7"
+              },
+              {
+                "Activity": "Inflatable boat on site",
+                "AID": "1073744403",
+                "UUID": "fef45011-608d-40c1-86f7-2e70985f942f"
+              },
+              {
+                "Activity": "Jet skiing nearby",
+                "AID": "1073744404",
+                "UUID": "36f5b6f3-a686-45bb-869b-379189e6180a"
+              },
+              {
+                "Activity": "Kayak on site",
+                "AID": "1073744405",
+                "UUID": "dc9f8236-dd7e-427a-9dd7-5d0bb612afb2"
+              },
+              {
+                "Activity": "Motor boating nearby",
+                "AID": "1073744392",
+                "UUID": "7b9ce677-96e5-42ae-a5f3-30263c9fa517"
+              },
+              {
+                "Activity": "Mountain climbing nearby",
+                "AID": "1073744407",
+                "UUID": "cea1e11b-0163-4599-bf11-bb9d44c766a5"
+              },
+              {
+                "Activity": "Pedal boat on site",
+                "AID": "1073744408",
+                "UUID": "a3422cf7-f7e6-4a2c-bc8d-ed591297da17"
+              },
+              {
+                "Activity": "Ropes course on site",
+                "AID": "1073744109",
+                "UUID": "3a507dcd-e8a2-4dca-a1c9-a0e7ee9d1fd6"
+              },
+              {
+                "Activity": "Rowing or canoeing on site",
+                "AID": "3829",
+                "UUID": "30dd9d5d-59d7-43a1-a0ea-59c6219a95b1"
+              },
+              {
+                "Activity": "Sailboat on site",
+                "AID": "1073744409",
+                "UUID": "f6071d2e-8ab3-4186-b83b-70a1e0683b4a"
+              },
+              {
+                "Activity": "Snowshoeing on site",
+                "AID": "3844",
+                "UUID": "841d342e-60ab-40be-8de0-fe5a1a092980"
+              },
+              {
+                "Activity": "Surf lessons - nearby",
+                "AID": "1073744761",
+                "UUID": "0105c829-e616-4d3b-918e-3b6be2fc7fd4"
+              },
+              {
+                "Activity": "Surf lessons - onsite",
+                "AID": "1073744760",
+                "UUID": "8d3a0793-f287-4faa-a283-aa1638c1910e"
+              },
+              {
+                "Activity": "Swimming nearby",
+                "AID": "1073744413",
+                "UUID": "7f94dd9c-22e7-4771-8c88-9cb97e95748f"
+              },
+              {
+                "Activity": "Water sports equipment",
+                "AID": "1073744414",
+                "UUID": "01efa070-29d7-4b75-8c7c-1ed2f23418ee"
+              },
+              {
+                "Activity": "Water tubing nearby",
+                "AID": "1073744415",
+                "UUID": "bba23798-a192-48e5-8222-b1dde630f17b"
+              },
+              {
+                "Activity": "Ziplining nearby",
+                "AID": "5103",
+                "UUID": "2b795067-9dbc-4b09-8f6e-ef61abbbdacb"
+              },
+              {
+                "Activity": "Ziplining on site",
+                "AID": "5104",
+                "UUID": "65734060-dae1-4304-8cf9-c0cc7318e5f2"
+              },
+              {
+                "Activity": "Bicycle rentals nearby",
+                "AID": "115",
+                "UUID": "864103f6-a7f2-44cb-98a4-2045c1da1ace"
+              },
+              {
+                "Activity": "Bicycle rentals on site",
+                "AID": "3801",
+                "UUID": "266f2841-2514-4c81-9c4c-9870b82c8abc"
+              },
+              {
+                "Activity": "Cave exploring/spelunking nearby",
+                "AID": "5098",
+                "UUID": "d3b4a2be-dec5-47ca-914c-d66cd993a273"
+              },
+              {
+                "Activity": "Cave exploring/spelunking on site",
+                "AID": "5099",
+                "UUID": "22dff28f-5140-4640-8aad-980b4889d1e3"
+              },
+              {
+                "Activity": "Downhill skiing nearby",
+                "AID": "110",
+                "UUID": "769037af-df61-4654-8fc2-9238f48d2121"
+              },
+              {
+                "Activity": "Downhill skiing on site",
+                "AID": "3838",
+                "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+              },
+              {
+                "Activity": "Ecotours nearby",
+                "AID": "2357",
+                "UUID": "caa03ac7-e0a6-4d87-9a56-aab4d3d0f19a"
+              },
+              {
+                "Activity": "Ecotours on site",
+                "AID": "3809",
+                "UUID": "33351509-bbd9-4df6-b4bd-4d9d48c57536"
+              },
+              {
+                "Activity": "Helicopter/airplane tours on site",
+                "AID": "3815",
+                "UUID": "190be0d2-1a2a-4ff9-b93c-6e457f0a815d"
+              },
+              {
+                "Activity": "Hiking/biking trails nearby",
+                "AID": "347",
+                "UUID": "98da1201-0d72-43c4-88ee-035b808726c1"
+              },
+              {
+                "Activity": "Hiking/biking trails on site",
+                "AID": "3816",
+                "UUID": "2f84c2df-5f4e-4854-814e-6b1eb4ba7e4d"
+              },
+              {
+                "Activity": "Horse riding/rental on site",
+                "AID": "3817",
+                "UUID": "77822800-95a7-4f2c-8d1c-a3812bc73263"
+              },
+              {
+                "Activity": "Ice skating on site",
+                "AID": "3819",
+                "UUID": "1acf8b2c-4c68-415b-800c-e68abddaefe1"
+              },
+              {
+                "Activity": "Kayaking nearby",
+                "AID": "349",
+                "UUID": "87c86ddf-cbd9-4cd8-9251-3248fef6b682"
+              },
+              {
+                "Activity": "Kayaking on site",
+                "AID": "3820",
+                "UUID": "45a6f70b-7b7f-44a0-8944-0db33c633bc4"
+              },
+              {
+                "Activity": "Motor boating on site",
+                "AID": "3821",
+                "UUID": "9a544fa7-0781-42ce-8d21-4d7b3f7be5af"
+              },
+              {
+                "Activity": "Mountain biking nearby",
+                "AID": "2090",
+                "UUID": "ad560a0a-9d54-4f43-a368-89d95c33ab1c"
+              },
+              {
+                "Activity": "Mountain biking on site",
+                "AID": "3822",
+                "UUID": "dcb5e301-0a29-4616-8baf-500e5e54eea3"
+              },
+              {
+                "Activity": "Parasailing nearby",
+                "AID": "2087",
+                "UUID": "57567af1-c676-44c7-9894-acd65d5c48a0"
+              },
+              {
+                "Activity": "Parasailing on site",
+                "AID": "3823",
+                "UUID": "aff95079-4628-43ef-9d0c-9010f64ec5f3"
+              },
+              {
+                "Activity": "Personal motorized watercraft on site",
+                "AID": "381",
+                "UUID": "52266535-55ec-40a6-9814-915b6084b9fb"
+              },
+              {
+                "Activity": "Rafting nearby",
+                "AID": "403",
+                "UUID": "e1e27070-109d-490b-ae1f-8e458a7b1369"
+              },
+              {
+                "Activity": "Rafting on site",
+                "AID": "3827",
+                "UUID": "7a32998f-4f70-45f7-bf6c-1b7b4d0f13c9"
+              },
+              {
+                "Activity": "Rock climbing nearby",
+                "AID": "5096",
+                "UUID": "0e53f9e2-3653-4810-9bf8-cfe342dc4f6e"
+              },
+              {
+                "Activity": "Rock climbing on site",
+                "AID": "5097",
+                "UUID": "aaaf85a0-5cad-4b7e-9f6d-1f06e2241981"
+              },
+              {
+                "Activity": "Sailing nearby",
+                "AID": "350",
+                "UUID": "fe8d8a28-9201-425a-8eaa-407d6fd20dab"
+              },
+              {
+                "Activity": "Sailing on site",
+                "AID": "3831",
+                "UUID": "df7f31af-8c37-4e50-990a-05d51defa070"
+              },
+              {
+                "Activity": "Scooter/moped rentals nearby",
+                "AID": "383",
+                "UUID": "f10f994d-ea8f-40f0-8d22-96e42e3bc10b"
+              },
+              {
+                "Activity": "Scooter/moped rentals on site",
+                "AID": "3832",
+                "UUID": "30947c6e-6aa7-4758-96b7-00ff3ce5c3c0"
+              },
+              {
+                "Activity": "Scuba diving nearby",
+                "AID": "351",
+                "UUID": "5c336f63-3737-4882-9c8c-6a19eb1801b3"
+              },
+              {
+                "Activity": "Scuba diving on site",
+                "AID": "3833",
+                "UUID": "4effd794-ac13-45de-a44d-4fd3943a8c42"
+              },
+              {
+                "Activity": "Segway rental/tour nearby",
+                "AID": "3927",
+                "UUID": "21bf6777-17ed-4831-88ef-92d6b719f37e"
+              },
+              {
+                "Activity": "Segway rental/tour on site",
+                "AID": "3926",
+                "UUID": "3a8c0dfc-f71f-4b28-a7cc-3f742a47a957"
+              },
+              {
+                "Activity": "Skydiving nearby",
+                "AID": "2093",
+                "UUID": "6d7b6457-4bfc-4d2a-ae6e-834a694c912e"
+              },
+              {
+                "Activity": "Skydiving on site",
+                "AID": "3839",
+                "UUID": "044134c9-b625-4b10-a848-b914d693e53a"
+              },
+              {
+                "Activity": "Sledding nearby",
+                "AID": "4401",
+                "UUID": "d31e2460-6be6-4982-baf3-ea5e56d4d049"
+              },
+              {
+                "Activity": "Sledding on site",
+                "AID": "4400",
+                "UUID": "0cf5bc72-f09b-41d2-830a-9618f95bed6c"
+              },
+              {
+                "Activity": "Snorkeling nearby",
+                "AID": "103",
+                "UUID": "1a8b9aa5-b75b-4f6e-bc98-0581df7cc7f6"
+              },
+              {
+                "Activity": "Snorkeling on site",
+                "AID": "3840",
+                "UUID": "f5e96c22-da58-49b0-90d1-a072b14473f3"
+              },
+              {
+                "Activity": "Snow tubing nearby",
+                "AID": "4405",
+                "UUID": "e43a704b-c4b3-47f4-a2d9-36bd4bf195d2"
+              },
+              {
+                "Activity": "Snow tubing on site",
+                "AID": "4404",
+                "UUID": "ea136850-a03e-4ea2-a79b-e1465fa3bf7b"
+              },
+              {
+                "Activity": "Snowboarding nearby",
+                "AID": "2146",
+                "UUID": "90e60e82-8054-45cd-854e-a696e0a6096b"
+              },
+              {
+                "Activity": "Snowboarding on site",
+                "AID": "3842",
+                "UUID": "3971cf50-528a-4a6f-89aa-d1e472663b8e"
+              },
+              {
+                "Activity": "Snowmobiling nearby",
+                "AID": "2089",
+                "UUID": "90402b6a-fa9f-4f2a-af5c-dd9159743979"
+              },
+              {
+                "Activity": "Snowmobiling on site",
+                "AID": "3843",
+                "UUID": "a38c9872-46de-4131-beb5-2f5bc985d3ba"
+              },
+              {
+                "Activity": "Snowshoeing nearby",
+                "AID": "2092",
+                "UUID": "901ae604-d6bb-44c0-8be3-77961a840d99"
+              },
+              {
+                "Activity": "Surfing/boogie boarding nearby",
+                "AID": "106",
+                "UUID": "4f56a359-46c5-44c9-8ae6-189373941daa"
+              },
+              {
+                "Activity": "Surfing/boogie boarding on site",
+                "AID": "3846",
+                "UUID": "fda90203-a761-48d1-b781-89657a26bbb6"
+              },
+              {
+                "Activity": "Water skiing nearby",
+                "AID": "356",
+                "UUID": "4ab1c557-8982-4be3-a627-9141373ab135"
+              },
+              {
+                "Activity": "Water skiing on site",
+                "AID": "3852",
+                "UUID": "491f0ec8-bf79-4669-8fb4-2eaeec74ccf5"
+              },
+              {
+                "Activity": "Windsurfing nearby",
+                "AID": "2094",
+                "UUID": "a7f142da-1bdd-4013-ae05-9b33da39ec67"
+              },
+              {
+                "Activity": "Windsurfing on site",
+                "AID": "3854",
+                "UUID": "08c6c2bb-4170-43a5-b678-d01466c8543e"
+              }
+            ]
+          },
+          {
+            "name": "ski_attributes",
+            "description": "Ski-related attributes",
+            "attributes": [
+              {
+                "Activity": "Ski lessons nearby",
+                "AID": "2360",
+                "UUID": "aaf52aef-f5de-4cf2-af5d-9a126ea3ac37"
+              },
+              {
+                "Activity": "Ski lessons on site",
+                "AID": "3836",
+                "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+              },
+              {
+                "Activity": "Ski rentals nearby",
+                "AID": "2362",
+                "UUID": "03be3a63-876f-4664-a8b2-f9878689046d"
+              },
+              {
+                "Activity": "Ski rentals on site",
+                "AID": "3835",
+                "UUID": "1e31114d-68a6-49cc-a13e-71df9ef22385"
+              }
+            ]
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Beach property",
+    "lcm_id": "2325",
+    "uuid": "0e16d0fe-9b44-4d15-be9a-2aeb4cdf85e9",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "283,151",
+    "urn": "BeachTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "uuid": "0e16d0fe-9b44-4d15-be9a-2aeb4cdf85e9",
+        "owned_by": "Manuela Sammatrice",
+        "last_updated": "Feb 13, 2025",
+        "automation": "Yes",
+        "attribute_id": "2325",
+        "urn": "BeachTheme"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "This theme is automatically assigned to properties that are on the beach, or that have direct access to it (sea, ocean).",
+        "uuid": null,
+        "urn": "BeachTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes",
+        "rules": [
+          {
+            "type": "location",
+            "count": 1
+          },
+          {
+            "type": "view_amenity",
+            "count": 1
+          }
+        ],
+        "location_attributes": [
+          {
+            "Activity": "Direct access to beach",
+            "Attribute ID": "4430",
+            "UUID": "b2870f14-ced6-4619-94b2-1bdcb6363d35"
+          },
+          {
+            "Activity": "Direct access to private beach",
+            "Attribute ID": "4431",
+            "UUID": "9fdb2f43-cdaf-4484-9b58-5473164a04b4"
+          },
+          {
+            "Activity": "On beach",
+            "Attribute ID": "48",
+            "UUID": "58b98d8e-896a-4fbb-a20d-23b229c6a23e"
+          },
+          {
+            "Activity": "On private beach",
+            "Attribute ID": "2080",
+            "UUID": "21ee58bf-e8e0-4327-9176-d564957cf49c"
+          }
+        ],
+        "view_amenity_attributes": [
+          {
+            "Activity": "Beach view",
+            "Attribute ID": "4128",
+            "UUID": "2cdc39fe-077a-4f7c-a905-1a20e4d700ef"
+          },
+          {
+            "Activity": "Ocean view",
+            "Attribute ID": "4101",
+            "UUID": "ffef1fca-be3d-4a29-851d-c24ff75eaf5a"
+          },
+          {
+            "Activity": "Sea view",
+            "Attribute ID": "4309",
+            "UUID": "e388762b-f47d-4b77-b1d1-8e24d20c5d86"
+          },
+          {
+            "Activity": "Beach umbrellas",
+            "Attribute ID": "4432",
+            "UUID": "83da41e6-8474-4704-9a82-93efbaf15601"
+          },
+          {
+            "Activity": "Beach cabanas (surcharge)",
+            "Attribute ID": "4434",
+            "UUID": "c171172d-488d-4067-8485-67b941eefa2f"
+          },
+          {
+            "Activity": "Beach cabanas (free)",
+            "Attribute ID": "4433",
+            "UUID": "47d15536-3292-4b65-b96e-812ad827e7e6"
+          },
+          {
+            "Activity": "Beach sun loungers",
+            "Attribute ID": "4437",
+            "UUID": "aec7f17a-b363-472c-82a7-ab5ace6ee8e8"
+          },
+          {
+            "Activity": "Beach towels",
+            "Attribute ID": "4467",
+            "UUID": "b1382733-6d88-4c2c-b3ca-bbb80a1b37a5"
+          },
+          {
+            "Activity": "Beach Volleyball Onsite",
+            "Attribute ID": "4491",
+            "UUID": "2a15c6b4-8f83-4f47-98e1-706c86e57847"
+          },
+          {
+            "Activity": "Beach yoga on site",
+            "Attribute ID": "4497",
+            "UUID": "677eec11-6bd1-435c-b6fb-f51720a03896"
+          },
+          {
+            "Activity": "Beach club on site (surcharge)",
+            "Attribute ID": "1073744528",
+            "UUID": "ec616776-12c2-4c11-8562-8a09eb862f0e"
+          }
+        ],
+        "disqualifications": []
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Boutique property",
+    "lcm_id": "5022",
+    "uuid": "f81df649-263c-4692-a94f-035a97228296",
+    "theme_automation": false,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "5,116",
+    "urn": "BoutiqueTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "uuid": "f81df649-263c-4692-a94f-035a97228296",
+        "owned_by": "Manuela Sammatrice",
+        "last_updated": "Feb 13, 2025",
+        "automation": "No",
+        "attribute_id": "5022",
+        "urn": "BoutiqueTheme"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "This theme is to be assigned **manually** to properties that feature **unique and upscale decor**.\nGuestrooms are individually furnished and feature added touches, often with locally influenced décor and artwork.\nBoutique properties typically have fewer than 100 rooms and are mostly unbranded. Some may belong to designated hotel collections (e.g., Design Hotels, Preferred Hotels).",
+        "uuid": null,
+        "urn": "BoutiqueTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "",
+        "rules": [],
+        "attribute_groups": [],
+        "attributes": []
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Business property",
+    "lcm_id": "2328",
+    "uuid": "105097f8-99ef-4a90-a101-50bb879ad0e8",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": true,
+    "properties_count_early_2024": "178,940",
+    "urn": "BusinessTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "uuid": "105097f8-99ef-4a90-a101-50bb879ad0e8",
+        "owned_by": "Aurelie Bray",
+        "automation": "Yes",
+        "attribute_id": "2328",
+        "urn": "BusinessTheme"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "This theme is automatically assigned to properties offering services and facilities for business travellers.\n- The **Structure Type** determines qualifying attributes.\n- Logic is split between **Conventional Lodgings** and **Vacation Rentals**.\n- Certain hotel **Brands** automatically qualify (see list at the end).",
+        "uuid": null,
+        "urn": "BusinessTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "split_sections": true,
+        "conventional_lodging": {
+          "description": "- **Minimum requirement**:\n- One Internet access attribute\n- **AND** `Desk` (AID 2026)\n- **AND** At least 3 more attributes across at least 2 different categories\n(Attributes listed below...)\n---",
+          "applicable_structure_types": [
+            "Agritourism",
+            "All-Inclusive",
+            "Bed&Breakfast",
+            "Castle",
+            "Pousada (Brazil)",
+            "Country House",
+            "Cruise",
+            "Ranch",
+            "Guest House",
+            "TownHouse",
+            "Hotel",
+            "Treehouse",
+            "Hotel Resort",
+            "Inn",
+            "Lodge",
+            "Residence",
+            "Motel",
+            "Palace",
+            "Pension",
+            "Pousada (Portugal)",
+            "Riad",
+            "Ryokan",
+            "Safari/Tentalow",
+            "Aparthotel",
+            "Condominium Resort."
+          ],
+          "rules": [
+            {
+              "type": "simple",
+              "description": "- **Minimum requirement**:"
+            }
+          ],
+          "attributes": []
+        },
+        "vacation_rental": {
+          "description": "- **Minimum requirement**:\n- One Internet access attribute\n- **AND** `Desk` (AID 2026)\n- **AND** At least 3 more attributes from 2+ categories\n(Attributes listed below...)\n---",
+          "applicable_structure_types": [
+            "Apartment",
+            "Cabin",
+            "Campsite",
+            "Chalet",
+            "Condo",
+            "Cottage",
+            "House boat",
+            "Private Vacation Home",
+            "Villa"
+          ],
+          "rules": [
+            {
+              "type": "simple",
+              "description": "- **Minimum requirement**:"
+            }
+          ],
+          "attributes": []
+        },
+        "qualifying_brands": [
+          {
+            "Brand": "Aloft",
+            "Chain/Group": "Starwood",
+            "Brand ID": "2308"
+          },
+          {
+            "Brand": "Andaz",
+            "Chain/Group": "Hyatt",
+            "Brand ID": "2263"
+          },
+          {
+            "Brand": "Conrad Hotels & Resorts",
+            "Chain/Group": "Hilton",
+            "Brand ID": "2146"
+          },
+          {
+            "Brand": "Courtyard by Marriott",
+            "Chain/Group": "Marriott",
+            "Brand ID": "28"
+          },
+          {
+            "Brand": "Crowne Plaza",
+            "Chain/Group": "IHG",
+            "Brand ID": "256"
+          },
+          {
+            "Brand": "Doubletree",
+            "Chain/Group": "Hilton",
+            "Brand ID": "33"
+          },
+          {
+            "Brand": "Edition",
+            "Chain/Group": "Marriott",
+            "Brand ID": "2534"
+          },
+          {
+            "Brand": "Element",
+            "Chain/Group": "Starwood",
+            "Brand ID": "2309"
+          },
+          {
+            "Brand": "Embassy Suites",
+            "Chain/Group": "Hilton",
+            "Brand ID": "38"
+          },
+          {
+            "Brand": "Fairmont",
+            "Chain/Group": "Fairmont",
+            "Brand ID": "209"
+          },
+          {
+            "Brand": "Four Points",
+            "Chain/Group": "Starwood",
+            "Brand ID": "309"
+          },
+          {
+            "Brand": "Four Seasons",
+            "Chain/Group": "Four Seasons",
+            "Brand ID": "2130"
+          },
+          {
+            "Brand": "Hawthorn Suites",
+            "Chain/Group": "Wyndham",
+            "Brand ID": "219"
+          },
+          {
+            "Brand": "Hilton Garden Inn",
+            "Chain/Group": "Hilton",
+            "Brand ID": "2059"
+          },
+          {
+            "Brand": "Hilton Hotels",
+            "Chain/Group": "Hilton",
+            "Brand ID": "55"
+          },
+          {
+            "Brand": "Homewood Suites",
+            "Chain/Group": "Hilton",
+            "Brand ID": "54"
+          },
+          {
+            "Brand": "Hyatt Hotels",
+            "Chain/Group": "Hyatt",
+            "Brand ID": "65"
+          },
+          {
+            "Brand": "Hyatt Place",
+            "Chain/Group": "Hyatt",
+            "Brand ID": "2209"
+          },
+          {
+            "Brand": "Inter-Continental",
+            "Chain/Group": "IHG",
+            "Brand ID": "66"
+          },
+          {
+            "Brand": "JW Marriott",
+            "Chain/Group": "Marriott",
+            "Brand ID": "2599"
+          },
+          {
+            "Brand": "Le Meridien",
+            "Chain/Group": "Starwood",
+            "Brand ID": "87"
+          },
+          {
+            "Brand": "Loews",
+            "Chain/Group": "Loews",
+            "Brand ID": "85"
+          },
+          {
+            "Brand": "Mandarin Oriental",
+            "Chain/Group": "Mandarin Oriental",
+            "Brand ID": "91"
+          },
+          {
+            "Brand": "Marriott Hotels & Resorts",
+            "Chain/Group": "Marriott",
+            "Brand ID": "86"
+          },
+          {
+            "Brand": "Mercure",
+            "Chain/Group": "Accor",
+            "Brand ID": "2137"
+          },
+          {
+            "Brand": "Novotel",
+            "Chain/Group": "Accor",
+            "Brand ID": "300"
+          },
+          {
+            "Brand": "Omni",
+            "Chain/Group": "Omni",
+            "Brand ID": "100"
+          },
+          {
+            "Brand": "Pan Pacific Hotels & Resorts",
+            "Chain/Group": "Pan Pacific Hotels & Resorts",
+            "Brand ID": "105"
+          },
+          {
+            "Brand": "Preferred Hotels & Resorts",
+            "Chain/Group": "Preferred Hotels",
+            "Brand ID": "3501"
+          },
+          {
+            "Brand": "Prince Hotels & Resorts",
+            "Chain/Group": "Prince Hotels & Resorts",
+            "Brand ID": "588"
+          },
+          {
+            "Brand": "Radisson",
+            "Chain/Group": "Carlson",
+            "Brand ID": "115"
+          },
+          {
+            "Brand": "Radisson Blu",
+            "Chain/Group": "Carlson",
+            "Brand ID": "2431"
+          },
+          {
+            "Brand": "Raffles Hotels & Resorts",
+            "Chain/Group": "Raffles Hotels & Resorts",
+            "Brand ID": "739"
+          },
+          {
+            "Brand": "Renaissance Hotels",
+            "Chain/Group": "Marriott",
+            "Brand ID": "15"
+          },
+          {
+            "Brand": "Residence Inn by Marriott",
+            "Chain/Group": "Marriott",
+            "Brand ID": "114"
+          },
+          {
+            "Brand": "Ritz Carlton",
+            "Chain/Group": "Marriott",
+            "Brand ID": "126"
+          },
+          {
+            "Brand": "Shangri-La Hotels & Resorts",
+            "Chain/Group": "Shangri-La Hotels & Resorts",
+            "Brand ID": "129"
+          },
+          {
+            "Brand": "Sheraton",
+            "Chain/Group": "Starwood",
+            "Brand ID": "130"
+          },
+          {
+            "Brand": "Sofitel",
+            "Chain/Group": "Accor",
+            "Brand ID": "272"
+          },
+          {
+            "Brand": "St Regis",
+            "Chain/Group": "Starwood",
+            "Brand ID": "2045"
+          },
+          {
+            "Brand": "Staybridge Suites",
+            "Chain/Group": "IHG",
+            "Brand ID": "731"
+          },
+          {
+            "Brand": "The Luxury Collection",
+            "Chain/Group": "Starwood",
+            "Brand ID": "320"
+          },
+          {
+            "Brand": "W Hotels",
+            "Chain/Group": "Starwood",
+            "Brand ID": "706"
+          },
+          {
+            "Brand": "Waldorf Astoria",
+            "Chain/Group": "Hilton",
+            "Brand ID": "2194"
+          },
+          {
+            "Brand": "Westin",
+            "Chain/Group": "Starwood",
+            "Brand ID": "152"
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Casino property",
+    "lcm_id": "2329",
+    "uuid": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "4,430",
+    "urn": "CasinoTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2329",
+              "UUID": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+              "Description": "This theme is automatically assigned to properties that host an on-site casino (and not just slot machines or video gaming)"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "1073743271",
+              "UUID": "aaae9bea-0bba-11ea-8d71-362b9e155667",
+              "Description": "If a property is adjacent to a casino, we can still include it in the Theme by selecting the THEME OVER-RIDE, CASINO attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744265",
+              "UUID": "aaaea84c-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVERRIDE, REMOVE CASINO attribute"
+            }
+          ]
+        ],
+        "uuid": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+        "owned_by": "Manuela Sammatrice",
+        "last_updated": "Feb 13, 2025",
+        "automation": "Yes",
+        "attribute_id": "2329"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+        "urn": "CasinoTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "",
+        "rules": [],
+        "attribute_groups": [],
+        "attributes": []
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Eco-certified property",
+    "lcm_id": "2332",
+    "uuid": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": true,
+    "properties_count_early_2024": "8,018",
+    "urn": "EcoCertifiedTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2332",
+              "UUID": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+              "Description": "This theme is automatically assigned to properties that belong to one of recognized programs outlined below and must present a certificate as proving they have been awarded the certification. Unless otherwise noted, all awards are bulk-updated quarterly. Partners may request a certification be added or removed as needed, but must provide documentation from one of the organizations listed below proving certification status. This can be a link to the organization's website where the property details are listed. Whenever a relevant program in the Awards & Affiliations section is selected, it will generate the following text: \"This property participates in {GreenProgramName}, a program that measures the property's impact on one or more of the following: environment, community, cultural-heritage, the local economy.”"
+            },
+            {
+              "Attribute": "**Exceptionally included (DO NOT USE)**",
+              "Attribute ID": "1073744270",
+              "UUID": "aaaeb120-0bba-11ea-8d71-362b9e155667",
+              "Description": "In exceptional situations we can use the THEME OVER-RIDE, GREEN attribute (Attribute not yet in use. Exceptions to be confirmed in #lodging-content-discussion slack channel)"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744271",
+              "UUID": "aaaeb24c-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE GREEN attribute"
+            }
+          ]
+        ],
+        "uuid": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+        "owned_by": "Manuela Sammatrice",
+        "last_updated": "Feb 18, 2025",
+        "automation": "Yes",
+        "attribute_id": "2332"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+        "urn": "EcoCertifiedTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+        "certification_programs": [
+          {
+            "Program": "Green Key Fee (Foundation for Environmental Education)",
+            "Notes": "EMEA/APAC focused. Sends EG a list each quarter with updated membership.",
+            "AID": "2995",
+            "URN": "GreenKey",
+            "UUID": "becf7b80-d536-4367-a473-22c9f711b1e1"
+          },
+          {
+            "Program": "Green Key Global",
+            "Notes": "AMER focused. Both Green Key programs are affiliated with each other",
+            "AID": "3040",
+            "URN": "GreenKeyGlobal",
+            "UUID": "3a4a190b-5514-499b-8bf8-9e946ae38d53"
+          },
+          {
+            "Program": "Green Tourism Program",
+            "Notes": "",
+            "AID": "2994",
+            "URN": "GreenTourismProgram",
+            "UUID": "3aa7fc5b-6a6d-4d35-9eec-e469845da2a9"
+          },
+          {
+            "Program": "Green-Travelife",
+            "Notes": "",
+            "AID": "3298",
+            "URN": "GreenTravelife",
+            "UUID": "5c8ed28e-5fad-472d-abdd-8a3aa8b7d2a3"
+          },
+          {
+            "Program": "Green-EarthCheck",
+            "Notes": "",
+            "AID": "3299",
+            "URN": "GreenEarthCheck",
+            "UUID": "3ccf9563-c2d3-4460-af86-25a0c85e7f88"
+          },
+          {
+            "Program": "Green Globe",
+            "Notes": "",
+            "AID": "3004",
+            "URN": "GreenGlobe",
+            "UUID": "c101d28c-2163-47df-9bd0-dc29ee8b4185"
+          },
+          {
+            "Program": "Green-Biosphere",
+            "Notes": "",
+            "AID": "2974",
+            "URN": "GreenBiosphere",
+            "UUID": "a0e0f32d-7e78-43db-874f-933378267688"
+          },
+          {
+            "Program": "Green-Audubon",
+            "Notes": "",
+            "AID": "3028",
+            "URN": "GreenAudubon",
+            "UUID": "a4f3fa82-6d73-4e25-9225-dcb38e1f62f8"
+          },
+          {
+            "Program": "Green-Fair Trade Tourism",
+            "Notes": "",
+            "AID": "1073743073",
+            "URN": "GreenFairTradeTourism",
+            "UUID": "4bb4a9eb-ded1-4f61-b913-9290e61e51d1"
+          },
+          {
+            "Program": "Qualmark Sustainable Tourism Business Award",
+            "Notes": "Updated with monthly Qualmark audits",
+            "AID": "2967",
+            "URN": "GreenQualmark",
+            "UUID": "5683f8bd-fc33-40ed-8ae5-756b6bf6df03"
+          }
+        ],
+        "update_frequency": "quarterly",
+        "documentation_requirements": [],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "Properties must have **1 of the following** attributes:",
+            "required_count": 1
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Family property",
+    "lcm_id": "2333",
+    "uuid": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": true,
+    "properties_count_early_2024": "124,028",
+    "urn": "FamilyTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2333",
+              "UUID": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+              "Description": "This theme is automatically assigned to properties providing services and amenities for children. The Structure Type determines the qualifying attributes. The logic is split between Conventional Lodgings and Vacation Rentals"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "5091",
+              "UUID": "aaae62b0-0bba-11ea-8d71-362b9e155667",
+              "Description": "In exceptional situations we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, FAMILY attribute. The override can be used for Structure Types that are not included in the automation logic (see below)"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "5090",
+              "UUID": "aaae615c-0bba-11ea-8d71-362b9e155667",
+              "Description": "Properties assigned the following Structure Types are not included in the theme automation logic: Cruise, Hostal, Hostel, Pousada (Brazil), Pousada (Portugal), Campsite, Capsule hotel. When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE FAMILY attribute (attribute 5090). Properties catering to specific targets are excluded from this theme (see disqualifying attributes below)"
+            }
+          ]
+        ],
+        "uuid": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "Yes",
+        "attribute_id": "2333"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+        "urn": "FamilyTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "split_sections": true,
+        "conventional_lodging": {
+          "description": "Properties must have:\n- **2 of the following primary attributes** AND\n- **A minimum of 2 attributes (total) from 2 different categories** from the secondary attributes list",
+          "applicable_structure_types": [
+            "Agritourism",
+            "All-Inclusive",
+            "Bed&Breakfast",
+            "Castle",
+            "Country House",
+            "Ranch",
+            "Guest House",
+            "TownHouse",
+            "Hotel",
+            "Treehouse",
+            "Hotel Resort",
+            "Inn",
+            "Lodge",
+            "Residence",
+            "Motel",
+            "Palace",
+            "Pension",
+            "Riad",
+            "Ryokan",
+            "Safari/Tentalow",
+            "Aparthotel",
+            "Condominium resort"
+          ],
+          "rules": [
+            {
+              "type": "complex",
+              "description": "Properties must have:"
+            }
+          ],
+          "primary_attributes": [
+            {
+              "Attribute": "Babysitting or childcare",
+              "AID": "6",
+              "UUID": "1f4865cc-5c7b-420d-9abb-397c911eb932"
+            },
+            {
+              "Attribute": "Supervised childcare/activities",
+              "AID": "38",
+              "UUID": "64ac06c4-dffc-4713-8117-8be15f364242"
+            },
+            {
+              "Attribute": "Children's club",
+              "AID": "2186",
+              "UUID": "d08e5209-8075-4b36-9e34-6b58e122bf43"
+            },
+            {
+              "Attribute": "KBYG-Children stay free",
+              "AID": "2552",
+              "UUID": "f614445a-f9c3-450e-83c7-f627dd182c77"
+            },
+            {
+              "Attribute": "Childcare (in room, surcharge)",
+              "AID": "2151",
+              "UUID": "40c3f20c-287c-470b-82d5-c1684e82efcc"
+            },
+            {
+              "Attribute": "Babysitting or childcare (free)",
+              "AID": "4695",
+              "UUID": "d44fc079-b6dd-4878-930a-91573d4dc41f"
+            },
+            {
+              "Attribute": "Babysitting or childcare (surc)",
+              "AID": "4696",
+              "UUID": "aac29ea1-965e-4b19-81e8-583c4492ab12"
+            },
+            {
+              "Attribute": "Children's club (free)",
+              "AID": "4697",
+              "UUID": "69c32179-a11d-4b60-bea7-32d3c4f7b581"
+            },
+            {
+              "Attribute": "Children's club (surcharge)",
+              "AID": "4698",
+              "UUID": "4897d109-382b-4d10-9b81-99daf93c82b3"
+            },
+            {
+              "Attribute": "Supervised childcare/active-surc",
+              "AID": "4699",
+              "UUID": "a78c57bd-4edb-494c-ab3f-810a8fbf8b2f"
+            },
+            {
+              "Attribute": "Cribs/infant beds available",
+              "AID": "4147",
+              "UUID": "d0cc8945-61e6-469e-b974-5aba9c11b350"
+            },
+            {
+              "Attribute": "Cribs/infant beds (surcharge)",
+              "AID": "4950",
+              "UUID": "05e3ed75-9184-40a2-8c99-67da04ae4cb2"
+            },
+            {
+              "Attribute": "Cribs/infant beds (free)",
+              "AID": "4951",
+              "UUID": "7f58a6f6-8af7-4757-b8b8-fc81e41bc16a"
+            },
+            {
+              "Attribute": "Highchair",
+              "AID": "1073743372",
+              "UUID": "7e3e1316-1315-4ec4-8601-953f84042547"
+            },
+            {
+              "Attribute": "Toys",
+              "AID": "1073743385",
+              "UUID": "dca5c365-9c39-45c5-846c-c3c13ee2bf7b"
+            },
+            {
+              "Attribute": "Dining-Restaurant1-KidsMeals",
+              "AID": "3388",
+              "UUID": "b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98"
+            },
+            {
+              "Attribute": "Dining-Restaurant2-KidsMeals",
+              "AID": "3404",
+              "UUID": "fb29bdad-5d99-4911-9d97-e8ce6c7eddff"
+            },
+            {
+              "Attribute": "Dining-Restaurant3-KidsMeals",
+              "AID": "3451",
+              "UUID": "5034e0a1-1aa8-4b3f-a464-6059da64a7a7"
+            },
+            {
+              "Attribute": "Dining-Restaurant4-KidsMeals",
+              "AID": "3452",
+              "UUID": "48ecad34-fa50-4232-aea1-aa0399757ea1"
+            }
+          ],
+          "secondary_attributes": [
+            {
+              "Attribute": "Parking - valet (free)",
+              "AID": "3863",
+              "Category": "Parking",
+              "UUID": "4538dd97-c660-453e-b3d4-c6934ca6ef20"
+            },
+            {
+              "Attribute": "Parking - extended (free)",
+              "AID": "4450",
+              "Category": "Parking",
+              "UUID": "df95d788-f37c-4f09-8cc5-4a28f152f344"
+            },
+            {
+              "Attribute": "Parking - extended (surcharge)",
+              "AID": "4451",
+              "Category": "Parking",
+              "UUID": "6e532e94-05e4-452e-ad02-00e79ee10306"
+            },
+            {
+              "Attribute": "Parking - RV, bus, truck (free)",
+              "AID": "4452",
+              "Category": "Parking",
+              "UUID": "a43f3678-6ce4-4db6-b961-1293f5c65858"
+            },
+            {
+              "Attribute": "Parking - RV, bus, truck (surch)",
+              "AID": "4453",
+              "Category": "Parking",
+              "UUID": "08719d91-5d20-4671-a93b-5082b5b7a41a"
+            },
+            {
+              "Attribute": "Parking - RV, bus, truck (free)",
+              "AID": "4454",
+              "Category": "Parking",
+              "UUID": "1e048a06-5330-4368-9b39-671cd78b67d3"
+            },
+            {
+              "Attribute": "Parking - offsite (discounted)",
+              "AID": "4455",
+              "Category": "Parking",
+              "UUID": "84b31659-bc8a-4f29-8b7c-e977c04d2a31"
+            },
+            {
+              "Attribute": "Parking - offsite (reservations)",
+              "AID": "4456",
+              "Category": "Parking",
+              "UUID": "d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7"
+            },
+            {
+              "Attribute": "Sofa bed",
+              "AID": "2038",
+              "Category": "Equipment",
+              "UUID": "0f8e911c-ceab-4136-8fab-32028159b34b"
+            },
+            {
+              "Attribute": "Rollaway/extra beds",
+              "AID": "2044",
+              "Category": "Equipment",
+              "UUID": "a8d609a1-e007-46c5-b4c0-0c266e64a894"
+            },
+            {
+              "Attribute": "Elevator/Lift",
+              "AID": "8",
+              "Category": "Equipment",
+              "UUID": "0a76f8db-30e7-4b9f-9cfc-355e40964195"
+            },
+            {
+              "Attribute": "Dry cleaning/laundry service",
+              "AID": "2070",
+              "Category": "Equipment",
+              "UUID": "d31ebb82-ff76-4e5b-acf1-604e75deb310"
+            },
+            {
+              "Attribute": "Laundry Facilities",
+              "AID": "369",
+              "Category": "Equipment",
+              "UUID": "5fd24a02-5136-4b0b-baea-6353d03fa863"
+            },
+            {
+              "Attribute": "KBYG-Connecting/adjoining rooms",
+              "AID": "4420",
+              "Category": "Equipment",
+              "UUID": "c58f51a5-21cf-4c4e-8768-a829df09e0e6"
+            },
+            {
+              "Attribute": "Ski area nearby",
+              "AID": "2118",
+              "Category": "Recreation",
+              "UUID": "65cdb589-f9cc-4712-b552-bfbff2a0eedc"
+            },
+            {
+              "Attribute": "Ski lessons nearby",
+              "AID": "2360",
+              "Category": "Recreation",
+              "UUID": "aaf52aef-f5de-4cf2-af5d-9a126ea3ac37"
+            },
+            {
+              "Attribute": "Ski rentals nearby",
+              "AID": "2362",
+              "Category": "Recreation",
+              "UUID": "03be3a63-876f-4664-a8b2-f9878689046d"
+            },
+            {
+              "Attribute": "Ski rentals on site",
+              "AID": "3835",
+              "Category": "Recreation",
+              "UUID": "1e31114d-68a6-49cc-a13e-71df9ef22385"
+            },
+            {
+              "Attribute": "Ski lessons on site",
+              "AID": "3836",
+              "Category": "Recreation",
+              "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+            },
+            {
+              "Attribute": "Skiing Downhill On site",
+              "AID": "3838",
+              "Category": "Recreation",
+              "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+            },
+            {
+              "Attribute": "On beach",
+              "AID": "48",
+              "Category": "Recreation",
+              "UUID": "58b98d8e-896a-4fbb-a20d-23b229c6a23e"
+            },
+            {
+              "Attribute": "Beach nearby",
+              "AID": "2113",
+              "Category": "Recreation",
+              "UUID": "b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1"
+            },
+            {
+              "Attribute": "Beach nearby - direct access",
+              "AID": "4430",
+              "Category": "Recreation",
+              "UUID": "b2870f14-ced6-4619-94b2-1bdcb6363d35"
+            },
+            {
+              "Attribute": "Theme park(s) nearby",
+              "AID": "2083",
+              "Category": "Recreation",
+              "UUID": "1cc2e184-fcb2-41e2-aa18-82281e97f9ab"
+            },
+            {
+              "Attribute": "Theme park shuttle (free)",
+              "AID": "2950",
+              "Category": "Recreation",
+              "UUID": "0268829b-7cf2-41ef-a35b-468d516fe761"
+            },
+            {
+              "Attribute": "Theme park shuttle (surcharge)",
+              "AID": "2951",
+              "Category": "Recreation",
+              "UUID": "fff16d06-1863-4858-bf26-18819293f791"
+            },
+            {
+              "Attribute": "Games",
+              "AID": "1073743383",
+              "Category": "Recreation",
+              "UUID": "9445dd10-b709-44c8-81cd-44a451d60831"
+            },
+            {
+              "Attribute": "Ping pong table",
+              "AID": "1073743386",
+              "Category": "Recreation",
+              "UUID": "1f6a3098-40e6-4648-8d0b-19b51a29ca7f"
+            },
+            {
+              "Attribute": "Foosball",
+              "AID": "1073743388",
+              "Category": "Recreation",
+              "UUID": "ca703e5f-d1de-40e3-83e6-b65eacafe79b"
+            },
+            {
+              "Attribute": "Indoor pool",
+              "AID": "14",
+              "Category": "Recreation",
+              "UUID": "85be5c08-92e8-40a7-b0e2-42a6aea058a9"
+            },
+            {
+              "Attribute": "Outdoor pool",
+              "AID": "24",
+              "Category": "Recreation",
+              "UUID": "6a82fca6-1620-4da8-b7ba-592746c6ca39"
+            },
+            {
+              "Attribute": "Swimming pool",
+              "AID": "2074",
+              "Category": "Recreation",
+              "UUID": "cf0c4550-0af4-4021-b1f4-7562c63939c2"
+            },
+            {
+              "Attribute": "Outdoor seasonal pool",
+              "AID": "2138",
+              "Category": "Recreation",
+              "UUID": "f410e383-8a19-494b-b6f3-7b7bb1170efb"
+            },
+            {
+              "Attribute": "Number of indoor pools -",
+              "AID": "2820",
+              "Category": "Recreation",
+              "UUID": "efe909ad-2475-4529-9612-1e5242216669"
+            },
+            {
+              "Attribute": "Number of outdoor pools -",
+              "AID": "2821",
+              "Category": "Recreation",
+              "UUID": "384c8154-03ab-4180-b099-9cb689161ebf"
+            },
+            {
+              "Attribute": "Private pool",
+              "AID": "2859",
+              "Category": "Recreation",
+              "UUID": "7a4414f1-9187-4c8d-8289-fd9e88ff758e"
+            },
+            {
+              "Attribute": "Private plunge pool",
+              "AID": "2860",
+              "Category": "Recreation",
+              "UUID": "a0f98dd6-4dfd-4c39-8302-f64d0b8397a3"
+            },
+            {
+              "Attribute": "24-hour pool access",
+              "AID": "1073743549",
+              "Category": "Recreation",
+              "UUID": "b71bba46-9eab-45e7-9199-2445017c5efb"
+            },
+            {
+              "Attribute": "Recreation-Pool-children's",
+              "AID": "2014",
+              "Category": "Recreation",
+              "UUID": "c93d1b8c-83de-4ecc-b994-7dcd3be33589"
+            },
+            {
+              "Attribute": "Recreation-Playground on site",
+              "AID": "3825",
+              "Category": "Recreation",
+              "UUID": "b8e250ea-ad6e-44d5-8b23-378e85cf1200"
+            },
+            {
+              "Attribute": "Golf - miniature on site",
+              "AID": "3812",
+              "Category": "Recreation",
+              "UUID": "d60342d6-c988-4bac-9b58-482368470831"
+            },
+            {
+              "Attribute": "Recreation-Lazy river",
+              "AID": "2817",
+              "Category": "Recreation",
+              "UUID": "66930de3-2d35-44c0-8a18-e6ac0df26c04"
+            },
+            {
+              "Attribute": "Recreation-Waterslide",
+              "AID": "2818",
+              "Category": "Recreation",
+              "UUID": "3766faf9-5aca-4737-8601-f80b33997381"
+            },
+            {
+              "Attribute": "Recreation-Water park",
+              "AID": "2819",
+              "Category": "Recreation",
+              "UUID": "5b4ec696-0702-4435-a5ff-7b9db64c36e7"
+            },
+            {
+              "Attribute": "Water park access (free)",
+              "AID": "4174",
+              "Category": "Recreation",
+              "UUID": "0e4392d9-827e-48e5-8311-2d17e928c45b"
+            },
+            {
+              "Attribute": "Water park access (surcharge)",
+              "AID": "4175",
+              "Category": "Recreation",
+              "UUID": "700699ca-6d69-4338-a407-acfdff1b8089"
+            },
+            {
+              "Attribute": "Arcade/game room",
+              "AID": "375",
+              "Category": "Recreation",
+              "UUID": "d8525e3d-b796-4388-8802-297c67534e1f"
+            },
+            {
+              "Attribute": "Bowling alley on site",
+              "AID": "3805",
+              "Category": "Recreation",
+              "UUID": "22e713fd-54bf-4d7e-86ca-31e2a8062150"
+            },
+            {
+              "Attribute": "Grocery/convenience store",
+              "AID": "2386",
+              "Category": "Dining",
+              "UUID": "b81898a7-543c-44b2-baf2-1dc36a6b6aac"
+            },
+            {
+              "Attribute": "Snackbar/Deli",
+              "AID": "3500",
+              "Category": "Dining",
+              "UUID": "ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a"
+            },
+            {
+              "Attribute": "Shared/communal kitchen",
+              "AID": "5093",
+              "Category": "Dining",
+              "UUID": "4ff67be9-38e9-4922-98b7-062a36aef7bc"
+            },
+            {
+              "Attribute": "Refrigerator",
+              "AID": "130",
+              "Category": "Dining",
+              "UUID": "0caddcd0-af62-40ae-9008-b121e651f616"
+            },
+            {
+              "Attribute": "Refrigerator (on request)",
+              "AID": "2181",
+              "Category": "Dining",
+              "UUID": "86f3fa31-384e-45ee-b9e9-849727becab7"
+            },
+            {
+              "Attribute": "Refrigerator",
+              "AID": "4303",
+              "Category": "Dining",
+              "UUID": "b3894c03-6889-4a98-bc15-143963730a52"
+            },
+            {
+              "Attribute": "Refrigerator (on request)",
+              "AID": "4304",
+              "Category": "Dining",
+              "UUID": "1b713aac-c927-41a3-b714-0bb3e720d5c8"
+            },
+            {
+              "Attribute": "Refrigerator (surcharge)",
+              "AID": "1073742774",
+              "Category": "Dining",
+              "UUID": "6e0551c5-96fc-4bba-bdad-8da251c2ab5e"
+            },
+            {
+              "Attribute": "Refrigerator (surcharge)",
+              "AID": "1073742781",
+              "Category": "Dining",
+              "UUID": "0bca00a9-d324-42bc-94fa-a4dc2881d8db"
+            },
+            {
+              "Attribute": "DVD player",
+              "AID": "2086",
+              "Category": "Entertainment",
+              "UUID": "bb326125-f667-4665-974b-2ce03a121f35"
+            },
+            {
+              "Attribute": "Television - Smart",
+              "AID": "1073743569",
+              "Category": "Entertainment",
+              "UUID": "3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8"
+            },
+            {
+              "Attribute": "Netflix",
+              "AID": "1073743571",
+              "Category": "Entertainment",
+              "UUID": "f171999c-dec5-47e9-9950-c1d19b73d7d4"
+            },
+            {
+              "Attribute": "High-speed internet access",
+              "AID": "2046",
+              "Category": "Entertainment",
+              "UUID": "df4fcb7b-6126-4076-a8f1-8cab33536629"
+            },
+            {
+              "Attribute": "Free WiFi PA",
+              "AID": "2390",
+              "Category": "Entertainment",
+              "UUID": "2cb950af-5afe-40f5-bf79-e6561f3bc773"
+            },
+            {
+              "Attribute": "WiFi (surcharge) PA",
+              "AID": "2391",
+              "Category": "Entertainment",
+              "UUID": "e5049e76-2c5d-40da-9eab-c5726deba7a7"
+            },
+            {
+              "Attribute": "Free wired Internet PA",
+              "AID": "2392",
+              "Category": "Entertainment",
+              "UUID": "0924a533-5bcc-4a8f-89f8-18537d6d2bed"
+            },
+            {
+              "Attribute": "Wired internet access - surcharge",
+              "AID": "2393",
+              "Category": "Entertainment",
+              "UUID": "37bc3715-36a1-45fe-a127-5c6aed05a77d"
+            },
+            {
+              "Attribute": "Free WiFi RA",
+              "AID": "2403",
+              "Category": "Entertainment",
+              "UUID": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+            },
+            {
+              "Attribute": "WiFi (surcharge) PA",
+              "AID": "2404",
+              "Category": "Entertainment",
+              "UUID": "c2518a35-0502-4afc-a050-2bfcb9dfaeb4"
+            },
+            {
+              "Attribute": "Free wired Internet RA",
+              "AID": "2405",
+              "Category": "Entertainment",
+              "UUID": "e713d597-b2cb-447b-b51a-c972a87fe879"
+            },
+            {
+              "Attribute": "Wired Internet access (surcharge) RA",
+              "AID": "2406",
+              "Category": "Entertainment",
+              "UUID": "ede46d14-bf47-4748-8d88-cba8b06d4214"
+            },
+            {
+              "Attribute": "Internet access (3rd party) PA",
+              "AID": "1073742907",
+              "Category": "Entertainment",
+              "UUID": "f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828"
+            },
+            {
+              "Attribute": "Internet access (3rd party) RA",
+              "AID": "1073742908",
+              "Category": "Entertainment",
+              "UUID": "63f74d12-1583-4707-964e-54bdb9be9910"
+            },
+            {
+              "Attribute": "Internet access - high speed",
+              "AID": "2125",
+              "Category": "Entertainment",
+              "UUID": "5968d41c-abd9-4da1-b8ec-70fdffa10849"
+            },
+            {
+              "Attribute": "Internet access - complimentary PA",
+              "AID": "2127",
+              "Category": "Entertainment",
+              "UUID": "7d8b093c-067e-44fe-ad60-a49854423a06"
+            },
+            {
+              "Attribute": "Internet access - complimentary RA",
+              "AID": "2156",
+              "Category": "Entertainment",
+              "UUID": "61d64ec2-0d97-4a92-aca1-da71c906464b"
+            },
+            {
+              "Attribute": "Internet access - surcharge RA",
+              "AID": "2157",
+              "Category": "Entertainment",
+              "UUID": "89714e00-fac8-49f6-9afd-87b03d72adcb"
+            },
+            {
+              "Attribute": "Television Internet access RA",
+              "AID": "2099",
+              "Category": "Entertainment",
+              "UUID": "3d0470d4-1e3d-4929-ba92-8f9d9949b2d6"
+            },
+            {
+              "Attribute": "Wireless Internet access RA",
+              "AID": "2100",
+              "Category": "Entertainment",
+              "UUID": "5bad798b-0ced-45f0-9493-1386d904bfa0"
+            },
+            {
+              "Attribute": "Internet access - wireless PA",
+              "AID": "2101",
+              "Category": "Entertainment",
+              "UUID": "d86726ff-4a17-4a28-996e-5b81963254a8"
+            },
+            {
+              "Attribute": "Video games-console",
+              "AID": "2028",
+              "Category": "Entertainment",
+              "UUID": "66e72d29-0ade-4fd5-a154-f009f4d05ce8"
+            }
+          ]
+        },
+        "vacation_rental": {
+          "description": "Properties must have:\n- **2 of the following primary attributes** AND\n- **A minimum of 3 attributes (total) from 3 different categories** from the secondary attributes list",
+          "applicable_structure_types": [
+            "Apartment",
+            "Cabin",
+            "Chalet",
+            "Condo",
+            "Cottage",
+            "House boat",
+            "Private Vacation Home",
+            "Villa"
+          ],
+          "rules": [
+            {
+              "type": "complex",
+              "description": "Properties must have:"
+            }
+          ],
+          "primary_attributes": [
+            {
+              "Attribute": "Babysitting or childcare",
+              "AID": "6",
+              "UUID": "1f4865cc-5c7b-420d-9abb-397c911eb932"
+            },
+            {
+              "Attribute": "Supervised childcare/activities",
+              "AID": "38",
+              "UUID": "64ac06c4-dffc-4713-8117-8be15f364242"
+            },
+            {
+              "Attribute": "Children's club",
+              "AID": "2186",
+              "UUID": "d08e5209-8075-4b36-9e34-6b58e122bf43"
+            },
+            {
+              "Attribute": "KBYG-Children stay free",
+              "AID": "2552",
+              "UUID": "f614445a-f9c3-450e-83c7-f627dd182c77"
+            },
+            {
+              "Attribute": "Childcare (in room, surcharge)",
+              "AID": "2151",
+              "UUID": "40c3f20c-287c-470b-82d5-c1684e82efcc"
+            },
+            {
+              "Attribute": "Babysitting or childcare (free)",
+              "AID": "4695",
+              "UUID": "d44fc079-b6dd-4878-930a-91573d4dc41f"
+            },
+            {
+              "Attribute": "Babysitting or childcare (surc)",
+              "AID": "4696",
+              "UUID": "aac29ea1-965e-4b19-81e8-583c4492ab12"
+            },
+            {
+              "Attribute": "Children's club (free)",
+              "AID": "4697",
+              "UUID": "69c32179-a11d-4b60-bea7-32d3c4f7b581"
+            },
+            {
+              "Attribute": "Children's club (surcharge)",
+              "AID": "4698",
+              "UUID": "4897d109-382b-4d10-9b81-99daf93c82b3"
+            },
+            {
+              "Attribute": "Supervised childcare/active-surc",
+              "AID": "4699",
+              "UUID": "a78c57bd-4edb-494c-ab3f-810a8fbf8b2f"
+            },
+            {
+              "Attribute": "Cribs/infant beds available",
+              "AID": "4147",
+              "UUID": "d0cc8945-61e6-469e-b974-5aba9c11b350"
+            },
+            {
+              "Attribute": "Cribs/infant beds (surcharge)",
+              "AID": "4950",
+              "UUID": "05e3ed75-9184-40a2-8c99-67da04ae4cb2"
+            },
+            {
+              "Attribute": "Cribs/infant beds (free)",
+              "AID": "4951",
+              "UUID": "7f58a6f6-8af7-4757-b8b8-fc81e41bc16a"
+            },
+            {
+              "Attribute": "Highchair",
+              "AID": "1073743372",
+              "UUID": "7e3e1316-1315-4ec4-8601-953f84042547"
+            },
+            {
+              "Attribute": "Toys",
+              "AID": "1073743385",
+              "UUID": "dca5c365-9c39-45c5-846c-c3c13ee2bf7b"
+            },
+            {
+              "Attribute": "Dining-Restaurant1-KidsMeals",
+              "AID": "3388",
+              "UUID": "b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98"
+            },
+            {
+              "Attribute": "Dining-Restaurant2-KidsMeals",
+              "AID": "3404",
+              "UUID": "fb29bdad-5d99-4911-9d97-e8ce6c7eddff"
+            },
+            {
+              "Attribute": "Dining-Restaurant3-KidsMeals",
+              "AID": "3451",
+              "UUID": "5034e0a1-1aa8-4b3f-a464-6059da64a7a7"
+            },
+            {
+              "Attribute": "Dining-Restaurant4-KidsMeals",
+              "AID": "3452",
+              "UUID": "48ecad34-fa50-4232-aea1-aa0399757ea1"
+            }
+          ],
+          "secondary_attributes": [
+            {
+              "Attribute": "Parking - valet (free)",
+              "AID": "3863",
+              "Category": "Parking",
+              "UUID": "4538dd97-c660-453e-b3d4-c6934ca6ef20"
+            },
+            {
+              "Attribute": "Parking - extended (free)",
+              "AID": "4450",
+              "Category": "Parking",
+              "UUID": "df95d788-f37c-4f09-8cc5-4a28f152f344"
+            },
+            {
+              "Attribute": "Parking - extended (surcharge)",
+              "AID": "4451",
+              "Category": "Parking",
+              "UUID": "6e532e94-05e4-452e-ad02-00e79ee10306"
+            },
+            {
+              "Attribute": "Parking - RV, bus, truck (free)",
+              "AID": "4452",
+              "Category": "Parking",
+              "UUID": "a43f3678-6ce4-4db6-b961-1293f5c65858"
+            },
+            {
+              "Attribute": "Parking - RV, bus, truck (surch)",
+              "AID": "4453",
+              "Category": "Parking",
+              "UUID": "08719d91-5d20-4671-a93b-5082b5b7a41a"
+            },
+            {
+              "Attribute": "Parking - RV, bus, truck (free)",
+              "AID": "4454",
+              "Category": "Parking",
+              "UUID": "1e048a06-5330-4368-9b39-671cd78b67d3"
+            },
+            {
+              "Attribute": "Parking - offsite (discounted)",
+              "AID": "4455",
+              "Category": "Parking",
+              "UUID": "84b31659-bc8a-4f29-8b7c-e977c04d2a31"
+            },
+            {
+              "Attribute": "Parking - offsite (reservations)",
+              "AID": "4456",
+              "Category": "Parking",
+              "UUID": "d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7"
+            },
+            {
+              "Attribute": "Sofa bed",
+              "AID": "2038",
+              "Category": "Equipment",
+              "UUID": "0f8e911c-ceab-4136-8fab-32028159b34b"
+            },
+            {
+              "Attribute": "Rollaway/extra beds",
+              "AID": "2044",
+              "Category": "Equipment",
+              "UUID": "a8d609a1-e007-46c5-b4c0-0c266e64a894"
+            },
+            {
+              "Attribute": "Elevator/Lift",
+              "AID": "8",
+              "Category": "Equipment",
+              "UUID": "0a76f8db-30e7-4b9f-9cfc-355e40964195"
+            },
+            {
+              "Attribute": "Washer/dryer",
+              "AID": "340",
+              "Category": "Equipment",
+              "UUID": "1f9ceb62-e25f-41bc-bc85-a619b551b743"
+            },
+            {
+              "Attribute": "Laundry Facilities",
+              "AID": "369",
+              "Category": "Equipment",
+              "UUID": "5fd24a02-5136-4b0b-baea-6353d03fa863"
+            },
+            {
+              "Attribute": "Dryer",
+              "AID": "1073743310",
+              "Category": "Equipment",
+              "UUID": "7a3e69fd-6a37-4f5b-b025-c1cbfe2272e3"
+            },
+            {
+              "Attribute": "Washing machine",
+              "AID": "1073743311",
+              "Category": "Equipment",
+              "UUID": "9b4b327c-6897-4c6b-96e2-c129174d9166"
+            },
+            {
+              "Attribute": "Separate dining area",
+              "AID": "2370",
+              "Category": "Equipment",
+              "UUID": "c3a5163e-7846-4f35-af16-3045e0f2d532"
+            },
+            {
+              "Attribute": "Separate living room",
+              "AID": "3857",
+              "Category": "Equipment",
+              "UUID": "7bd91c08-2967-4d03-bbb4-3717d4cec225"
+            },
+            {
+              "Attribute": "Ski area nearby",
+              "AID": "2118",
+              "Category": "Recreation",
+              "UUID": "65cdb589-f9cc-4712-b552-bfbff2a0eedc"
+            },
+            {
+              "Attribute": "Ski lessons nearby",
+              "AID": "2360",
+              "Category": "Recreation",
+              "UUID": "aaf52aef-f5de-4cf2-af5d-9a126ea3ac37"
+            },
+            {
+              "Attribute": "Ski rentals nearby",
+              "AID": "2362",
+              "Category": "Recreation",
+              "UUID": "03be3a63-876f-4664-a8b2-f9878689046d"
+            },
+            {
+              "Attribute": "Ski rentals on site",
+              "AID": "3835",
+              "Category": "Recreation",
+              "UUID": "1e31114d-68a6-49cc-a13e-71df9ef22385"
+            },
+            {
+              "Attribute": "Ski lessons on site",
+              "AID": "3836",
+              "Category": "Recreation",
+              "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+            },
+            {
+              "Attribute": "Skiing Downhill On site",
+              "AID": "3838",
+              "Category": "Recreation",
+              "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+            },
+            {
+              "Attribute": "On beach",
+              "AID": "48",
+              "Category": "Recreation",
+              "UUID": "58b98d8e-896a-4fbb-a20d-23b229c6a23e"
+            },
+            {
+              "Attribute": "Beach nearby",
+              "AID": "2113",
+              "Category": "Recreation",
+              "UUID": "b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1"
+            },
+            {
+              "Attribute": "Beach nearby - direct access",
+              "AID": "4430",
+              "Category": "Recreation",
+              "UUID": "b2870f14-ced6-4619-94b2-1bdcb6363d35"
+            },
+            {
+              "Attribute": "Theme park(s) nearby",
+              "AID": "2083",
+              "Category": "Recreation",
+              "UUID": "1cc2e184-fcb2-41e2-aa18-82281e97f9ab"
+            },
+            {
+              "Attribute": "Theme park shuttle (free)",
+              "AID": "2950",
+              "Category": "Recreation",
+              "UUID": "0268829b-7cf2-41ef-a35b-468d516fe761"
+            },
+            {
+              "Attribute": "Theme park shuttle (surch)",
+              "AID": "2951",
+              "Category": "Recreation",
+              "UUID": "fff16d06-1863-4858-bf26-18819293f791"
+            },
+            {
+              "Attribute": "Games",
+              "AID": "1073743383",
+              "Category": "Recreation",
+              "UUID": "9445dd10-b709-44c8-81cd-44a451d60831"
+            },
+            {
+              "Attribute": "Ping pong table",
+              "AID": "1073743386",
+              "Category": "Recreation",
+              "UUID": "1f6a3098-40e6-4648-8d0b-19b51a29ca7f"
+            },
+            {
+              "Attribute": "Foosball",
+              "AID": "1073743388",
+              "Category": "Recreation",
+              "UUID": "ca703e5f-d1de-40e3-83e6-b65eacafe79b"
+            },
+            {
+              "Attribute": "Indoor pool",
+              "AID": "14",
+              "Category": "Recreation",
+              "UUID": "85be5c08-92e8-40a7-b0e2-42a6aea058a9"
+            },
+            {
+              "Attribute": "Outdoor pool",
+              "AID": "24",
+              "Category": "Recreation",
+              "UUID": "6a82fca6-1620-4da8-b7ba-592746c6ca39"
+            },
+            {
+              "Attribute": "Swimming pool",
+              "AID": "2074",
+              "Category": "Recreation",
+              "UUID": "cf0c4550-0af4-4021-b1f4-7562c63939c2"
+            },
+            {
+              "Attribute": "Outdoor seasonal pool",
+              "AID": "2138",
+              "Category": "Recreation",
+              "UUID": "f410e383-8a19-494b-b6f3-7b7bb1170efb"
+            },
+            {
+              "Attribute": "Number of indoor pools -",
+              "AID": "2820",
+              "Category": "Recreation",
+              "UUID": "efe909ad-2475-4529-9612-1e5242216669"
+            },
+            {
+              "Attribute": "Number of outdoor pools -",
+              "AID": "2821",
+              "Category": "Recreation",
+              "UUID": "384c8154-03ab-4180-b099-9cb689161ebf"
+            },
+            {
+              "Attribute": "Private pool",
+              "AID": "2859",
+              "Category": "Recreation",
+              "UUID": "7a4414f1-9187-4c8d-8289-fd9e88ff758e"
+            },
+            {
+              "Attribute": "Private plunge pool",
+              "AID": "2860",
+              "Category": "Recreation",
+              "UUID": "a0f98dd6-4dfd-4c39-8302-f64d0b8397a3"
+            },
+            {
+              "Attribute": "24-hour pool access",
+              "AID": "1073743549",
+              "Category": "Recreation",
+              "UUID": "b71bba46-9eab-45e7-9199-2445017c5efb"
+            },
+            {
+              "Attribute": "Birthday Party area",
+              "AID": "72005 (photo)",
+              "Category": "Recreation",
+              "UUID": "#N/A"
+            },
+            {
+              "Attribute": "Children's Theme Room",
+              "AID": "21002 (photo)",
+              "Category": "Recreation",
+              "UUID": "#N/A"
+            },
+            {
+              "Attribute": "Recreation-Pool-children's",
+              "AID": "2014",
+              "Category": "Recreation",
+              "UUID": "c93d1b8c-83de-4ecc-b994-7dcd3be33589"
+            },
+            {
+              "Attribute": "Recreation-Playground on site",
+              "AID": "3825",
+              "Category": "Recreation",
+              "UUID": "b8e250ea-ad6e-44d5-8b23-378e85cf1200"
+            },
+            {
+              "Attribute": "Golf - miniature on site",
+              "AID": "3812",
+              "Category": "Recreation",
+              "UUID": "d60342d6-c988-4bac-9b58-482368470831"
+            },
+            {
+              "Attribute": "Recreation-Lazy river",
+              "AID": "2817",
+              "Category": "Recreation",
+              "UUID": "66930de3-2d35-44c0-8a18-e6ac0df26c04"
+            },
+            {
+              "Attribute": "Recreation-Waterslide",
+              "AID": "2818",
+              "Category": "Recreation",
+              "UUID": "3766faf9-5aca-4737-8601-f80b33997381"
+            },
+            {
+              "Attribute": "Water park access (surcharge)",
+              "AID": "2819",
+              "Category": "Recreation",
+              "UUID": "5b4ec696-0702-4435-a5ff-7b9db64c36e7"
+            },
+            {
+              "Attribute": "Water park access (free)",
+              "AID": "4174",
+              "Category": "Recreation",
+              "UUID": "0e4392d9-827e-48e5-8311-2d17e928c45b"
+            },
+            {
+              "Attribute": "Water park access (surcharge)",
+              "AID": "4175",
+              "Category": "Recreation",
+              "UUID": "700699ca-6d69-4338-a407-acfdff1b8089"
+            },
+            {
+              "Attribute": "Arcade/game room",
+              "AID": "375",
+              "Category": "Recreation",
+              "UUID": "d8525e3d-b796-4388-8802-297c67534e1f"
+            },
+            {
+              "Attribute": "Recreation-Bowling alley on site",
+              "AID": "3805",
+              "Category": "Recreation",
+              "UUID": "22e713fd-54bf-4d7e-86ca-31e2a8062150"
+            },
+            {
+              "Attribute": "Grocery/convenience store",
+              "AID": "2386",
+              "Category": "Dining",
+              "UUID": "b81898a7-543c-44b2-baf2-1dc36a6b6aac"
+            },
+            {
+              "Attribute": "Snackbar/Deli",
+              "AID": "3500",
+              "Category": "Dining",
+              "UUID": "ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a"
+            },
+            {
+              "Attribute": "Kitchen",
+              "AID": "2158",
+              "Category": "Dining",
+              "UUID": "8da07f4b-0682-4d6d-bd8c-9e5a5d68fdb5"
+            },
+            {
+              "Attribute": "Kitchen (surcharge)",
+              "AID": "1073742771",
+              "Category": "Dining",
+              "UUID": "94689831-995b-40a6-b50c-ec59afebec3b"
+            },
+            {
+              "Attribute": "Kitchenette (surcharge)",
+              "AID": "1073742772",
+              "Category": "Dining",
+              "UUID": "d8ce5500-fdaa-4094-a7e1-8f4399e85377"
+            },
+            {
+              "Attribute": "Kitchenette",
+              "AID": "312",
+              "Category": "Dining",
+              "UUID": "784b54cf-b0f4-4054-8bb4-d23b77dedb1d"
+            },
+            {
+              "Attribute": "Refrigerator",
+              "AID": "130",
+              "Category": "Dining",
+              "UUID": "0caddcd0-af62-40ae-9008-b121e651f616"
+            },
+            {
+              "Attribute": "Refrigerator (on request)",
+              "AID": "2181",
+              "Category": "Dining",
+              "UUID": "86f3fa31-384e-45ee-b9e9-849727becab7"
+            },
+            {
+              "Attribute": "Refrigerator",
+              "AID": "4303",
+              "Category": "Dining",
+              "UUID": "b3894c03-6889-4a98-bc15-143963730a52"
+            },
+            {
+              "Attribute": "Refrigerator (on request)",
+              "AID": "4304",
+              "Category": "Dining",
+              "UUID": "1b713aac-c927-41a3-b714-0bb3e720d5c8"
+            },
+            {
+              "Attribute": "Refrigerator (surcharge)",
+              "AID": "1073742774",
+              "Category": "Dining",
+              "UUID": "6e0551c5-96fc-4bba-bdad-8da251c2ab5e"
+            },
+            {
+              "Attribute": "Refrigerator (surcharge)",
+              "AID": "1073742781",
+              "Category": "Dining",
+              "UUID": "0bca00a9-d324-42bc-94fa-a4dc2881d8db"
+            },
+            {
+              "Attribute": "DVD player",
+              "AID": "2086",
+              "Category": "Entertainment",
+              "UUID": "bb326125-f667-4665-974b-2ce03a121f35"
+            },
+            {
+              "Attribute": "Television - Smart",
+              "AID": "1073743569",
+              "Category": "Entertainment",
+              "UUID": "3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8"
+            },
+            {
+              "Attribute": "Netflix",
+              "AID": "1073743571",
+              "Category": "Entertainment",
+              "UUID": "f171999c-dec5-47e9-9950-c1d19b73d7d4"
+            },
+            {
+              "Attribute": "High-speed internet access",
+              "AID": "2046",
+              "Category": "Entertainment",
+              "UUID": "df4fcb7b-6126-4076-a8f1-8cab33536629"
+            },
+            {
+              "Attribute": "Free WiFi PA",
+              "AID": "2390",
+              "Category": "Entertainment",
+              "UUID": "2cb950af-5afe-40f5-bf79-e6561f3bc773"
+            },
+            {
+              "Attribute": "WiFi (surcharge) PA",
+              "AID": "2391",
+              "Category": "Entertainment",
+              "UUID": "e5049e76-2c5d-40da-9eab-c5726deba7a7"
+            },
+            {
+              "Attribute": "Free wired Internet PA",
+              "AID": "2392",
+              "Category": "Entertainment",
+              "UUID": "0924a533-5bcc-4a8f-89f8-18537d6d2bed"
+            },
+            {
+              "Attribute": "Wired internet access - surcharge",
+              "AID": "2393",
+              "Category": "Entertainment",
+              "UUID": "37bc3715-36a1-45fe-a127-5c6aed05a77d"
+            },
+            {
+              "Attribute": "Free WiFi RA",
+              "AID": "2403",
+              "Category": "Entertainment",
+              "UUID": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+            },
+            {
+              "Attribute": "WiFi (surcharge) PA",
+              "AID": "2404",
+              "Category": "Entertainment",
+              "UUID": "c2518a35-0502-4afc-a050-2bfcb9dfaeb4"
+            },
+            {
+              "Attribute": "Free wired Internet RA",
+              "AID": "2405",
+              "Category": "Entertainment",
+              "UUID": "e713d597-b2cb-447b-b51a-c972a87fe879"
+            },
+            {
+              "Attribute": "Wired Internet access (surcharge) RA",
+              "AID": "2406",
+              "Category": "Entertainment",
+              "UUID": "ede46d14-bf47-4748-8d88-cba8b06d4214"
+            },
+            {
+              "Attribute": "Internet access (3rd party) PA",
+              "AID": "1073742907",
+              "Category": "Entertainment",
+              "UUID": "f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828"
+            },
+            {
+              "Attribute": "Internet access (3rd party) RA",
+              "AID": "1073742908",
+              "Category": "Entertainment",
+              "UUID": "63f74d12-1583-4707-964e-54bdb9be9910"
+            },
+            {
+              "Attribute": "Internet access - high speed",
+              "AID": "2126",
+              "Category": "Entertainment",
+              "UUID": "9c7c757c-b9f0-4e21-ad6a-e2ac65491dae"
+            },
+            {
+              "Attribute": "Internet access - complimentary PA",
+              "AID": "2128",
+              "Category": "Entertainment",
+              "UUID": "35966457-965b-4101-ac62-1cbbdb757cca"
+            },
+            {
+              "Attribute": "Internet access - surcharge RA",
+              "AID": "2157",
+              "Category": "Entertainment",
+              "UUID": "89714e00-fac8-49f6-9afd-87b03d72adcb"
+            },
+            {
+              "Attribute": "High-speed Internet access RA",
+              "AID": "2047",
+              "Category": "Entertainment",
+              "UUID": "b6e67809-d4c3-4e0e-8a4d-d56d0fa44b40"
+            },
+            {
+              "Attribute": "Television Internet access RA",
+              "AID": "2100",
+              "Category": "Entertainment",
+              "UUID": "5bad798b-0ced-45f0-9493-1386d904bfa0"
+            },
+            {
+              "Attribute": "Wireless Internet access RA",
+              "AID": "2101",
+              "Category": "Entertainment",
+              "UUID": "d86726ff-4a17-4a28-996e-5b81963254a8"
+            },
+            {
+              "Attribute": "Internet access - wireless PA",
+              "AID": "2102",
+              "Category": "Entertainment",
+              "UUID": "a2e2a848-d1e2-4f70-bc01-2b66013f4432"
+            },
+            {
+              "Attribute": "Video games-console",
+              "AID": "2028",
+              "Category": "Entertainment",
+              "UUID": "66e72d29-0ade-4fd5-a154-f009f4d05ce8"
+            }
+          ]
+        }
+      },
+      "disqualifying_attributes": {
+        "description": "Properties with any of the following attributes are excluded from the Family theme:",
+        "attributes": [
+          {
+            "Attribute": "Caters to women only",
+            "AID": "57",
+            "Section": "Policy",
+            "UUID": "fb4ea705-4066-49b9-8440-a641713aac71"
+          },
+          {
+            "Attribute": "Caters to men only",
+            "AID": "58",
+            "Section": "Policy",
+            "UUID": "4df73bed-053e-4763-a00a-e2b47ac62a14"
+          },
+          {
+            "Attribute": "Caters to adults only",
+            "AID": "3357",
+            "Section": "Policy",
+            "UUID": "ef050cba-8fd8-4d6f-8c49-961f5027fbc7"
+          },
+          {
+            "Attribute": "Clothing optional (nudity permitted in public areas)",
+            "AID": "2003",
+            "Section": "Displayable attributes",
+            "UUID": "8c6b5b91-7a2d-4e6c-8cff-5e52345625d7"
+          },
+          {
+            "Attribute": "Children not allowed",
+            "AID": "2791",
+            "Section": "Displayable attributes",
+            "UUID": "152d952d-5ec7-4563-adb0-030e354e6a7f"
+          },
+          {
+            "Attribute": "Children not allowed start month",
+            "AID": "2792",
+            "Section": "Displayable attributes",
+            "UUID": "9dd380c9-b73b-4a2c-9f43-0ce743849614"
+          },
+          {
+            "Attribute": "This property is designed for adult entertainment",
+            "AID": "1073742864",
+            "Section": "Displayable attributes",
+            "UUID": "00048f04-6ec1-4284-827c-f78a332601c9"
+          },
+          {
+            "Attribute": "Children not allowed end month",
+            "AID": "2793",
+            "Section": "Displayable attributes",
+            "UUID": "243247c5-eca6-437f-9903-a75d86a2a50b"
+          },
+          {
+            "Attribute": "Children not allowed max age",
+            "AID": "2794",
+            "Section": "Displayable attributes",
+            "UUID": "e97906da-534b-488d-bfd1-1b7d1f7a7562"
+          },
+          {
+            "Attribute": "Romantic Hotel",
+            "AID": "2339",
+            "Section": "Hotel Themes",
+            "UUID": "38a65de8-8007-44c0-b7f8-fd939623a8b1"
+          }
+        ]
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Golf property",
+    "lcm_id": "2334",
+    "uuid": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "190,341",
+    "urn": "GolfTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2334",
+              "UUID": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+              "Description": "This theme is automatically assigned to properties that have a golf course onsite or that are physically adjacent to a golf course"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "1073744126",
+              "UUID": "aaae9f5a-0bba-11ea-8d71-362b9e155667",
+              "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, GOLF attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744127",
+              "UUID": "aaaea25c-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE GOLF attribute"
+            }
+          ]
+        ],
+        "uuid": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "Yes",
+        "attribute_id": "2334"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+        "urn": "GolfTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+        "attributes": [
+          {
+            "Attribute": "Golf course on site",
+            "AID": "2617",
+            "UUID": "11034e17-ceb2-4b10-82bc-f4defeef2f3b"
+          },
+          {
+            "Attribute": "Adjacent to golf course",
+            "AID": "4022",
+            "UUID": "b6341904-6818-4673-89d8-b5473c13e06d"
+          },
+          {
+            "Attribute": "Driving range",
+            "AID": "3811",
+            "UUID": "da1dfd34-d50f-4745-be42-dee1e5a48370"
+          },
+          {
+            "Attribute": "Golf included (all-inclusive)",
+            "AID": "4572",
+            "UUID": "c595cae8-d5e4-4b41-b14f-22db37556ab2"
+          }
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "Properties must have **1 of the following** attributes:",
+            "required_count": 1
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Historic property",
+    "lcm_id": "5002",
+    "uuid": "f06f2ea3-1370-4bce-817e-5ea0b8086430",
+    "theme_automation": false,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "1,326",
+    "urn": "HistoricTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "5002",
+              "UUID": "f06f2ea3-1370-4bce-817e-5 wax0b8086430",
+              "Description": "This theme can be assigned to properties situated in historic buildings that have been recognized with a national historic designation from one of the Awards and Affiliations below: AID 5007 (Historic Hotels of America), AID 5008 (Historic Hotels of the World), AID 5006 (Historic Hotels of Europe), AID 5009 (Heritage Hotels of India)"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "5011",
+              "UUID": "aaae5978-0bba-11ea-8d71-362b9e155667",
+              "Description": "If a property does not appear on one of the above sites, but presents distinct historic characteristics in public spaces, bedrooms, and building architecture, we can still include it in the Theme by selecting the THEME OVER-RIDE, HISTORIC attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073745237",
+              "UUID": "n/a",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, RMV HISTORIC attribute"
+            }
+          ]
+        ],
+        "uuid": "f06f2ea3-1370-4bce-817e-5ea0b8086430",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "No",
+        "attribute_id": "5002"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "f06f2ea3-1370-4bce-817e-5ea0b8086430",
+        "urn": "HistoricTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **one of the following** national historic designations:",
+        "attributes": [
+          {
+            "Program": "Historic Hotels of America",
+            "AID": "5007"
+          },
+          {
+            "Program": "Historic Hotels of the World",
+            "AID": "5008"
+          },
+          {
+            "Program": "Historic Hotels of Europe",
+            "AID": "5006"
+          },
+          {
+            "Program": "Heritage Hotels of India",
+            "AID": "5009"
+          }
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "Properties must have **one of the following** national historic designations:"
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Hot Springs property",
+    "lcm_id": "5001",
+    "uuid": "76955f80-4619-4355-b9e9-ed2badba4750",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "12,533",
+    "urn": "HotSpringTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "5001",
+              "UUID": "76955f80-4619-4355-b9e9-ed2badba4750",
+              "Description": "This theme is automatically assigned to properties with natural hot springs on-site or within a short walking distance"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "1073742913",
+              "UUID": "aaae98d4-0bba-11ea-8d71-362b9e155667",
+              "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, HOT SPRINGS attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744268",
+              "UUID": "aaaeaec8-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE HOT SPRINGS attribute"
+            }
+          ]
+        ],
+        "owned_by": "Manuela Sammatrice",
+        "automation": "Yes",
+        "attribute_id": "5001",
+        "uuid": "76955f80-4619-4355-b9e9-ed2badba4750"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "76955f80-4619-4355-b9e9-ed2badba4750",
+        "urn": "HotSpringTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+        "attributes": [
+          {
+            "Attribute": "Hot springs/mineral springs",
+            "AID": "3613",
+            "UUID": "ba6701d2-91de-42c8-875e-833fe4f34577"
+          },
+          {
+            "Attribute": "Recreation-Hot springs on site",
+            "AID": "5004",
+            "UUID": "5db005da-6c73-4827-b3aa-61d78745d045"
+          },
+          {
+            "Attribute": "Recreation-Hot springs nearby",
+            "AID": "5005",
+            "UUID": "7f13820b-7176-4fce-8b9d-fc46cf1ef22c"
+          },
+          {
+            "Attribute": "Mineral hot springs-Indoor",
+            "AID": "1073743418",
+            "UUID": "14e7b62a-ae44-4eac-a1d6-e80743cd0690"
+          },
+          {
+            "Attribute": "Mineral hot springs-Outdoor",
+            "AID": "1073743419",
+            "UUID": "75e346cc-029c-4589-be09-ece4e8340a6d"
+          },
+          {
+            "Attribute": "Number of hot springs -",
+            "AID": "1073744079",
+            "UUID": "0ba0600d-0f8b-48c8-91e9-f80c4dc3f198"
+          }
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "Properties must have **1 of the following** attributes:",
+            "required_count": 1
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "LGBTQ friendly*",
+    "lcm_id": "1073744692",
+    "uuid": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+    "theme_automation": false,
+    "is_business_rule_theme": true,
+    "live_site_filter": true,
+    "properties_count_early_2024": "49,740",
+    "urn": "LGBTQIAWelcoming",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "1073744692",
+              "UUID": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+              "Description": "This theme is manually assigned to: <br> - Properties affiliated to IGLTA (proof is required*) <br> - Properties that request LGBTQ content to be added to the Expedia listing <br> - Brands opt-in (Bulk-loaded) - LGBTQ coverage tracker <br> This attribute is located in the Policy section and is compatible with all Themes. <br> In addition to being part of filters, it generates the following text on properties pages for all EG sites: \"This property welcomes guests of all sexual orientations and gender identities (LGBTQ friendly)\""
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "n/a",
+              "UUID": "n/a",
+              "Description": ""
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "",
+              "UUID": "",
+              "Description": "Properties located in countries part of the list below are not included in the LGBTQ theme. <br> There are countries that impose civil penalties ranging from imprisonment to death if people are perceived to be Lesbian Gay Bisexual Transgender (LGBT) or participate in LGBT behavior. <br> Even though some properties in these countries may be gay-friendly and may also be IGLTA-affiliated hotels*, we do not add the LGBTQ attribute (primarily in the Middle East and some parts of Asia) at this time. <br> Below is a list of all countries that should NEVER display any LGBTQ attributes (list also available in Excel: LGBTQ_countryPOSu_exclusions (Updated list Oct 2021).xlsx"
+            }
+          ]
+        ],
+        "uuid": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+        "owned_by": "Manuela Sammatrice",
+        "last_updated": "Feb 18, 2025",
+        "automation": "No"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+        "urn": "LGBTQIAWelcoming",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "",
+        "rules": [],
+        "attribute_groups": [],
+        "attributes": []
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Luxury property",
+    "lcm_id": "2337",
+    "uuid": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "28,595",
+    "urn": "LuxuryTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2337",
+              "UUID": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+              "URN": "LuxuryTheme",
+              "Description": "This theme is automatically assigned to properties meeting one of the below requirements: <br> - Property has 5 stars <br> - Property has 4.5 stars <br> - Property has 4 stars AND at least 1 of the Awards and Affiliations attributes below"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "5010",
+              "UUID": "aaae5838-0bba-11ea-8d71-362b9e155667",
+              "URN": "LuxuryTheme:AuthorizedManualAddition",
+              "Description": "If a property has a luxury feeling and provides upscale services, but is rated less than 4.5 stars because of an official rating, we can still include it in the Theme by selecting the THEME OVER-RIDE, LUXURY attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "5016",
+              "UUID": "aaae5aa4-0bba-11ea-8d71-362b9e155667",
+              "URN": "LuxuryTheme:AuthorizedManualRemoval",
+              "Description": "Properties assigned the following Structure Types are not considered for the theme: Motel, Hostel/Backpacker, Hostal, Pousada (Brazil), Campsite, Capsule hotel. <br> Select the THEME OVER-RIDE, REMOVE LUXURY attribute when: <br> - Partners request not being included in the Theme filter <br> - A property has an official rating of 4.5 or 5 stars, but does not present upscale decor and services"
+            }
+          ]
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "Property has 5 stars",
+            "star_requirements": [
+              5.0
+            ]
+          },
+          {
+            "type": "simple",
+            "description": "Property has 4.5 stars",
+            "star_requirements": [
+              4.5
+            ]
+          },
+          {
+            "type": "simple",
+            "description": "Property has 4 stars",
+            "star_requirements": [
+              4.0
+            ]
+          },
+          {
+            "type": "simple",
+            "description": "property has a luxury feeling"
+          },
+          {
+            "type": "simple",
+            "description": "property has an official rating of 4.5"
+          }
+        ],
+        "uuid": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+        "owned_by": "Aurelie Bray",
+        "automation": "Yes",
+        "attribute_id": "2337",
+        "urn": "LuxuryTheme"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "10b96a2d-83ee-40ba-b015-c556d1d8f2ce",
+        "urn": "LuxuryTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "",
+        "rules": [],
+        "attribute_groups": [],
+        "attributes": []
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Pet-Friendly property",
+    "lcm_id": "2338",
+    "uuid": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "1,914,421",
+    "urn": "PetTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2338",
+              "UUID": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+              "Description": "This theme is automatically assigned to properties that allow pets onsite. To qualify for theme, properties must have at least one pet-related qualifying attributes as described below"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "1073744266",
+              "UUID": "aaaeac16-0bba-11ea-8d71-362b9e155667",
+              "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, PETS attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744267",
+              "UUID": "aaaead88-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE PETS attribute. Properties where pets are not allowed - see below"
+            }
+          ]
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "properties must have at least one pet-related qualifying attributes as described below"
+          },
+          {
+            "type": "simple",
+            "description": "must have at least one pet-related qualifying attributes as described below"
+          }
+        ],
+        "uuid": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+        "owned_by": "Aurelie Bray",
+        "automation": "Yes",
+        "attribute_id": "2338"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "a24cc39e-d87e-4cd7-8d19-c728cec9c03f",
+        "urn": "PetTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+        "attributes": [
+          {
+            "Attribute": "Pets allowed",
+            "AID": "51",
+            "UUID": "b50c4c0b-a922-49b1-8869-61fa486011da"
+          },
+          {
+            "Attribute": "Maximum number of pets per room",
+            "AID": "2811",
+            "UUID": "aab19b53-bcc2-4190-9999-71a87d12b3c3"
+          },
+          {
+            "Attribute": "KBYG-PetsAllowed-SpecificRms",
+            "AID": "3362",
+            "UUID": "4359b715-b827-4fd6-8fd3-2db4cd7af750"
+          },
+          {
+            "Attribute": "KBYG-PetsAllowed-SmokingRms",
+            "AID": "3363",
+            "UUID": "8317d689-c460-4043-81ef-9ae18e7d45af"
+          },
+          {
+            "Attribute": "Pets allowed (no fees)",
+            "AID": "1073742807",
+            "UUID": "d738d06b-eb15-4262-966b-018b8aea9f43"
+          }
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "Properties must have **1 of the following** attributes:",
+            "required_count": 1
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": [
+          {
+            "Attribute": "Pets not allowed",
+            "AID": "2050",
+            "UUID": "678bce70-eb09-4548-8d6b-1773c89998ae"
+          }
+        ]
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Romantic property",
+    "lcm_id": "2339",
+    "uuid": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+    "theme_automation": false,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "437",
+    "urn": "RomanticTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2339",
+              "UUID": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+              "Description": "This theme is manually assigned to upscale properties featuring romance packages (bottle of champagne with flowers upon arrival, turndown service with chocolate, spa treatment, breakfast in room, etc.) and to couples-only resorts"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "n/a",
+              "UUID": "n/a",
+              "Description": ""
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073745239",
+              "UUID": "N/A",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, RMV ROMANTIC attribute. Not included in the Romantic theme are the following: Economy Brands/Chains, Airport Hotels, Convention Center Hotels, City Center Business Hotels, Hotels explicitly targeting families in bold tagline, Properties in the Family Theme, Properties specifically targeting Business Travelers in bold tag line, Properties with lower than a 3.0 Traveler Opinion Score, \"Love Hotels\""
+            }
+          ]
+        ],
+        "uuid": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "No",
+        "attribute_id": "2339"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "38a65de8-8007-44c0-b7f8-fd939623a8b1",
+        "urn": "RomanticTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "",
+        "rules": [],
+        "attribute_groups": [],
+        "attributes": []
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Shopping property",
+    "lcm_id": "5018",
+    "uuid": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+    "theme_automation": false,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "12,286",
+    "urn": "ShoppingTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "5018",
+              "UUID": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+              "Description": "This theme is manually assigned during maintenance cases if requested by partners. To qualify, the property must be located \"In shopping district\" (AID 3057) of one of the cities listed below."
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "n/a",
+              "UUID": "n/a",
+              "Description": ""
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "n/a",
+              "UUID": "n/a",
+              "Description": ""
+            }
+          ]
+        ],
+        "uuid": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "NO",
+        "attribute_id": "5018"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+        "urn": "ShoppingTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "",
+        "rules": [],
+        "attribute_groups": [],
+        "attributes": []
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Ski property",
+    "lcm_id": "4012",
+    "uuid": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "143,380",
+    "urn": "SkiTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "4012",
+              "UUID": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+              "Description": "This theme is automatically assigned to ski-in/ski-out accommodation or to properties that provide a ski shuttle. See qualifying attributes below"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "4999",
+              "UUID": "aaae56e4-0bba-11ea-8d71-362b9e155667",
+              "Description": "If a property does not have qualifying attributes, but is located within 2-3 minutes walking distance from a public ski shuttle, or by the ski lifts (see red dotted line on maps), we can still include it in the Theme by selecting the THEME OVER-RIDE, SKI attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744129",
+              "UUID": "aaaea4d2-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE SKI attribute"
+            }
+          ]
+        ],
+        "uuid": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "Yes",
+        "attribute_id": "4012"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "997c89cc-a810-4c26-8b7d-4908e7b73ca5",
+        "urn": "SkiTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+        "attributes": [
+          {
+            "Attribute": "Free ski shuttle",
+            "AID": "4421",
+            "UUID": "bd2a8906-5988-4552-ade9-d33afb161f74"
+          },
+          {
+            "Attribute": "Ski-in/ski-out access",
+            "AID": "2082",
+            "UUID": "8b18e91f-0cb9-4702-a3fd-445484e375e0"
+          },
+          {
+            "Attribute": "Downhill skiing on site",
+            "AID": "3838",
+            "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+          },
+          {
+            "Attribute": "Ski lessons on site",
+            "AID": "3836",
+            "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+          },
+          {
+            "Attribute": "Ski shuttle",
+            "AID": "2136",
+            "UUID": "09a16840-c197-4206-944c-6d88cd072224"
+          },
+          {
+            "Attribute": "Snowboarding on site",
+            "AID": "3842",
+            "UUID": "3971cf50-528a-4a6f-89aa-d1e472663b8e"
+          },
+          {
+            "Attribute": "Ski shuttle (surcharge)",
+            "AID": "4422",
+            "UUID": "82fac03b-12d3-43b6-ac4e-8b0cee1e940a"
+          }
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "Properties must have **1 of the following** attributes:",
+            "required_count": 1
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Spa property",
+    "lcm_id": "2341",
+    "uuid": "1468a957-60eb-468e-ab62-000b551a571b",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "54,962",
+    "urn": "SpaTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "2341",
+              "UUID": "1468a957-60eb-468e-ab62-000b551a571b",
+              "Description": "This theme is automatically assigned to properties that have a full spa or that offer a minimum of 5 from the qualifying attributes as described below"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "1073743273",
+              "UUID": "aaae9d0c-0bba-11ea-8d71-362b9e155667",
+              "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, SPA attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744128",
+              "UUID": "aaaea3a6-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE SPA attribute"
+            }
+          ]
+        ],
+        "uuid": "1468a957-60eb-468e-ab62-000b551a571b",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "Yes",
+        "attribute_id": "2341"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "1468a957-60eb-468e-ab62-000b551a571b",
+        "urn": "SpaTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **either**:\n- A full-service spa **OR**\n- **2 of the following** attributes **AND** **3 of the additional attributes** listed below",
+        "rules": [
+          {
+            "type": "alternative",
+            "description": "Full-service spa OR 2 primary + 3 additional attributes"
+          }
+        ],
+        "full_service_spa": [
+          {
+            "Attribute": "Full-service spa",
+            "AID": "2123",
+            "UUID": "37c48555-753d-49ef-a4ee-ed80dcf3576e"
+          }
+        ],
+        "primary_attributes": [
+          {
+            "Attribute": "Spa treatment room(s) - Must have at least 2",
+            "AID": "2129",
+            "UUID": "ee79b222-b54f-4b58-b27c-1d6e5b20a3bb"
+          },
+          {
+            "Attribute": "Sauna in spa",
+            "AID": "3603",
+            "UUID": "9d9f9a79-1648-4385-919e-680c75dc1578"
+          },
+          {
+            "Attribute": "Spa tub in spa",
+            "AID": "3604",
+            "UUID": "884f2e94-13a7-49c5-b360-2af081eb1eed"
+          },
+          {
+            "Attribute": "Hot springs/mineral springs in spa",
+            "AID": "3613",
+            "UUID": "ba6701d2-91de-42c8-875e-833fe4f34577"
+          },
+          {
+            "Attribute": "Mud bath in spa",
+            "AID": "3600",
+            "UUID": "530d94c5-e317-4a13-b296-6c3e5277d8bc"
+          },
+          {
+            "Attribute": "Turkish bath/Hammam",
+            "AID": "3601",
+            "UUID": "d5c351cb-06f2-47fa-99cd-e866da134705"
+          },
+          {
+            "Attribute": "Steam room in spa",
+            "AID": "6133",
+            "UUID": "810c5c26-9e6a-4d43-b63b-5007fcec6ab2"
+          },
+          {
+            "Attribute": "Number of treatment rooms",
+            "AID": "3589",
+            "UUID": "da4cdd51-ed5f-42f2-ae6e-02ce65ec19d1"
+          },
+          {
+            "Attribute": "Outdoor treatment areas",
+            "AID": "3590",
+            "UUID": "0a42fd86-f8f2-4d73-acef-971f9fcb5947"
+          },
+          {
+            "Attribute": "Couples treatment rooms",
+            "AID": "3591",
+            "UUID": "451c47da-8759-4b05-a169-525f53994656"
+          },
+          {
+            "Attribute": "Indoor mineral hot springs (Japanese-style onsen)",
+            "AID": "1073743418",
+            "UUID": "14e7b62a-ae44-4eac-a1d6-e80743cd0690"
+          },
+          {
+            "Attribute": "Outdoor private mineral hot springs (Japanese-style onsen)",
+            "AID": "1073743419",
+            "UUID": "75e346cc-029c-4589-be09-ece4e8340a6d"
+          }
+        ],
+        "additional_attributes": [
+          {
+            "Attribute": "Body scrubs",
+            "AID": "3595",
+            "UUID": "38c17974-7c97-4e6c-9766-624e1f66b63a"
+          },
+          {
+            "Attribute": "Body wraps",
+            "AID": "3594",
+            "UUID": "0b0e1bf3-f47d-4fbf-944e-4843fa752e7c"
+          },
+          {
+            "Attribute": "Body treatments",
+            "AID": "2346",
+            "UUID": "0313ba31-aa8a-4b6a-ab25-058e03492990"
+          },
+          {
+            "Attribute": "Facial treatments",
+            "AID": "2347",
+            "UUID": "ad95cf21-937c-4c58-8d41-7b7767b7bf45"
+          },
+          {
+            "Attribute": "Manicures and pedicures",
+            "AID": "3593",
+            "UUID": "7c1d7634-89d8-4836-80eb-efed2fbe5ef4"
+          },
+          {
+            "Attribute": "Massages",
+            "AID": "3615",
+            "UUID": "31e64a53-c890-4cdc-91b3-d9ceb1e306cf"
+          },
+          {
+            "Attribute": "Massages on beach",
+            "AID": "3592",
+            "UUID": "df6af7d9-426d-4895-abd9-59163bf76e0c"
+          },
+          {
+            "Attribute": "Aromatherapy treatments",
+            "AID": "3596",
+            "UUID": "a28de2ce-5cb5-461c-bb77-97d91828e5cf"
+          },
+          {
+            "Attribute": "Ayurvedic Treatments",
+            "AID": "3599",
+            "UUID": "f49cec71-2b3e-4277-b4d5-b8e0d2669c8e"
+          },
+          {
+            "Attribute": "Hydrotherapy treatments",
+            "AID": "3598",
+            "UUID": "e626b09e-9e5f-4eec-909a-6fa1e2e3c832"
+          },
+          {
+            "Attribute": "Thalassotherapy treatments",
+            "AID": "3597",
+            "UUID": "6bdfd4b1-d6db-476a-8786-3a44c190e171"
+          },
+          {
+            "Attribute": "Reflexology",
+            "AID": "6135",
+            "UUID": "293ce586-23c4-475b-afd8-6463fcf011bd"
+          },
+          {
+            "Attribute": "Detoxification wrap",
+            "AID": "6138",
+            "UUID": "e22ce20a-1b16-4cdb-83b0-e70d4a4dbf2a"
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  },
+  {
+    "theme_attribute_name": "Winery property",
+    "lcm_id": "5020",
+    "uuid": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+    "theme_automation": true,
+    "is_business_rule_theme": true,
+    "live_site_filter": false,
+    "properties_count_early_2024": "5,546",
+    "urn": "WineryTheme",
+    "parsed_rules_details": {
+      "overview_data": {
+        "tables": [
+          [
+            {
+              "Attribute": "**Definition**",
+              "Attribute ID": "5020",
+              "UUID": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+              "Description": "This theme is automatically assigned to properties that have an on-site winery/vineyard"
+            },
+            {
+              "Attribute": "**Exceptionally included**",
+              "Attribute ID": "1073742912",
+              "UUID": "aaae9780-0bba-11ea-8d71-362b9e155667",
+              "Description": "If a property is located nearby a winery, we can include it in the theme by adding the THEME OVER-RIDE, WINERY attribute"
+            },
+            {
+              "Attribute": "**Not included**",
+              "Attribute ID": "1073744269",
+              "UUID": "aaaeaff4-0bba-11ea-8d71-362b9e155667",
+              "Description": "When partners request not being included in the Theme filter, select the THEME OVER RIDE, REMOVE WINERY attribute"
+            }
+          ]
+        ],
+        "uuid": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+        "owned_by": "Manuela Sammatrice",
+        "automation": "Yes",
+        "attribute_id": "5020"
+      },
+      "overview_text": "",
+      "definition": {
+        "text": "",
+        "uuid": "08874f6f-d0a5-4a0e-a7ca-51da13b7cbed",
+        "urn": "WineryTheme",
+        "attributes": []
+      },
+      "qualifying_attributes": {
+        "description": "## Qualifying Attributes\nProperties must have **either**:\n- A winery attached **OR**",
+        "rules": [
+          {
+            "type": "alternative",
+            "description": "Winery attached OR Both vineyard + tasting room"
+          }
+        ],
+        "single_requirements": [],
+        "combined_requirements": [
+          {
+            "Attribute": "Winery attached",
+            "AID": "4025",
+            "UUID": "1cacffb8-8ddf-4db1-a296-5725d63cc8aa"
+          },
+          {
+            "Attribute": "Vineyard",
+            "AID": "1073744072",
+            "UUID": "f7701dcf-478b-4368-b1fc-a11ecb99941e"
+          },
+          {
+            "Attribute": "Tasting Room",
+            "AID": "1073744073",
+            "UUID": "16aed81e-77c7-4f34-92c1-a1d2adb5c52e"
+          }
+        ]
+      },
+      "disqualifying_attributes": {
+        "description": "",
+        "attributes": []
+      },
+      "special_sections": {}
+    }
+  }
+]

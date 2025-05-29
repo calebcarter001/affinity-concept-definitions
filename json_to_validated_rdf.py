@@ -743,15 +743,59 @@ class JsonToValidatedRDF:
                     suggestion=f"Expected {uri}, found {found_namespaces[prefix]}"
                 ))
 
+def write_theme_json(theme_data, output_file):
+    print("\nDEBUG: Writing theme data to JSON")
+    print("Checking attribute groups before writing:")
+    for group in theme_data["attribute_groups"]:
+        print(f"\nGroup: {group['name']}")
+        print(f"Number of attributes: {len(group['attributes'])}")
+        if group['name'] == 'ski_related_attributes':
+            print("Ski attributes content:")
+            for attr in group['attributes']:
+                print(f"  {attr}")
+
+    with open(output_file, 'w') as f:
+        json.dump(theme_data, f, indent=2)
+
+    print("\nDEBUG: Verifying written data")
+    with open(output_file, 'r') as f:
+        written_data = json.load(f)
+        for group in written_data["attribute_groups"]:
+            if group['name'] == 'ski_related_attributes':
+                print("\nSki attributes in written file:")
+                print(f"Number of attributes: {len(group['attributes'])}")
+                for attr in group['attributes']:
+                    print(f"  {attr}")
+
+    print("\nDEBUG: Finished writing theme data to JSON")
+
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python json_to_validated_rdf.py <input_json_file> <output_turtle_file> [taxonomy_dir] [batch_size]")
+    if len(sys.argv) < 2:  # Changed from 3 to 2 to allow optional output file
+        print("Usage: python json_to_validated_rdf.py <input_json_file> [output_turtle_file] [taxonomy_dir] [batch_size]")
         sys.exit(1)
     
     input_json_path = sys.argv[1]
-    output_rdf_path = sys.argv[2]
-    taxonomy_dir = sys.argv[3] if len(sys.argv) > 3 else "../datasources"
-    batch_size = int(sys.argv[4]) if len(sys.argv) > 4 else 100
+    
+    # Generate default output filename if not provided
+    if len(sys.argv) > 2 and not sys.argv[2].startswith("../"): # Check if it's an output file or taxonomy_dir
+        output_rdf_path = sys.argv[2]
+        taxonomy_dir_index = 3
+    else:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        # Derive output filename from input filename
+        input_path_obj = Path(input_json_path)
+        output_filename = f"{input_path_obj.stem}_affinity_definitions_{timestamp}.ttl"
+        # Place output in a subdirectory 'rdf_outputs' relative to the input JSON file's directory
+        # or a default 'rdf_outputs' if the input is in the current directory.
+        output_dir = input_path_obj.parent / "rdf_outputs" if input_path_obj.parent != Path(".") else Path("rdf_outputs")
+        output_dir.mkdir(parents=True, exist_ok=True) # Ensure the directory exists
+        output_rdf_path = str(output_dir / output_filename)
+        logger.info(f"Output file not specified. Defaulting to: {output_rdf_path}")
+        taxonomy_dir_index = 2 # If output is not specified, taxonomy dir is the next optional arg
+
+    taxonomy_dir = sys.argv[taxonomy_dir_index] if len(sys.argv) > taxonomy_dir_index and not sys.argv[taxonomy_dir_index].isdigit() else "datasources"
+    batch_size_index = taxonomy_dir_index + 1
+    batch_size = int(sys.argv[batch_size_index]) if len(sys.argv) > batch_size_index and sys.argv[batch_size_index].isdigit() else 100
     
     converter = JsonToValidatedRDF(taxonomy_dir)
     result = converter.convert_and_validate(input_json_path, output_rdf_path, batch_size)

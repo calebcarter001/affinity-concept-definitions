@@ -1,0 +1,319 @@
+{
+  "theme_attribute_name": "Business property",
+  "lcm_id": "2328",
+  "uuid": "105097f8-99ef-4a90-a101-50bb879ad0e8",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": true,
+  "properties_count_early_2024": "178,940",
+  "urn": "BusinessTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "uuid": "105097f8-99ef-4a90-a101-50bb879ad0e8",
+      "owned_by": "Aurelie Bray",
+      "automation": "Yes",
+      "attribute_id": "2328",
+      "urn": "BusinessTheme"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "This theme is automatically assigned to properties offering services and facilities for business travellers.\n- The **Structure Type** determines qualifying attributes.\n- Logic is split between **Conventional Lodgings** and **Vacation Rentals**.\n- Certain hotel **Brands** automatically qualify (see list at the end).",
+      "uuid": null,
+      "urn": "BusinessTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "split_sections": true,
+      "conventional_lodging": {
+        "description": "- **Minimum requirement**:\n- One Internet access attribute\n- **AND** `Desk` (AID 2026)\n- **AND** At least 3 more attributes across at least 2 different categories\n(Attributes listed below...)\n---",
+        "applicable_structure_types": [
+          "Agritourism",
+          "All-Inclusive",
+          "Bed&Breakfast",
+          "Castle",
+          "Pousada (Brazil)",
+          "Country House",
+          "Cruise",
+          "Ranch",
+          "Guest House",
+          "TownHouse",
+          "Hotel",
+          "Treehouse",
+          "Hotel Resort",
+          "Inn",
+          "Lodge",
+          "Residence",
+          "Motel",
+          "Palace",
+          "Pension",
+          "Pousada (Portugal)",
+          "Riad",
+          "Ryokan",
+          "Safari/Tentalow",
+          "Aparthotel",
+          "Condominium Resort."
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "- **Minimum requirement**:"
+          }
+        ],
+        "attributes": []
+      },
+      "vacation_rental": {
+        "description": "- **Minimum requirement**:\n- One Internet access attribute\n- **AND** `Desk` (AID 2026)\n- **AND** At least 3 more attributes from 2+ categories\n(Attributes listed below...)\n---",
+        "applicable_structure_types": [
+          "Apartment",
+          "Cabin",
+          "Campsite",
+          "Chalet",
+          "Condo",
+          "Cottage",
+          "House boat",
+          "Private Vacation Home",
+          "Villa"
+        ],
+        "rules": [
+          {
+            "type": "simple",
+            "description": "- **Minimum requirement**:"
+          }
+        ],
+        "attributes": []
+      },
+      "qualifying_brands": [
+        {
+          "Brand": "Aloft",
+          "Chain/Group": "Starwood",
+          "Brand ID": "2308"
+        },
+        {
+          "Brand": "Andaz",
+          "Chain/Group": "Hyatt",
+          "Brand ID": "2263"
+        },
+        {
+          "Brand": "Conrad Hotels & Resorts",
+          "Chain/Group": "Hilton",
+          "Brand ID": "2146"
+        },
+        {
+          "Brand": "Courtyard by Marriott",
+          "Chain/Group": "Marriott",
+          "Brand ID": "28"
+        },
+        {
+          "Brand": "Crowne Plaza",
+          "Chain/Group": "IHG",
+          "Brand ID": "256"
+        },
+        {
+          "Brand": "Doubletree",
+          "Chain/Group": "Hilton",
+          "Brand ID": "33"
+        },
+        {
+          "Brand": "Edition",
+          "Chain/Group": "Marriott",
+          "Brand ID": "2534"
+        },
+        {
+          "Brand": "Element",
+          "Chain/Group": "Starwood",
+          "Brand ID": "2309"
+        },
+        {
+          "Brand": "Embassy Suites",
+          "Chain/Group": "Hilton",
+          "Brand ID": "38"
+        },
+        {
+          "Brand": "Fairmont",
+          "Chain/Group": "Fairmont",
+          "Brand ID": "209"
+        },
+        {
+          "Brand": "Four Points",
+          "Chain/Group": "Starwood",
+          "Brand ID": "309"
+        },
+        {
+          "Brand": "Four Seasons",
+          "Chain/Group": "Four Seasons",
+          "Brand ID": "2130"
+        },
+        {
+          "Brand": "Hawthorn Suites",
+          "Chain/Group": "Wyndham",
+          "Brand ID": "219"
+        },
+        {
+          "Brand": "Hilton Garden Inn",
+          "Chain/Group": "Hilton",
+          "Brand ID": "2059"
+        },
+        {
+          "Brand": "Hilton Hotels",
+          "Chain/Group": "Hilton",
+          "Brand ID": "55"
+        },
+        {
+          "Brand": "Homewood Suites",
+          "Chain/Group": "Hilton",
+          "Brand ID": "54"
+        },
+        {
+          "Brand": "Hyatt Hotels",
+          "Chain/Group": "Hyatt",
+          "Brand ID": "65"
+        },
+        {
+          "Brand": "Hyatt Place",
+          "Chain/Group": "Hyatt",
+          "Brand ID": "2209"
+        },
+        {
+          "Brand": "Inter-Continental",
+          "Chain/Group": "IHG",
+          "Brand ID": "66"
+        },
+        {
+          "Brand": "JW Marriott",
+          "Chain/Group": "Marriott",
+          "Brand ID": "2599"
+        },
+        {
+          "Brand": "Le Meridien",
+          "Chain/Group": "Starwood",
+          "Brand ID": "87"
+        },
+        {
+          "Brand": "Loews",
+          "Chain/Group": "Loews",
+          "Brand ID": "85"
+        },
+        {
+          "Brand": "Mandarin Oriental",
+          "Chain/Group": "Mandarin Oriental",
+          "Brand ID": "91"
+        },
+        {
+          "Brand": "Marriott Hotels & Resorts",
+          "Chain/Group": "Marriott",
+          "Brand ID": "86"
+        },
+        {
+          "Brand": "Mercure",
+          "Chain/Group": "Accor",
+          "Brand ID": "2137"
+        },
+        {
+          "Brand": "Novotel",
+          "Chain/Group": "Accor",
+          "Brand ID": "300"
+        },
+        {
+          "Brand": "Omni",
+          "Chain/Group": "Omni",
+          "Brand ID": "100"
+        },
+        {
+          "Brand": "Pan Pacific Hotels & Resorts",
+          "Chain/Group": "Pan Pacific Hotels & Resorts",
+          "Brand ID": "105"
+        },
+        {
+          "Brand": "Preferred Hotels & Resorts",
+          "Chain/Group": "Preferred Hotels",
+          "Brand ID": "3501"
+        },
+        {
+          "Brand": "Prince Hotels & Resorts",
+          "Chain/Group": "Prince Hotels & Resorts",
+          "Brand ID": "588"
+        },
+        {
+          "Brand": "Radisson",
+          "Chain/Group": "Carlson",
+          "Brand ID": "115"
+        },
+        {
+          "Brand": "Radisson Blu",
+          "Chain/Group": "Carlson",
+          "Brand ID": "2431"
+        },
+        {
+          "Brand": "Raffles Hotels & Resorts",
+          "Chain/Group": "Raffles Hotels & Resorts",
+          "Brand ID": "739"
+        },
+        {
+          "Brand": "Renaissance Hotels",
+          "Chain/Group": "Marriott",
+          "Brand ID": "15"
+        },
+        {
+          "Brand": "Residence Inn by Marriott",
+          "Chain/Group": "Marriott",
+          "Brand ID": "114"
+        },
+        {
+          "Brand": "Ritz Carlton",
+          "Chain/Group": "Marriott",
+          "Brand ID": "126"
+        },
+        {
+          "Brand": "Shangri-La Hotels & Resorts",
+          "Chain/Group": "Shangri-La Hotels & Resorts",
+          "Brand ID": "129"
+        },
+        {
+          "Brand": "Sheraton",
+          "Chain/Group": "Starwood",
+          "Brand ID": "130"
+        },
+        {
+          "Brand": "Sofitel",
+          "Chain/Group": "Accor",
+          "Brand ID": "272"
+        },
+        {
+          "Brand": "St Regis",
+          "Chain/Group": "Starwood",
+          "Brand ID": "2045"
+        },
+        {
+          "Brand": "Staybridge Suites",
+          "Chain/Group": "IHG",
+          "Brand ID": "731"
+        },
+        {
+          "Brand": "The Luxury Collection",
+          "Chain/Group": "Starwood",
+          "Brand ID": "320"
+        },
+        {
+          "Brand": "W Hotels",
+          "Chain/Group": "Starwood",
+          "Brand ID": "706"
+        },
+        {
+          "Brand": "Waldorf Astoria",
+          "Chain/Group": "Hilton",
+          "Brand ID": "2194"
+        },
+        {
+          "Brand": "Westin",
+          "Chain/Group": "Starwood",
+          "Brand ID": "152"
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

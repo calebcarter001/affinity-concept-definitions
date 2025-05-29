@@ -1,0 +1,58 @@
+{
+  "theme_attribute_name": "LGBTQ friendly*",
+  "lcm_id": "1073744692",
+  "uuid": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+  "theme_automation": false,
+  "is_business_rule_theme": true,
+  "live_site_filter": true,
+  "properties_count_early_2024": "49,740",
+  "urn": "LGBTQIAWelcoming",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "1073744692",
+            "UUID": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+            "Description": "This theme is manually assigned to: <br> - Properties affiliated to IGLTA (proof is required*) <br> - Properties that request LGBTQ content to be added to the Expedia listing <br> - Brands opt-in (Bulk-loaded) - LGBTQ coverage tracker <br> This attribute is located in the Policy section and is compatible with all Themes. <br> In addition to being part of filters, it generates the following text on properties pages for all EG sites: \"This property welcomes guests of all sexual orientations and gender identities (LGBTQ friendly)\""
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "n/a",
+            "UUID": "n/a",
+            "Description": ""
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "",
+            "UUID": "",
+            "Description": "Properties located in countries part of the list below are not included in the LGBTQ theme. <br> There are countries that impose civil penalties ranging from imprisonment to death if people are perceived to be Lesbian Gay Bisexual Transgender (LGBT) or participate in LGBT behavior. <br> Even though some properties in these countries may be gay-friendly and may also be IGLTA-affiliated hotels*, we do not add the LGBTQ attribute (primarily in the Middle East and some parts of Asia) at this time. <br> Below is a list of all countries that should NEVER display any LGBTQ attributes (list also available in Excel: LGBTQ_countryPOSu_exclusions (Updated list Oct 2021).xlsx"
+          }
+        ]
+      ],
+      "uuid": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+      "owned_by": "Manuela Sammatrice",
+      "last_updated": "Feb 18, 2025",
+      "automation": "No"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "0af09aac-3eb2-4a24-88d3-6465735a1409",
+      "urn": "LGBTQIAWelcoming",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "",
+      "rules": [],
+      "attribute_groups": [],
+      "attributes": []
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

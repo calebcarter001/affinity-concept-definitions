@@ -1,0 +1,125 @@
+{
+  "theme_attribute_name": "Beach property",
+  "lcm_id": "2325",
+  "uuid": "0e16d0fe-9b44-4d15-be9a-2aeb4cdf85e9",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "283,151",
+  "urn": "BeachTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "uuid": "0e16d0fe-9b44-4d15-be9a-2aeb4cdf85e9",
+      "owned_by": "Manuela Sammatrice",
+      "last_updated": "Feb 13, 2025",
+      "automation": "Yes",
+      "attribute_id": "2325",
+      "urn": "BeachTheme"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "This theme is automatically assigned to properties that are on the beach, or that have direct access to it (sea, ocean).",
+      "uuid": null,
+      "urn": "BeachTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes",
+      "rules": [
+        {
+          "type": "location",
+          "count": 1
+        },
+        {
+          "type": "view_amenity",
+          "count": 1
+        }
+      ],
+      "location_attributes": [
+        {
+          "Activity": "Direct access to beach",
+          "Attribute ID": "4430",
+          "UUID": "b2870f14-ced6-4619-94b2-1bdcb6363d35"
+        },
+        {
+          "Activity": "Direct access to private beach",
+          "Attribute ID": "4431",
+          "UUID": "9fdb2f43-cdaf-4484-9b58-5473164a04b4"
+        },
+        {
+          "Activity": "On beach",
+          "Attribute ID": "48",
+          "UUID": "58b98d8e-896a-4fbb-a20d-23b229c6a23e"
+        },
+        {
+          "Activity": "On private beach",
+          "Attribute ID": "2080",
+          "UUID": "21ee58bf-e8e0-4327-9176-d564957cf49c"
+        }
+      ],
+      "view_amenity_attributes": [
+        {
+          "Activity": "Beach view",
+          "Attribute ID": "4128",
+          "UUID": "2cdc39fe-077a-4f7c-a905-1a20e4d700ef"
+        },
+        {
+          "Activity": "Ocean view",
+          "Attribute ID": "4101",
+          "UUID": "ffef1fca-be3d-4a29-851d-c24ff75eaf5a"
+        },
+        {
+          "Activity": "Sea view",
+          "Attribute ID": "4309",
+          "UUID": "e388762b-f47d-4b77-b1d1-8e24d20c5d86"
+        },
+        {
+          "Activity": "Beach umbrellas",
+          "Attribute ID": "4432",
+          "UUID": "83da41e6-8474-4704-9a82-93efbaf15601"
+        },
+        {
+          "Activity": "Beach cabanas (surcharge)",
+          "Attribute ID": "4434",
+          "UUID": "c171172d-488d-4067-8485-67b941eefa2f"
+        },
+        {
+          "Activity": "Beach cabanas (free)",
+          "Attribute ID": "4433",
+          "UUID": "47d15536-3292-4b65-b96e-812ad827e7e6"
+        },
+        {
+          "Activity": "Beach sun loungers",
+          "Attribute ID": "4437",
+          "UUID": "aec7f17a-b363-472c-82a7-ab5ace6ee8e8"
+        },
+        {
+          "Activity": "Beach towels",
+          "Attribute ID": "4467",
+          "UUID": "b1382733-6d88-4c2c-b3ca-bbb80a1b37a5"
+        },
+        {
+          "Activity": "Beach Volleyball Onsite",
+          "Attribute ID": "4491",
+          "UUID": "2a15c6b4-8f83-4f47-98e1-706c86e57847"
+        },
+        {
+          "Activity": "Beach yoga on site",
+          "Attribute ID": "4497",
+          "UUID": "677eec11-6bd1-435c-b6fb-f51720a03896"
+        },
+        {
+          "Activity": "Beach club on site (surcharge)",
+          "Attribute ID": "1073744528",
+          "UUID": "ec616776-12c2-4c11-8562-8a09eb862f0e"
+        }
+      ],
+      "disqualifications": []
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

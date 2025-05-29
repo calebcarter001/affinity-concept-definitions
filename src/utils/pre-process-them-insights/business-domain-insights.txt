@@ -1,0 +1,974 @@
+=========================================================================
+# Adventure Sport
+## Overview
+- **UUID**: a9fd487f-6909-4a93-928e-10d4d0b40795	
+- **Owned by**: Manuela Sammatrice
+- **Last Updated**: Feb 13, 2025
+- **Automation**: Yes
+- **Attribute ID**: 5019
+- **UUID**: a9fd487f-6909-4a93-928e-10d4d0b40795	
+- **URN**: AdventureTheme
+
+
+| Attribute | Attribute ID | UUID | URN |
+|-----------|-------------|------|-----|
+| **Definition** | This theme is automatically assigned to properties that present a minimum of 5 onsite or nearby adventure sport type of recreation activities. | 5019 | a9fd487f-6909-4a93-928e-10d4d0b40795 | AdventureTheme |
+| **Exceptionally included** | If a property provides an adequate amount of adventure sport type of activities that are not all available in Partner Central (e.g. wakeboarding), we can still include it in the Theme by selecting the THEME OVER-RIDE, ADVENTURE attribute | 5100 | aaae63d2-0bba-11ea-8d71-362b9e155667 | AdventureTheme:AuthorizedManualAddition |
+| **Not included** | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE ADVENTURE attribute | 5089 | aaae5e1e-0bba-11ea-8d71-362b9e155667 | AdventureTheme:AuthorizedManualRemoval |
+
+## Qualifying Attributes
+
+Properties must have **5 of the following** attributes, or **4 of the following** plus **1 from the ski-related attributes** listed below.
+
+| Activity | AID | UUID |
+|----------|-----|------|
+| Archery on site | 1073744107 | 99860516-fd73-404c-8392-4d0ddd36721f |
+| Bicycle on site | 1073744416 | 747bdac5-81bd-4c4e-85e0-f49f0ccae2e3 |
+| Birdwatching nearby | 1073744092 | 87671f70-baaf-11e8-96f8-529269fb1459 |
+| Birdwatching on site | 1073744091 | 87671caa-baaf-11e8-96f8-529269fb1459 |
+| Boat and paddles on site | 1073744391 | 2b062286-b4cc-4ef7-b525-73145cb8b93d |
+| Boat on site | 1073744390 | 629a1235-0a55-40a4-ab26-7bdd6dcebe6f |
+| Boat tours nearby | 4502 | 81ebfce0-a01a-4cde-984a-46f2fe5d6b0e |
+| Boat tours on site | 4503 | 43a5533e-86e3-46d0-a0cf-8d5ac2b5f934 |
+| Canoe on site | 1073744393 | 67905212-d841-4643-9efa-dfb0f085ccb1 |
+| Cross-country skiing nearby | 111 | f604add6-7542-4010-b25a-39c1db261e61 |
+| Cross-country skiing on site | 3837 | 24294aaf-b10a-41a0-953d-f0dbb886eeb5 |
+| Cycling nearby | 1073744394 | 95b08c0a-f966-4efd-93b4-9625d3640404 |
+| Fish cleaning table | 1073744395 | f6e0d9ec-342a-4be2-a067-567a27b854fc |
+| Fishing nearby | 1073744396 | 3d023c59-010b-4ffa-b5d7-8c902873905a |
+| Fishing on site | 3810 | 1cac3f04-383c-4272-90c7-9854e72bdc9c |
+| Free bicycles nearby | 3807 | d4fa51b9-305f-457e-8d9e-f5b663cc2c76 |
+| Free bicycles on site | 3778 | 77f72c24-00f7-4874-a7ef-674eaa33f219 |
+| Game/wildlife walks nearby | 1073744098 | 876711f6-baaf-11e8-96f8-529269fb1459 |
+| Game/wildlife walks on site | 1073744097 | 87671066-baaf-11e8-96f8-529269fb1459 |
+| Hiking nearby | 1073744399 | f9ca2277-659b-4af7-a0ee-93e48e8d6cf7 |
+| Horse riding nearby | 1073744400 | 451b0edf-a9c6-4a93-be55-15652209494d |
+| Hunting nearby | 1073744401 | 5c46a305-96ee-4849-81fa-93701f2b91a7 |
+| Hunting on site | 1073744108 | 8fcb1e33-1c1e-4e52-8955-9b62e8cdc97f |
+| Ice skating nearby | 1073744402 | 61f493c4-53c4-4062-b14e-a305c4c123a7 |
+| Inflatable boat on site | 1073744403 | fef45011-608d-40c1-86f7-2e70985f942f |
+| Jet skiing nearby | 1073744404 | 36f5b6f3-a686-45bb-869b-379189e6180a |
+| Kayak on site | 1073744405 | dc9f8236-dd7e-427a-9dd7-5d0bb612afb2 |
+| Motor boating nearby | 1073744392 | 7b9ce677-96e5-42ae-a5f3-30263c9fa517 |
+| Mountain climbing nearby | 1073744407 | cea1e11b-0163-4599-bf11-bb9d44c766a5 |
+| Pedal boat on site | 1073744408 | a3422cf7-f7e6-4a2c-bc8d-ed591297da17 |
+| Ropes course on site | 1073744109 | 3a507dcd-e8a2-4dca-a1c9-a0e7ee9d1fd6 |
+| Rowing or canoeing on site | 3829 | 30dd9d5d-59d7-43a1-a0ea-59c6219a95b1 |
+| Sailboat on site | 1073744409 | f6071d2e-8ab3-4186-b83b-70a1e0683b4a |
+| Snowshoeing on site | 3844 | 841d342e-60ab-40be-8de0-fe5a1a092980 |
+| Surf lessons - nearby | 1073744761 | 0105c829-e616-4d3b-918e-3b6be2fc7fd4 |
+| Surf lessons - onsite | 1073744760 | 8d3a0793-f287-4faa-a283-aa1638c1910e |
+| Swimming nearby | 1073744413 | 7f94dd9c-22e7-4771-8c88-9cb97e95748f |
+| Water sports equipment | 1073744414 | 01efa070-29d7-4b75-8c7c-1ed2f23418ee |
+| Water tubing nearby | 1073744415 | bba23798-a192-48e5-8222-b1dde630f17b |
+| Ziplining nearby | 5103 | 2b795067-9dbc-4b09-8f6e-ef61abbbdacb |
+| Ziplining on site | 5104 | 65734060-dae1-4304-8cf9-c0cc7318e5f2 |
+| Bicycle rentals nearby | 115 | 864103f6-a7f2-44cb-98a4-2045c1da1ace |
+| Bicycle rentals on site | 3801 | 266f2841-2514-4c81-9c4c-9870b82c8abc |
+| Cave exploring/spelunking nearby | 5098 | d3b4a2be-dec5-47ca-914c-d66cd993a273 |
+| Cave exploring/spelunking on site | 5099 | 22dff28f-5140-4640-8aad-980b4889d1e3 |
+| Downhill skiing nearby | 110 | 769037af-df61-4654-8fc2-9238f48d2121 |
+| Downhill skiing on site | 3838 | 210b4a85-945c-4350-8f51-4b58ec54f25b |
+| Ecotours nearby | 2357 | caa03ac7-e0a6-4d87-9a56-aab4d3d0f19a |
+| Ecotours on site | 3809 | 33351509-bbd9-4df6-b4bd-4d9d48c57536 |
+| Helicopter/airplane tours on site | 3815 | 190be0d2-1a2a-4ff9-b93c-6e457f0a815d |
+| Hiking/biking trails nearby | 347 | 98da1201-0d72-43c4-88ee-035b808726c1 |
+| Hiking/biking trails on site | 3816 | 2f84c2df-5f4e-4854-814e-6b1eb4ba7e4d |
+| Horse riding/rental on site | 3817 | 77822800-95a7-4f2c-8d1c-a3812bc73263 |
+| Ice skating on site | 3819 | 1acf8b2c-4c68-415b-800c-e68abddaefe1 |
+| Kayaking nearby | 349 | 87c86ddf-cbd9-4cd8-9251-3248fef6b682 |
+| Kayaking on site | 3820 | 45a6f70b-7b7f-44a0-8944-0db33c633bc4 |
+| Motor boating on site | 3821 | 9a544fa7-0781-42ce-8d21-4d7b3f7be5af |
+| Mountain biking nearby | 2090 | ad560a0a-9d54-4f43-a368-89d95c33ab1c |
+| Mountain biking on site | 3822 | dcb5e301-0a29-4616-8baf-500e5e54eea3 |
+| Parasailing nearby | 2087 | 57567af1-c676-44c7-9894-acd65d5c48a0 |
+| Parasailing on site | 3823 | aff95079-4628-43ef-9d0c-9010f64ec5f3 |
+| Personal motorized watercraft on site | 381 | 52266535-55ec-40a6-9814-915b6084b9fb |
+| Rafting nearby | 403 | e1e27070-109d-490b-ae1f-8e458a7b1369 |
+| Rafting on site | 3827 | 7a32998f-4f70-45f7-bf6c-1b7b4d0f13c9 |
+| Rock climbing nearby | 5096 | 0e53f9e2-3653-4810-9bf8-cfe342dc4f6e |
+| Rock climbing on site | 5097 | aaaf85a0-5cad-4b7e-9f6d-1f06e2241981 |
+| Sailing nearby | 350 | fe8d8a28-9201-425a-8eaa-407d6fd20dab |
+| Sailing on site | 3831 | df7f31af-8c37-4e50-990a-05d51defa070 |
+| Scooter/moped rentals nearby | 383 | f10f994d-ea8f-40f0-8d22-96e42e3bc10b |
+| Scooter/moped rentals on site | 3832 | 30947c6e-6aa7-4758-96b7-00ff3ce5c3c0 |
+| Scuba diving nearby | 351 | 5c336f63-3737-4882-9c8c-6a19eb1801b3 |
+| Scuba diving on site | 3833 | 4effd794-ac13-45de-a44d-4fd3943a8c42 |
+| Segway rental/tour nearby | 3927 | 21bf6777-17ed-4831-88ef-92d6b719f37e |
+| Segway rental/tour on site | 3926 | 3a8c0dfc-f71f-4b28-a7cc-3f742a47a957 |
+| Skydiving nearby | 2093 | 6d7b6457-4bfc-4d2a-ae6e-834a694c912e |
+| Skydiving on site | 3839 | 044134c9-b625-4b10-a848-b914d693e53a |
+| Sledding nearby | 4401 | d31e2460-6be6-4982-baf3-ea5e56d4d049 |
+| Sledding on site | 4400 | 0cf5bc72-f09b-41d2-830a-9618f95bed6c |
+| Snorkeling nearby | 103 | 1a8b9aa5-b75b-4f6e-bc98-0581df7cc7f6 |
+| Snorkeling on site | 3840 | f5e96c22-da58-49b0-90d1-a072b14473f3 |
+| Snow tubing nearby | 4405 | e43a704b-c4b3-47f4-a2d9-36bd4bf195d2 |
+| Snow tubing on site | 4404 | ea136850-a03e-4ea2-a79b-e1465fa3bf7b |
+| Snowboarding nearby | 2146 | 90e60e82-8054-45cd-854e-a696e0a6096b |
+| Snowboarding on site | 3842 | 3971cf50-528a-4a6f-89aa-d1e472663b8e |
+| Snowmobiling nearby | 2089 | 90402b6a-fa9f-4f2a-af5c-dd9159743979 |
+| Snowmobiling on site | 3843 | a38c9872-46de-4131-beb5-2f5bc985d3ba |
+| Snowshoeing nearby | 2092 | 901ae604-d6bb-44c0-8be3-77961a840d99 |
+| Surfing/boogie boarding nearby | 106 | 4f56a359-46c5-44c9-8ae6-189373941daa |
+| Surfing/boogie boarding on site | 3846 | fda90203-a761-48d1-b781-89657a26bbb6 |
+| Water skiing nearby | 356 | 4ab1c557-8982-4be3-a627-9141373ab135 |
+| Water skiing on site | 3852 | 491f0ec8-bf79-4669-8fb4-2eaeec74ccf5 |
+| Windsurfing nearby | 2094 | a7f142da-1bdd-4013-ae05-9b33da39ec67 |
+| Windsurfing on site | 3854 | 08c6c2bb-4170-43a5-b678-d01466c8543e |
+
+### Ski-Related Attributes (OR 4 of the previous list AND 1 of the below	)
+| Activity | AID | UUID |
+|----------|-----|------|
+| Ski lessons nearby | 2360 | aaf52aef-f5de-4cf2-af5d-9a126ea3ac37 |
+| Ski lessons on site | 3836 | 18ef2adf-6321-40fb-bcc2-0a9a85d5c051 |
+| Ski rentals nearby | 2362 | 03be3a63-876f-4664-a8b2-f9878689046d |
+| Ski rentals on site | 3835 | 1e31114d-68a6-49cc-a13e-71df9ef22385 |
+
+===========================================================================================================================
+
+# Beach - Theme Definition
+## Overview
+- **UUID**: 0e16d0fe-9b44-4d15-be9a-2aeb4cdf85e9
+- **Owned by**: Manuela Sammatrice
+- **Last Updated**: Feb 13, 2025
+- **Automation**: Yes
+- **Attribute ID**: 2325
+- **URN**: BeachTheme
+
+## Definition
+This theme is automatically assigned to properties that are on the beach, or that have direct access to it (sea, ocean).
+
+## Exceptionally Included
+In exceptional situations, we can still include a property without qualifying attributes by selecting the `THEME OVER-RIDE, BEACH` attribute.  
+Select the override attribute when the property has a **Free beach club on site (AID 1073744526)** and is on the beach/direct access.
+- **Attribute ID**: 1073744130
+- **UUID**: aaae5f4-0bba-11ea-8d71-362b9e155667
+- **URN**: BeachTheme:AuthorizedManualAddition
+
+## Not Included
+Properties by a lake or a river beach do **not** qualify for the theme.  
+When partners request not being included in the Theme filter, select the `THEME OVER-RIDE, REMOVE BEACH` attribute.
+- **Attribute ID**: 1073744131
+- **UUID**: aaae720-0bba-11ea-8d71-362b9e155667
+- **URN**: BeachTheme:AuthorizedManualRemoval
+
+## Qualifying Attributes
+
+**1 of:**
+
+| Activity                        | Attribute ID | UUID                                  |
+|---------------------------------|--------------|----------------------------------------|
+| Direct access to beach          | 4430         | b2870f14-ced6-4619-94b2-1bdcb6363d35   |
+| Direct access to private beach  | 4431         | 9fdb2f43-cdaf-4484-9b58-5473164a04b4   |
+| On beach                        | 48           | 58b98d8e-896a-4fbb-a20d-23b229c6a23e   |
+| On private beach                | 2080         | 21ee58bf-e8e0-4327-9176-d564957cf49c   |
+
+**AND 1 of:**
+
+| Activity                          | Attribute ID     | UUID                                  |
+|-----------------------------------|------------------|----------------------------------------|
+| Beach view                        | 4128             | 2cdc39fe-077a-4f7c-a905-1a20e4d700ef   |
+| Ocean view                        | 4101             | ffef1fca-be3d-4a29-851d-c24ff75eaf5a   |
+| Sea view                          | 4309             | e388762b-f47d-4b77-b1d1-8e24d20c5d86   |
+| Beach umbrellas                   | 4432             | 83da41e6-8474-4704-9a82-93efbaf15601   |
+| Beach cabanas (surcharge)        | 4434             | c171172d-488d-4067-8485-67b941eefa2f   |
+| Beach cabanas (free)             | 4433             | 47d15536-3292-4b65-b96e-812ad827e7e6   |
+| Beach sun loungers               | 4437             | aec7f17a-b363-472c-82a7-ab5ace6ee8e8   |
+| Beach towels                     | 4467             | b1382733-6d88-4c2c-b3ca-bbb80a1b37a5   |
+| Beach Volleyball Onsite          | 4491             | 2a15c6b4-8f83-4f47-98e1-706c86e57847   |
+| Beach yoga on site               | 4497             | 677eec11-6bd1-435c-b6fb-f51720a03896   |
+| Beach club on site (surcharge)   | 1073744528      | ec616776-12c2-4c11-8562-8a09eb862f0e   |
+
+===========================================================================================================================
+
+# Boutique - Theme Definition
+## Overview
+- **UUID**: f81df649-263c-4692-a94f-035a97228296
+- **Owned by**: Manuela Sammatrice
+- **Last Updated**: Feb 13, 2025
+- **Automation**: No
+- **Attribute ID**: 5022
+- **URN**: BoutiqueTheme
+
+## Definition
+This theme is to be assigned **manually** to properties that feature **unique and upscale decor**.
+
+Guestrooms are individually furnished and feature added touches, often with locally influenced décor and artwork.  
+Boutique properties typically have fewer than 100 rooms and are mostly unbranded. Some may belong to designated hotel collections (e.g., Design Hotels, Preferred Hotels).
+
+### Special Rule for Greece
+Due to official classification, **hotels in Greece** only qualify if official classification is applicable.  
+If a property in Greece qualifies for the Boutique Theme, it should be assigned both the following URNs:
+- `BoutiqueTheme`
+- `HellenicChamberBoutiqueHotel` (Boutique Award)
+
+## Exceptionally Included
+On request, in preparation for possible Theme automation:
+- **Attribute ID**: 1073745236
+- **URN**: BoutiqueTheme:AuthorizedManualAddition
+
+## Not Included
+- **Turkey**: Properties in Turkey are not eligible for this theme due to official classification policies. See Turkey policy documentation for details on Boutique and Special Class actions.
+- **Greece**: If a property **does not** provide an official Boutique certificate but wants to use the word “Boutique” in its name, assign the URN `HellenicChamberBoutiqueHotel:Unavailable`.
+
+If a partner requests exclusion from the theme filter, select the `THEME OVER-RIDE, RMV BOUTIQUE` attribute.  
+(Note: This is precautionary since the theme is not yet automated.)
+
+===========================================================================================================================
+
+# Business - Theme Definition
+## Overview
+- **UUID**: 105097f8-99ef-4a90-a101-50bb879ad0e8
+- **Owned by**: Aurelie Bray
+- **Automation**: Yes
+- **Attribute ID**: 2328
+- **URN**: BusinessTheme
+
+## Definition
+This theme is automatically assigned to properties offering services and facilities for business travellers.
+- The **Structure Type** determines qualifying attributes.
+- Logic is split between **Conventional Lodgings** and **Vacation Rentals**.
+- Certain hotel **Brands** automatically qualify (see list at the end).
+
+## Exceptionally Included
+In exceptional situations, properties without qualifying attributes may still be included by applying:
+- **Attribute ID**: 5053
+- **UUID**: aaae5bd0-0bba-11ea-8d71-362b9e155667
+- **URN**: BusinessTheme:AuthorizedManualAddition
+
+## Not Included
+- **Structure Types excluded**: Holiday Park, Hostel/Backpacker accommodation, Hostal, and Capsule Hotels
+- **Partner request exclusion**: Apply `THEME OVER-RIDE, REMOVE BUSINESS`:
+  - **Attribute ID**: 5102
+  - **UUID**: aaae651c-0bba-11ea-8d71-362b9e155667
+  - **URN**: BusinessTheme:AuthorizedManualRemoval
+
+---
+## Qualifying Attributes for Conventional Lodgings
+
+Applies to: Agritourism, All-Inclusive, Bed&Breakfast, Castle, Pousada (Brazil), Country House, Cruise, Ranch, Guest House, TownHouse, Hotel, Treehouse, Hotel Resort, Inn, Lodge, Residence, Motel, Palace, Pension, Pousada (Portugal), Riad, Ryokan, Safari/Tentalow, Aparthotel, Condominium Resort.
+
+- **Minimum requirement**:
+  - One Internet access attribute
+  - **AND** `Desk` (AID 2026)
+  - **AND** At least 3 more attributes across at least 2 different categories
+
+(Attributes listed below...)
+
+---
+
+## Qualifying Attributes for Vacation Rentals
+
+Applies to: Apartment, Cabin, Campsite, Chalet, Condo, Cottage, House boat, Private Vacation Home, Villa
+
+- **Minimum requirement**:
+  - One Internet access attribute
+  - **AND** `Desk` (AID 2026)
+  - **AND** At least 3 more attributes from 2+ categories
+
+(Attributes listed below...)
+
+---
+
+## Business Theme Qualifying Brands
+
+| Brand                             | Chain/Group                  | Brand ID |
+|----------------------------------|------------------------------|----------|
+| Aloft                             | Starwood                     | 2308     |
+| Andaz                             | Hyatt                        | 2263     |
+| Conrad Hotels & Resorts          | Hilton                       | 2146     |
+| Courtyard by Marriott            | Marriott                     | 28       |
+| Crowne Plaza                     | IHG                          | 256      |
+| Doubletree                       | Hilton                       | 33       |
+| Edition                          | Marriott                     | 2534     |
+| Element                          | Starwood                     | 2309     |
+| Embassy Suites                   | Hilton                       | 38       |
+| Fairmont                         | Fairmont                     | 209      |
+| Four Points                      | Starwood                     | 309      |
+| Four Seasons                     | Four Seasons                 | 2130     |
+| Hawthorn Suites                  | Wyndham                      | 219      |
+| Hilton Garden Inn               | Hilton                       | 2059     |
+| Hilton Hotels                   | Hilton                       | 55       |
+| Homewood Suites                 | Hilton                       | 54       |
+| Hyatt Hotels                    | Hyatt                        | 65       |
+| Hyatt Place                     | Hyatt                        | 2209     |
+| Inter-Continental               | IHG                          | 66       |
+| JW Marriott                     | Marriott                     | 2599     |
+| Le Meridien                     | Starwood                     | 87       |
+| Loews                           | Loews                        | 85       |
+| Mandarin Oriental              | Mandarin Oriental            | 91       |
+| Marriott Hotels & Resorts       | Marriott                     | 86       |
+| Mercure                          | Accor                        | 2137     |
+| Novotel                          | Accor                        | 300      |
+| Omni                             | Omni                         | 100      |
+| Pan Pacific Hotels & Resorts     | Pan Pacific Hotels & Resorts | 105      |
+| Preferred Hotels & Resorts       | Preferred Hotels             | 3501     |
+| Prince Hotels & Resorts          | Prince Hotels & Resorts      | 588      |
+| Radisson                         | Carlson                      | 115      |
+| Radisson Blu                     | Carlson                      | 2431     |
+| Raffles Hotels & Resorts         | Raffles Hotels & Resorts     | 739      |
+| Renaissance Hotels               | Marriott                     | 15       |
+| Residence Inn by Marriott        | Marriott                     | 114      |
+| Ritz Carlton                     | Marriott                     | 126      |
+| Shangri-La Hotels & Resorts      | Shangri-La Hotels & Resorts  | 129      |
+| Sheraton                         | Starwood                     | 130      |
+| Sofitel                          | Accor                        | 272      |
+| St Regis                         | Starwood                     | 2045     |
+| Staybridge Suites                | IHG                          | 731      |
+| The Luxury Collection            | Starwood                     | 320      |
+| W Hotels                         | Starwood                     | 706      |
+| Waldorf Astoria                  | Hilton                       | 2194     |
+| Westin                           | Starwood                     | 152      |
+
+===========================================================================================================================
+# Casino
+## Overview
+- **UUID**: 9828bcaa-5510-43e5-aa91-4a150fe2a69c	
+- **Owned by**: Manuela Sammatrice
+- **Last Updated**: Feb 13, 2025
+- **Automation**: Yes
+- **Attribute ID**: 2329
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 2329 | 9828bcaa-5510-43e5-aa91-4a150fe2a69c | This theme is automatically assigned to properties that host an on-site casino (and not just slot machines or video gaming) |
+| **Exceptionally included** | 1073743271 | aaae9bea-0bba-11ea-8d71-362b9e155667 | If a property is adjacent to a casino, we can still include it in the Theme by selecting the THEME OVER-RIDE, CASINO attribute |
+| **Not included** | 1073744265 | aaaea84c-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVERRIDE, REMOVE CASINO attribute |
+
+## Qualifying Attribute
+
+| Activity | AID | UUID |
+|----------|-----|------|
+| Casino | 2112 | 0000a3f9-0b23-461e-8415-53c0ae289852 |
+
+===========================================================================================================================
+# Eco-certified Property
+## Overview
+- **UUID**: c94b49e5-9668-4a51-89a4-d28bb9daf02f
+**Owned by**: Manuela Sammatrice  
+**Last updated**: Feb 18, 2025  
+**Automation**: Yes
+- **Attribute ID**: 2332
+
+
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 2332 | c94b49e5-9668-4a51-89a4-d28bb9daf02f | This theme is automatically assigned to properties that belong to one of recognized programs outlined below and must present a certificate as proving they have been awarded the certification. Unless otherwise noted, all awards are bulk-updated quarterly. Partners may request a certification be added or removed as needed, but must provide documentation from one of the organizations listed below proving certification status. This can be a link to the organization's website where the property details are listed. Whenever a relevant program in the Awards & Affiliations section is selected, it will generate the following text: "This property participates in {GreenProgramName}, a program that measures the property's impact on one or more of the following: environment, community, cultural-heritage, the local economy.” |
+| **Exceptionally included (DO NOT USE)** | 1073744270 | aaaeb120-0bba-11ea-8d71-362b9e155667 | In exceptional situations we can use the THEME OVER-RIDE, GREEN attribute (Attribute not yet in use. Exceptions to be confirmed in #lodging-content-discussion slack channel) |
+| **Not included** | 1073744271 | aaaeb24c-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE GREEN attribute |
+
+## Additional Information
+Use [this dashboard](#) to check for the current list of eco-certified properties.
+
+## Qualifying Attributes
+Properties must have **1 of the following** attributes:
+| Program | Notes | AID | URN | UUID |
+|---------|-------|-----|-----|------|
+| Green Key Fee (Foundation for Environmental Education) | EMEA/APAC focused. Sends EG a list each quarter with updated membership. | 2995 | GreenKey | becf7b80-d536-4367-a473-22c9f711b1e1 |
+| Green Key Global | AMER focused. Both Green Key programs are affiliated with each other | 3040 | GreenKeyGlobal | 3a4a190b-5514-499b-8bf8-9e946ae38d53 |
+| Green Tourism Program | | 2994 | GreenTourismProgram | 3aa7fc5b-6a6d-4d35-9eec-e469845da2a9 |
+| Green-Travelife | | 3298 | GreenTravelife | 5c8ed28e-5fad-472d-abdd-8a3aa8b7d2a3 |
+| Green-EarthCheck | | 3299 | GreenEarthCheck | 3ccf9563-c2d3-4460-af86-25a0c85e7f88 |
+| Green Globe | | 3004 | GreenGlobe | c101d28c-2163-47df-9bd0-dc29ee8b4185 |
+| Green-Biosphere | | 2974 | GreenBiosphere | a0e0f32d-7e78-43db-874f-933378267688 |
+| Green-Audubon | | 3028 | GreenAudubon | a4f3fa82-6d73-4e25-9225-dcb38e1f62f8 |
+| Green-Fair Trade Tourism | | 1073743073 | GreenFairTradeTourism | 4bb4a9eb-ded1-4f61-b913-9290e61e51d1 |
+| Qualmark Sustainable Tourism Business Award | Updated with monthly Qualmark audits | 2967 | GreenQualmark | 5683f8bd-fc33-40ed-8ae5-756b6bf6df03 |
+===========================================================================================================================
+# Family
+## Overview
+- **UUID**:	1cba277b-2dfc-4af7-958b-b779fcaff6a6
+- **Owned by**: Manuela Sammatrice
+- **Automation**: Yes
+- **Attribute ID**: 2333
+
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 2333 | 1cba277b-2dfc-4af7-958b-b779fcaff6a6 | This theme is automatically assigned to properties providing services and amenities for children. The Structure Type determines the qualifying attributes. The logic is split between Conventional Lodgings and Vacation Rentals |
+| **Exceptionally included** | 5091 | aaae62b0-0bba-11ea-8d71-362b9e155667 | In exceptional situations we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, FAMILY attribute. The override can be used for Structure Types that are not included in the automation logic (see below) |
+| **Not included** | 5090 | aaae615c-0bba-11ea-8d71-362b9e155667 | Properties assigned the following Structure Types are not included in the theme automation logic: Cruise, Hostal, Hostel, Pousada (Brazil), Pousada (Portugal), Campsite, Capsule hotel. When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE FAMILY attribute (attribute 5090). Properties catering to specific targets are excluded from this theme (see disqualifying attributes below) |
+
+## Disqualifying Attributes
+
+Properties with any of the following attributes are excluded from the Family theme:
+
+| Attribute | AID | Section | UUID |
+|-----------|-----|---------|------|
+| Caters to women only | 57 | Policy | fb4ea705-4066-49b9-8440-a641713aac71 |
+| Caters to men only | 58 | Policy | 4df73bed-053e-4763-a00a-e2b47ac62a14 |
+| Caters to adults only | 3357 | Policy | ef050cba-8fd8-4d6f-8c49-961f5027fbc7 |
+| Clothing optional (nudity permitted in public areas) | 2003 | Displayable attributes | 8c6b5b91-7a2d-4e6c-8cff-5e52345625d7 |
+| Children not allowed | 2791 | Displayable attributes | 152d952d-5ec7-4563-adb0-030e354e6a7f |
+| Children not allowed start month | 2792 | Displayable attributes | 9dd380c9-b73b-4a2c-9f43-0ce743849614 |
+| This property is designed for adult entertainment | 1073742864 | Displayable attributes | 00048f04-6ec1-4284-827c-f78a332601c9 |
+| Children not allowed end month | 2793 | Displayable attributes | 243247c5-eca6-437f-9903-a75d86a2a50b |
+| Children not allowed max age | 2794 | Displayable attributes | e97906da-534b-488d-bfd1-1b7d1f7a7562 |
+| Romantic Hotel | 2339 | Hotel Themes | 38a65de8-8007-44c0-b7f8-fd939623a8b1 |
+
+## Qualifying Attributes for Conventional Lodgings
+**Applicable Structure Types**: Agritourism, All-Inclusive, Bed&Breakfast, Castle, Country House, Ranch, Guest House, TownHouse, Hotel, Treehouse, Hotel Resort, Inn, Lodge, Residence, Motel, Palace, Pension, Riad, Ryokan, Safari/Tentalow, Aparthotel, Condominium resort
+
+Properties must have:
+- **2 of the following primary attributes** AND
+- **A minimum of 2 attributes (total) from 2 different categories** from the secondary attributes list
+
+### Primary Attributes (2 of)
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Babysitting or childcare | 6 | 1f4865cc-5c7b-420d-9abb-397c911eb932 |
+| Supervised childcare/activities | 38 | 64ac06c4-dffc-4713-8117-8be15f364242 |
+| Children's club | 2186 | d08e5209-8075-4b36-9e34-6b58e122bf43 |
+| KBYG-Children stay free | 2552 | f614445a-f9c3-450e-83c7-f627dd182c77 |
+| Childcare (in room, surcharge) | 2151 | 40c3f20c-287c-470b-82d5-c1684e82efcc |
+| Babysitting or childcare (free) | 4695 | d44fc079-b6dd-4878-930a-91573d4dc41f |
+| Babysitting or childcare (surc) | 4696 | aac29ea1-965e-4b19-81e8-583c4492ab12 |
+| Children's club (free) | 4697 | 69c32179-a11d-4b60-bea7-32d3c4f7b581 |
+| Children's club (surcharge) | 4698 | 4897d109-382b-4d10-9b81-99daf93c82b3 |
+| Supervised childcare/active-surc | 4699 | a78c57bd-4edb-494c-ab3f-810a8fbf8b2f |
+| Cribs/infant beds available | 4147 | d0cc8945-61e6-469e-b974-5aba9c11b350 |
+| Cribs/infant beds (surcharge) | 4950 | 05e3ed75-9184-40a2-8c99-67da04ae4cb2 |
+| Cribs/infant beds (free) | 4951 | 7f58a6f6-8af7-4757-b8b8-fc81e41bc16a |
+| Highchair | 1073743372 | 7e3e1316-1315-4ec4-8601-953f84042547 |
+| Toys | 1073743385 | dca5c365-9c39-45c5-846c-c3c13ee2bf7b |
+| Dining-Restaurant1-KidsMeals | 3388 | b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98 |
+| Dining-Restaurant2-KidsMeals | 3404 | fb29bdad-5d99-4911-9d97-e8ce6c7eddff |
+| Dining-Restaurant3-KidsMeals | 3451 | 5034e0a1-1aa8-4b3f-a464-6059da64a7a7 |
+| Dining-Restaurant4-KidsMeals | 3452 | 48ecad34-fa50-4232-aea1-aa0399757ea1 |
+
+### Secondary Attributes (Minimum 2 from 2 different categories)
+| Attribute | AID | Category | UUID |
+|-----------|-----|----------|------|
+| Parking - valet (free) | 3863 | Parking | 4538dd97-c660-453e-b3d4-c6934ca6ef20 |
+| Parking - extended (free) | 4450 | Parking | df95d788-f37c-4f09-8cc5-4a28f152f344 |
+| Parking - extended (surcharge) | 4451 | Parking | 6e532e94-05e4-452e-ad02-00e79ee10306 |
+| Parking - RV, bus, truck (free) | 4452 | Parking | a43f3678-6ce4-4db6-b961-1293f5c65858 |
+| Parking - RV, bus, truck (surch) | 4453 | Parking | 08719d91-5d20-4671-a93b-5082b5b7a41a |
+| Parking - RV, bus, truck (free) | 4454 | Parking | 1e048a06-5330-4368-9b39-671cd78b67d3 |
+| Parking - offsite (discounted) | 4455 | Parking | 84b31659-bc8a-4f29-8b7c-e977c04d2a31 |
+| Parking - offsite (reservations) | 4456 | Parking | d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7 |
+| Sofa bed | 2038 | Equipment | 0f8e911c-ceab-4136-8fab-32028159b34b |
+| Rollaway/extra beds | 2044 | Equipment | a8d609a1-e007-46c5-b4c0-0c266e64a894 |
+| Elevator/Lift | 8 | Equipment | 0a76f8db-30e7-4b9f-9cfc-355e40964195 |
+| Dry cleaning/laundry service | 2070 | Equipment | d31ebb82-ff76-4e5b-acf1-604e75deb310 |
+| Laundry Facilities | 369 | Equipment | 5fd24a02-5136-4b0b-baea-6353d03fa863 |
+| KBYG-Connecting/adjoining rooms | 4420 | Equipment | c58f51a5-21cf-4c4e-8768-a829df09e0e6 |
+| Ski area nearby | 2118 | Recreation | 65cdb589-f9cc-4712-b552-bfbff2a0eedc |
+| Ski lessons nearby | 2360 | Recreation | aaf52aef-f5de-4cf2-af5d-9a126ea3ac37 |
+| Ski rentals nearby | 2362 | Recreation | 03be3a63-876f-4664-a8b2-f9878689046d |
+| Ski rentals on site | 3835 | Recreation | 1e31114d-68a6-49cc-a13e-71df9ef22385 |
+| Ski lessons on site | 3836 | Recreation | 18ef2adf-6321-40fb-bcc2-0a9a85d5c051 |
+| Skiing Downhill On site | 3838 | Recreation | 210b4a85-945c-4350-8f51-4b58ec54f25b |
+| On beach | 48 | Recreation | 58b98d8e-896a-4fbb-a20d-23b229c6a23e |
+| Beach nearby | 2113 | Recreation | b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1 |
+| Beach nearby - direct access | 4430 | Recreation | b2870f14-ced6-4619-94b2-1bdcb6363d35 |
+| Theme park(s) nearby | 2083 | Recreation | 1cc2e184-fcb2-41e2-aa18-82281e97f9ab |
+| Theme park shuttle (free) | 2950 | Recreation | 0268829b-7cf2-41ef-a35b-468d516fe761 |
+| Theme park shuttle (surcharge) | 2951 | Recreation | fff16d06-1863-4858-bf26-18819293f791 |
+| Games | 1073743383 | Recreation | 9445dd10-b709-44c8-81cd-44a451d60831 |
+| Ping pong table | 1073743386 | Recreation | 1f6a3098-40e6-4648-8d0b-19b51a29ca7f |
+| Foosball | 1073743388 | Recreation | ca703e5f-d1de-40e3-83e6-b65eacafe79b |
+| Indoor pool | 14 | Recreation | 85be5c08-92e8-40a7-b0e2-42a6aea058a9 |
+| Outdoor pool | 24 | Recreation | 6a82fca6-1620-4da8-b7ba-592746c6ca39 |
+| Swimming pool | 2074 | Recreation | cf0c4550-0af4-4021-b1f4-7562c63939c2 |
+| Outdoor seasonal pool | 2138 | Recreation | f410e383-8a19-494b-b6f3-7b7bb1170efb |
+| Number of indoor pools - | 2820 | Recreation | efe909ad-2475-4529-9612-1e5242216669 |
+| Number of outdoor pools - | 2821 | Recreation | 384c8154-03ab-4180-b099-9cb689161ebf |
+| Private pool | 2859 | Recreation | 7a4414f1-9187-4c8d-8289-fd9e88ff758e |
+| Private plunge pool | 2860 | Recreation | a0f98dd6-4dfd-4c39-8302-f64d0b8397a3 |
+| 24-hour pool access | 1073743549 | Recreation | b71bba46-9eab-45e7-9199-2445017c5efb |
+| Recreation-Pool-children's | 2014 | Recreation | c93d1b8c-83de-4ecc-b994-7dcd3be33589 |
+| Recreation-Playground on site | 3825 | Recreation | b8e250ea-ad6e-44d5-8b23-378e85cf1200 |
+| Golf - miniature on site | 3812 | Recreation | d60342d6-c988-4bac-9b58-482368470831 |
+| Recreation-Lazy river | 2817 | Recreation | 66930de3-2d35-44c0-8a18-e6ac0df26c04 |
+| Recreation-Waterslide | 2818 | Recreation | 3766faf9-5aca-4737-8601-f80b33997381 |
+| Recreation-Water park | 2819 | Recreation | 5b4ec696-0702-4435-a5ff-7b9db64c36e7 |
+| Water park access (free) | 4174 | Recreation | 0e4392d9-827e-48e5-8311-2d17e928c45b |
+| Water park access (surcharge) | 4175 | Recreation | 700699ca-6d69-4338-a407-acfdff1b8089 |
+| Arcade/game room | 375 | Recreation | d8525e3d-b796-4388-8802-297c67534e1f |
+| Bowling alley on site | 3805 | Recreation | 22e713fd-54bf-4d7e-86ca-31e2a8062150 |
+| Grocery/convenience store | 2386 | Dining | b81898a7-543c-44b2-baf2-1dc36a6b6aac |
+| Snackbar/Deli | 3500 | Dining | ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a |
+| Shared/communal kitchen | 5093 | Dining | 4ff67be9-38e9-4922-98b7-062a36aef7bc |
+| Refrigerator | 130 | Dining | 0caddcd0-af62-40ae-9008-b121e651f616 |
+| Refrigerator (on request) | 2181 | Dining | 86f3fa31-384e-45ee-b9e9-849727becab7 |
+| Refrigerator | 4303 | Dining | b3894c03-6889-4a98-bc15-143963730a52 |
+| Refrigerator (on request) | 4304 | Dining | 1b713aac-c927-41a3-b714-0bb3e720d5c8 |
+| Refrigerator (surcharge) | 1073742774 | Dining | 6e0551c5-96fc-4bba-bdad-8da251c2ab5e |
+| Refrigerator (surcharge) | 1073742781 | Dining | 0bca00a9-d324-42bc-94fa-a4dc2881d8db |
+| DVD player | 2086 | Entertainment | bb326125-f667-4665-974b-2ce03a121f35 |
+| Television - Smart | 1073743569 | Entertainment | 3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8 |
+| Netflix | 1073743571 | Entertainment | f171999c-dec5-47e9-9950-c1d19b73d7d4 |
+| High-speed internet access | 2046 | Entertainment | df4fcb7b-6126-4076-a8f1-8cab33536629 |
+| Free WiFi PA | 2390 | Entertainment | 2cb950af-5afe-40f5-bf79-e6561f3bc773 |
+| WiFi (surcharge) PA | 2391 | Entertainment | e5049e76-2c5d-40da-9eab-c5726deba7a7 |
+| Free wired Internet PA | 2392 | Entertainment | 0924a533-5bcc-4a8f-89f8-18537d6d2bed |
+| Wired internet access - surcharge | 2393 | Entertainment | 37bc3715-36a1-45fe-a127-5c6aed05a77d |
+| Free WiFi RA | 2403 | Entertainment | 1dc3313f-9d1b-4886-8226-12ae4c1b3571 |
+| WiFi (surcharge) PA | 2404 | Entertainment | c2518a35-0502-4afc-a050-2bfcb9dfaeb4 |
+| Free wired Internet RA | 2405 | Entertainment | e713d597-b2cb-447b-b51a-c972a87fe879 |
+| Wired Internet access (surcharge) RA | 2406 | Entertainment | ede46d14-bf47-4748-8d88-cba8b06d4214 |
+| Internet access (3rd party) PA | 1073742907 | Entertainment | f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828 |
+| Internet access (3rd party) RA | 1073742908 | Entertainment | 63f74d12-1583-4707-964e-54bdb9be9910 |
+| Internet access - high speed | 2125 | Entertainment | 5968d41c-abd9-4da1-b8ec-70fdffa10849 |
+| Internet access - complimentary PA | 2127 | Entertainment | 7d8b093c-067e-44fe-ad60-a49854423a06 |
+| Internet access - complimentary RA | 2156 | Entertainment | 61d64ec2-0d97-4a92-aca1-da71c906464b |
+| Internet access - surcharge RA | 2157 | Entertainment | 89714e00-fac8-49f6-9afd-87b03d72adcb |
+| Television Internet access RA | 2099 | Entertainment | 3d0470d4-1e3d-4929-ba92-8f9d9949b2d6 |
+| Wireless Internet access RA | 2100 | Entertainment | 5bad798b-0ced-45f0-9493-1386d904bfa0 |
+| Internet access - wireless PA | 2101 | Entertainment | d86726ff-4a17-4a28-996e-5b81963254a8 |
+| Video games-console | 2028 | Entertainment | 66e72d29-0ade-4fd5-a154-f009f4d05ce8 |
+
+## Qualifying Attributes for Vacation Rentals
+
+**Applicable Structure Types**: Apartment, Cabin, Chalet, Condo, Cottage, House boat, Private Vacation Home, Villa
+
+Properties must have:
+- **2 of the following primary attributes** AND
+- **A minimum of 3 attributes (total) from 3 different categories** from the secondary attributes list
+
+### Primary Attributes (2 of)
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Babysitting or childcare | 6 | 1f4865cc-5c7b-420d-9abb-397c911eb932 |
+| Supervised childcare/activities | 38 | 64ac06c4-dffc-4713-8117-8be15f364242 |
+| Children's club | 2186 | d08e5209-8075-4b36-9e34-6b58e122bf43 |
+| KBYG-Children stay free | 2552 | f614445a-f9c3-450e-83c7-f627dd182c77 |
+| Childcare (in room, surcharge) | 2151 | 40c3f20c-287c-470b-82d5-c1684e82efcc |
+| Babysitting or childcare (free) | 4695 | d44fc079-b6dd-4878-930a-91573d4dc41f |
+| Babysitting or childcare (surc) | 4696 | aac29ea1-965e-4b19-81e8-583c4492ab12 |
+| Children's club (free) | 4697 | 69c32179-a11d-4b60-bea7-32d3c4f7b581 |
+| Children's club (surcharge) | 4698 | 4897d109-382b-4d10-9b81-99daf93c82b3 |
+| Supervised childcare/active-surc | 4699 | a78c57bd-4edb-494c-ab3f-810a8fbf8b2f |
+| Cribs/infant beds available | 4147 | d0cc8945-61e6-469e-b974-5aba9c11b350 |
+| Cribs/infant beds (surcharge) | 4950 | 05e3ed75-9184-40a2-8c99-67da04ae4cb2 |
+| Cribs/infant beds (free) | 4951 | 7f58a6f6-8af7-4757-b8b8-fc81e41bc16a |
+| Highchair | 1073743372 | 7e3e1316-1315-4ec4-8601-953f84042547 |
+| Toys | 1073743385 | dca5c365-9c39-45c5-846c-c3c13ee2bf7b |
+| Dining-Restaurant1-KidsMeals | 3388 | b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98 |
+| Dining-Restaurant2-KidsMeals | 3404 | fb29bdad-5d99-4911-9d97-e8ce6c7eddff |
+| Dining-Restaurant3-KidsMeals | 3451 | 5034e0a1-1aa8-4b3f-a464-6059da64a7a7 |
+| Dining-Restaurant4-KidsMeals | 3452 | 48ecad34-fa50-4232-aea1-aa0399757ea1 |
+
+### Secondary Attributes (Minimum 3 from 3 different categories)
+| Attribute | AID | Category | UUID |
+|-----------|-----|----------|------|
+| Parking - valet (free) | 3863 | Parking | 4538dd97-c660-453e-b3d4-c6934ca6ef20 |
+| Parking - extended (free) | 4450 | Parking | df95d788-f37c-4f09-8cc5-4a28f152f344 |
+| Parking - extended (surcharge) | 4451 | Parking | 6e532e94-05e4-452e-ad02-00e79ee10306 |
+| Parking - RV, bus, truck (free) | 4452 | Parking | a43f3678-6ce4-4db6-b961-1293f5c65858 |
+| Parking - RV, bus, truck (surch) | 4453 | Parking | 08719d91-5d20-4671-a93b-5082b5b7a41a |
+| Parking - RV, bus, truck (free) | 4454 | Parking | 1e048a06-5330-4368-9b39-671cd78b67d3 |
+| Parking - offsite (discounted) | 4455 | Parking | 84b31659-bc8a-4f29-8b7c-e977c04d2a31 |
+| Parking - offsite (reservations) | 4456 | Parking | d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7 |
+| Sofa bed | 2038 | Equipment | 0f8e911c-ceab-4136-8fab-32028159b34b |
+| Rollaway/extra beds | 2044 | Equipment | a8d609a1-e007-46c5-b4c0-0c266e64a894 |
+| Elevator/Lift | 8 | Equipment | 0a76f8db-30e7-4b9f-9cfc-355e40964195 |
+| Washer/dryer | 340 | Equipment | 1f9ceb62-e25f-41bc-bc85-a619b551b743 |
+| Laundry Facilities | 369 | Equipment | 5fd24a02-5136-4b0b-baea-6353d03fa863 |
+| Dryer | 1073743310 | Equipment | 7a3e69fd-6a37-4f5b-b025-c1cbfe2272e3 |
+| Washing machine | 1073743311 | Equipment | 9b4b327c-6897-4c6b-96e2-c129174d9166 |
+| Separate dining area | 2370 | Equipment | c3a5163e-7846-4f35-af16-3045e0f2d532 |
+| Separate living room | 3857 | Equipment | 7bd91c08-2967-4d03-bbb4-3717d4cec225 |
+| Ski area nearby | 2118 | Recreation | 65cdb589-f9cc-4712-b552-bfbff2a0eedc |
+| Ski lessons nearby | 2360 | Recreation | aaf52aef-f5de-4cf2-af5d-9a126ea3ac37 |
+| Ski rentals nearby | 2362 | Recreation | 03be3a63-876f-4664-a8b2-f9878689046d |
+| Ski rentals on site | 3835 | Recreation | 1e31114d-68a6-49cc-a13e-71df9ef22385 |
+| Ski lessons on site | 3836 | Recreation | 18ef2adf-6321-40fb-bcc2-0a9a85d5c051 |
+| Skiing Downhill On site | 3838 | Recreation | 210b4a85-945c-4350-8f51-4b58ec54f25b |
+| On beach | 48 | Recreation | 58b98d8e-896a-4fbb-a20d-23b229c6a23e |
+| Beach nearby | 2113 | Recreation | b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1 |
+| Beach nearby - direct access | 4430 | Recreation | b2870f14-ced6-4619-94b2-1bdcb6363d35 |
+| Theme park(s) nearby | 2083 | Recreation | 1cc2e184-fcb2-41e2-aa18-82281e97f9ab |
+| Theme park shuttle (free) | 2950 | Recreation | 0268829b-7cf2-41ef-a35b-468d516fe761 |
+| Theme park shuttle (surch) | 2951 | Recreation | fff16d06-1863-4858-bf26-18819293f791 |
+| Games | 1073743383 | Recreation | 9445dd10-b709-44c8-81cd-44a451d60831 |
+| Ping pong table | 1073743386 | Recreation | 1f6a3098-40e6-4648-8d0b-19b51a29ca7f |
+| Foosball | 1073743388 | Recreation | ca703e5f-d1de-40e3-83e6-b65eacafe79b |
+| Indoor pool | 14 | Recreation | 85be5c08-92e8-40a7-b0e2-42a6aea058a9 |
+| Outdoor pool | 24 | Recreation | 6a82fca6-1620-4da8-b7ba-592746c6ca39 |
+| Swimming pool | 2074 | Recreation | cf0c4550-0af4-4021-b1f4-7562c63939c2 |
+| Outdoor seasonal pool | 2138 | Recreation | f410e383-8a19-494b-b6f3-7b7bb1170efb |
+| Number of indoor pools - | 2820 | Recreation | efe909ad-2475-4529-9612-1e5242216669 |
+| Number of outdoor pools - | 2821 | Recreation | 384c8154-03ab-4180-b099-9cb689161ebf |
+| Private pool | 2859 | Recreation | 7a4414f1-9187-4c8d-8289-fd9e88ff758e |
+| Private plunge pool | 2860 | Recreation | a0f98dd6-4dfd-4c39-8302-f64d0b8397a3 |
+| 24-hour pool access | 1073743549 | Recreation | b71bba46-9eab-45e7-9199-2445017c5efb |
+| Birthday Party area | 72005 (photo) | Recreation | #N/A |
+| Children's Theme Room | 21002 (photo) | Recreation | #N/A |
+| Recreation-Pool-children's | 2014 | Recreation | c93d1b8c-83de-4ecc-b994-7dcd3be33589 |
+| Recreation-Playground on site | 3825 | Recreation | b8e250ea-ad6e-44d5-8b23-378e85cf1200 |
+| Golf - miniature on site | 3812 | Recreation | d60342d6-c988-4bac-9b58-482368470831 |
+| Recreation-Lazy river | 2817 | Recreation | 66930de3-2d35-44c0-8a18-e6ac0df26c04 |
+| Recreation-Waterslide | 2818 | Recreation | 3766faf9-5aca-4737-8601-f80b33997381 |
+| Water park access (surcharge) | 2819 | Recreation | 5b4ec696-0702-4435-a5ff-7b9db64c36e7 |
+| Water park access (free) | 4174 | Recreation | 0e4392d9-827e-48e5-8311-2d17e928c45b |
+| Water park access (surcharge) | 4175 | Recreation | 700699ca-6d69-4338-a407-acfdff1b8089 |
+| Arcade/game room | 375 | Recreation | d8525e3d-b796-4388-8802-297c67534e1f |
+| Recreation-Bowling alley on site | 3805 | Recreation | 22e713fd-54bf-4d7e-86ca-31e2a8062150 |
+| Grocery/convenience store | 2386 | Dining | b81898a7-543c-44b2-baf2-1dc36a6b6aac |
+| Snackbar/Deli | 3500 | Dining | ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a |
+| Kitchen | 2158 | Dining | 8da07f4b-0682-4d6d-bd8c-9e5a5d68fdb5 |
+| Kitchen (surcharge) | 1073742771 | Dining | 94689831-995b-40a6-b50c-ec59afebec3b |
+| Kitchenette (surcharge) | 1073742772 | Dining | d8ce5500-fdaa-4094-a7e1-8f4399e85377 |
+| Kitchenette | 312 | Dining | 784b54cf-b0f4-4054-8bb4-d23b77dedb1d |
+| Refrigerator | 130 | Dining | 0caddcd0-af62-40ae-9008-b121e651f616 |
+| Refrigerator (on request) | 2181 | Dining | 86f3fa31-384e-45ee-b9e9-849727becab7 |
+| Refrigerator | 4303 | Dining | b3894c03-6889-4a98-bc15-143963730a52 |
+| Refrigerator (on request) | 4304 | Dining | 1b713aac-c927-41a3-b714-0bb3e720d5c8 |
+| Refrigerator (surcharge) | 1073742774 | Dining | 6e0551c5-96fc-4bba-bdad-8da251c2ab5e |
+| Refrigerator (surcharge) | 1073742781 | Dining | 0bca00a9-d324-42bc-94fa-a4dc2881d8db |
+| DVD player | 2086 | Entertainment | bb326125-f667-4665-974b-2ce03a121f35 |
+| Television - Smart | 1073743569 | Entertainment | 3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8 |
+| Netflix | 1073743571 | Entertainment | f171999c-dec5-47e9-9950-c1d19b73d7d4 |
+| High-speed internet access | 2046 | Entertainment | df4fcb7b-6126-4076-a8f1-8cab33536629 |
+| Free WiFi PA | 2390 | Entertainment | 2cb950af-5afe-40f5-bf79-e6561f3bc773 |
+| WiFi (surcharge) PA | 2391 | Entertainment | e5049e76-2c5d-40da-9eab-c5726deba7a7 |
+| Free wired Internet PA | 2392 | Entertainment | 0924a533-5bcc-4a8f-89f8-18537d6d2bed |
+| Wired internet access - surcharge | 2393 | Entertainment | 37bc3715-36a1-45fe-a127-5c6aed05a77d |
+| Free WiFi RA | 2403 | Entertainment | 1dc3313f-9d1b-4886-8226-12ae4c1b3571 |
+| WiFi (surcharge) PA | 2404 | Entertainment | c2518a35-0502-4afc-a050-2bfcb9dfaeb4 |
+| Free wired Internet RA | 2405 | Entertainment | e713d597-b2cb-447b-b51a-c972a87fe879 |
+| Wired Internet access (surcharge) RA | 2406 | Entertainment | ede46d14-bf47-4748-8d88-cba8b06d4214 |
+| Internet access (3rd party) PA | 1073742907 | Entertainment | f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828 |
+| Internet access (3rd party) RA | 1073742908 | Entertainment | 63f74d12-1583-4707-964e-54bdb9be9910 |
+| Internet access - high speed | 2126 | Entertainment | 9c7c757c-b9f0-4e21-ad6a-e2ac65491dae |
+| Internet access - complimentary PA | 2128 | Entertainment | 35966457-965b-4101-ac62-1cbbdb757cca |
+| Internet access - surcharge RA | 2157 | Entertainment | 89714e00-fac8-49f6-9afd-87b03d72adcb |
+| High-speed Internet access RA | 2047 | Entertainment | b6e67809-d4c3-4e0e-8a4d-d56d0fa44b40 |
+| Television Internet access RA | 2100 | Entertainment | 5bad798b-0ced-45f0-9493-1386d904bfa0 |
+| Wireless Internet access RA | 2101 | Entertainment | d86726ff-4a17-4a28-996e-5b81963254a8 |
+| Internet access - wireless PA | 2102 | Entertainment | a2e2a848-d1e2-4f70-bc01-2b66013f4432 |
+| Video games-console | 2028 | Entertainment | 66e72d29-0ade-4fd5-a154-f009f4d05ce8 |
+===========================================================================================================================
+# Golf
+## Overview
+- **UUID**:	906c3535-eff7-4938-904c-6e31c4d1f3bf
+- **Owned by**: Manuela Sammatrice
+- **Automation**: Yes
+- **Attribute ID**: 2334
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 2334 | 906c3535-eff7-4938-904c-6e31c4d1f3bf | This theme is automatically assigned to properties that have a golf course onsite or that are physically adjacent to a golf course |
+| **Exceptionally included** | 1073744126 | aaae9f5a-0bba-11ea-8d71-362b9e155667 | In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, GOLF attribute |
+| **Not included** | 1073744127 | aaaea25c-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE GOLF attribute |
+
+## Qualifying Attributes
+Properties must have **1 of the following** attributes:
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Golf course on site | 2617 | 11034e17-ceb2-4b10-82bc-f4defeef2f3b |
+| Adjacent to golf course | 4022 | b6341904-6818-4673-89d8-b5473c13e06d |
+| Driving range | 3811 | da1dfd34-d50f-4745-be42-dee1e5a48370 |
+| Golf included (all-inclusive) | 4572 | c595cae8-d5e4-4b41-b14f-22db37556ab2 |
+===========================================================================================================================
+# Hot Springs
+## Overview
+- **Owned by**: Manuela Sammatrice
+- **Automation**: Yes
+- **Attribute ID**: 5001
+- **UUID**:	76955f80-4619-4355-b9e9-ed2badba4750
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 5001 | 76955f80-4619-4355-b9e9-ed2badba4750 | This theme is automatically assigned to properties with natural hot springs on-site or within a short walking distance |
+| **Exceptionally included** | 1073742913 | aaae98d4-0bba-11ea-8d71-362b9e155667 | In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, HOT SPRINGS attribute |
+| **Not included** | 1073744268 | aaaeaec8-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE HOT SPRINGS attribute |
+
+## Additional Information
+
+Hot Springs countries Wikipedia info (refer to external resource for details).
+
+## Qualifying Attributes
+
+Properties must have **1 of the following** attributes:
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Hot springs/mineral springs | 3613 | ba6701d2-91de-42c8-875e-833fe4f34577 |
+| Recreation-Hot springs on site | 5004 | 5db005da-6c73-4827-b3aa-61d78745d045 |
+| Recreation-Hot springs nearby | 5005 | 7f13820b-7176-4fce-8b9d-fc46cf1ef22c |
+| Mineral hot springs-Indoor | 1073743418 | 14e7b62a-ae44-4eac-a1d6-e80743cd0690 |
+| Mineral hot springs-Outdoor | 1073743419 | 75e346cc-029c-4589-be09-ece4e8340a6d |
+| Number of hot springs - | 1073744079 | 0ba0600d-0f8b-48c8-91e9-f80c4dc3f198 |
+===========================================================================================================================
+# Historic
+## Overview
+- **UUID**:	f06f2ea3-1370-4bce-817e-5ea0b8086430
+- **Owned by**: Manuela Sammatrice
+- **Automation**: No
+- **Attribute ID**: 5002
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 5002 | f06f2ea3-1370-4bce-817e-5 wax0b8086430 | This theme can be assigned to properties situated in historic buildings that have been recognized with a national historic designation from one of the Awards and Affiliations below: AID 5007 (Historic Hotels of America), AID 5008 (Historic Hotels of the World), AID 5006 (Historic Hotels of Europe), AID 5009 (Heritage Hotels of India) |
+| **Exceptionally included** | 5011 | aaae5978-0bba-11ea-8d71-362b9e155667 | If a property does not appear on one of the above sites, but presents distinct historic characteristics in public spaces, bedrooms, and building architecture, we can still include it in the Theme by selecting the THEME OVER-RIDE, HISTORIC attribute |
+| **Not included** | 1073745237 | n/a | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, RMV HISTORIC attribute |
+
+## Qualifying Attributes
+Properties must have **one of the following** national historic designations:
+| Program | AID |
+|---------|-----|
+| Historic Hotels of America | 5007 |
+| Historic Hotels of the World | 5008 |
+| Historic Hotels of Europe | 5006 |
+| Heritage Hotels of India | 5009 |
+===========================================================================================================================
+# LGBTQ Friendly
+## Overview
+- **UUID**:	0af09aac-3eb2-4a24-88d3-6465735a1409
+**Owned by**: Manuela Sammatrice  
+**Last updated**: Feb 18, 2025  
+**Editor**: Legacy editor  
+**Automation**: No
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 1073744692 | 0af09aac-3eb2-4a24-88d3-6465735a1409 | This theme is manually assigned to: <br> - Properties affiliated to IGLTA (proof is required*) <br> - Properties that request LGBTQ content to be added to the Expedia listing <br> - Brands opt-in (Bulk-loaded) - LGBTQ coverage tracker <br> This attribute is located in the Policy section and is compatible with all Themes. <br> In addition to being part of filters, it generates the following text on properties pages for all EG sites: "This property welcomes guests of all sexual orientations and gender identities (LGBTQ friendly)" |
+| **Exceptionally included** | n/a | n/a | |
+| **Not included** | | | Properties located in countries part of the list below are not included in the LGBTQ theme. <br> There are countries that impose civil penalties ranging from imprisonment to death if people are perceived to be Lesbian Gay Bisexual Transgender (LGBT) or participate in LGBT behavior. <br> Even though some properties in these countries may be gay-friendly and may also be IGLTA-affiliated hotels*, we do not add the LGBTQ attribute (primarily in the Middle East and some parts of Asia) at this time. <br> Below is a list of all countries that should NEVER display any LGBTQ attributes (list also available in Excel: LGBTQ_countryPOSu_exclusions (Updated list Oct 2021).xlsx |
+
+## Additional Information
+**WARNING - Country list**: The list of excluded countries is referenced but not provided in this document. Refer to the Excel file *LGBTQ_countryPOSu_exclusions (Updated list Oct 2021).xlsx* for details.
+===========================================================================================================================
+# Luxury
+## Overview
+- **UUID**:	10b96a2d-83ee-40ba-b015-c556d1d8f2ce
+- **Owned by**: Aurelie Bray
+- **Automation**: Yes
+- **Attribute ID**: 2337
+- **URN**: LuxuryTheme
+
+| Attribute | Attribute ID | UUID | URN | Description |
+|-----------|-------------|------|-----|-------------|
+| **Definition** | 2337 | 10b96a2d-83ee-40ba-b015-c556d1d8f2ce | LuxuryTheme | This theme is automatically assigned to properties meeting one of the below requirements: <br> - Property has 5 stars <br> - Property has 4.5 stars <br> - Property has 4 stars AND at least 1 of the Awards and Affiliations attributes below |
+| **Exceptionally included** | 5010 | aaae5838-0bba-11ea-8d71-362b9e155667 | LuxuryTheme:AuthorizedManualAddition | If a property has a luxury feeling and provides upscale services, but is rated less than 4.5 stars because of an official rating, we can still include it in the Theme by selecting the THEME OVER-RIDE, LUXURY attribute |
+| **Not included** | 5016 | aaae5aa4-0bba-11ea-8d71-362b9e155667 | LuxuryTheme:AuthorizedManualRemoval | Properties assigned the following Structure Types are not considered for the theme: Motel, Hostel/Backpacker, Hostal, Pousada (Brazil), Campsite, Capsule hotel. <br> Select the THEME OVER-RIDE, REMOVE LUXURY attribute when: <br> - Partners request not being included in the Theme filter <br> - A property has an official rating of 4.5 or 5 stars, but does not present upscale decor and services |
+
+## Awards and Affiliations
+Properties with 4 stars must have **at least one** of the following affiliations to qualify:
+| Affiliation | URN | UUID |
+|-------------|-----|------|
+| Small Luxury Hotels of the World | SmallLuxuryHotelsOfTheWorld | 6cccaf3e-10e4-4ae9-9d6e-aba3787524d9 |
+| Historic Hotels of Europe | HistoricHotelsOfEurope | 0dc27003-0717-4796-88b9-9574e5cc3c21 |
+| Relais & Châteaux | RelaisAndChateaux | 7fb1cdd5-ac1a-4f6d-8744-9a9d1022f532 |
+| Travel & Leisure 500 | TravelAndLeisure500 | 389dc790-bf19-4868-813f-4d338a986a89 |
+| Heritage Hotels of India | HeritageHotelsOfIndia | da15bd98-d3ff-4626-9743-f393f5e258c1 |
+| Preferred Hotels and Resorts | PreferredHotelsAndResorts | e3ccb7b3-4af7-496a-a390-37edba66e44a |
+| Historic Hotels of the World | HistoricHotelsOfTheWorld | f7569231-5a33-4663-b8b8-1ec67b8c1c3a |
+| Leading Hotels of the World | LeadingHotelsOfTheWorld | 2e1c748c-0659-4372-b60f-71d673142f37 |
+| Historic Hotels of America | HistoricHotelsOfAmerica | 7d4fbd53-9147-4383-865e-0757154fef58 |
+| Condé Nast Gold List | CondeNastGoldList | 5bc13315-38ec-4909-9447-80c3ee142a94 |
+| Hellenic Chamber Boutique Hotel | HellenicChamberBoutiqueHotel | c6ea25d7-a81d-4d98-aa79-adbb3bae34ba |
+| Condé Nast Hot List | CondeNastHotList | d2a22c4c-2644-49b7-a04b-1a8542b18adc |
+===========================================================================================================================
+# Pet Friendly
+## Overview
+- **UUID**: a24cc39e-d87e-4cd7-8d19-c728cec9c03f
+- **Owned by**: Aurelie Bray
+- **Automation**: Yes
+- **Attribute ID**: 2338
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 2338 | a24cc39e-d87e-4cd7-8d19-c728cec9c03f | This theme is automatically assigned to properties that allow pets onsite. To qualify for theme, properties must have at least one pet-related qualifying attributes as described below |
+| **Exceptionally included** | 1073744266 | aaaeac16-0bba-11ea-8d71-362b9e155667 | In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, PETS attribute |
+| **Not included** | 1073744267 | aaaead88-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE PETS attribute. Properties where pets are not allowed - see below |
+
+## Disqualifying Attributes
+
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Pets not allowed | 2050 | 678bce70-eb09-4548-8d6b-1773c89998ae |
+
+## Qualifying Attributes
+
+Properties must have **1 of the following** attributes:
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Pets allowed | 51 | b50c4c0b-a922-49b1-8869-61fa486011da |
+| Maximum number of pets per room | 2811 | aab19b53-bcc2-4190-9999-71a87d12b3c3 |
+| KBYG-PetsAllowed-SpecificRms | 3362 | 4359b715-b827-4fd6-8fd3-2db4cd7af750 |
+| KBYG-PetsAllowed-SmokingRms | 3363 | 8317d689-c460-4043-81ef-9ae18e7d45af |
+| Pets allowed (no fees) | 1073742807 | d738d06b-eb15-4262-966b-018b8aea9f43 |
+===========================================================================================================================
+# Romantic
+## Overview
+- **UUID**: 38a65de8-8007-44c0-b7f8-fd939623a8b1
+- **Owned by**: Manuela Sammatrice
+- **Automation**: No
+- **Attribute ID**: 2339
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 2339 | 38a65de8-8007-44c0-b7f8-fd939623a8b1 | This theme is manually assigned to upscale properties featuring romance packages (bottle of champagne with flowers upon arrival, turndown service with chocolate, spa treatment, breakfast in room, etc.) and to couples-only resorts |
+| **Exceptionally included** | n/a | n/a | |
+| **Not included** | 1073745239 | N/A | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, RMV ROMANTIC attribute. Not included in the Romantic theme are the following: Economy Brands/Chains, Airport Hotels, Convention Center Hotels, City Center Business Hotels, Hotels explicitly targeting families in bold tagline, Properties in the Family Theme, Properties specifically targeting Business Travelers in bold tag line, Properties with lower than a 3.0 Traveler Opinion Score, "Love Hotels" |
+
+## Additional Notes
+
+- Do NOT assign the Romantic Theme to properties that have selected "This property is designed for adult entertainment" attribute (AKA Love Hotel - 1073742864) - URN PropertyPolicy:GuestRestrictions:LoveHotel:AdultsOnly
+- **"Love Hotels"** must meet the following criteria:
+  - Location: Japan only, ok if previously added and meets all criteria
+  - Designed for adult entertainment (ex. late night check-in, one-night stays only, adult movies, toys, pole in room, mood lighting)
+  - Structure type must be Hotel
+  - Must be Adults-only (in property name and settings)
+===========================================================================================================================
+# Ski
+## Overview
+- **UUID**: 997c89cc-a810-4c26-8b7d-4908e7b73ca5
+- **Owned by**: Manuela Sammatrice
+- **Automation**: Yes
+- **Attribute ID**: 4012
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 4012 | 997c89cc-a810-4c26-8b7d-4908e7b73ca5 | This theme is automatically assigned to ski-in/ski-out accommodation or to properties that provide a ski shuttle. See qualifying attributes below |
+| **Exceptionally included** | 4999 | aaae56e4-0bba-11ea-8d71-362b9e155667 | If a property does not have qualifying attributes, but is located within 2-3 minutes walking distance from a public ski shuttle, or by the ski lifts (see red dotted line on maps), we can still include it in the Theme by selecting the THEME OVER-RIDE, SKI attribute |
+| **Not included** | 1073744129 | aaaea4d2-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE SKI attribute |
+
+## Qualifying Attributes
+
+Properties must have **1 of the following** attributes:
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Free ski shuttle | 4421 | bd2a8906-5988-4552-ade9-d33afb161f74 |
+| Ski-in/ski-out access | 2082 | 8b18e91f-0cb9-4702-a3fd-445484e375e0 |
+| Downhill skiing on site | 3838 | 210b4a85-945c-4350-8f51-4b58ec54f25b |
+| Ski lessons on site | 3836 | 18ef2adf-6321-40fb-bcc2-0a9a85d5c051 |
+| Ski shuttle | 2136 | 09a16840-c197-4206-944c-6d88cd072224 |
+| Snowboarding on site | 3842 | 3971cf50-528a-4a6f-89aa-d1e472663b8e |
+| Ski shuttle (surcharge) | 4422 | 82fac03b-12d3-43b6-ac4e-8b0cee1e940a |
+===========================================================================================================================
+# Shopping
+## Overview
+- **UUID**: d1b317b1-0fb5-42a0-b3d0-30940f573ab1
+- **Owned by**: Manuela Sammatrice
+- **Automation**: NO
+- **Attribute ID**: 5018
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 5018 | d1b317b1-0fb5-42a0-b3d0-30940f573ab1 | This theme is manually assigned during maintenance cases if requested by partners. To qualify, the property must be located "In shopping district" (AID 3057) of one of the cities listed below. |
+| **Exceptionally included** | n/a | n/a | |
+| **Not included** | n/a | n/a | |
+
+## Shopping Theme Destinations
+Properties must be located in the shopping district of one of the following cities:
+- Athens
+- Bangkok
+- Barcelona
+- Beijing
+- Buenos Aires
+- Cape Town
+- Chicago
+- Dallas
+- Dubai
+- Florence
+- Hong Kong
+- Houston
+- Las Vegas
+- London
+- Los Angeles/Beverly Hills
+- Madrid
+- Manila
+- Mexico City
+- Miami
+- Milan
+- Montreal
+- New Orleans
+- New York City
+- Paris
+- Rio de Janeiro
+- Rome
+- San Francisco
+- Sao Paulo
+- Seoul
+- Shanghai
+- Singapore
+- Sydney
+- Taipei
+- Tokyo
+- Toronto
+- Vienna
+===========================================================================================================================
+# Spa
+## Overview
+- **UUID**: 1468a957-60eb-468e-ab62-000b551a571b
+- **Owned by**: Manuela Sammatrice
+- **Automation**: Yes
+- **Attribute ID**: 2341
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 2341 | 1468a957-60eb-468e-ab62-000b551a571b | This theme is automatically assigned to properties that have a full spa or that offer a minimum of 5 from the qualifying attributes as described below |
+| **Exceptionally included** | 1073743273 | aaae9d0c-0bba-11ea-8d71-362b9e155667 | In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, SPA attribute |
+| **Not included** | 1073744128 | aaaea3a6-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE SPA attribute |
+
+## Qualifying Attributes
+Properties must have **either**:
+- A full-service spa **OR**
+- **2 of the following** attributes **AND** **3 of the additional attributes** listed below
+### Primary Attributes (2 of)
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Spa treatment room(s) - Must have at least 2 | 2129 | ee79b222-b54f-4b58-b27c-1d6e5b20a3bb |
+| Sauna in spa | 3603 | 9d9f9a79-1648-4385-919e-680c75dc1578 |
+| Spa tub in spa | 3604 | 884f2e94-13a7-49c5-b360-2af081eb1eed |
+| Hot springs/mineral springs in spa | 3613 | ba6701d2-91de-42c8-875e-833fe4f34577 |
+| Mud bath in spa | 3600 | 530d94c5-e317-4a13-b296-6c3e5277d8bc |
+| Turkish bath/Hammam | 3601 | d5c351cb-06f2-47fa-99cd-e866da134705 |
+| Steam room in spa | 6133 | 810c5c26-9e6a-4d43-b63b-5007fcec6ab2 |
+| Number of treatment rooms | 3589 | da4cdd51-ed5f-42f2-ae6e-02ce65ec19d1 |
+| Outdoor treatment areas | 3590 | 0a42fd86-f8f2-4d73-acef-971f9fcb5947 |
+| Couples treatment rooms | 3591 | 451c47da-8759-4b05-a169-525f53994656 |
+| Indoor mineral hot springs (Japanese-style onsen) | 1073743418 | 14e7b62a-ae44-4eac-a1d6-e80743cd0690 |
+| Outdoor private mineral hot springs (Japanese-style onsen) | 1073743419 | 75e346cc-029c-4589-be09-ece4e8340a6d |
+
+### Additional Attributes (3 of)
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Body scrubs | 3595 | 38c17974-7c97-4e6c-9766-624e1f66b63a |
+| Body wraps | 3594 | 0b0e1bf3-f47d-4fbf-944e-4843fa752e7c |
+| Body treatments | 2346 | 0313ba31-aa8a-4b6a-ab25-058e03492990 |
+| Facial treatments | 2347 | ad95cf21-937c-4c58-8d41-7b7767b7bf45 |
+| Manicures and pedicures | 3593 | 7c1d7634-89d8-4836-80eb-efed2fbe5ef4 |
+| Massages | 3615 | 31e64a53-c890-4cdc-91b3-d9ceb1e306cf |
+| Massages on beach | 3592 | df6af7d9-426d-4895-abd9-59163bf76e0c |
+| Aromatherapy treatments | 3596 | a28de2ce-5cb5-461c-bb77-97d91828e5cf |
+| Ayurvedic Treatments | 3599 | f49cec71-2b3e-4277-b4d5-b8e0d2669c8e |
+| Hydrotherapy treatments | 3598 | e626b09e-9e5f-4eec-909a-6fa1e2e3c832 |
+| Thalassotherapy treatments | 3597 | 6bdfd4b1-d6db-476a-8786-3a44c190e171 |
+| Reflexology | 6135 | 293ce586-23c4-475b-afd8-6463fcf011bd |
+| Detoxification wrap | 6138 | e22ce20a-1b16-4cdb-83b0-e70d4a4dbf2a |
+
+### Full-Service Spa
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Full-service spa | 2123 | 37c48555-753d-49ef-a4ee-ed80dcf3576e |
+===========================================================================================================================
+# Winery
+## Overview
+- **UUID**: 08874f6f-d0a5-4a0e-a7ca-51da13b7cbed
+- **Owned by**: Manuela Sammatrice
+- **Automation**: Yes
+- **Attribute ID**: 5020
+
+| Attribute | Attribute ID | UUID | Description |
+|-----------|-------------|------|-------------|
+| **Definition** | 5020 | 08874f6f-d0a5-4a0e-a7ca-51da13b7cbed | This theme is automatically assigned to properties that have an on-site winery/vineyard |
+| **Exceptionally included** | 1073742912 | aaae9780-0bba-11ea-8d71-362b9e155667 | If a property is located nearby a winery, we can include it in the theme by adding the THEME OVER-RIDE, WINERY attribute |
+| **Not included** | 1073744269 | aaaeaff4-0bba-11ea-8d71-362b9e155667 | When partners request not being included in the Theme filter, select the THEME OVER RIDE, REMOVE WINERY attribute |
+
+## Qualifying Attributes
+Properties must have **either**:
+- A winery attached **OR**
+- **Both** of the following attributes
+| Attribute | AID | UUID |
+|-----------|-----|------|
+| Winery attached | 4025 | 1cacffb8-8ddf-4db1-a296-5725d63cc8aa |
+| Vineyard | 1073744072 | f7701dcf-478b-4368-b1fc-a11ecb99941e |
+| Tasting Room | 1073744073 | 16aed81e-77c7-4f34-92c1-a1d2adb5c52e |
+===========================================================================================================================
+

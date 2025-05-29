@@ -1,0 +1,84 @@
+{
+  "theme_attribute_name": "Golf property",
+  "lcm_id": "2334",
+  "uuid": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "190,341",
+  "urn": "GolfTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2334",
+            "UUID": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+            "Description": "This theme is automatically assigned to properties that have a golf course onsite or that are physically adjacent to a golf course"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "1073744126",
+            "UUID": "aaae9f5a-0bba-11ea-8d71-362b9e155667",
+            "Description": "In exceptional situations (e.g. bulk-loads) we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, GOLF attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744127",
+            "UUID": "aaaea25c-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE GOLF attribute"
+          }
+        ]
+      ],
+      "uuid": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "Yes",
+      "attribute_id": "2334"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "906c3535-eff7-4938-904c-6e31c4d1f3bf",
+      "urn": "GolfTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+      "attributes": [
+        {
+          "Attribute": "Golf course on site",
+          "AID": "2617",
+          "UUID": "11034e17-ceb2-4b10-82bc-f4defeef2f3b"
+        },
+        {
+          "Attribute": "Adjacent to golf course",
+          "AID": "4022",
+          "UUID": "b6341904-6818-4673-89d8-b5473c13e06d"
+        },
+        {
+          "Attribute": "Driving range",
+          "AID": "3811",
+          "UUID": "da1dfd34-d50f-4745-be42-dee1e5a48370"
+        },
+        {
+          "Attribute": "Golf included (all-inclusive)",
+          "AID": "4572",
+          "UUID": "c595cae8-d5e4-4b41-b14f-22db37556ab2"
+        }
+      ],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "Properties must have **1 of the following** attributes:",
+          "required_count": 1
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

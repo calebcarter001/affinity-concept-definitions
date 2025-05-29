@@ -1,0 +1,59 @@
+{
+  "theme_attribute_name": "Casino property",
+  "lcm_id": "2329",
+  "uuid": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "4,430",
+  "urn": "CasinoTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2329",
+            "UUID": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+            "Description": "This theme is automatically assigned to properties that host an on-site casino (and not just slot machines or video gaming)"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "1073743271",
+            "UUID": "aaae9bea-0bba-11ea-8d71-362b9e155667",
+            "Description": "If a property is adjacent to a casino, we can still include it in the Theme by selecting the THEME OVER-RIDE, CASINO attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744265",
+            "UUID": "aaaea84c-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVERRIDE, REMOVE CASINO attribute"
+          }
+        ]
+      ],
+      "uuid": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+      "owned_by": "Manuela Sammatrice",
+      "last_updated": "Feb 13, 2025",
+      "automation": "Yes",
+      "attribute_id": "2329"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "9828bcaa-5510-43e5-aa91-4a150fe2a69c",
+      "urn": "CasinoTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "",
+      "rules": [],
+      "attribute_groups": [],
+      "attributes": []
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

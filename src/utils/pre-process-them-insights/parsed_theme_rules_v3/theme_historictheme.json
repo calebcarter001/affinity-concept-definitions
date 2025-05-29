@@ -1,0 +1,79 @@
+{
+  "theme_attribute_name": "Historic property",
+  "lcm_id": "5002",
+  "uuid": "f06f2ea3-1370-4bce-817e-5ea0b8086430",
+  "theme_automation": false,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "1,326",
+  "urn": "HistoricTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "5002",
+            "UUID": "f06f2ea3-1370-4bce-817e-5 wax0b8086430",
+            "Description": "This theme can be assigned to properties situated in historic buildings that have been recognized with a national historic designation from one of the Awards and Affiliations below: AID 5007 (Historic Hotels of America), AID 5008 (Historic Hotels of the World), AID 5006 (Historic Hotels of Europe), AID 5009 (Heritage Hotels of India)"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "5011",
+            "UUID": "aaae5978-0bba-11ea-8d71-362b9e155667",
+            "Description": "If a property does not appear on one of the above sites, but presents distinct historic characteristics in public spaces, bedrooms, and building architecture, we can still include it in the Theme by selecting the THEME OVER-RIDE, HISTORIC attribute"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073745237",
+            "UUID": "n/a",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, RMV HISTORIC attribute"
+          }
+        ]
+      ],
+      "uuid": "f06f2ea3-1370-4bce-817e-5ea0b8086430",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "No",
+      "attribute_id": "5002"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "f06f2ea3-1370-4bce-817e-5ea0b8086430",
+      "urn": "HistoricTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **one of the following** national historic designations:",
+      "attributes": [
+        {
+          "Program": "Historic Hotels of America",
+          "AID": "5007"
+        },
+        {
+          "Program": "Historic Hotels of the World",
+          "AID": "5008"
+        },
+        {
+          "Program": "Historic Hotels of Europe",
+          "AID": "5006"
+        },
+        {
+          "Program": "Heritage Hotels of India",
+          "AID": "5009"
+        }
+      ],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "Properties must have **one of the following** national historic designations:"
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

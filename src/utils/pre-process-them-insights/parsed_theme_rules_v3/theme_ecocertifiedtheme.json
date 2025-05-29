@@ -1,0 +1,137 @@
+{
+  "theme_attribute_name": "Eco-certified property",
+  "lcm_id": "2332",
+  "uuid": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": true,
+  "properties_count_early_2024": "8,018",
+  "urn": "EcoCertifiedTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2332",
+            "UUID": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+            "Description": "This theme is automatically assigned to properties that belong to one of recognized programs outlined below and must present a certificate as proving they have been awarded the certification. Unless otherwise noted, all awards are bulk-updated quarterly. Partners may request a certification be added or removed as needed, but must provide documentation from one of the organizations listed below proving certification status. This can be a link to the organization's website where the property details are listed. Whenever a relevant program in the Awards & Affiliations section is selected, it will generate the following text: \"This property participates in {GreenProgramName}, a program that measures the property's impact on one or more of the following: environment, community, cultural-heritage, the local economy.”"
+          },
+          {
+            "Attribute": "**Exceptionally included (DO NOT USE)**",
+            "Attribute ID": "1073744270",
+            "UUID": "aaaeb120-0bba-11ea-8d71-362b9e155667",
+            "Description": "In exceptional situations we can use the THEME OVER-RIDE, GREEN attribute (Attribute not yet in use. Exceptions to be confirmed in #lodging-content-discussion slack channel)"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "1073744271",
+            "UUID": "aaaeb24c-0bba-11ea-8d71-362b9e155667",
+            "Description": "When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE GREEN attribute"
+          }
+        ]
+      ],
+      "uuid": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+      "owned_by": "Manuela Sammatrice",
+      "last_updated": "Feb 18, 2025",
+      "automation": "Yes",
+      "attribute_id": "2332"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "c94b49e5-9668-4a51-89a4-d28bb9daf02f",
+      "urn": "EcoCertifiedTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "## Qualifying Attributes\nProperties must have **1 of the following** attributes:",
+      "certification_programs": [
+        {
+          "Program": "Green Key Fee (Foundation for Environmental Education)",
+          "Notes": "EMEA/APAC focused. Sends EG a list each quarter with updated membership.",
+          "AID": "2995",
+          "URN": "GreenKey",
+          "UUID": "becf7b80-d536-4367-a473-22c9f711b1e1"
+        },
+        {
+          "Program": "Green Key Global",
+          "Notes": "AMER focused. Both Green Key programs are affiliated with each other",
+          "AID": "3040",
+          "URN": "GreenKeyGlobal",
+          "UUID": "3a4a190b-5514-499b-8bf8-9e946ae38d53"
+        },
+        {
+          "Program": "Green Tourism Program",
+          "Notes": "",
+          "AID": "2994",
+          "URN": "GreenTourismProgram",
+          "UUID": "3aa7fc5b-6a6d-4d35-9eec-e469845da2a9"
+        },
+        {
+          "Program": "Green-Travelife",
+          "Notes": "",
+          "AID": "3298",
+          "URN": "GreenTravelife",
+          "UUID": "5c8ed28e-5fad-472d-abdd-8a3aa8b7d2a3"
+        },
+        {
+          "Program": "Green-EarthCheck",
+          "Notes": "",
+          "AID": "3299",
+          "URN": "GreenEarthCheck",
+          "UUID": "3ccf9563-c2d3-4460-af86-25a0c85e7f88"
+        },
+        {
+          "Program": "Green Globe",
+          "Notes": "",
+          "AID": "3004",
+          "URN": "GreenGlobe",
+          "UUID": "c101d28c-2163-47df-9bd0-dc29ee8b4185"
+        },
+        {
+          "Program": "Green-Biosphere",
+          "Notes": "",
+          "AID": "2974",
+          "URN": "GreenBiosphere",
+          "UUID": "a0e0f32d-7e78-43db-874f-933378267688"
+        },
+        {
+          "Program": "Green-Audubon",
+          "Notes": "",
+          "AID": "3028",
+          "URN": "GreenAudubon",
+          "UUID": "a4f3fa82-6d73-4e25-9225-dcb38e1f62f8"
+        },
+        {
+          "Program": "Green-Fair Trade Tourism",
+          "Notes": "",
+          "AID": "1073743073",
+          "URN": "GreenFairTradeTourism",
+          "UUID": "4bb4a9eb-ded1-4f61-b913-9290e61e51d1"
+        },
+        {
+          "Program": "Qualmark Sustainable Tourism Business Award",
+          "Notes": "Updated with monthly Qualmark audits",
+          "AID": "2967",
+          "URN": "GreenQualmark",
+          "UUID": "5683f8bd-fc33-40ed-8ae5-756b6bf6df03"
+        }
+      ],
+      "update_frequency": "quarterly",
+      "documentation_requirements": [],
+      "rules": [
+        {
+          "type": "simple",
+          "description": "Properties must have **1 of the following** attributes:",
+          "required_count": 1
+        }
+      ]
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

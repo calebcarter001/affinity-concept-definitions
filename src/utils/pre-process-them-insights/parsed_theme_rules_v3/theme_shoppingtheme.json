@@ -1,0 +1,58 @@
+{
+  "theme_attribute_name": "Shopping property",
+  "lcm_id": "5018",
+  "uuid": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+  "theme_automation": false,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "12,286",
+  "urn": "ShoppingTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "5018",
+            "UUID": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+            "Description": "This theme is manually assigned during maintenance cases if requested by partners. To qualify, the property must be located \"In shopping district\" (AID 3057) of one of the cities listed below."
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "n/a",
+            "UUID": "n/a",
+            "Description": ""
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "n/a",
+            "UUID": "n/a",
+            "Description": ""
+          }
+        ]
+      ],
+      "uuid": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "NO",
+      "attribute_id": "5018"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "d1b317b1-0fb5-42a0-b3d0-30940f573ab1",
+      "urn": "ShoppingTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "",
+      "rules": [],
+      "attribute_groups": [],
+      "attributes": []
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}

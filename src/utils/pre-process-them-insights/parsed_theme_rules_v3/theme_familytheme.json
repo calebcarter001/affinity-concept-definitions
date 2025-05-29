@@ -1,0 +1,1362 @@
+{
+  "theme_attribute_name": "Family property",
+  "lcm_id": "2333",
+  "uuid": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+  "theme_automation": true,
+  "is_business_rule_theme": true,
+  "live_site_filter": true,
+  "properties_count_early_2024": "124,028",
+  "urn": "FamilyTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "tables": [
+        [
+          {
+            "Attribute": "**Definition**",
+            "Attribute ID": "2333",
+            "UUID": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+            "Description": "This theme is automatically assigned to properties providing services and amenities for children. The Structure Type determines the qualifying attributes. The logic is split between Conventional Lodgings and Vacation Rentals"
+          },
+          {
+            "Attribute": "**Exceptionally included**",
+            "Attribute ID": "5091",
+            "UUID": "aaae62b0-0bba-11ea-8d71-362b9e155667",
+            "Description": "In exceptional situations we can still include a property without qualifying attributes by selecting the THEME OVER-RIDE, FAMILY attribute. The override can be used for Structure Types that are not included in the automation logic (see below)"
+          },
+          {
+            "Attribute": "**Not included**",
+            "Attribute ID": "5090",
+            "UUID": "aaae615c-0bba-11ea-8d71-362b9e155667",
+            "Description": "Properties assigned the following Structure Types are not included in the theme automation logic: Cruise, Hostal, Hostel, Pousada (Brazil), Pousada (Portugal), Campsite, Capsule hotel. When partners request not being included in the Theme filter, select the THEME OVER-RIDE, REMOVE FAMILY attribute (attribute 5090). Properties catering to specific targets are excluded from this theme (see disqualifying attributes below)"
+          }
+        ]
+      ],
+      "uuid": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+      "owned_by": "Manuela Sammatrice",
+      "automation": "Yes",
+      "attribute_id": "2333"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "",
+      "uuid": "1cba277b-2dfc-4af7-958b-b779fcaff6a6",
+      "urn": "FamilyTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "split_sections": true,
+      "conventional_lodging": {
+        "description": "Properties must have:\n- **2 of the following primary attributes** AND\n- **A minimum of 2 attributes (total) from 2 different categories** from the secondary attributes list",
+        "applicable_structure_types": [
+          "Agritourism",
+          "All-Inclusive",
+          "Bed&Breakfast",
+          "Castle",
+          "Country House",
+          "Ranch",
+          "Guest House",
+          "TownHouse",
+          "Hotel",
+          "Treehouse",
+          "Hotel Resort",
+          "Inn",
+          "Lodge",
+          "Residence",
+          "Motel",
+          "Palace",
+          "Pension",
+          "Riad",
+          "Ryokan",
+          "Safari/Tentalow",
+          "Aparthotel",
+          "Condominium resort"
+        ],
+        "rules": [
+          {
+            "type": "complex",
+            "description": "Properties must have:"
+          }
+        ],
+        "primary_attributes": [
+          {
+            "Attribute": "Babysitting or childcare",
+            "AID": "6",
+            "UUID": "1f4865cc-5c7b-420d-9abb-397c911eb932"
+          },
+          {
+            "Attribute": "Supervised childcare/activities",
+            "AID": "38",
+            "UUID": "64ac06c4-dffc-4713-8117-8be15f364242"
+          },
+          {
+            "Attribute": "Children's club",
+            "AID": "2186",
+            "UUID": "d08e5209-8075-4b36-9e34-6b58e122bf43"
+          },
+          {
+            "Attribute": "KBYG-Children stay free",
+            "AID": "2552",
+            "UUID": "f614445a-f9c3-450e-83c7-f627dd182c77"
+          },
+          {
+            "Attribute": "Childcare (in room, surcharge)",
+            "AID": "2151",
+            "UUID": "40c3f20c-287c-470b-82d5-c1684e82efcc"
+          },
+          {
+            "Attribute": "Babysitting or childcare (free)",
+            "AID": "4695",
+            "UUID": "d44fc079-b6dd-4878-930a-91573d4dc41f"
+          },
+          {
+            "Attribute": "Babysitting or childcare (surc)",
+            "AID": "4696",
+            "UUID": "aac29ea1-965e-4b19-81e8-583c4492ab12"
+          },
+          {
+            "Attribute": "Children's club (free)",
+            "AID": "4697",
+            "UUID": "69c32179-a11d-4b60-bea7-32d3c4f7b581"
+          },
+          {
+            "Attribute": "Children's club (surcharge)",
+            "AID": "4698",
+            "UUID": "4897d109-382b-4d10-9b81-99daf93c82b3"
+          },
+          {
+            "Attribute": "Supervised childcare/active-surc",
+            "AID": "4699",
+            "UUID": "a78c57bd-4edb-494c-ab3f-810a8fbf8b2f"
+          },
+          {
+            "Attribute": "Cribs/infant beds available",
+            "AID": "4147",
+            "UUID": "d0cc8945-61e6-469e-b974-5aba9c11b350"
+          },
+          {
+            "Attribute": "Cribs/infant beds (surcharge)",
+            "AID": "4950",
+            "UUID": "05e3ed75-9184-40a2-8c99-67da04ae4cb2"
+          },
+          {
+            "Attribute": "Cribs/infant beds (free)",
+            "AID": "4951",
+            "UUID": "7f58a6f6-8af7-4757-b8b8-fc81e41bc16a"
+          },
+          {
+            "Attribute": "Highchair",
+            "AID": "1073743372",
+            "UUID": "7e3e1316-1315-4ec4-8601-953f84042547"
+          },
+          {
+            "Attribute": "Toys",
+            "AID": "1073743385",
+            "UUID": "dca5c365-9c39-45c5-846c-c3c13ee2bf7b"
+          },
+          {
+            "Attribute": "Dining-Restaurant1-KidsMeals",
+            "AID": "3388",
+            "UUID": "b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98"
+          },
+          {
+            "Attribute": "Dining-Restaurant2-KidsMeals",
+            "AID": "3404",
+            "UUID": "fb29bdad-5d99-4911-9d97-e8ce6c7eddff"
+          },
+          {
+            "Attribute": "Dining-Restaurant3-KidsMeals",
+            "AID": "3451",
+            "UUID": "5034e0a1-1aa8-4b3f-a464-6059da64a7a7"
+          },
+          {
+            "Attribute": "Dining-Restaurant4-KidsMeals",
+            "AID": "3452",
+            "UUID": "48ecad34-fa50-4232-aea1-aa0399757ea1"
+          }
+        ],
+        "secondary_attributes": [
+          {
+            "Attribute": "Parking - valet (free)",
+            "AID": "3863",
+            "Category": "Parking",
+            "UUID": "4538dd97-c660-453e-b3d4-c6934ca6ef20"
+          },
+          {
+            "Attribute": "Parking - extended (free)",
+            "AID": "4450",
+            "Category": "Parking",
+            "UUID": "df95d788-f37c-4f09-8cc5-4a28f152f344"
+          },
+          {
+            "Attribute": "Parking - extended (surcharge)",
+            "AID": "4451",
+            "Category": "Parking",
+            "UUID": "6e532e94-05e4-452e-ad02-00e79ee10306"
+          },
+          {
+            "Attribute": "Parking - RV, bus, truck (free)",
+            "AID": "4452",
+            "Category": "Parking",
+            "UUID": "a43f3678-6ce4-4db6-b961-1293f5c65858"
+          },
+          {
+            "Attribute": "Parking - RV, bus, truck (surch)",
+            "AID": "4453",
+            "Category": "Parking",
+            "UUID": "08719d91-5d20-4671-a93b-5082b5b7a41a"
+          },
+          {
+            "Attribute": "Parking - RV, bus, truck (free)",
+            "AID": "4454",
+            "Category": "Parking",
+            "UUID": "1e048a06-5330-4368-9b39-671cd78b67d3"
+          },
+          {
+            "Attribute": "Parking - offsite (discounted)",
+            "AID": "4455",
+            "Category": "Parking",
+            "UUID": "84b31659-bc8a-4f29-8b7c-e977c04d2a31"
+          },
+          {
+            "Attribute": "Parking - offsite (reservations)",
+            "AID": "4456",
+            "Category": "Parking",
+            "UUID": "d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7"
+          },
+          {
+            "Attribute": "Sofa bed",
+            "AID": "2038",
+            "Category": "Equipment",
+            "UUID": "0f8e911c-ceab-4136-8fab-32028159b34b"
+          },
+          {
+            "Attribute": "Rollaway/extra beds",
+            "AID": "2044",
+            "Category": "Equipment",
+            "UUID": "a8d609a1-e007-46c5-b4c0-0c266e64a894"
+          },
+          {
+            "Attribute": "Elevator/Lift",
+            "AID": "8",
+            "Category": "Equipment",
+            "UUID": "0a76f8db-30e7-4b9f-9cfc-355e40964195"
+          },
+          {
+            "Attribute": "Dry cleaning/laundry service",
+            "AID": "2070",
+            "Category": "Equipment",
+            "UUID": "d31ebb82-ff76-4e5b-acf1-604e75deb310"
+          },
+          {
+            "Attribute": "Laundry Facilities",
+            "AID": "369",
+            "Category": "Equipment",
+            "UUID": "5fd24a02-5136-4b0b-baea-6353d03fa863"
+          },
+          {
+            "Attribute": "KBYG-Connecting/adjoining rooms",
+            "AID": "4420",
+            "Category": "Equipment",
+            "UUID": "c58f51a5-21cf-4c4e-8768-a829df09e0e6"
+          },
+          {
+            "Attribute": "Ski area nearby",
+            "AID": "2118",
+            "Category": "Recreation",
+            "UUID": "65cdb589-f9cc-4712-b552-bfbff2a0eedc"
+          },
+          {
+            "Attribute": "Ski lessons nearby",
+            "AID": "2360",
+            "Category": "Recreation",
+            "UUID": "aaf52aef-f5de-4cf2-af5d-9a126ea3ac37"
+          },
+          {
+            "Attribute": "Ski rentals nearby",
+            "AID": "2362",
+            "Category": "Recreation",
+            "UUID": "03be3a63-876f-4664-a8b2-f9878689046d"
+          },
+          {
+            "Attribute": "Ski rentals on site",
+            "AID": "3835",
+            "Category": "Recreation",
+            "UUID": "1e31114d-68a6-49cc-a13e-71df9ef22385"
+          },
+          {
+            "Attribute": "Ski lessons on site",
+            "AID": "3836",
+            "Category": "Recreation",
+            "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+          },
+          {
+            "Attribute": "Skiing Downhill On site",
+            "AID": "3838",
+            "Category": "Recreation",
+            "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+          },
+          {
+            "Attribute": "On beach",
+            "AID": "48",
+            "Category": "Recreation",
+            "UUID": "58b98d8e-896a-4fbb-a20d-23b229c6a23e"
+          },
+          {
+            "Attribute": "Beach nearby",
+            "AID": "2113",
+            "Category": "Recreation",
+            "UUID": "b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1"
+          },
+          {
+            "Attribute": "Beach nearby - direct access",
+            "AID": "4430",
+            "Category": "Recreation",
+            "UUID": "b2870f14-ced6-4619-94b2-1bdcb6363d35"
+          },
+          {
+            "Attribute": "Theme park(s) nearby",
+            "AID": "2083",
+            "Category": "Recreation",
+            "UUID": "1cc2e184-fcb2-41e2-aa18-82281e97f9ab"
+          },
+          {
+            "Attribute": "Theme park shuttle (free)",
+            "AID": "2950",
+            "Category": "Recreation",
+            "UUID": "0268829b-7cf2-41ef-a35b-468d516fe761"
+          },
+          {
+            "Attribute": "Theme park shuttle (surcharge)",
+            "AID": "2951",
+            "Category": "Recreation",
+            "UUID": "fff16d06-1863-4858-bf26-18819293f791"
+          },
+          {
+            "Attribute": "Games",
+            "AID": "1073743383",
+            "Category": "Recreation",
+            "UUID": "9445dd10-b709-44c8-81cd-44a451d60831"
+          },
+          {
+            "Attribute": "Ping pong table",
+            "AID": "1073743386",
+            "Category": "Recreation",
+            "UUID": "1f6a3098-40e6-4648-8d0b-19b51a29ca7f"
+          },
+          {
+            "Attribute": "Foosball",
+            "AID": "1073743388",
+            "Category": "Recreation",
+            "UUID": "ca703e5f-d1de-40e3-83e6-b65eacafe79b"
+          },
+          {
+            "Attribute": "Indoor pool",
+            "AID": "14",
+            "Category": "Recreation",
+            "UUID": "85be5c08-92e8-40a7-b0e2-42a6aea058a9"
+          },
+          {
+            "Attribute": "Outdoor pool",
+            "AID": "24",
+            "Category": "Recreation",
+            "UUID": "6a82fca6-1620-4da8-b7ba-592746c6ca39"
+          },
+          {
+            "Attribute": "Swimming pool",
+            "AID": "2074",
+            "Category": "Recreation",
+            "UUID": "cf0c4550-0af4-4021-b1f4-7562c63939c2"
+          },
+          {
+            "Attribute": "Outdoor seasonal pool",
+            "AID": "2138",
+            "Category": "Recreation",
+            "UUID": "f410e383-8a19-494b-b6f3-7b7bb1170efb"
+          },
+          {
+            "Attribute": "Number of indoor pools -",
+            "AID": "2820",
+            "Category": "Recreation",
+            "UUID": "efe909ad-2475-4529-9612-1e5242216669"
+          },
+          {
+            "Attribute": "Number of outdoor pools -",
+            "AID": "2821",
+            "Category": "Recreation",
+            "UUID": "384c8154-03ab-4180-b099-9cb689161ebf"
+          },
+          {
+            "Attribute": "Private pool",
+            "AID": "2859",
+            "Category": "Recreation",
+            "UUID": "7a4414f1-9187-4c8d-8289-fd9e88ff758e"
+          },
+          {
+            "Attribute": "Private plunge pool",
+            "AID": "2860",
+            "Category": "Recreation",
+            "UUID": "a0f98dd6-4dfd-4c39-8302-f64d0b8397a3"
+          },
+          {
+            "Attribute": "24-hour pool access",
+            "AID": "1073743549",
+            "Category": "Recreation",
+            "UUID": "b71bba46-9eab-45e7-9199-2445017c5efb"
+          },
+          {
+            "Attribute": "Recreation-Pool-children's",
+            "AID": "2014",
+            "Category": "Recreation",
+            "UUID": "c93d1b8c-83de-4ecc-b994-7dcd3be33589"
+          },
+          {
+            "Attribute": "Recreation-Playground on site",
+            "AID": "3825",
+            "Category": "Recreation",
+            "UUID": "b8e250ea-ad6e-44d5-8b23-378e85cf1200"
+          },
+          {
+            "Attribute": "Golf - miniature on site",
+            "AID": "3812",
+            "Category": "Recreation",
+            "UUID": "d60342d6-c988-4bac-9b58-482368470831"
+          },
+          {
+            "Attribute": "Recreation-Lazy river",
+            "AID": "2817",
+            "Category": "Recreation",
+            "UUID": "66930de3-2d35-44c0-8a18-e6ac0df26c04"
+          },
+          {
+            "Attribute": "Recreation-Waterslide",
+            "AID": "2818",
+            "Category": "Recreation",
+            "UUID": "3766faf9-5aca-4737-8601-f80b33997381"
+          },
+          {
+            "Attribute": "Recreation-Water park",
+            "AID": "2819",
+            "Category": "Recreation",
+            "UUID": "5b4ec696-0702-4435-a5ff-7b9db64c36e7"
+          },
+          {
+            "Attribute": "Water park access (free)",
+            "AID": "4174",
+            "Category": "Recreation",
+            "UUID": "0e4392d9-827e-48e5-8311-2d17e928c45b"
+          },
+          {
+            "Attribute": "Water park access (surcharge)",
+            "AID": "4175",
+            "Category": "Recreation",
+            "UUID": "700699ca-6d69-4338-a407-acfdff1b8089"
+          },
+          {
+            "Attribute": "Arcade/game room",
+            "AID": "375",
+            "Category": "Recreation",
+            "UUID": "d8525e3d-b796-4388-8802-297c67534e1f"
+          },
+          {
+            "Attribute": "Bowling alley on site",
+            "AID": "3805",
+            "Category": "Recreation",
+            "UUID": "22e713fd-54bf-4d7e-86ca-31e2a8062150"
+          },
+          {
+            "Attribute": "Grocery/convenience store",
+            "AID": "2386",
+            "Category": "Dining",
+            "UUID": "b81898a7-543c-44b2-baf2-1dc36a6b6aac"
+          },
+          {
+            "Attribute": "Snackbar/Deli",
+            "AID": "3500",
+            "Category": "Dining",
+            "UUID": "ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a"
+          },
+          {
+            "Attribute": "Shared/communal kitchen",
+            "AID": "5093",
+            "Category": "Dining",
+            "UUID": "4ff67be9-38e9-4922-98b7-062a36aef7bc"
+          },
+          {
+            "Attribute": "Refrigerator",
+            "AID": "130",
+            "Category": "Dining",
+            "UUID": "0caddcd0-af62-40ae-9008-b121e651f616"
+          },
+          {
+            "Attribute": "Refrigerator (on request)",
+            "AID": "2181",
+            "Category": "Dining",
+            "UUID": "86f3fa31-384e-45ee-b9e9-849727becab7"
+          },
+          {
+            "Attribute": "Refrigerator",
+            "AID": "4303",
+            "Category": "Dining",
+            "UUID": "b3894c03-6889-4a98-bc15-143963730a52"
+          },
+          {
+            "Attribute": "Refrigerator (on request)",
+            "AID": "4304",
+            "Category": "Dining",
+            "UUID": "1b713aac-c927-41a3-b714-0bb3e720d5c8"
+          },
+          {
+            "Attribute": "Refrigerator (surcharge)",
+            "AID": "1073742774",
+            "Category": "Dining",
+            "UUID": "6e0551c5-96fc-4bba-bdad-8da251c2ab5e"
+          },
+          {
+            "Attribute": "Refrigerator (surcharge)",
+            "AID": "1073742781",
+            "Category": "Dining",
+            "UUID": "0bca00a9-d324-42bc-94fa-a4dc2881d8db"
+          },
+          {
+            "Attribute": "DVD player",
+            "AID": "2086",
+            "Category": "Entertainment",
+            "UUID": "bb326125-f667-4665-974b-2ce03a121f35"
+          },
+          {
+            "Attribute": "Television - Smart",
+            "AID": "1073743569",
+            "Category": "Entertainment",
+            "UUID": "3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8"
+          },
+          {
+            "Attribute": "Netflix",
+            "AID": "1073743571",
+            "Category": "Entertainment",
+            "UUID": "f171999c-dec5-47e9-9950-c1d19b73d7d4"
+          },
+          {
+            "Attribute": "High-speed internet access",
+            "AID": "2046",
+            "Category": "Entertainment",
+            "UUID": "df4fcb7b-6126-4076-a8f1-8cab33536629"
+          },
+          {
+            "Attribute": "Free WiFi PA",
+            "AID": "2390",
+            "Category": "Entertainment",
+            "UUID": "2cb950af-5afe-40f5-bf79-e6561f3bc773"
+          },
+          {
+            "Attribute": "WiFi (surcharge) PA",
+            "AID": "2391",
+            "Category": "Entertainment",
+            "UUID": "e5049e76-2c5d-40da-9eab-c5726deba7a7"
+          },
+          {
+            "Attribute": "Free wired Internet PA",
+            "AID": "2392",
+            "Category": "Entertainment",
+            "UUID": "0924a533-5bcc-4a8f-89f8-18537d6d2bed"
+          },
+          {
+            "Attribute": "Wired internet access - surcharge",
+            "AID": "2393",
+            "Category": "Entertainment",
+            "UUID": "37bc3715-36a1-45fe-a127-5c6aed05a77d"
+          },
+          {
+            "Attribute": "Free WiFi RA",
+            "AID": "2403",
+            "Category": "Entertainment",
+            "UUID": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+          },
+          {
+            "Attribute": "WiFi (surcharge) PA",
+            "AID": "2404",
+            "Category": "Entertainment",
+            "UUID": "c2518a35-0502-4afc-a050-2bfcb9dfaeb4"
+          },
+          {
+            "Attribute": "Free wired Internet RA",
+            "AID": "2405",
+            "Category": "Entertainment",
+            "UUID": "e713d597-b2cb-447b-b51a-c972a87fe879"
+          },
+          {
+            "Attribute": "Wired Internet access (surcharge) RA",
+            "AID": "2406",
+            "Category": "Entertainment",
+            "UUID": "ede46d14-bf47-4748-8d88-cba8b06d4214"
+          },
+          {
+            "Attribute": "Internet access (3rd party) PA",
+            "AID": "1073742907",
+            "Category": "Entertainment",
+            "UUID": "f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828"
+          },
+          {
+            "Attribute": "Internet access (3rd party) RA",
+            "AID": "1073742908",
+            "Category": "Entertainment",
+            "UUID": "63f74d12-1583-4707-964e-54bdb9be9910"
+          },
+          {
+            "Attribute": "Internet access - high speed",
+            "AID": "2125",
+            "Category": "Entertainment",
+            "UUID": "5968d41c-abd9-4da1-b8ec-70fdffa10849"
+          },
+          {
+            "Attribute": "Internet access - complimentary PA",
+            "AID": "2127",
+            "Category": "Entertainment",
+            "UUID": "7d8b093c-067e-44fe-ad60-a49854423a06"
+          },
+          {
+            "Attribute": "Internet access - complimentary RA",
+            "AID": "2156",
+            "Category": "Entertainment",
+            "UUID": "61d64ec2-0d97-4a92-aca1-da71c906464b"
+          },
+          {
+            "Attribute": "Internet access - surcharge RA",
+            "AID": "2157",
+            "Category": "Entertainment",
+            "UUID": "89714e00-fac8-49f6-9afd-87b03d72adcb"
+          },
+          {
+            "Attribute": "Television Internet access RA",
+            "AID": "2099",
+            "Category": "Entertainment",
+            "UUID": "3d0470d4-1e3d-4929-ba92-8f9d9949b2d6"
+          },
+          {
+            "Attribute": "Wireless Internet access RA",
+            "AID": "2100",
+            "Category": "Entertainment",
+            "UUID": "5bad798b-0ced-45f0-9493-1386d904bfa0"
+          },
+          {
+            "Attribute": "Internet access - wireless PA",
+            "AID": "2101",
+            "Category": "Entertainment",
+            "UUID": "d86726ff-4a17-4a28-996e-5b81963254a8"
+          },
+          {
+            "Attribute": "Video games-console",
+            "AID": "2028",
+            "Category": "Entertainment",
+            "UUID": "66e72d29-0ade-4fd5-a154-f009f4d05ce8"
+          }
+        ]
+      },
+      "vacation_rental": {
+        "description": "Properties must have:\n- **2 of the following primary attributes** AND\n- **A minimum of 3 attributes (total) from 3 different categories** from the secondary attributes list",
+        "applicable_structure_types": [
+          "Apartment",
+          "Cabin",
+          "Chalet",
+          "Condo",
+          "Cottage",
+          "House boat",
+          "Private Vacation Home",
+          "Villa"
+        ],
+        "rules": [
+          {
+            "type": "complex",
+            "description": "Properties must have:"
+          }
+        ],
+        "primary_attributes": [
+          {
+            "Attribute": "Babysitting or childcare",
+            "AID": "6",
+            "UUID": "1f4865cc-5c7b-420d-9abb-397c911eb932"
+          },
+          {
+            "Attribute": "Supervised childcare/activities",
+            "AID": "38",
+            "UUID": "64ac06c4-dffc-4713-8117-8be15f364242"
+          },
+          {
+            "Attribute": "Children's club",
+            "AID": "2186",
+            "UUID": "d08e5209-8075-4b36-9e34-6b58e122bf43"
+          },
+          {
+            "Attribute": "KBYG-Children stay free",
+            "AID": "2552",
+            "UUID": "f614445a-f9c3-450e-83c7-f627dd182c77"
+          },
+          {
+            "Attribute": "Childcare (in room, surcharge)",
+            "AID": "2151",
+            "UUID": "40c3f20c-287c-470b-82d5-c1684e82efcc"
+          },
+          {
+            "Attribute": "Babysitting or childcare (free)",
+            "AID": "4695",
+            "UUID": "d44fc079-b6dd-4878-930a-91573d4dc41f"
+          },
+          {
+            "Attribute": "Babysitting or childcare (surc)",
+            "AID": "4696",
+            "UUID": "aac29ea1-965e-4b19-81e8-583c4492ab12"
+          },
+          {
+            "Attribute": "Children's club (free)",
+            "AID": "4697",
+            "UUID": "69c32179-a11d-4b60-bea7-32d3c4f7b581"
+          },
+          {
+            "Attribute": "Children's club (surcharge)",
+            "AID": "4698",
+            "UUID": "4897d109-382b-4d10-9b81-99daf93c82b3"
+          },
+          {
+            "Attribute": "Supervised childcare/active-surc",
+            "AID": "4699",
+            "UUID": "a78c57bd-4edb-494c-ab3f-810a8fbf8b2f"
+          },
+          {
+            "Attribute": "Cribs/infant beds available",
+            "AID": "4147",
+            "UUID": "d0cc8945-61e6-469e-b974-5aba9c11b350"
+          },
+          {
+            "Attribute": "Cribs/infant beds (surcharge)",
+            "AID": "4950",
+            "UUID": "05e3ed75-9184-40a2-8c99-67da04ae4cb2"
+          },
+          {
+            "Attribute": "Cribs/infant beds (free)",
+            "AID": "4951",
+            "UUID": "7f58a6f6-8af7-4757-b8b8-fc81e41bc16a"
+          },
+          {
+            "Attribute": "Highchair",
+            "AID": "1073743372",
+            "UUID": "7e3e1316-1315-4ec4-8601-953f84042547"
+          },
+          {
+            "Attribute": "Toys",
+            "AID": "1073743385",
+            "UUID": "dca5c365-9c39-45c5-846c-c3c13ee2bf7b"
+          },
+          {
+            "Attribute": "Dining-Restaurant1-KidsMeals",
+            "AID": "3388",
+            "UUID": "b8ad51e6-9a3f-45e5-9a63-4ee4bd4a6f98"
+          },
+          {
+            "Attribute": "Dining-Restaurant2-KidsMeals",
+            "AID": "3404",
+            "UUID": "fb29bdad-5d99-4911-9d97-e8ce6c7eddff"
+          },
+          {
+            "Attribute": "Dining-Restaurant3-KidsMeals",
+            "AID": "3451",
+            "UUID": "5034e0a1-1aa8-4b3f-a464-6059da64a7a7"
+          },
+          {
+            "Attribute": "Dining-Restaurant4-KidsMeals",
+            "AID": "3452",
+            "UUID": "48ecad34-fa50-4232-aea1-aa0399757ea1"
+          }
+        ],
+        "secondary_attributes": [
+          {
+            "Attribute": "Parking - valet (free)",
+            "AID": "3863",
+            "Category": "Parking",
+            "UUID": "4538dd97-c660-453e-b3d4-c6934ca6ef20"
+          },
+          {
+            "Attribute": "Parking - extended (free)",
+            "AID": "4450",
+            "Category": "Parking",
+            "UUID": "df95d788-f37c-4f09-8cc5-4a28f152f344"
+          },
+          {
+            "Attribute": "Parking - extended (surcharge)",
+            "AID": "4451",
+            "Category": "Parking",
+            "UUID": "6e532e94-05e4-452e-ad02-00e79ee10306"
+          },
+          {
+            "Attribute": "Parking - RV, bus, truck (free)",
+            "AID": "4452",
+            "Category": "Parking",
+            "UUID": "a43f3678-6ce4-4db6-b961-1293f5c65858"
+          },
+          {
+            "Attribute": "Parking - RV, bus, truck (surch)",
+            "AID": "4453",
+            "Category": "Parking",
+            "UUID": "08719d91-5d20-4671-a93b-5082b5b7a41a"
+          },
+          {
+            "Attribute": "Parking - RV, bus, truck (free)",
+            "AID": "4454",
+            "Category": "Parking",
+            "UUID": "1e048a06-5330-4368-9b39-671cd78b67d3"
+          },
+          {
+            "Attribute": "Parking - offsite (discounted)",
+            "AID": "4455",
+            "Category": "Parking",
+            "UUID": "84b31659-bc8a-4f29-8b7c-e977c04d2a31"
+          },
+          {
+            "Attribute": "Parking - offsite (reservations)",
+            "AID": "4456",
+            "Category": "Parking",
+            "UUID": "d8e3fb4e-5f1f-43b0-aceb-4e93f5fcfff7"
+          },
+          {
+            "Attribute": "Sofa bed",
+            "AID": "2038",
+            "Category": "Equipment",
+            "UUID": "0f8e911c-ceab-4136-8fab-32028159b34b"
+          },
+          {
+            "Attribute": "Rollaway/extra beds",
+            "AID": "2044",
+            "Category": "Equipment",
+            "UUID": "a8d609a1-e007-46c5-b4c0-0c266e64a894"
+          },
+          {
+            "Attribute": "Elevator/Lift",
+            "AID": "8",
+            "Category": "Equipment",
+            "UUID": "0a76f8db-30e7-4b9f-9cfc-355e40964195"
+          },
+          {
+            "Attribute": "Washer/dryer",
+            "AID": "340",
+            "Category": "Equipment",
+            "UUID": "1f9ceb62-e25f-41bc-bc85-a619b551b743"
+          },
+          {
+            "Attribute": "Laundry Facilities",
+            "AID": "369",
+            "Category": "Equipment",
+            "UUID": "5fd24a02-5136-4b0b-baea-6353d03fa863"
+          },
+          {
+            "Attribute": "Dryer",
+            "AID": "1073743310",
+            "Category": "Equipment",
+            "UUID": "7a3e69fd-6a37-4f5b-b025-c1cbfe2272e3"
+          },
+          {
+            "Attribute": "Washing machine",
+            "AID": "1073743311",
+            "Category": "Equipment",
+            "UUID": "9b4b327c-6897-4c6b-96e2-c129174d9166"
+          },
+          {
+            "Attribute": "Separate dining area",
+            "AID": "2370",
+            "Category": "Equipment",
+            "UUID": "c3a5163e-7846-4f35-af16-3045e0f2d532"
+          },
+          {
+            "Attribute": "Separate living room",
+            "AID": "3857",
+            "Category": "Equipment",
+            "UUID": "7bd91c08-2967-4d03-bbb4-3717d4cec225"
+          },
+          {
+            "Attribute": "Ski area nearby",
+            "AID": "2118",
+            "Category": "Recreation",
+            "UUID": "65cdb589-f9cc-4712-b552-bfbff2a0eedc"
+          },
+          {
+            "Attribute": "Ski lessons nearby",
+            "AID": "2360",
+            "Category": "Recreation",
+            "UUID": "aaf52aef-f5de-4cf2-af5d-9a126ea3ac37"
+          },
+          {
+            "Attribute": "Ski rentals nearby",
+            "AID": "2362",
+            "Category": "Recreation",
+            "UUID": "03be3a63-876f-4664-a8b2-f9878689046d"
+          },
+          {
+            "Attribute": "Ski rentals on site",
+            "AID": "3835",
+            "Category": "Recreation",
+            "UUID": "1e31114d-68a6-49cc-a13e-71df9ef22385"
+          },
+          {
+            "Attribute": "Ski lessons on site",
+            "AID": "3836",
+            "Category": "Recreation",
+            "UUID": "18ef2adf-6321-40fb-bcc2-0a9a85d5c051"
+          },
+          {
+            "Attribute": "Skiing Downhill On site",
+            "AID": "3838",
+            "Category": "Recreation",
+            "UUID": "210b4a85-945c-4350-8f51-4b58ec54f25b"
+          },
+          {
+            "Attribute": "On beach",
+            "AID": "48",
+            "Category": "Recreation",
+            "UUID": "58b98d8e-896a-4fbb-a20d-23b229c6a23e"
+          },
+          {
+            "Attribute": "Beach nearby",
+            "AID": "2113",
+            "Category": "Recreation",
+            "UUID": "b2c3eafb-3bc0-4134-b0dc-8d05c9d4dea1"
+          },
+          {
+            "Attribute": "Beach nearby - direct access",
+            "AID": "4430",
+            "Category": "Recreation",
+            "UUID": "b2870f14-ced6-4619-94b2-1bdcb6363d35"
+          },
+          {
+            "Attribute": "Theme park(s) nearby",
+            "AID": "2083",
+            "Category": "Recreation",
+            "UUID": "1cc2e184-fcb2-41e2-aa18-82281e97f9ab"
+          },
+          {
+            "Attribute": "Theme park shuttle (free)",
+            "AID": "2950",
+            "Category": "Recreation",
+            "UUID": "0268829b-7cf2-41ef-a35b-468d516fe761"
+          },
+          {
+            "Attribute": "Theme park shuttle (surch)",
+            "AID": "2951",
+            "Category": "Recreation",
+            "UUID": "fff16d06-1863-4858-bf26-18819293f791"
+          },
+          {
+            "Attribute": "Games",
+            "AID": "1073743383",
+            "Category": "Recreation",
+            "UUID": "9445dd10-b709-44c8-81cd-44a451d60831"
+          },
+          {
+            "Attribute": "Ping pong table",
+            "AID": "1073743386",
+            "Category": "Recreation",
+            "UUID": "1f6a3098-40e6-4648-8d0b-19b51a29ca7f"
+          },
+          {
+            "Attribute": "Foosball",
+            "AID": "1073743388",
+            "Category": "Recreation",
+            "UUID": "ca703e5f-d1de-40e3-83e6-b65eacafe79b"
+          },
+          {
+            "Attribute": "Indoor pool",
+            "AID": "14",
+            "Category": "Recreation",
+            "UUID": "85be5c08-92e8-40a7-b0e2-42a6aea058a9"
+          },
+          {
+            "Attribute": "Outdoor pool",
+            "AID": "24",
+            "Category": "Recreation",
+            "UUID": "6a82fca6-1620-4da8-b7ba-592746c6ca39"
+          },
+          {
+            "Attribute": "Swimming pool",
+            "AID": "2074",
+            "Category": "Recreation",
+            "UUID": "cf0c4550-0af4-4021-b1f4-7562c63939c2"
+          },
+          {
+            "Attribute": "Outdoor seasonal pool",
+            "AID": "2138",
+            "Category": "Recreation",
+            "UUID": "f410e383-8a19-494b-b6f3-7b7bb1170efb"
+          },
+          {
+            "Attribute": "Number of indoor pools -",
+            "AID": "2820",
+            "Category": "Recreation",
+            "UUID": "efe909ad-2475-4529-9612-1e5242216669"
+          },
+          {
+            "Attribute": "Number of outdoor pools -",
+            "AID": "2821",
+            "Category": "Recreation",
+            "UUID": "384c8154-03ab-4180-b099-9cb689161ebf"
+          },
+          {
+            "Attribute": "Private pool",
+            "AID": "2859",
+            "Category": "Recreation",
+            "UUID": "7a4414f1-9187-4c8d-8289-fd9e88ff758e"
+          },
+          {
+            "Attribute": "Private plunge pool",
+            "AID": "2860",
+            "Category": "Recreation",
+            "UUID": "a0f98dd6-4dfd-4c39-8302-f64d0b8397a3"
+          },
+          {
+            "Attribute": "24-hour pool access",
+            "AID": "1073743549",
+            "Category": "Recreation",
+            "UUID": "b71bba46-9eab-45e7-9199-2445017c5efb"
+          },
+          {
+            "Attribute": "Birthday Party area",
+            "AID": "72005 (photo)",
+            "Category": "Recreation",
+            "UUID": "#N/A"
+          },
+          {
+            "Attribute": "Children's Theme Room",
+            "AID": "21002 (photo)",
+            "Category": "Recreation",
+            "UUID": "#N/A"
+          },
+          {
+            "Attribute": "Recreation-Pool-children's",
+            "AID": "2014",
+            "Category": "Recreation",
+            "UUID": "c93d1b8c-83de-4ecc-b994-7dcd3be33589"
+          },
+          {
+            "Attribute": "Recreation-Playground on site",
+            "AID": "3825",
+            "Category": "Recreation",
+            "UUID": "b8e250ea-ad6e-44d5-8b23-378e85cf1200"
+          },
+          {
+            "Attribute": "Golf - miniature on site",
+            "AID": "3812",
+            "Category": "Recreation",
+            "UUID": "d60342d6-c988-4bac-9b58-482368470831"
+          },
+          {
+            "Attribute": "Recreation-Lazy river",
+            "AID": "2817",
+            "Category": "Recreation",
+            "UUID": "66930de3-2d35-44c0-8a18-e6ac0df26c04"
+          },
+          {
+            "Attribute": "Recreation-Waterslide",
+            "AID": "2818",
+            "Category": "Recreation",
+            "UUID": "3766faf9-5aca-4737-8601-f80b33997381"
+          },
+          {
+            "Attribute": "Water park access (surcharge)",
+            "AID": "2819",
+            "Category": "Recreation",
+            "UUID": "5b4ec696-0702-4435-a5ff-7b9db64c36e7"
+          },
+          {
+            "Attribute": "Water park access (free)",
+            "AID": "4174",
+            "Category": "Recreation",
+            "UUID": "0e4392d9-827e-48e5-8311-2d17e928c45b"
+          },
+          {
+            "Attribute": "Water park access (surcharge)",
+            "AID": "4175",
+            "Category": "Recreation",
+            "UUID": "700699ca-6d69-4338-a407-acfdff1b8089"
+          },
+          {
+            "Attribute": "Arcade/game room",
+            "AID": "375",
+            "Category": "Recreation",
+            "UUID": "d8525e3d-b796-4388-8802-297c67534e1f"
+          },
+          {
+            "Attribute": "Recreation-Bowling alley on site",
+            "AID": "3805",
+            "Category": "Recreation",
+            "UUID": "22e713fd-54bf-4d7e-86ca-31e2a8062150"
+          },
+          {
+            "Attribute": "Grocery/convenience store",
+            "AID": "2386",
+            "Category": "Dining",
+            "UUID": "b81898a7-543c-44b2-baf2-1dc36a6b6aac"
+          },
+          {
+            "Attribute": "Snackbar/Deli",
+            "AID": "3500",
+            "Category": "Dining",
+            "UUID": "ae3a6e9e-6d52-4c1c-8b2b-31f53fb2393a"
+          },
+          {
+            "Attribute": "Kitchen",
+            "AID": "2158",
+            "Category": "Dining",
+            "UUID": "8da07f4b-0682-4d6d-bd8c-9e5a5d68fdb5"
+          },
+          {
+            "Attribute": "Kitchen (surcharge)",
+            "AID": "1073742771",
+            "Category": "Dining",
+            "UUID": "94689831-995b-40a6-b50c-ec59afebec3b"
+          },
+          {
+            "Attribute": "Kitchenette (surcharge)",
+            "AID": "1073742772",
+            "Category": "Dining",
+            "UUID": "d8ce5500-fdaa-4094-a7e1-8f4399e85377"
+          },
+          {
+            "Attribute": "Kitchenette",
+            "AID": "312",
+            "Category": "Dining",
+            "UUID": "784b54cf-b0f4-4054-8bb4-d23b77dedb1d"
+          },
+          {
+            "Attribute": "Refrigerator",
+            "AID": "130",
+            "Category": "Dining",
+            "UUID": "0caddcd0-af62-40ae-9008-b121e651f616"
+          },
+          {
+            "Attribute": "Refrigerator (on request)",
+            "AID": "2181",
+            "Category": "Dining",
+            "UUID": "86f3fa31-384e-45ee-b9e9-849727becab7"
+          },
+          {
+            "Attribute": "Refrigerator",
+            "AID": "4303",
+            "Category": "Dining",
+            "UUID": "b3894c03-6889-4a98-bc15-143963730a52"
+          },
+          {
+            "Attribute": "Refrigerator (on request)",
+            "AID": "4304",
+            "Category": "Dining",
+            "UUID": "1b713aac-c927-41a3-b714-0bb3e720d5c8"
+          },
+          {
+            "Attribute": "Refrigerator (surcharge)",
+            "AID": "1073742774",
+            "Category": "Dining",
+            "UUID": "6e0551c5-96fc-4bba-bdad-8da251c2ab5e"
+          },
+          {
+            "Attribute": "Refrigerator (surcharge)",
+            "AID": "1073742781",
+            "Category": "Dining",
+            "UUID": "0bca00a9-d324-42bc-94fa-a4dc2881d8db"
+          },
+          {
+            "Attribute": "DVD player",
+            "AID": "2086",
+            "Category": "Entertainment",
+            "UUID": "bb326125-f667-4665-974b-2ce03a121f35"
+          },
+          {
+            "Attribute": "Television - Smart",
+            "AID": "1073743569",
+            "Category": "Entertainment",
+            "UUID": "3adeb20e-b4f9-4d2c-bb57-86f6b6c3b0e8"
+          },
+          {
+            "Attribute": "Netflix",
+            "AID": "1073743571",
+            "Category": "Entertainment",
+            "UUID": "f171999c-dec5-47e9-9950-c1d19b73d7d4"
+          },
+          {
+            "Attribute": "High-speed internet access",
+            "AID": "2046",
+            "Category": "Entertainment",
+            "UUID": "df4fcb7b-6126-4076-a8f1-8cab33536629"
+          },
+          {
+            "Attribute": "Free WiFi PA",
+            "AID": "2390",
+            "Category": "Entertainment",
+            "UUID": "2cb950af-5afe-40f5-bf79-e6561f3bc773"
+          },
+          {
+            "Attribute": "WiFi (surcharge) PA",
+            "AID": "2391",
+            "Category": "Entertainment",
+            "UUID": "e5049e76-2c5d-40da-9eab-c5726deba7a7"
+          },
+          {
+            "Attribute": "Free wired Internet PA",
+            "AID": "2392",
+            "Category": "Entertainment",
+            "UUID": "0924a533-5bcc-4a8f-89f8-18537d6d2bed"
+          },
+          {
+            "Attribute": "Wired internet access - surcharge",
+            "AID": "2393",
+            "Category": "Entertainment",
+            "UUID": "37bc3715-36a1-45fe-a127-5c6aed05a77d"
+          },
+          {
+            "Attribute": "Free WiFi RA",
+            "AID": "2403",
+            "Category": "Entertainment",
+            "UUID": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+          },
+          {
+            "Attribute": "WiFi (surcharge) PA",
+            "AID": "2404",
+            "Category": "Entertainment",
+            "UUID": "c2518a35-0502-4afc-a050-2bfcb9dfaeb4"
+          },
+          {
+            "Attribute": "Free wired Internet RA",
+            "AID": "2405",
+            "Category": "Entertainment",
+            "UUID": "e713d597-b2cb-447b-b51a-c972a87fe879"
+          },
+          {
+            "Attribute": "Wired Internet access (surcharge) RA",
+            "AID": "2406",
+            "Category": "Entertainment",
+            "UUID": "ede46d14-bf47-4748-8d88-cba8b06d4214"
+          },
+          {
+            "Attribute": "Internet access (3rd party) PA",
+            "AID": "1073742907",
+            "Category": "Entertainment",
+            "UUID": "f95ae5e4-d8a2-4c03-8f5b-6bd65b81e828"
+          },
+          {
+            "Attribute": "Internet access (3rd party) RA",
+            "AID": "1073742908",
+            "Category": "Entertainment",
+            "UUID": "63f74d12-1583-4707-964e-54bdb9be9910"
+          },
+          {
+            "Attribute": "Internet access - high speed",
+            "AID": "2126",
+            "Category": "Entertainment",
+            "UUID": "9c7c757c-b9f0-4e21-ad6a-e2ac65491dae"
+          },
+          {
+            "Attribute": "Internet access - complimentary PA",
+            "AID": "2128",
+            "Category": "Entertainment",
+            "UUID": "35966457-965b-4101-ac62-1cbbdb757cca"
+          },
+          {
+            "Attribute": "Internet access - surcharge RA",
+            "AID": "2157",
+            "Category": "Entertainment",
+            "UUID": "89714e00-fac8-49f6-9afd-87b03d72adcb"
+          },
+          {
+            "Attribute": "High-speed Internet access RA",
+            "AID": "2047",
+            "Category": "Entertainment",
+            "UUID": "b6e67809-d4c3-4e0e-8a4d-d56d0fa44b40"
+          },
+          {
+            "Attribute": "Television Internet access RA",
+            "AID": "2100",
+            "Category": "Entertainment",
+            "UUID": "5bad798b-0ced-45f0-9493-1386d904bfa0"
+          },
+          {
+            "Attribute": "Wireless Internet access RA",
+            "AID": "2101",
+            "Category": "Entertainment",
+            "UUID": "d86726ff-4a17-4a28-996e-5b81963254a8"
+          },
+          {
+            "Attribute": "Internet access - wireless PA",
+            "AID": "2102",
+            "Category": "Entertainment",
+            "UUID": "a2e2a848-d1e2-4f70-bc01-2b66013f4432"
+          },
+          {
+            "Attribute": "Video games-console",
+            "AID": "2028",
+            "Category": "Entertainment",
+            "UUID": "66e72d29-0ade-4fd5-a154-f009f4d05ce8"
+          }
+        ]
+      }
+    },
+    "disqualifying_attributes": {
+      "description": "Properties with any of the following attributes are excluded from the Family theme:",
+      "attributes": [
+        {
+          "Attribute": "Caters to women only",
+          "AID": "57",
+          "Section": "Policy",
+          "UUID": "fb4ea705-4066-49b9-8440-a641713aac71"
+        },
+        {
+          "Attribute": "Caters to men only",
+          "AID": "58",
+          "Section": "Policy",
+          "UUID": "4df73bed-053e-4763-a00a-e2b47ac62a14"
+        },
+        {
+          "Attribute": "Caters to adults only",
+          "AID": "3357",
+          "Section": "Policy",
+          "UUID": "ef050cba-8fd8-4d6f-8c49-961f5027fbc7"
+        },
+        {
+          "Attribute": "Clothing optional (nudity permitted in public areas)",
+          "AID": "2003",
+          "Section": "Displayable attributes",
+          "UUID": "8c6b5b91-7a2d-4e6c-8cff-5e52345625d7"
+        },
+        {
+          "Attribute": "Children not allowed",
+          "AID": "2791",
+          "Section": "Displayable attributes",
+          "UUID": "152d952d-5ec7-4563-adb0-030e354e6a7f"
+        },
+        {
+          "Attribute": "Children not allowed start month",
+          "AID": "2792",
+          "Section": "Displayable attributes",
+          "UUID": "9dd380c9-b73b-4a2c-9f43-0ce743849614"
+        },
+        {
+          "Attribute": "This property is designed for adult entertainment",
+          "AID": "1073742864",
+          "Section": "Displayable attributes",
+          "UUID": "00048f04-6ec1-4284-827c-f78a332601c9"
+        },
+        {
+          "Attribute": "Children not allowed end month",
+          "AID": "2793",
+          "Section": "Displayable attributes",
+          "UUID": "243247c5-eca6-437f-9903-a75d86a2a50b"
+        },
+        {
+          "Attribute": "Children not allowed max age",
+          "AID": "2794",
+          "Section": "Displayable attributes",
+          "UUID": "e97906da-534b-488d-bfd1-1b7d1f7a7562"
+        },
+        {
+          "Attribute": "Romantic Hotel",
+          "AID": "2339",
+          "Section": "Hotel Themes",
+          "UUID": "38a65de8-8007-44c0-b7f8-fd939623a8b1"
+        }
+      ]
+    },
+    "special_sections": {}
+  }
+}

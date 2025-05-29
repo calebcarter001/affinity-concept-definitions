@@ -1,0 +1,38 @@
+{
+  "theme_attribute_name": "Boutique property",
+  "lcm_id": "5022",
+  "uuid": "f81df649-263c-4692-a94f-035a97228296",
+  "theme_automation": false,
+  "is_business_rule_theme": true,
+  "live_site_filter": false,
+  "properties_count_early_2024": "5,116",
+  "urn": "BoutiqueTheme",
+  "parsed_rules_details": {
+    "overview_data": {
+      "uuid": "f81df649-263c-4692-a94f-035a97228296",
+      "owned_by": "Manuela Sammatrice",
+      "last_updated": "Feb 13, 2025",
+      "automation": "No",
+      "attribute_id": "5022",
+      "urn": "BoutiqueTheme"
+    },
+    "overview_text": "",
+    "definition": {
+      "text": "This theme is to be assigned **manually** to properties that feature **unique and upscale decor**.\nGuestrooms are individually furnished and feature added touches, often with locally influenced décor and artwork.\nBoutique properties typically have fewer than 100 rooms and are mostly unbranded. Some may belong to designated hotel collections (e.g., Design Hotels, Preferred Hotels).",
+      "uuid": null,
+      "urn": "BoutiqueTheme",
+      "attributes": []
+    },
+    "qualifying_attributes": {
+      "description": "",
+      "rules": [],
+      "attribute_groups": [],
+      "attributes": []
+    },
+    "disqualifying_attributes": {
+      "description": "",
+      "attributes": []
+    },
+    "special_sections": {}
+  }
+}
