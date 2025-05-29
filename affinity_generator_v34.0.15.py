@@ -440,15 +440,16 @@ def build_keyword_index(config: Dict, taxonomy_concepts_cache: Dict[str, Dict], 
                         logger.info(f"Tokenizing {len(filtered_corpus_strings)} documents for BM25s...");
                         try:
                             tokenized_corpus = bm25s.tokenize(filtered_corpus_strings); logger.info(f"Building BM25s index for {len(filtered_corpus_strings)} documents ({enriched_count} enriched).") # type: ignore
-                            bm25_model = bm25s.BM25(); bm25_model.index(tokenized_corpus); corpus_uris = filtered_doc_uris_val; logger.debug(f"BM25s Model created/indexed. Type: {type(bm25_model)}") # type: ignore
+                            bm25_model = bm25s.BM25(); bm25_model.index(tokenized_corpus); corpus_uris = filtered_doc_uris_val; 
+                            # logger.debug(f"BM25s Model created/indexed. Type: {type(bm25_model)}") # type: ignore
                         except Exception as bm25_init_err: logger.error(f"BM25s init/index error: {bm25_init_err}", exc_info=True); bm25_model = None; corpus_uris = [] # type: ignore
                     if bm25_model and corpus_uris: save_cache(bm25_model, model_cache_file, "pickle"); save_cache(corpus_uris, uris_cache_file, "pickle"); logger.info("BM25s model/URIs rebuilt/saved.") # type: ignore
                     else: logger.warning("Skipping BM25s cache saving due to build issues.")
             except Exception as e_bm: logger.error(f"BM25s build error: {e_bm}", exc_info=True); bm25_model, corpus_uris = None, None # type: ignore
-        logger.debug("--- BM25s Index Diagnostics ---");
-        logger.debug(f"BM25s Model: {'Ready' if bm25_model else 'Not available.'}"); # type: ignore
-        logger.debug(f"Corpus URIs: {len(corpus_uris) if corpus_uris is not None else 'None'}"); # type: ignore
-        logger.debug("--- End BM25s Diagnostics ---")
+       # logger.debug("--- BM25s Index Diagnostics ---");
+        #logger.debug(f"BM25s Model: {'Ready' if bm25_model else 'Not available.'}"); # type: ignore
+        #logger.debug(f"Corpus URIs: {len(corpus_uris) if corpus_uris is not None else 'None'}"); # type: ignore
+        #logger.debug("--- End BM25s Diagnostics ---")
     else: logger.info("BM25s Keyword Indexing disabled or library unavailable.")
     try:
         label_index = build_keyword_label_index(taxonomy_concepts_cache) # type: ignore
@@ -470,7 +471,8 @@ def get_candidate_concepts_keyword(query_texts: List[str], bm25_model: bm25s.BM2
             if args and args.debug:
                 max_s = scores_for_query[0] if scores_for_query.size > 0 else 0.0; min_s = scores_for_query[-1] if scores_for_query.size > 0 else 0.0
                 logger.debug(f"BM25s Scores (Top {scores_for_query.size}) - Min: {min_s:.4f}, Max: {max_s:.4f}")
-                if max_s < min_score: logger.debug(f"Max BM25s score < min_score threshold ({min_score}). No candidates will be added.")
+                if max_s < min_score: # logger.debug(f"Max BM25s score < min_score threshold ({min_score}). No candidates will be added.") # This logger.debug is not in a loop, it's after a check.
+                    pass # Retaining original structure if other operations were here
             for idx, score_val in zip(indices_for_query, scores_for_query):
                 score = float(score_val)
                 if score >= min_score:
@@ -479,7 +481,8 @@ def get_candidate_concepts_keyword(query_texts: List[str], bm25_model: bm25s.BM2
                     else: logger.warning(f"BM25s returned invalid index {corpus_index} for corpus size {len(corpus_uris)}")
                 else:
                     if args and args.debug:
-                        logger.debug(f"Stopping BM25s candidate processing as score ({score:.4f}) is below threshold ({min_score}).")
+                        # logger.debug(f"Stopping BM25s candidate processing as score ({score:.4f}) is below threshold ({min_score}).")
+                        pass # Retain structure if other operations were here
                     break
         else: logger.debug("BM25s retrieve returned no results or empty arrays."); return []
         return candidates
@@ -548,7 +551,7 @@ def call_llm(system_prompt: str, user_prompt: str, model_name: str, timeout: int
             if content:
                 # --- ADDED DEBUG LOGGING ---
                 active_concept_for_log = input_concept_for_logging or "Unknown Concept"
-                logger.debug(f"LLM Raw Response Content (Provider: {provider}, Concept: {active_concept_for_log}):\\n{content}")
+                # logger.debug(f"LLM Raw Response Content (Provider: {provider}, Concept: {active_concept_for_log}):\\n{content}")
                 # --- END ADDED DEBUG LOGGING ---
                 try:
                     json_match_obj = re.search(r"```json\\s*(\{.*?\})\\s*```", content, re.DOTALL | re.IGNORECASE)
@@ -559,13 +562,19 @@ def call_llm(system_prompt: str, user_prompt: str, model_name: str, timeout: int
                         else: cleaned_content_str = content.strip().strip("`")
                     else: cleaned_content_str = content.strip().strip("`")
                     # --- ADDED DEBUG LOGGING ---
-                    logger.debug(f"LLM Cleaned Content (Provider: {provider}, Concept: {active_concept_for_log}):\\n{cleaned_content_str}")
+                    # logger.debug(f"LLM Cleaned Content (Provider: {provider}, Concept: {active_concept_for_log}):\\n{cleaned_content_str}")
                     # --- END ADDED DEBUG LOGGING ---
                     output_data = json.loads(cleaned_content_str)
-                    if isinstance(output_data, dict): result["success"] = True; result["response"] = output_data; logger.debug(f"{provider} call successful in {time.time() - start_time:.2f}s (Attempt {attempt+1})"); return result
-                    else: logger.error(f"{provider} response parsed but is not a dict. Type:{type(output_data)}. Raw:{content[:200]}..."); result["error"] = f"LLM response is not a JSON object (dict), type was {type(output_data)}"
-                except json.JSONDecodeError as e_json: logger.error(f"{provider} JSON parse error: {e_json}. Raw content snippet: {content[:500]}..."); result["error"] = f"JSON Parse Error: {e_json}"
-                except Exception as e_proc: logger.error(f"{provider} response processing error: {e_proc}. Raw content snippet: {content[:500]}..."); result["error"] = f"Response Processing Error: {e_proc}"
+                    if isinstance(output_data, dict): 
+                        result["success"] = True; result["response"] = output_data; 
+                        # logger.debug(f"{provider} call successful in {time.time() - start_time:.2f}s (Attempt {attempt+1})")
+                        return result
+                    else: 
+                        logger.error(f"{provider} response parsed but is not a dict. Type:{type(output_data)}. Raw:{content[:200]}...")
+                        result["error"] = f"LLM response is not a JSON object (dict), type was {type(output_data)}"
+                except json.JSONDecodeError as e_json: 
+                    logger.error(f"{provider} JSON parse error: {e_json}. Raw content snippet: {content[:500]}...")
+                    result["error"] = f"JSON Parse Error: {e_json}"
             else: logger.warning(f"{provider} response content was empty."); result["error"] = "Empty response from LLM"
         except (APITimeoutError, APIConnectionError, RateLimitError) as e_api: logger.warning(f"{provider} API Error on attempt {attempt + 1}: {type(e_api).__name__}"); result["error"] = f"{type(e_api).__name__}" # type: ignore
         except Exception as e_call: logger.error(f"{provider} Call Error on attempt {attempt + 1}: {e_call}", exc_info=True); result["error"] = str(e_call); return result
@@ -809,11 +818,20 @@ def expand_keywords_with_llm(concept_label: str, config: Dict, args_namespace: a
             if isinstance(raw_phrases, list):
                 added_terms = set(term for kw_phrase in raw_phrases if isinstance(kw_phrase, str) and kw_phrase.strip() for term in normalize_concept(kw_phrase).split() if len(term) > 2)
                 newly_expanded_terms = added_terms - original_normalized_words
-                if newly_expanded_terms: final_keyword_terms.update(newly_expanded_terms); success = True; logger.debug(f"[{concept_label}] LLM KW expansion added {len(newly_expanded_terms)} terms.")
-                else: error_message = "LLM returned no new terms"; logger.info(f"[{concept_label}] LLM KW expansion: No new terms.")
-            else: error_message = "LLM response invalid format (keywords not a list)"; logger.error(f"[{concept_label}] LLM KW expansion invalid response format.")
-        else: err_msg = result_kw.get("error", "?") if result_kw else "No result object"; error_message = f"LLM API Call Failed:{err_msg}"; logger.warning(f"[{concept_label}] LLM KW expansion failed: {err_msg}")
-    except Exception as e_kw: error_message = f"Exception during keyword expansion: {e_kw}"; logger.error(f"[{concept_label}] KW expansion exception: {e_kw}", exc_info=True)
+                if newly_expanded_terms: final_keyword_terms.update(newly_expanded_terms); success = True; 
+                else: 
+                    error_message = "LLM returned no new terms"; 
+                    logger.info(f"[{concept_label}] LLM KW expansion: No new terms.")
+            else: 
+                error_message = "LLM response invalid format (keywords not a list)"; 
+                logger.error(f"[{concept_label}] LLM KW expansion invalid response format.")
+        else: 
+            err_msg = result_kw.get("error", "?") if result_kw else "No result object"; 
+            error_message = f"LLM API Call Failed:{err_msg}"; 
+            logger.warning(f"[{concept_label}] LLM KW expansion failed: {err_msg}")
+    except Exception as e_kw: 
+        error_message = f"Exception during keyword expansion: {e_kw}"; 
+        logger.error(f"[{concept_label}] KW expansion exception: {e_kw}", exc_info=True)
     return list(final_keyword_terms), success, error_message
 
 # --- Stage 1: Evidence Preparation ---
@@ -952,8 +970,12 @@ def prepare_evidence(
                     sbert_score_for_exact_val = sbert_cands_raw_map_val.get(uri_val_exact, 0.0)
                     if sbert_score_for_exact_val >= abs_min_sbert_filter:
                         exact_match_uris_list.append(uri_val_exact); match_count_val += 1;
-                        if args_namespace.debug: logger.debug(f"  {match_type_str} match found AND passed SBERT threshold: {uri_val_exact} (Input: '{norm_input_str}', Label: '{norm_label_str}', Score: {sbert_score_for_exact_val:.4f})")
-                    elif args_namespace.debug: logger.debug(f"  {match_type_str} match found BUT FAILED SBERT threshold: {uri_val_exact} (Input: '{norm_input_str}', Label: '{norm_label_str}', Score: {sbert_score_for_exact_val:.4f} < {abs_min_sbert_filter})")
+                        if args_namespace.debug: 
+                            # logger.debug(f"  {match_type_str} match found AND passed SBERT threshold: {uri_val_exact} (Input: '{norm_input_str}', Label: '{norm_label_str}', Score: {sbert_score_for_exact_val:.4f})")
+                            pass # Keep structure
+                    elif args_namespace.debug: 
+                        # logger.debug(f"  {match_type_str} match found BUT FAILED SBERT threshold: {uri_val_exact} (Input: '{norm_input_str}', Label: '{norm_label_str}', Score: {sbert_score_for_exact_val:.4f} < {abs_min_sbert_filter})")
+                        pass # Keep structure
         logger.info(f"[{normalized_input_concept}] Found {match_count_val} exact prefLabel matches (incl. simple plurals) passing SBERT threshold {abs_min_sbert_filter}.")
 
     all_uris_list_final = list(all_uris_set); unique_cands_before_rank_val = len(all_uris_list_final)
@@ -1007,7 +1029,7 @@ def prepare_evidence(
         logger.debug(f"--- Top 5 for '{normalized_input_concept}' (Sorted by Combined Score) ---"); logger.debug(f"    (EffAlpha:{effective_alpha_val:.2f}, DampThresh:{damp_thresh}, DampFactor:{damp_factor}), Domain: {inferred_domain_str}, Bias:{ns_bias_enabled_flag}")
         for i, c_item in enumerate(scored_list_final[:5]):
             damp_str_debug = (f"(Damp:{c_item.get('dampened_kw_score'):.4f})" if c_item.get("dampened_kw_score") is not None else ""); boost_str_debug = (f"(Boost:{c_item.get('boosted_sim_score'):.4f})" if c_item.get("boosted_sim_score") is not None else ""); alpha_str_debug = f"(EffA:{c_item.get('effective_alpha'):.2f})"; prio_str_debug = f"(P:{get_sort_priority(c_item.get('uri',''))})"; lbl_str_debug = get_primary_label(c_item.get("uri", "?"), taxonomy_concepts_cache_in, c_item.get("uri", "?")); bias_info_str_debug = (f" -> Biased:{c_item.get('combined_score'):.6f} ({c_item.get('bias_reason','?')})" if c_item.get("biased") else "")
-            logger.debug(f"{i+1}. URI:{c_item.get('uri','?')} {prio_str_debug} L:'{lbl_str_debug}' FinalScore:{c_item.get('combined_score'):.6f} (Unbiased:{c_item.get('combined_score_unbiased'):.6f}{alpha_str_debug}) (SBERT:{c_item.get('sim_score'):.4f}{boost_str_debug}, KW:{c_item.get('kw_score'):.4f}{damp_str_debug}) {bias_info_str_debug}")
+            # logger.debug(f"{i+1}. URI:{c_item.get('uri','?')} {prio_str_debug} L:'{lbl_str_debug}' FinalScore:{c_item.get('combined_score'):.6f} (Unbiased:{c_item.get('combined_score_unbiased'):.6f}{alpha_str_debug}) (SBERT:{c_item.get('sim_score'):.4f}{boost_str_debug}, KW:{c_item.get('kw_score'):.4f}{damp_str_debug}) {bias_info_str_debug}")
         logger.debug("--- End Top 5 (Combined Score) ---")
 
     selected_for_llm_list = scored_list_final[:max_cands_llm];
@@ -1308,14 +1330,23 @@ def apply_rules_and_finalize(
     if all_uris_to_exclude_set: logger.info(f"[{norm_concept_str}] Populated 'must_not_have' with {len(output['must_not_have'])} URIs. These will be excluded.")
 
     if all_uris_to_exclude_set:
-        logger.debug(f"[{norm_concept_str}] Filtering theme assignments to remove excluded URIs...")
+        # logger.debug(f"[{norm_concept_str}] Filtering theme assignments to remove excluded URIs...")
         for theme_name_filter in list(theme_map_final.keys()):
             original_uris_filter = theme_map_final[theme_name_filter]; filtered_uris_list = [uri_filter for uri_filter in original_uris_filter if uri_filter not in all_uris_to_exclude_set]
+            if not filtered_uris_list: 
+                del theme_map_final[theme_name_filter]; 
+                # logger.debug(f"[{norm_concept_str}] Theme '{theme_name_filter}' became empty after removing excluded URIs.")
+            elif len(original_uris_filter) != len(filtered_uris_list): 
+                removed_count_filter = len(original_uris_filter) - len(filtered_uris_list); 
+                theme_map_final[theme_name_filter] = filtered_uris_list; 
+                # logger.debug(f"[{norm_concept_str}] Removed {removed_count_filter} excluded URIs from theme '{theme_name_filter}'.")
             if not filtered_uris_list: del theme_map_final[theme_name_filter]; logger.debug(f"[{norm_concept_str}] Theme '{theme_name_filter}' became empty after removing excluded URIs.")
             elif len(original_uris_filter) != len(filtered_uris_list): removed_count_filter = len(original_uris_filter) - len(filtered_uris_list); theme_map_final[theme_name_filter] = filtered_uris_list; logger.debug(f"[{norm_concept_str}] Removed {removed_count_filter} excluded URIs from theme '{theme_name_filter}'.")
-    else: logger.debug(f"[{norm_concept_str}] No URIs identified for exclusion from definition attributes.")
+    else: 
+        # logger.debug(f"[{norm_concept_str}] No URIs identified for exclusion from definition attributes.")
+        pass 
 
-    active_themes_set = set(theme_map_final.keys()); logger.debug(f"[{norm_concept_str}] Active themes after filtering excluded URIs: {active_themes_set}")
+    active_themes_set = set(theme_map_final.keys()); # logger.debug(f"[{norm_concept_str}] Active themes after filtering excluded URIs: {active_themes_set}") # This one is NOT in a loop
     initial_theme_weights_map: Dict[str,float] = {}; total_initial_theme_weight_val = 0.0
     for theme_name_iw, theme_data_iw in base_themes_config.items(): _, weight_iw, _, _ = get_dynamic_theme_config(norm_concept_str, theme_name_iw, config); initial_theme_weights_map[theme_name_iw] = weight_iw; total_initial_theme_weight_val += weight_iw
     normalized_initial_theme_weights_map = {name_niw: (w_niw / total_initial_theme_weight_val) if total_initial_theme_weight_val > 0 else 0 for name_niw, w_niw in initial_theme_weights_map.items()}
@@ -1354,7 +1385,7 @@ def apply_rules_and_finalize(
             elif len(uris_attr_list) > 0: # Fallback to equal weight
                 eq_w_attr = final_norm_w_attr / len(uris_attr_list)
                 if eq_w_attr >= min_weight_attr:
-                    logger.debug(f"[{norm_concept_str}] Theme '{theme_name_attr}' - Using equal weight fallback ({eq_w_attr:.4f}) as total score was zero or negligible.")
+                    # logger.debug(f"[{norm_concept_str}] Theme '{theme_name_attr}' - Using equal weight fallback ({eq_w_attr:.4f}) as total score was zero or negligible.")
                     for u_eq_attr in uris_attr_list:
                         d_eq_attr = original_candidates_map_for_reprompt.get(u_eq_attr, {}); is_fb_eq_attr = any(f_eq_attr["uri"] == u_eq_attr and f_eq_attr["assigned_theme"] == theme_name_attr for f_eq_attr in fallback_adds_list)
                         type_labels_eq = d_eq_attr.get("types", [])
@@ -1400,7 +1431,7 @@ def apply_rules_and_finalize(
                         core_definitional_uris_set.add(cand_uri_core)
                         if cand_uri_core not in core_def_diag["identified"]: core_def_diag["identified"].append(cand_uri_core)
                         variants_found_count += 1
-                        logger.debug(f"[{norm_concept_str}] Added Core Definitional Variant: {cand_uri_core} (Label: '{cand_label_for_norm}', NormLabel: '{normalized_cand_label_core}', Sim: {similarity_score_core:.2f})")
+                        # logger.debug(f"[{norm_concept_str}] Added Core Definitional Variant: {cand_uri_core} (Label: '{cand_label_for_norm}', NormLabel: '{normalized_cand_label_core}', Sim: {similarity_score_core:.2f})")
         logger.info(f"[{norm_concept_str}] Identified {len(core_definitional_uris_set)} Core Definitional URIs: {core_definitional_uris_set}")
     else:
         logger.warning(f"[{norm_concept_str}] No travel_category (anchor) URI found, cannot identify core definitional URIs.")
